@@ -15,10 +15,6 @@
 12. Yaratdigimiz solutions ve projecs elaqelendirmek ucun google axdarisa (dotnet  add project solutions create) sayita daxil olduqdan sonra ise qarsimiza cixan (dotnet sln solution.sln add --solution-folder foo1\foo2\foo3 bar.csproj) yazilisdan istifade ederek elaqeni yaradiriq.
 ________________________________________________________________________________________________________________________________________
 
-
-
-
-
                                                     (Bezi axdarislar.)
 
 1. Sending E-mail using C#- Stack Overflow.
@@ -160,7 +156,7 @@ __(metin tipli deyiskenler)__
 
    __(sizeof())__ ile tipin nece bayit yer tutduguna baxa bilerik.meselen sizeof(int)
                                          
-                                         dec>lon>doub>int>short>byte.
+   1                                      __(dec>lon>doub>int>short>byte)__
 ----------------------------------------------------------------------------------------------------------------------------------------
  __(mentiqi deyisken)__
  1. __(bool)__ mentiqi deyiskendir yoxlanis edir dogru olub olmadigini yoxluyur ve geriye __(true)__ __(false)__ qaytarir.
@@ -187,5 +183,30 @@ ________________________________________________________________________________
 3. __(Private)__---> Private dedikde ise biz yalniz hemin klasin icindeki metodu cagira bilirik.Eger Public yazmamisiqsa bu avtomatik Private sayilir.
 4. __(Protected)__--->
 5. __(Internal)__--->
-6. __(Internal Protected)__---->..
+6. __(Internal Protected)__---->
+
+
+
+________________________________________________________________________________________________________________________________________
+                                                  Masivler ve Kolleksionlar.
+
+1. __(int[] number=new int[3])__ --> burada biz int vasivi yaratdiq .Massivler muxdelif tiplerden ola biler.Burada int[3] 3 reqemi masivvin nece setirli olmasini yeni nece int tipinden data saxlamasini gosderir.Burada 3 indeksli yeni 3 data saxlanilir.Lakin komputer sayarken 0 dan saymaga baslayir.Yeni (0,1,2) burda saysaq 3 data saxlamaq olar yeni 0 ci indeksde bir data ve digerlerinde eynisi.
+
+2. __(ArrayList A1=new ArrayList())__ kolleksionu ,Kolleksionlarin vasivlerden ferqi odur ki masivlerde nece data saxlanmasini biz secirik ve deyise bilmerik eyni massivde yeni 3 secmisik yuxarida onu deyise bilmirik, lakin kolleksionlarda ise ozu her data qebul etdikde ise bir elave yer ayrir ve novbeti datani gozleyir.ArrayLisdin metodlarina baxaq.
+
+* __(Add())__(tek data elave et) metodu ArrayLisdin terkibine tek tek deyerler atmaq ucundur,yeni A1.Add("Samir"), A1.Add(121),
+* __(AddRange)__( cox sayda elave et) metodu bir nece deyeri eyni anda ArrayList e atmaq ucundur.
+*  __(Remove())__-->(menasi sil)--> bu metot ile ArrayList icindeki isdenilen datani sile bilerik lakin datanin indeksini yox ozunu yazmaq lazimdi.Mes: A1.Remove("Samir") bu zaman gedib axdaracaq ve samir sozunu silecek.
+* __(RemoveRange)__(menasi-> silinme araligi) bu ise indeksle isleyir filan indeksden basla 2 element sil. Mes:  A1.RemoveRange(3,2) ucuncu indeksden basla 2 elementi silin.
+* __(RemoveAt)__--> bu metot ise tek tek indeks silmek ucundur .Mes: A1.RemoveAt(2) yeni ikinci indeksi get sil.
+* __(Reverse)__ (menasi tersine cevir)bu metot ise sonuncu indeksde olan datani ilk indeksin uzerine getrir.Yeni sonuncu datadan baslayaraq ilk dataya kimi butun datalari sifirinci indeksden baslayaraq yazdirir.
+* __(Sort())__(menasi A-Z e duzmek,siralamaqdir)-> bu yalniz metinlere aiddir, int ve s.aid deyil.
+* __(Contains)__(menasi ehdiva edr umid edr ve yoxlayir) bu method ise daxil edilen datanin icerisinde bize lazim olan data varmi diye yoxlayir ve geriye bool qaytarir.
+* __(IndexOf)__(indeks menasina gelir)--> bu method ise massiv ve ya kolleksionun daxilinde her hansi data var sa onun indeksini geri int olaraq donur.mes: __(int indeks= A1.IndexOf("samir");)__ sozu varsa gedib onun indeksini tapib getrir.
+* __(Clear)__(menasi butovlukde silmekdir)--> bu methoddan isdifade etsek butun elementleri silecek lakin capassite silinmiyecek ,yeni element ucun ayrilan yer silinmir lakin icerisi bos qalir.
+* __(TrimToSize)__ bu method ise yuxarida dediyimiz element silinsede onun ucun ayrilan yeri silinmir, lakin bu method ile sabit olaraq 4 elemet yeri saxlayir ve qalanini silir.
+* __(ToArray)__bu metod koleksionlari opject masivvine atmaq ucundur.
+
+
+
 
