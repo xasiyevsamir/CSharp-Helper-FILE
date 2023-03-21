@@ -183,6 +183,7 @@ ________________________________________________________________________________
 3. __(Private)__---> Private dedikde ise biz yalniz hemin klasin icindeki metodu cagira bilirik.Eger Public yazmamisiqsa bu avtomatik Private sayilir.
 4. __(Protected)__--->
 5. __(Internal)__--->
+<<<<<<< HEAD
 6. __(Internal Protected)__---->
 
 
@@ -209,4 +210,7 @@ ________________________________________________________________________________
 
 
 
+=======
+6. __(Internal Protected)__---->....
+>>>>>>> cba5e04087e2ef1784dac7c18d5be3cbb0f3ebc8
 
