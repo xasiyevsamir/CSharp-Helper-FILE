@@ -200,14 +200,14 @@ ________________________________________________________________________________
 4. __(SortedList A1=new SortedList())__ bu kolleksion da __(Hashtable)__ kimi eynidir,iki object deyer isder ve isdediyi object den biri key(acar) soz olur lakin bir iki ferqi var ve o ferqe baxaq.Burada daxil olan acar sozler eyni tipden int,bayt,string ve s.olmalidir ve tekirarsiz olmalidir.Diger ferqide ondan ibaretdir ki acar sozleri stringdirse A-Z e duzer,reqemdirse kicikden boyuye duzer.
 
 5. __(Stack A1=new Stack())__ bu kolleksion bir object deyeri qebul edir.Bu koleksiona data eklemek ve bezi emeliyatlari asagidaki methodlarla edilir.
-* __(Push)__ bu method ile Stack koleksionuna data atmaq(gondermek olar) mes: A1.Push("salam").
-* __(Pop)__ bu method ile sonuncu daxil olan bir datani bir object e atar mes: __(object s=A1.Pop())__ kimi.ve goturduyu Datani Stack den silir.
-* __(Peek)__ bu method ise Stack den sonuncu datani goturer bir object e atar mes: __(object s=A1.Peek())__ kimi.ve goturduyu datani Stack den silmir.
+* __(A1.Push("SALAM"))__ bu method ile Stack koleksionuna data atmaq(gondermek olar) mes: A1.Push("salam").
+* __(A1.Pop())__ bu method ile sonuncu daxil olan bir datani bir object e atar mes: __(object s=A1.Pop())__ kimi.ve goturduyu Datani Stack den silir.
+* __(A1.Peek())__ bu method ise Stack den sonuncu datani goturer bir object e atar mes: __(object s=A1.Peek())__ kimi.ve goturduyu datani Stack den silmir.
 
 6. __(Queue Q1=new Queue())__ bu koleksion da stack ile eynidir lakin stack de son giren ilk cixdigi halda Queue de ise ilk giren ilk cixir.Burada bir nece method var baxaq.
 * __(Q1.Enqueue("samir"))__ bu method Queue ye data elave etmek ucundur ve burda string olan samir sozunu dataya elave etdi.
-* __(Q1.Dequeue("samir"))__ bu method ile ilk daxil edilen datani goturmek olar lakin hemin datani Queue koleksionundan silecek.
-*__(Peek)__ bu method ise Stack den sonuncu datani goturer bir object e atar mes: __(object s=A1.Peek())__ kimi.ve goturduyu datani Stack den silmir.Bu method  Queue koleksionunda da kecerlidi.
+* __(Q1.Dequeue())__ bu method ile ilk daxil edilen datani goturmek olar lakin hemin datani Queue koleksionundan silecek.
+*__(Q1.Peek())__ bu method ise Stack den sonuncu datani goturer bir object e atar mes: __(object s=A1.Peek())__ kimi.ve goturduyu datani Stack den silmir.Bu method  Queue koleksionunda da kecerlidi.
 ________________________________________________________________________________________________________________________________________
 
                                                               Metotlar ve Classlar
@@ -216,6 +216,6 @@ ________________________________________________________________________________
 3. __(Private)__---> Private dedikde ise biz yalniz hemin klasin icindeki metodu cagira bilirik.Eger Public yazmamisiqsa bu avtomatik Private sayilir.
 4. __(Protected)__--->
 5. __(Internal)__--->
-6. __(Internal Protected)__---->;;
+6. __(Internal Protected)__---->
 
 
