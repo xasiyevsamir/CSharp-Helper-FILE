@@ -175,20 +175,7 @@ __(metin tipli deyiskenler)__
  6. __(countine)__---> Acar sozdur davam et demekdir yeni break kimi emeliyati saxlamaz yalniz gormezden gelib davam eder.
  7. __(return)__---> geri donus geri qaytar demekdir ve gelen datani cagrilan metoda gonderer.
 
-________________________________________________________________________________________________________________________________________
-                                                      
-                                                      Metotlar ve Classlar
-1. __(Metotlar)__----> metotlar kod yazarken bize cox komeklik edir yeni bir metot yazib bir hissesi eyni olan tapsiriqda yeniden cagirib isdifade ede bilerik.biz yeni metodlar yarada bilerik.
-2. __(Public)__---> Public dedikde biz diger klasdaki metodlari da cagira bilirik.
-3. __(Private)__---> Private dedikde ise biz yalniz hemin klasin icindeki metodu cagira bilirik.Eger Public yazmamisiqsa bu avtomatik Private sayilir.
-4. __(Protected)__--->
-5. __(Internal)__--->
-<<<<<<< HEAD
-6. __(Internal Protected)__---->
-
-
-
-________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________
                                                   Masivler ve Kolleksionlar.
 
 1. __(int[] number=new int[3])__ --> burada biz int vasivi yaratdiq .Massivler muxdelif tiplerden ola biler.Burada int[3] 3 reqemi masivvin nece setirli olmasini yeni nece int tipinden data saxlamasini gosderir.Burada 3 indeksli yeni 3 data saxlanilir.Lakin komputer sayarken 0 dan saymaga baslayir.Yeni (0,1,2) burda saysaq 3 data saxlamaq olar yeni 0 ci indeksde bir data ve digerlerinde eynisi.
@@ -206,9 +193,29 @@ ________________________________________________________________________________
 * __(IndexOf)__(indeks menasina gelir)--> bu method ise massiv ve ya kolleksionun daxilinde her hansi data var sa onun indeksini geri int olaraq donur.mes: __(int indeks= A1.IndexOf("samir");)__ sozu varsa gedib onun indeksini tapib getrir.
 * __(Clear)__(menasi butovlukde silmekdir)--> bu methoddan isdifade etsek butun elementleri silecek lakin capassite silinmiyecek ,yeni element ucun ayrilan yer silinmir lakin icerisi bos qalir.
 * __(TrimToSize)__ bu method ise yuxarida dediyimiz element silinsede onun ucun ayrilan yeri silinmir, lakin bu method ile sabit olaraq 4 elemet yeri saxlayir ve qalanini silir.
-* __(ToArray)__bu metod koleksionlari opject masivvine atmaq ucundur...
+* __(ToArray)__ bu metod koleksionlari opject masivvine atmaq ucundur.
 
+3. __(Hashtable A1=new Hashtable())__ bu kolleksion diger koleksionlardan ferqlenir .Ferqi odur ki bu iki object deyer teleb edir yeni biri key,digeri ise vouli deyer ,birinci acar soz daxil edilir digeri ise sabit bir deyer ,burada eyni acar soz ola bilmez,amma eyni valu deyer ola biler.Yuxarida qeyd olunan ArrayListin metodlari bu kolleksionlarda da isdifade edilir.
 
+4. __(SortedList A1=new SortedList())__ bu kolleksion da __(Hashtable)__ kimi eynidir,iki object deyer isder ve isdediyi object den biri key(acar) soz olur lakin bir iki ferqi var ve o ferqe baxaq.Burada daxil olan acar sozler eyni tipden int,bayt,string ve s.olmalidir ve tekirarsiz olmalidir.Diger ferqide ondan ibaretdir ki acar sozleri stringdirse A-Z e duzer,reqemdirse kicikden boyuye duzer.
 
+5. __(Stack A1=new Stack())__ bu kolleksion bir object deyeri qebul edir.Bu koleksiona data eklemek ve bezi emeliyatlari asagidaki methodlarla edilir.
+* __(Push)__ bu method ile Stack koleksionuna data atmaq(gondermek olar) mes: A1.Push("salam").
+* __(Pop)__ bu method ile sonuncu daxil olan bir datani bir object e atar mes: __(object s=A1.Pop())__ kimi.ve goturduyu Datani Stack den silir.
+* __(Peek)__ bu method ise Stack den sonuncu datani goturer bir object e atar mes: __(object s=A1.Peek())__ kimi.ve goturduyu datani Stack den silmir.
+
+6. __(Queue Q1=new Queue())__ bu koleksion da stack ile eynidir lakin stack de son giren ilk cixdigi halda Queue de ise ilk giren ilk cixir.Burada bir nece method var baxaq.
+* __(Q1.Enqueue("samir"))__ bu method Queue ye data elave etmek ucundur ve burda string olan samir sozunu dataya elave etdi.
+* __(Q1.Dequeue("samir"))__ bu method ile ilk daxil edilen datani goturmek olar lakin hemin datani Queue koleksionundan silecek.
+*__(Peek)__ bu method ise Stack den sonuncu datani goturer bir object e atar mes: __(object s=A1.Peek())__ kimi.ve goturduyu datani Stack den silmir.Bu method  Queue koleksionunda da kecerlidi.
+________________________________________________________________________________________________________________________________________
+
+                                                              Metotlar ve Classlar
+1. __(Metotlar)__----> metotlar kod yazarken bize cox komeklik edir yeni bir metot yazib bir hissesi eyni olan tapsiriqda yeniden cagirib isdifade ede bilerik.biz yeni metodlar yarada bilerik.
+2. __(Public)__---> Public dedikde biz diger klasdaki metodlari da cagira bilirik.
+3. __(Private)__---> Private dedikde ise biz yalniz hemin klasin icindeki metodu cagira bilirik.Eger Public yazmamisiqsa bu avtomatik Private sayilir.
+4. __(Protected)__--->
+5. __(Internal)__--->
+6. __(Internal Protected)__---->
 
 
