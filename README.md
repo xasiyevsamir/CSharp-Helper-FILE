@@ -130,15 +130,36 @@ ________________________________________________________________________________
       Datatayiplar 4 yere ayrilir .Metin, say, mentiqi, zaman,
 __(metin tipli deyiskenler)__
 
- 1. __(string)__ --> Her hansi bir metin tipli melumatlari saxlamaq ucun istifade edilir.Mes: string name ="samir", "samir123","1234",
+ 1. __(string)__ --> Her hansi bir metin tipli melumatlari saxlamaq ucun istifade edilir.Mes: string[] name ="samir", "samir 123","1234",
  2. __(Char)__ --> bu tipde string tipi kimi eynidir lakin bir metin yeni A,B daxil etdikde istifade edrik eyni zamanda string de istifade etmek dogrudur .
+   __string ve char metotlari)__
+
+ * __(Join())__ (qosmaq,birlesdirmek menasini verir) bu metot ile metinleri bir birine isdediyimiz sekilde birlesdire bilerik.          Mes:   __string name1=string.Join("*",name))__  -->Netice:samir*samir 123*1234 string[] ve char[] massivine ayitdir.
+* __(ToCharArray())__ bu method ile stringde olan metni herif herif Char[] masivine yazdira bilerik.
+ * __(Array.Reverse())__ bu method masivlerin sonuncu ideksinden baslar sifirinci idekse atar sora axirdan 2ci ideksi birinci indekse atar ve s.
+ * __(Data.PadLeft(6,'0'))__ bu metot sola isdenilen simvolu ve ya bolsulugu atmaq ucundur.Burda sola 6 sifir atdiq.
+ * __(Data.PadRight(6,'0'))__ bu method saga isdelinen simvolu ve ya boslugu atmaq ucundur.Burda saga 6 sifir atdiq.
+ * __(Data.ToUpper())__ bu method gelen ve ya elimizde olan datani hamisini boyuk heriflere cevirir.
+ * __(Data.ToLower())__ bu method gelen ve ya elimizde olan datanin hamisini kicik herife cevirir.
+ * __(Data.Substring(0,4))__ bu method datada necenci indeksden deyrikse ordan basliyir ve nece element gotur deyirikse o qederini gotrur, mes:burda 0-ci indeksden basliyir ve 4 element gotrur. 
+ * __(Data.IndexOf)__(indeks menasina gelir)--> bu method ise massiv ve ya kolleksionun daxilinde her hansi data var sa onun indeksini geri int olaraq donur.mes: __(int indeks= A1.IndexOf("samir");)__ sozu varsa gedib onun indeksini tapib getrir.Amma qeyd edek ki bu method qarsisina cixan birinci birinci elementin indeksini gotrur ve emeliyyati bitrir ,yeni orda bir nece samir sozu olsa ilk qaesisina cixani goturecekdi.
+ * __(Data.LastIndexOf())__ IndexOf ile eyni isi gorur sadece axdarisa sondan baslayir ve ilk dogru melumati tapan kimi onun indeksini int olaraq geri donur ve emeliyyatii bitirir.
+ * string s=new string('*',3) --> bu o demekdir ki 3 dene *** yazdiracaq.Amma method deyil string obyektidir.
+
  3. __(object)__ bu tip uzerine butun tipleri ala bilir yeni inti, double, string ve s.Lakin uzerine aldigi tipi o tip kimi de cixarmalidir. int a=10; object b=a;(qutulama boxing) int c=(int)b;(qutudan cixartma unboxing). bunlari intin dauble kecidi ve double 
  inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin eslinde xaricden nese gelerse saxlanilmasi uc isdifade oluna biler. Cunki biz xaricden hansi tipin geleceyini bilmirik .
  4. __(var)__---> Var sagina baxaraq datanin hansi tipden oldugunu anliyir. var tip deyil .
  5. __(dynamic)__ tipdir ve  onun icindeki datalara baxa ve uzerinde emeliyat apara bilerik.sadece sehv nese daxil etdikde error bizden gizledir.
  6. __(as)__ bu kivord obyekte geden tipin hansi tip oldugunu bilmek  ucun ve as kivordu geriye null qaytarir. Null ola bileceyini demek isdiyirikse ? isaresinden istifade edirik mes: byte? a=b as byte?.
  7. __(is)__ bu kivord de eyni ile as benzeyir yeni opject den gelen bayitdirmi int c =10; object v=c;  (v is byte) ve ya (v is int)
- 
+________________________________________________________________________________________________________________________________
+ 0                                                      __(DIL MEDENIYETI)__
+
+ 1. __(Console.OutputEncoding = Encoding.Unicode;)__ biz elimizde olan datani cole yeni fronta gondererken bu codu yazmaliyiq ki bezi herifleri tanimir ve onlarida tanisin.
+ 2. __(Console.InputEncoding = Encoding.Unicode;)__ biz colde olan datani yeni frontda olan datani iceri back e gonderirikse bu codu yazmaliyiq ki duzgun olaraq daxil etsin.
+ 3. __(CultureInfo ce = new CultureInfo("az-Latn-AZ"); Thread.CurrentThread.CurrentCulture = ce;)__ bunu yazdiqda ise proqram sirf azerbaycan dilinde isleyecek __Culture-(medeniyet), Thread-(Movzu), Current-(Cari, indiki), --menasina gelir)__.
+ 4. __(System.Threading.Thread.Sleep(1000);)__ bu ise gozlemedi yeni saniye seklinde 1000-1 saniyedir. __Sleep()-yatmaq ,qalmaq, gozlemek, menasina gelir)__.
+
  --------------------------------------------------------------------------------------------------------------------------------------
  __(Say tipli datatayplar)__
 
@@ -174,6 +195,9 @@ __(metin tipli deyiskenler)__
  5. __(break)__ ---> Acar sozu qirmaq demekdir ve sert daxilinde emeliyati dayandirar ve koddan cixar.
  6. __(countine)__---> Acar sozdur davam et demekdir yeni break kimi emeliyati saxlamaz yalniz gormezden gelib davam eder.
  7. __(return)__---> geri donus geri qaytar demekdir ve gelen datani cagrilan metoda gonderer.
+ 8. __(out)__ bu geri donus demekdir ve out a colde qiymet versekde olar vermesekde ama iceride mutleq qiymet vermeliyik.mes: TryParsda out var, orda oldugu kimi out-a qiymet vermirik sadece __int b;)__ ve ya __(out int b)__ kimi yaziriq , ama qiymet versek de olar.
+ 9. __(ref)__ bu da geri donus demekdir lakin out dan ferqli olaraq ref-e colde mutleq qiymet verilmelidir.Iceride ise versekde olar vermesekde.Umumiyetle metotlarda geri donus __return)__ ile olur .Bize methodun bir nece geri donusunu isdiyirikse onda __ref ve ya out)__ dan isdifade edirik .__return)__ yalniz bir deyer geri donus ede bilir.
+ 10. __(in)__ bu da geri donusdur ferqi ise colde daxil edilen nedirse iceridede o olaraq qalir hec vaxd deyismir sehven deyisdirmek yeni bolmek azaltmaq fln etsek de deyismir nece methoda daxil olubsa ele de cixir.
 
 ___________________________________________________________________________________________________________________________________
                                                   Masivler ve Kolleksionlar.
