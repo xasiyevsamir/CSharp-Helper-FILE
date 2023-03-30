@@ -9,6 +9,7 @@
 7. (prompt $$) yeni setri dollar isaresi ile basladir.
 8. (dotnet run) emri ise kodu ise salir.
 9. (code .) visual studio coda kecid emridir.
+10. (echo "" >>.gitignore)-- burada yeni cmd ekraninda .gitignore fayili yarada bilerik bu emirle.
 
 10. Yeni solutions yaradanda google axdarisda bunu yazaraq tapa bilerik (dotnet new create solution) sayita daxil olduqdan sonra qarsimiza bele bir yazilis cixacaq ve istifade edeceyik (dotnet new sln --name MySolution).
 11. Yeni project yaradanda google axdarisda bunu yazaraq tapa bilerik (dotnet create new console app project) sayita daxil olduqdan sonra bele bir yazilisi goreceyik ve istifade edeceyik (dotnet new console --framework net6.0 --use-program-main)
@@ -130,7 +131,7 @@ ________________________________________________________________________________
       Datatayiplar 4 yere ayrilir .Metin, say, mentiqi, zaman,
 __(metin tipli deyiskenler)__
 
- 1. __(string)__ --> Her hansi bir metin tipli melumatlari saxlamaq ucun istifade edilir.Mes: string[] name ="samir", "samir 123","1234",
+ 1. __(string)__ --> Her hansi bir metin tipli melumatlari saxlamaq ucun istifade edilir.Mes: string[] name ="samir", "samir 123","1234", stringin uzunlugu __name.Lenght)__ tapilir bu zaman bosluqlarda sayilir,mes: "samir 123" de uzunluq 9 dur.
  2. __(Char)__ --> bu tipde string tipi kimi eynidir lakin bir metin yeni A,B daxil etdikde istifade edrik eyni zamanda string de istifade etmek dogrudur .
    __string ve char metotlari)__
 
@@ -241,5 +242,9 @@ ________________________________________________________________________________
 4. __(Protected)__--->
 5. __(Internal)__--->
 6. __(Internal Protected)__---->.
-
-
+________________________________________________________________________________________________________________________________________
+ 0                                                           __Valu ve Reference types)__
+ __Valu ve Reference)__ tayip dedikde ne nezerde tutulduguna baxaq. __RAM)__ yeni muvveqeti yaddas iki hisseye ayrilir __Stack ve Heap)__ ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin __Stack ve Heap)__ yaddasda saxlanildigini gosdermisem. __QEYD)__ Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
+1. __int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)__ -->bunlar her biri __valu tayipdir stack yaddasda saxlanilir)__ ve reference tayiplardan suretli isleyir.
+2. __string,char, massivler mes:int[] ,classlar ve s.)__ bunlar ise __Reference tayipdir ve Heap yaddasda saxlanilir)__ ve valu tayiplardan asagi suretde isleyir.
+________________________________________________________________________________________________________________________________________
