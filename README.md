@@ -243,7 +243,7 @@ ________________________________________________________________________________
 5. __(Internal)__--->
 6. __(Internal Protected)__---->.
 ________________________________________________________________________________________________________________________________________
- 0                                                           __Valu ve Reference types)__
+ 0.                                                           __Valu ve Reference types)__
  __Valu ve Reference)__ tayip dedikde ne nezerde tutulduguna baxaq. __RAM)__ yeni muvveqeti yaddas iki hisseye ayrilir __Stack ve Heap)__ ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin __Stack ve Heap)__ yaddasda saxlanildigini gosdermisem. __QEYD)__ Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1. __int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)__ -->bunlar her biri __valu tayipdir stack yaddasda saxlanilir)__ ve reference tayiplardan suretli isleyir.
 2. __string,char, massivler mes:int[] ,classlar ve s.)__ bunlar ise __Reference tayipdir ve Heap yaddasda saxlanilir)__ ve valu tayiplardan asagi suretde isleyir.
