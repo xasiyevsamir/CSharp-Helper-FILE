@@ -143,16 +143,30 @@ __(metin tipli deyiskenler)__
  * __(Data.ToUpper())__ bu method gelen ve ya elimizde olan datani hamisini boyuk heriflere cevirir.
  * __(Data.ToLower())__ bu method gelen ve ya elimizde olan datanin hamisini kicik herife cevirir.
  * __(Data.Substring(0,4))__ bu method datada necenci indeksden deyrikse ordan basliyir ve nece element gotur deyirikse o qederini gotrur, mes:burda 0-ci indeksden basliyir ve 4 element gotrur. 
- * __(Data.IndexOf)__(indeks menasina gelir)--> bu method ise massiv ve ya kolleksionun daxilinde her hansi data var sa onun indeksini geri int olaraq donur.mes: __(int indeks= A1.IndexOf("samir");)__ sozu varsa gedib onun indeksini tapib getrir.Amma qeyd edek ki bu method qarsisina cixan birinci birinci elementin indeksini gotrur ve emeliyyati bitrir ,yeni orda bir nece samir sozu olsa ilk qaesisina cixani goturecekdi.
- * __(Data.LastIndexOf())__ IndexOf ile eyni isi gorur sadece axdarisa sondan baslayir ve ilk dogru melumati tapan kimi onun indeksini int olaraq geri donur ve emeliyyatii bitirir.
+ * __(Data.IndexOf)__(indeks menasina gelir)--> bu method ise massiv ve ya kolleksionun daxilinde her hansi data var sa onun indeksini geri int olaraq donur.mes: __(int indeks= A1.IndexOf("samir");)__ sozu varsa gedib onun indeksini tapib getrir.Amma qeyd edek ki bu method qarsisina cixan birinci elementin indeksini gotrur ve emeliyyati bitrir ,yeni orda bir nece samir sozu olsa ilk qarsisina cixani goturecekdi.  Qeyd: edeki eger axdardigimiz soz orada yoxdursa int olaraq geri donus __-1)__ olacaqdir .Cunki sifir ozu mumkun indeksdir.
+ * __(Data.Replace("samir","valeh"))__ bu method ise metinde olan isdenilen datani basqa data ile deyismeye imkan verir.Burada samir sozunu metinden cixarib valeh sozunu elave etdik.
+ * __(Data.Trim())__ bu method sonda ve evvelde ki bosluqlari ve ya __Data.Trim('*'))__ sonu ve evelindeki ulduz ve ya diger simvollar yazsaq olarida silecek.
+ * __(Data.TrimStart())__ bu methodda trimden toreyib ve ondan ferqli olaraq datanin evvelindeki boslugu ve ya simvolu silir.
+ * __(Data.TrimEnd())__ bu methodda trimden toreyib ve ondan ferqli olaraq datanin sonundaki boslugu ve ya simvollari silir.
+ * __(Data.LastIndexOf())__ IndexOf ile eyni isi gorur sadece axdarisa sondan baslayir ve ilk dogru melumati tapan kimi onun indeksini int olaraq geri donur ve emeliyyatii bitirir.Qeyd: LastIndexOf sondan basliyaraq yoxlayir ve ilk uygun datanin ik elementinin indeksini geri qaytarir mes:(samir) axdarsaq s- herifinin indeksini bize geri donus edecek.
+ * __(Data.Insert(1,"salam"))__ bu method ile isdenilen indekse isdediyimiz datani elave ede bilerik.burada 1ci indekse salam sozunu elave etdik.
  * string s=new string('*',3) --> bu o demekdir ki 3 dene *** yazdiracaq.Amma method deyil string obyektidir.
+ --------------------------------------------------------------------------------------------------------------------------------
+ 4. __StringBuilder sb = new StringBuilder();)__ bu da bir sinifdir ve metinlerle isleyir ve string tiplerinden daha cox suretlidi kolleksiondur demek olar ki. ve onun metodlari asagidakilardir.
+ * __sb.Append("samir"))__ bu methodun komeyi ile datani stringbuilder e elave etmek olar.Bu methodun 25 overladi var ve demek olarki butun tipleri stringbuilder e elave etmek olur.
+ * __sb.AppendLine())__ bu method ise datani elave edir ve novbeti datani bir asagi setre elave edir.BU methodun 3 overladi var yeni bezi tipleri stringe cevrib gondermeliyik.
+ * __sb.AppendFormat("{0}{1}",2,3))__ bu method ile stringleri datalara uygun yaza bilerik.Burada 0 ci indekse 2 1ci indekse ise 3 atdi.
+ * __sb.AppendJoin())__ bu method ise stringlerde oldugu kimi burdada datalari bir birine isdediyimiz kimi birlesdirir.
+ * __sb.Clear())__ bu method ile datani sile bilerik.
+ * __sb.Lenngh)__ bu ise method deyil sadece uzunlugunu tapa bilerik stringbuildin.
+ * __sb.Capacity)__ bu da method deyil sadece ayirdigi yerdir .
 
- 3. __(object)__ bu tip uzerine butun tipleri ala bilir yeni inti, double, string ve s.Lakin uzerine aldigi tipi o tip kimi de cixarmalidir. int a=10; object b=a;(qutulama boxing) int c=(int)b;(qutudan cixartma unboxing). bunlari intin dauble kecidi ve double 
+ 5. __(object)__ bu tip uzerine butun tipleri ala bilir yeni inti, double, string ve s.Lakin uzerine aldigi tipi o tip kimi de cixarmalidir. int a=10; object b=a;(qutulama boxing) int c=(int)b;(qutudan cixartma unboxing). bunlari intin dauble kecidi ve double 
  inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin eslinde xaricden nese gelerse saxlanilmasi uc isdifade oluna biler. Cunki biz xaricden hansi tipin geleceyini bilmirik .
- 4. __(var)__---> Var sagina baxaraq datanin hansi tipden oldugunu anliyir. var tip deyil .
- 5. __(dynamic)__ tipdir ve  onun icindeki datalara baxa ve uzerinde emeliyat apara bilerik.sadece sehv nese daxil etdikde error bizden gizledir.
- 6. __(as)__ bu kivord obyekte geden tipin hansi tip oldugunu bilmek  ucun ve as kivordu geriye null qaytarir. Null ola bileceyini demek isdiyirikse ? isaresinden istifade edirik mes: byte? a=b as byte?.
- 7. __(is)__ bu kivord de eyni ile as benzeyir yeni opject den gelen bayitdirmi int c =10; object v=c;  (v is byte) ve ya (v is int)
+ 6. __(var)__---> Var sagina baxaraq datanin hansi tipden oldugunu anliyir. var tip deyil .
+ 7. __(dynamic)__ tipdir ve  onun icindeki datalara baxa ve uzerinde emeliyat apara bilerik.sadece sehv nese daxil etdikde error bizden gizledir.
+ 8. __(as)__ bu kivord obyekte geden tipin hansi tip oldugunu bilmek  ucun ve as kivordu geriye null qaytarir. Null ola bileceyini demek isdiyirikse ? isaresinden istifade edirik mes: byte? a=b as byte?.
+ 9. __(is)__ bu kivord de eyni ile as benzeyir yeni opject den gelen bayitdirmi int c =10; object v=c;  (v is byte) ve ya (v is int)
 ________________________________________________________________________________________________________________________________
  0                                                      __(DIL MEDENIYETI)__
 
@@ -160,6 +174,9 @@ ________________________________________________________________________________
  2. __(Console.InputEncoding = Encoding.Unicode;)__ biz colde olan datani yeni frontda olan datani iceri back e gonderirikse bu codu yazmaliyiq ki duzgun olaraq daxil etsin.
  3. __(CultureInfo ce = new CultureInfo("az-Latn-AZ"); Thread.CurrentThread.CurrentCulture = ce;)__ bunu yazdiqda ise proqram sirf azerbaycan dilinde isleyecek __Culture-(medeniyet), Thread-(Movzu), Current-(Cari, indiki), --menasina gelir)__.
  4. __(System.Threading.Thread.Sleep(1000);)__ bu ise gozlemedi yeni saniye seklinde 1000-1 saniyedir. __Sleep()-yatmaq ,qalmaq, gozlemek, menasina gelir)__.
+ 5. __Stopwatch stopwatch = new Stopwatch();)__ bu da bir sinifdir lakinbu melumat saxlamaq ucun deyil sadece yazdigimiz codlarin nece saniye erzinde isliyib basa catdigini bilerik. Bunun da methodlari vardir.
+ * __stopwatch.Start())__ bu methodu ise baslamamisdan evvel ise salmaq ucundur.
+ * __stopwatch.Stop())__ bu method ise is bitenden sonra isdifade edilir ki it bitene qeder olcsun.
 
  --------------------------------------------------------------------------------------------------------------------------------------
  __(Say tipli datatayplar)__
@@ -184,7 +201,7 @@ ________________________________________________________________________________
  1. __(bool)__ mentiqi deyiskendir yoxlanis edir dogru olub olmadigini yoxluyur ve geriye __(true)__ __(false)__ qaytarir.
  ---------------------------------------------------------------------------------------------------------------------------------------
   __(zaman tipli deyisken)__ 
-  1. __(DateTime)__ --> tarix ve zamani ozunde saxiliyir DataTIme vaxd=(__DataTime.Now.Year)__ !!
+  2. __(DateTime)__ --> tarix ve zamani ozunde saxiliyir DataTIme vaxd=(__DataTime.Now.Year)__ !!
   --------------------------------------------------------------------------------------------------------------------------------------
 
                                                     ACAR SOZLER.
