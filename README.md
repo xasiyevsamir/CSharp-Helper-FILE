@@ -1,7 +1,7 @@
                                                            (Cmd ---- emirleri.)
 
-1. (cd bosluq enter) oldugun fayila aparir.
-2.  (cd bosluq ..) bir fayil geri cixir.
+1. __cd bosluq enter)__ oldugun fayila aparir.
+2.  __cd bosluq ..)__ bir fayil geri cixir.
 3.  (cd bosluq fayilin adi) adi qeyd edilen fayila kecit edir.
 4. (cls) acilmis butun melumatlari temizleyir.
 5.  (dir) fayilin icine daxil olur.
