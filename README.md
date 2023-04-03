@@ -122,9 +122,9 @@ ________________________________________________________________________________
 
 2. __(Console.WriteLine();)__ ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.
      
- 3.    Netice----> samir 
+3.    Netice----> samir 
      --->> xasiyev  olacaqdir.
-4y. __(Console.Redkey();)__  yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
+4. __(Console.Redkey();)__  yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
 5. __(Console.ReadLine();)__ istifadeciden melumat almaq ucun ekranda gozluyer melumati daxil edib enteri basdiqada melumati bize getrir
 ----------------------------------------------------------------------------------------------------------------------------------------
                                                    __(Datatypes.)__
