@@ -2,14 +2,14 @@
 
 1. __cd bosluq enter)__ oldugun fayila aparir.
 2.  __cd bosluq ..)__ bir fayil geri cixir.
-3.  (cd bosluq fayilin adi) adi qeyd edilen fayila kecit edir.
-4. (cls) acilmis butun melumatlari temizleyir.
-5.  (dir) fayilin icine daxil olur.
-6. (mkdir) yeni fayil yaradir.
-7. (prompt $$) yeni setri dollar isaresi ile basladir.
-8. (dotnet run) emri ise kodu ise salir.
-9. (code .) visual studio coda kecid emridir.
-10. (echo "" >>.gitignore)-- burada yeni cmd ekraninda .gitignore fayili yarada bilerik bu emirle.
+3. __cd bosluq fayilin adi)__ adi qeyd edilen fayila kecit edir.
+4. __cls)__ acilmis butun melumatlari temizleyir.
+5.  __dir)__ fayilin icine daxil olur.
+6. __mkdir)__ yeni fayil yaradir.
+7. __prompt $$)__ yeni setri dollar isaresi ile basladir.
+8. __dotnet run)__ emri ise kodu ise salir.
+9. __code .)__ visual studio coda kecid emridir.
+10. __echo "" >>.gitignore)__ -- burada yeni cmd ekraninda .gitignore fayili yarada bilerik bu emirle.
 
 10. Yeni solutions yaradanda google axdarisda bunu yazaraq tapa bilerik (dotnet new create solution) sayita daxil olduqdan sonra qarsimiza bele bir yazilis cixacaq ve istifade edeceyik (dotnet new sln --name MySolution).
 11. Yeni project yaradanda google axdarisda bunu yazaraq tapa bilerik (dotnet create new console app project) sayita daxil olduqdan sonra bele bir yazilisi goreceyik ve istifade edeceyik (dotnet new console --framework net6.0 --use-program-main)
@@ -122,10 +122,10 @@ ________________________________________________________________________________
 
 2. __(Console.WriteLine();)__ ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.
      
-     Netice----> samir 
-     --->> xasiyev  olacaqdir.
-3. __(Console.Redkey();)__  yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
-4. __(Console.ReadLine();)__ istifadeciden melumat almaq ucun ekranda gozluyer melumati daxil edib enteri basdiqada melumati bize getrir
+ 3.    Netice----> samir 
+ 4.    --->> xasiyev  olacaqdir.
+5. __(Console.Redkey();)__  yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
+5. __(Console.ReadLine();)__ istifadeciden melumat almaq ucun ekranda gozluyer melumati daxil edib enteri basdiqada melumati bize getrir
 ----------------------------------------------------------------------------------------------------------------------------------------
                                                    __(Datatypes.)__
       Datatayiplar 4 yere ayrilir .Metin, say, mentiqi, zaman,
