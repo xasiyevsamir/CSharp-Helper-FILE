@@ -10,10 +10,10 @@
 8. __dotnet run)__ emri ise kodu ise salir.
 9. __code .)__ visual studio coda kecid emridir.
 10. __echo "" >>.gitignore)__ -- burada yeni cmd ekraninda .gitignore fayili yarada bilerik bu emirle.
-
-10. Yeni solutions yaradanda google axdarisda bunu yazaraq tapa bilerik (dotnet new create solution) sayita daxil olduqdan sonra qarsimiza bele bir yazilis cixacaq ve istifade edeceyik (dotnet new sln --name MySolution).
-11. Yeni project yaradanda google axdarisda bunu yazaraq tapa bilerik (dotnet create new console app project) sayita daxil olduqdan sonra bele bir yazilisi goreceyik ve istifade edeceyik (dotnet new console --framework net6.0 --use-program-main)
-12. Yaratdigimiz solutions ve projecs elaqelendirmek ucun google axdarisa (dotnet  add project solutions create) sayita daxil olduqdan sonra ise qarsimiza cixan (dotnet sln solution.sln add --solution-folder foo1\foo2\foo3 bar.csproj) yazilisdan istifade ederek elaqeni yaradiriq.
+11. __rundll32.exe user32.dll,LockWorkStation)__ komputeri cmd ile kilidlemek ucun olan emir.
+12. Yeni solutions yaradanda google axdarisda bunu yazaraq tapa bilerik (dotnet new create solution) sayita daxil olduqdan sonra qarsimiza bele bir yazilis cixacaq ve istifade edeceyik (dotnet new sln --name MySolution).
+13. Yeni project yaradanda google axdarisda bunu yazaraq tapa bilerik (dotnet create new console app project) sayita daxil olduqdan sonra bele bir yazilisi goreceyik ve istifade edeceyik (dotnet new console --framework net6.0 --use-program-main)
+14. Yaratdigimiz solutions ve projecs elaqelendirmek ucun google axdarisa (dotnet  add project solutions create) sayita daxil olduqdan sonra ise qarsimiza cixan (dotnet sln solution.sln add --solution-folder foo1\foo2\foo3 bar.csproj) yazilisdan istifade ederek elaqeni yaradiriq.
 ________________________________________________________________________________________________________________________________________
 
                                                     (Bezi axdarislar.)
@@ -125,7 +125,10 @@ ________________________________________________________________________________
 3.    Netice----> samir 
 4.          --->> xasiyev  olacaqdir.
 5. __(Console.Redkey();)__  yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
-6. __(Console.ReadLine();)__ istifadeciden melumat almaq ucun ekranda gozluyer melumati daxil edib enteri basdiqada melumati bize getrir
+6. __(Console.ReadLine();)__ istifadeciden melumat almaq ucun ekranda gozluyer melumati daxil edib enteri basdiqada melumati bize getrir.
+7. __Console.CursorTop())__ bu method ise kursorun hal hazirki durdugu yeri gosderir.
+8. __Console.SetCursorPosition(0,Console.CursorTop))__ bu method ile cursoru harda durmagindan asli olmayaraq hemin setrin ilk baslangicina getrir.burada sifir o demekdirki hemin setr olsun  Console.CursorTop ise hemin setirde kursorun hal hazirki durdugu yer.
+9. __Console.WindowWidth)__ bu ise console ekrani boyunca demekdir.
 ----------------------------------------------------------------------------------------------------------------------------------------
                                                    __(Datatypes.)__
       Datatayiplar 4 yere ayrilir .Metin, say, mentiqi, zaman,
@@ -220,33 +223,47 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________________________________________
                                                   Masivler ve Kolleksionlar.
 
-1. __(int[] number=new int[3])__ --> burada biz int vasivi yaratdiq .Massivler muxdelif tiplerden ola biler.Burada int[3] 3 reqemi masivvin nece setirli olmasini yeni nece int tipinden data saxlamasini gosderir.Burada 3 indeksli yeni 3 data saxlanilir.Lakin komputer sayarken 0 dan saymaga baslayir.Yeni (0,1,2) burda saysaq 3 data saxlamaq olar yeni 0 ci indeksde bir data ve digerlerinde eynisi.
-
-2. __(ArrayList A1=new ArrayList())__ kolleksionu ,Kolleksionlarin vasivlerden ferqi odur ki masivlerde nece data saxlanmasini biz secirik ve deyise bilmerik eyni massivde yeni 3 secmisik yuxarida onu deyise bilmirik, lakin kolleksionlarda ise ozu her data qebul etdikde ise bir elave yer ayrir ve novbeti datani gozleyir.ArrayLisdin metodlarina baxaq.
+1. __(int[] number=new int[3])__ --> burada biz int vassivi yaratdiq .Massivler muxdelif tiplerden ola biler.Burada int[3] 3 reqemi masivvin nece elementli olmasini yeni nece int tipinden data saxlamasini gosderir.Burada 3 indeksli yeni 3 data saxlanilir.Lakin komputer sayarken 0 dan saymaga baslayir.Yeni (0,1,2) burda saysaq 3 data saxlamaq olar yeni 0 ci indeksde bir data ve digerlerinde eynisi.Massivlerin mehtodlari var ve biz bu methodlari istifade etmek ucun __Array)__ klasindan isdifade edirik .Yeni massiv ucun hansi methodu cagirsaq Array. deyirik.BU methodlar asagidakilardir.
+* __Array.Resize(ref massiv, a))__ bu method ile biz masssivin nece elementli oldugunu bilmediyimiz halda isdifade ederek her defe massivin uzunlugunu artira bilerik ve ref massiv ve int a datalarini qebul edir.
+* __(Array.IndexOf())__(indeks menasina gelir)--> mena olaraq eyni isi gorur ferqi odur ki massivlerde __Array.)__ diye cagrilir stringlerde ise __data.)__ cagrilir.
+* __(Array.Reverse())__ bu method masivlerin sonuncu ideksinden baslar sifirinci idekse atar sora axirdan 2ci ideksi birinci indekse atar ve s. mena olaraq eyni isi gorur ferqi odur ki massivlerde __Array.)__ diye cagrilir stringlerde ise __data.)__ cagrilir.
+* __(Sort())__(menasi A-Z e duzmek,siralamaqdir)-> A-Z e siraliyir metinleri ve reqemleri ise kicikden boyuye. mena olaraq eyni isi gorur ferqi odur ki massivlerde __Array.)__ diye cagrilir stringlerde ise __data.)__ cagrilir.
+* __Array.Clear())__ bu method ile massivin butun indekslerindeki elementleri hamisini sifir edir.
+* __Array.Exists(array, a => a == 10); int[] array = { 1, 5, 3, 4, 5, 4, 7, 8, 11, 10, 11, },)__ bu method ise massivin icinde bize lazim olan eded var yoxsa yoxdur diye bize cavab verir ve geri donus ture ve false doner. Burada => boyukdur lamda isaresi adlanir ve yoxluyur ve cavab qaytarir , gorunduyu kimi biz burada massivde 10 reqemin olub olmamisini yoxlamisiq ve bize ture cavabini donecekdir.
+* __Array.FindAll(array, a => a == 5))__ bu method da Array.Exists ile eyni isi gorur yeni axdardigimizi tapir ferqli olaraq ture,false deyil tapdigi datanin ozunu geri doner.
+* __Array.Copy(array,Newarray , 2, 5))__ bu method ile bir massivdeki datani diger massive kopyaliya bilerik ve bunun ucun hansi massivden gotureceyikse onu qeyd edirik yeni massiv hansi olacaqsa onu qeyd edirik ve necenci indeksden baslasin kopyalamaga onu ve sonda nece element kopyalanacaq onu qeyd edirik.
+---------------------------------------------------------------------------------------------------------------------------------------
+2. __Random random = new Random())__ (Random-tesadufu demekdir)  Random bir klasdir ve bu klass bize tesadufu reqemler vere bilir ve  methodu var onlar asagidakilardir. 
+* __int data=random.Next(1,10))__  bu method bize texmini reqem verir.Maksium int qeder ola bilir ve her zaman biz araliq verende yeni burda 1 ile 10 arasinda tesadufu reqemler ver dedikde 1 daxil 10 ise daxil olmur 1 ile 9 daxil reqemler verir.Geriye int qaytarir.
+* __double data=random.NextDouble())__ bu method ile ise tesadufu 0 ve 1 arasinda reqemler verir yeni kesir ededler.Geriye double qaytarir.
+* __byte data=random.NextBytes())__ bu method bayit tutumu qeder tesadufu ededler verir.     
+---------------------------------------------------------------------------------------------------------------------------------------
+3. __(ArrayList A1=new ArrayList())__ kolleksionu ,Kolleksionlarin vasivlerden ferqi odur ki masivlerde nece data saxlanmasini biz secirik ve deyise bilmerik eyni massivde yeni 3 secmisik yuxarida onu deyise bilmirik, lakin kolleksionlarda ise ozu her data qebul etdikde ise bir elave yer ayrir ve novbeti datani gozleyir.ArrayLisdin metodlarina baxaq.
 
 * __(Add())__(tek data elave et) metodu ArrayLisdin terkibine tek tek deyerler atmaq ucundur,yeni A1.Add("Samir"), A1.Add(121),
 * __(AddRange)__( cox sayda elave et) metodu bir nece deyeri eyni anda ArrayList e atmaq ucundur.
 *  __(Remove())__-->(menasi sil)--> bu metot ile ArrayList icindeki isdenilen datani sile bilerik lakin datanin indeksini yox ozunu yazmaq lazimdi.Mes: A1.Remove("Samir") bu zaman gedib axdaracaq ve samir sozunu silecek.
 * __(RemoveRange)__(menasi-> silinme araligi) bu ise indeksle isleyir filan indeksden basla 2 element sil. Mes:  A1.RemoveRange(3,2) ucuncu indeksden basla 2 elementi silin.
 * __(RemoveAt)__--> bu metot ise tek tek indeks silmek ucundur .Mes: A1.RemoveAt(2) yeni ikinci indeksi get sil.
-* __(Reverse)__ (menasi tersine cevir)bu metot ise sonuncu indeksde olan datani ilk indeksin uzerine getrir.Yeni sonuncu datadan baslayaraq ilk dataya kimi butun datalari sifirinci indeksden baslayaraq yazdirir.
-* __(Sort())__(menasi A-Z e duzmek,siralamaqdir)-> bu yalniz metinlere aiddir, int ve s.aid deyil.
+* __(Reverse)__ (menasi tersine cevir) bu metot ise sonuncu indeksde olan datani ilk indeksin uzerine getrir.Yeni sonuncu datadan baslayaraq ilk dataya kimi butun datalari sifirinci indeksden baslayaraq yazdirir.
+* __(Sort())__(menasi A-Z e duzmek,siralamaqdir)-> A-Z e siraliyir metinleri ve reqemleri ise kicikden boyuye.
 * __(Contains)__(menasi ehdiva edr umid edr ve yoxlayir) bu method ise daxil edilen datanin icerisinde bize lazim olan data varmi diye yoxlayir ve geriye bool qaytarir.
 * __(IndexOf)__(indeks menasina gelir)--> bu method ise massiv ve ya kolleksionun daxilinde her hansi data var sa onun indeksini geri int olaraq donur.mes: __(int indeks= A1.IndexOf("samir");)__ sozu varsa gedib onun indeksini tapib getrir.
 * __(Clear)__(menasi butovlukde silmekdir)--> bu methoddan isdifade etsek butun elementleri silecek lakin capassite silinmiyecek ,yeni element ucun ayrilan yer silinmir lakin icerisi bos qalir.
 * __(TrimToSize)__ bu method ise yuxarida dediyimiz element silinsede onun ucun ayrilan yeri silinmir, lakin bu method ile sabit olaraq 4 elemet yeri saxlayir ve qalanini silir.
 * __(ToArray)__ bu metod koleksionlari opject masivvine atmaq ucundur.
+* __(Resize(ref massiv,massiv.Lenght+1))__ bu method ile massivin nece elementli oldugunu bilmirikse ardicil olaraq massivin uzunlugunu deyisdire bilerik, yeni bu method bize hemin massivi vermesede yenisini yaradir kohneni onun uzerine atir ve geri donur.Burad ref geri donusunden isdifade edilir ,yeni gedr massivin yenisini yaradir kohne massivi onun uzerine atir ve bize geri donderir.
 
-3. __(Hashtable A1=new Hashtable())__ bu kolleksion diger koleksionlardan ferqlenir .Ferqi odur ki bu iki object deyer teleb edir yeni biri key,digeri ise vouli deyer ,birinci acar soz daxil edilir digeri ise sabit bir deyer ,burada eyni acar soz ola bilmez,amma eyni valu deyer ola biler.Yuxarida qeyd olunan ArrayListin metodlari bu kolleksionlarda da isdifade edilir.
+4. __(Hashtable A1=new Hashtable())__ bu kolleksion diger koleksionlardan ferqlenir .Ferqi odur ki bu iki object deyer teleb edir yeni biri key,digeri ise vouli deyer ,birinci acar soz daxil edilir digeri ise sabit bir deyer ,burada eyni acar soz ola bilmez,amma eyni valu deyer ola biler.Yuxarida qeyd olunan ArrayListin metodlari bu kolleksionlarda da isdifade edilir.
 
-4. __(SortedList A1=new SortedList())__ bu kolleksion da __(Hashtable)__ kimi eynidir,iki object deyer isder ve isdediyi object den biri key(acar) soz olur lakin bir iki ferqi var ve o ferqe baxaq.Burada daxil olan acar sozler eyni tipden int,bayt,string ve s.olmalidir ve tekirarsiz olmalidir.Diger ferqide ondan ibaretdir ki acar sozleri stringdirse A-Z e duzer,reqemdirse kicikden boyuye duzer.
-
-5. __(Stack A1=new Stack())__ bu kolleksion bir object deyeri qebul edir.Bu koleksiona data eklemek ve bezi emeliyatlari asagidaki methodlarla edilir.
+5. __(SortedList A1=new SortedList())__ bu kolleksion da __(Hashtable)__ kimi eynidir,iki object deyer isder ve isdediyi object den biri key(acar) soz olur lakin bir iki ferqi var ve o ferqe baxaq.Burada daxil olan acar sozler eyni tipden int,bayt,string ve s.olmalidir ve tekirarsiz olmalidir.Diger ferqide ondan ibaretdir ki acar sozleri stringdirse A-Z e duzer,reqemdirse kicikden boyuye duzer.
+----------------------------------------------------------------------------------------------------------------------------------------
+6. __(Stack A1=new Stack())__ bu kolleksion bir object deyeri qebul edir.Bu koleksiona data eklemek ve bezi emeliyatlari asagidaki methodlarla edilir.
 * __(A1.Push("SALAM"))__ bu method ile Stack koleksionuna data atmaq(gondermek olar) mes: A1.Push("salam").
 * __(A1.Pop())__ bu method ile sonuncu daxil olan bir datani bir object e atar mes: __(object s=A1.Pop())__ kimi.ve goturduyu Datani Stack den silir.
 * __(A1.Peek())__ bu method ise Stack den sonuncu datani goturer bir object e atar mes: __(object s=A1.Peek())__ kimi.ve goturduyu datani Stack den silmir.
 
-6. __(Queue Q1=new Queue())__ bu koleksion da stack ile eynidir lakin stack de son giren ilk cixdigi halda Queue de ise ilk giren ilk cixir.Burada bir nece method var baxaq.
+7. __(Queue Q1=new Queue())__ bu koleksion da stack ile eynidir lakin stack de son giren ilk cixdigi halda Queue de ise ilk giren ilk cixir.Burada bir nece method var baxaq.
 * __(Q1.Enqueue("samir"))__ bu method Queue ye data elave etmek ucundur ve burda string olan samir sozunu dataya elave etdi.
 * __(Q1.Dequeue())__ bu method ile ilk daxil edilen datani goturmek olar lakin hemin datani Queue koleksionundan silecek.
 *__(Q1.Peek())__ bu method ise Stack den sonuncu datani goturer bir object e atar mes: __(object s=A1.Peek())__ kimi.ve goturduyu datani Stack den silmir.Bu method  Queue koleksionunda da kecerlidi.
