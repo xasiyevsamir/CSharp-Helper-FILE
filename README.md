@@ -125,6 +125,7 @@ ________________________________________________________________________________
 3.    Netice----> samir 
 4.          --->> xasiyev  olacaqdir.
 5. __(Console.Redkey();)__  yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
+* __var key=Console.ReadKey(), (key.Key==ConsoleKey.Enter))__ bu yazilisla biz isdifadecinin hasi duymeni sabasini izah ede bilerik.
 6. __(Console.ReadLine();)__ istifadeciden melumat almaq ucun ekranda gozluyer melumati daxil edib enteri basdiqada melumati bize getrir.
 7. __Console.CursorTop())__ bu method ise kursorun hal hazirki durdugu yeri gosderir.
 8. __Console.SetCursorPosition(0,Console.CursorTop))__ bu method ile cursoru harda durmagindan asli olmayaraq hemin setrin ilk baslangicina getrir.burada sifir o demekdirki hemin setr olsun  Console.CursorTop ise hemin setirde kursorun hal hazirki durdugu yer.
@@ -148,11 +149,12 @@ __(metin tipli deyiskenler)__
  * __(Data.Substring(0,4))__ bu method datada necenci indeksden deyrikse ordan basliyir ve nece element gotur deyirikse o qederini gotrur, mes:burda 0-ci indeksden basliyir ve 4 element gotrur. 
  * __(Data.IndexOf)__(indeks menasina gelir)--> bu method ise massiv ve ya kolleksionun daxilinde her hansi data var sa onun indeksini geri int olaraq donur.mes: __(int indeks= A1.IndexOf("samir");)__ sozu varsa gedib onun indeksini tapib getrir.Amma qeyd edek ki bu method qarsisina cixan birinci elementin indeksini gotrur ve emeliyyati bitrir ,yeni orda bir nece samir sozu olsa ilk qarsisina cixani goturecekdi.  Qeyd: edeki eger axdardigimiz soz orada yoxdursa int olaraq geri donus __-1)__ olacaqdir .Cunki sifir ozu mumkun indeksdir.
  * __(Data.Replace("samir","valeh"))__ bu method ise metinde olan isdenilen datani basqa data ile deyismeye imkan verir.Burada samir sozunu metinden cixarib valeh sozunu elave etdik.
- * __(Data.Trim())__ bu method sonda ve evvelde ki bosluqlari ve ya __Data.Trim('*'))__ sonu ve evelindeki ulduz ve ya diger simvollar yazsaq olarida silecek.
+ * __(Data.Trim())__ bu method sonda ve evvelde ki bosluqlari ve ya __Data.Trim('*'))__ sonu ve evelindeki ulduz ve ya diger simvollar olarsa olarida silecek.
  * __(Data.TrimStart())__ bu methodda trimden toreyib ve ondan ferqli olaraq datanin evvelindeki boslugu ve ya simvolu silir.
  * __(Data.TrimEnd())__ bu methodda trimden toreyib ve ondan ferqli olaraq datanin sonundaki boslugu ve ya simvollari silir.
  * __(Data.LastIndexOf())__ IndexOf ile eyni isi gorur sadece axdarisa sondan baslayir ve ilk dogru melumati tapan kimi onun indeksini int olaraq geri donur ve emeliyyatii bitirir.Qeyd: LastIndexOf sondan basliyaraq yoxlayir ve ilk uygun datanin ik elementinin indeksini geri qaytarir mes:(samir) axdarsaq s- herifinin indeksini bize geri donus edecek.
  * __(Data.Insert(1,"salam"))__ bu method ile isdenilen indekse isdediyimiz datani elave ede bilerik.burada 1ci indekse salam sozunu elave etdik.
+ * __(Data.Remove(1,2))__ bu method ile isdenilen indeksden baslayib sile bilerik eyni zamanda silme araliginida biz veririk meselen biz burda 1 ci indeksden basla 2 element sil demisik.
  * string s=new string('*',3) --> bu o demekdir ki 3 dene *** yazdiracaq.Amma method deyil string obyektidir.
  --------------------------------------------------------------------------------------------------------------------------------
  4. __StringBuilder sb = new StringBuilder();)__ bu da bir sinifdir ve metinlerle isleyir ve string tiplerinden daha cox suretlidi kolleksiondur demek olar ki. ve onun metodlari asagidakilardir.
@@ -282,3 +284,6 @@ ________________________________________________________________________________
 1. __int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)__ -->bunlar her biri __valu tayipdir stack yaddasda saxlanilir)__ ve reference tayiplardan suretli isleyir.
 2. __string,char, massivler mes:int[] ,classlar ve s.)__ bunlar ise __Reference tayipdir ve Heap yaddasda saxlanilir)__ ve valu tayiplardan asagi suretde isleyir.
 ________________________________________________________________________________________________________________________________________
+
+0                                         __OOP Obyekt yonumlu proqramlasdirma)__
+1. __enum)__ enum ne demekdir ?.Enum ile limitli sayda olan secimleri yarada bilerik yeni hefdenin gunleri ilin aylarini ve ya sistemde menyulari ve s. yaratmaq olar.Enum susmaya gore __intden)__ toreyib ve biz diger tiplerden yeni tam olan tiplerden torede bilerik mes: byte ,sbyte,short ve s. Her hansi tipden toretmek isdedikde __public enum Menu:byte)__ qeyd etmek lazimdir . Enumlar da 1 ve cox secim bir secimden aslidirsa ele qurmaq olar ki hemin secimler isdediyimiz secimden asili olsun .
