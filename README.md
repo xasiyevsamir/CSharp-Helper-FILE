@@ -272,8 +272,11 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________________________________________
 
                                                               Metotlar ve Classlar
-1. __(Metotlar)__----> metotlar kod yazarken bize cox komeklik edir yeni bir metot yazib bir hissesi eyni olan tapsiriqda yeniden cagirib isdifade ede bilerik.biz yeni metodlar yarada bilerik.
-2. __(Public)__---> Public dedikde biz diger klasdaki metodlari da cagira bilirik.
+1. __(Metotlar)__----> metotlar kod yazarken bize cox komeklik edir yeni bir metot yazib bir hissesi eyni olan tapsiriqda yeniden cagirib isdifade ede bilerik.biz yeni metodlar yarada bilerik.Methodlar geriye deyer qaytaran ve geriye deyer qaytarmiyan olur.Geriye deyer qaytaran Methodlarda __return)__ acar sozunden isdifade olunur.Methodlari Class-larin daxilinde yaradilir ve isdediyimiz qeder method yarada bilerik .Methodlar eyni adli olduqda gonderilen __datatype-lari)__ ferqli olmalidir.Mes: Topla methodu __int number)__ qebul edirse novbeti Topla methodu __int number,int a)__ qebul etmelidir ve s.Deqiq desek method adlari eyni olduqda onlarin data qebul etmelerinin sayi ferqli ve ya daxil olan datanin tipleri ferqli ya da ki daxil olunan datalarin sayi eyni olsa yerleri ferqli olmalidir.
+
+
+
+2. __(Public)__---> Public dedikde her kese gorunen olunacaq. Yeni biz basqa bir class da methoda public desek onda hemin method her yerde basqa class-lar da gorunen yeni cagira bilerik.
 3. __(Private)__---> Private dedikde ise biz yalniz hemin klasin icindeki metodu cagira bilirik.Eger Public yazmamisiqsa bu avtomatik Private sayilir.
 4. __(Protected)__--->
 5. __(Internal)__--->
@@ -291,3 +294,6 @@ ________________________________________________________________________________
 * __( Enum.GetValues(typeof(enum adi yeni tipi)))__ bu method ile enum daki butun secimleri cap ede bilerik.Lakin mutleq enumun tipini gosdermeliyik .Cunki menyu enami ola biler ilin aylari enami ola biler ve s.
 * __(Enum.TryParse(typeof(Menu), Console.ReadLine(), true, out object result))__ bu method ise enum tryparse methodudur yeni verilmis enumda bizim daxil etdiyimiz numune varmi diye yoxluyur varsa ture yoxdursa false qaytarir. burada biz ilk olaraq tryparse icinde enum tipini yazdiq sonra datani daxil etdik ve herifin boyuk olub olmamasini yoxladiq __ture__ olduqda boyuk kicik herif ferq etmir isleyir __false__ olduqda ise enum necedirse elede yazilmalidir ve sonda ise eger varsa daxil etdiyimiz data onu object uzerine alir.
 * __(Enum.IsDefined(typeof(Menu), result))__ bu method ile ise gelen datanin yeni resultun hemin enum daxilinde olub olmadigini yoxluya bilerik.
+* __(Enum.GetName(typeof(Menu), 2))__ bu method ile ise enum 2 ci indeksindeki hansi secim oldugunu tapa bilerik. Burda 2 yerine Menu.ad yazsaq gedib hemin datani getrir.
+* __(Enum.GetUnderlyingType(typeof(Menu))__ bu method ile ise biz enum hansi tipden torediyini oyrene bilerik.
+* 
