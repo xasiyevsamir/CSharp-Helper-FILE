@@ -22,7 +22,7 @@ ________________________________________________________________________________
 2. Stack Overflow Developer Survey 2022. (burada proqram dillerinin ilden ile inkisafina baxa bilerik)
 3. diagram.net app (alqoritim qurmaq ucun isdifade edilen sexemleri bize verir).
 4. c# method keywords (c# da acar sozlere baxmaq ucun bu sayita baxa bilerik).
-5. http://www.java2s.com/Tutorial/CSharp/CatalogCSharp.htm (c# ders sayiti)
+5. <a href="http://www.java2s.com/Tutorial/CSharp/CatalogCSharp.htm">c# ders sayiti</a>
 _________________________________________________________________________________________________________
 
                                                   
