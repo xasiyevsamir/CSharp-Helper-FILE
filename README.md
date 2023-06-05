@@ -85,8 +85,10 @@ burada a,b, ve c vareybil adlanir.Vareybillari biz teyin edirik. Burada 10, 12.3
  <img src="image\cs1.png" width="300" height="200" alt="Sekil silinib" title="Cevirme avtomatic implicit"/>
  </p><br/>
  <b>2.Explicit conversion.</b><br/>
- <i>Sekilden gorduyumuz kimi int tipinden olan bir datani ondan kicik tipe int-e cevirmek isdemisik ve biz cevirerken (short) yazmaqla demisik ki problem yoxdu int tipinde olan data short tipi qebul ede bilecek ve qebul ede bilmese mesuliyyeti uzerime gotrurem .Eger short gotre bilmerse hemin tipi dovur edir ve ozu gotre bileceyi datada dayanir.</i>
+ <i>Sekilden gorduyumuz kimi int tipinden olan bir datani ondan kicik tipe int-e cevirmek isdemisik ve biz cevirerken (short) yazmaqla demisik ki problem yoxdu int tipinde olan datani short tipi qebul ede bilecek ve qebul ede bilmese mesuliyyeti uzerime gotrurem .Eger short gotre bilmerse hemin tipi dovur edir ve ozu gotre bileceyi datada dayanir.Eger biz problem oldugu halda bize melum olmagini isdesek <b>checked</b>-ile biz bu erroru gore bilerik.</i>
  <img src="image\cs2.png" width="300" height="200" alt="Sekil silinib" title="Explicit conversion."/>
+ <img src="image\cs3.png" width="300" height="200" alt="Sekil silinib" title="Checked erroru."/>
+
  </details>
 
 <details><summary><b><u>Refarence</u></b></summary><br/>Metin tipli datalari saxlamaq ucundur Mes:<b>string, char, class,Method,Massiv ve s.</details><br/>
@@ -140,7 +142,7 @@ int c=(--a + a++); c=9+9=18
 
 2.  **(Console.WriteLine();)** ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.
 3.  Netice----> samir
-4.                                                          --->> xasiyev  olacaqdir.
+4.                                                           --->> xasiyev  olacaqdir.
 5.  **(Console.Redkey();)** yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
 
 - **var key=Console.ReadKey(), (key.Key==ConsoleKey.Enter))** bu yazilisla biz isdifadecinin hasi duymeni sabasini izah ede bilerik.
@@ -326,7 +328,7 @@ int c=(--a + a++); c=9+9=18
 
 ---
 
-0.                                                                                                           __Valu ve Reference types)__
+0.                                                                                                            __Valu ve Reference types)__
     **Valu ve Reference)** tayip dedikde ne nezerde tutulduguna baxaq. **RAM)** yeni muvveqeti yaddas iki hisseye ayrilir **Stack ve Heap)** ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin **Stack ve Heap)** yaddasda saxlanildigini gosdermisem. **QEYD)** Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  **int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)** -->bunlar her biri **valu tayipdir stack yaddasda saxlanilir)** ve reference tayiplardan suretli isleyir.
 2.  **string,char, massivler mes:int[] ,classlar ve s.)** bunlar ise **Reference tayipdir ve Heap yaddasda saxlanilir)** ve valu tayiplardan asagi suretde isleyir.
