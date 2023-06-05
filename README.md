@@ -147,6 +147,9 @@ Operatorlar bir nece yere ayrilirlar bunlar asagidakilardir.
  <img src="image\cs24.png" width="30px" height="30px" alt="Sekil silinib" title="Ve ya Operatoru."/>
  __ Ve ya operatoru sertlerin hec olmasa biri dogru olub olmadigini yoxlamaq ucun operatordur ve geriye <b><i>true, false</i></b> qaytarir.Sertlererin hec olmasa biri mutleq dogru olmalidir.Qeyd edek kiVE YA operatoru evvelki sertlerde true gorse diger sertleri yoxlamir cunki VE YA operatorununa bir ture serti de qanedir.<b></b><br/>
  <img src="image\cs25.png" alt="Sekil silinib" title="If ile yoxlamaq."/><br/>
+ <img src="image\cs26.png" width="30px" height="30px" alt="Sekil silinib" title="Inkar Operatoru."/>
+ __ Inkar operatoru eger sertde <i>ture</i> gelse onu <i>false</i>, <i>false</i> gelse ise <i>true </i>edecekdir.<b></b><br/>
+ <img src="image\cs27.png" alt="Sekil silinib" title="If ile yoxlamaq."/><br/>
  
  
  </p>
@@ -185,7 +188,7 @@ int c=(--a + a++); c=9+9=18
 
 2.  **(Console.WriteLine();)** ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.
 3.  Netice----> samir
-4.                                                                                                        --->> xasiyev  olacaqdir.
+4.                                                                                                         --->> xasiyev  olacaqdir.
 5.  **(Console.Redkey();)** yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
 
 - **var key=Console.ReadKey(), (key.Key==ConsoleKey.Enter))** bu yazilisla biz isdifadecinin hasi duymeni sabasini izah ede bilerik.
@@ -368,7 +371,7 @@ int c=(--a + a++); c=9+9=18
 
 ---
 
-0.                                                                                                                                                         __Valu ve Reference types)__
+0.                                                                                                                                                          __Valu ve Reference types)__
     **Valu ve Reference)** tayip dedikde ne nezerde tutulduguna baxaq. **RAM)** yeni muvveqeti yaddas iki hisseye ayrilir **Stack ve Heap)** ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin **Stack ve Heap)** yaddasda saxlanildigini gosdermisem. **QEYD)** Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  **int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)** -->bunlar her biri **valu tayipdir stack yaddasda saxlanilir)** ve reference tayiplardan suretli isleyir.
 2.  **string,char, massivler mes:int[] ,classlar ve s.)** bunlar ise **Reference tayipdir ve Heap yaddasda saxlanilir)** ve valu tayiplardan asagi suretde isleyir.
