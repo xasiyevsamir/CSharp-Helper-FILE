@@ -119,13 +119,23 @@ Operatorlar bir nece yere ayrilirlar bunlar asagidakilardir.
  __Bir artirma emeliyyatini yerine yetirmek ucundur.<b> int number=5; number++;</b><br/>
  <img src="image\cs12.png" width="30px" height="30px" alt="Sekil silinib" title="Bir azaltma Operatoru."/>
  __Bir azaltma emeliyyatini yerine yetirmek ucundur.<b> int number=5; number--;</b><br/>
+ </p>
+ <details><summary><p><b> Mentiqsel operatorlar--></b>
+ <img src="image\cs13.png" width="300"  alt="Sekil silinib" title="Mentiqsel operatorlar."/>
+ </p></summary>
+ <img src="image\cs14.png" width="30px" height="30px" alt="Sekil silinib" title="Beraberdir Operatoru."/>
+ __Beraberdir sertini yoxlamaq ucun operatordur ve geriye <i>true, false</i> qaytarir.<b></b><br/>
+ <img src="image\cs15.png" alt="Sekil silinib" title="If ile yoxlamaq."/>
 
- </p></details>
-
-    **(-)** --> cixma emeliyatini yerine yetirmek ucundur.
-    \_\_(_)** --> vurma emeliyatini yerine yetirmek ucundur.
-    **(/)** --> bolme emeliyatini yerine yetirmek ucundur.
-    **(%)\_\_ --> ededi boldukde qaliqi tapmaq ucundur.
+ <p>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </details>
 
 2.  Mentiqsel operatorlar **(=, ==, <, >, <=, >=)**
     **(=)** --> menimsetme operatordur, yeni int a=19, burda 19 u a-ya menimsetdi yeni daxiline atdi.
@@ -168,7 +178,7 @@ int c=(--a + a++); c=9+9=18
 
 2.  **(Console.WriteLine();)** ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.
 3.  Netice----> samir
-4.                                                                                           --->> xasiyev  olacaqdir.
+4.                                                                                            --->> xasiyev  olacaqdir.
 5.  **(Console.Redkey();)** yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
 
 - **var key=Console.ReadKey(), (key.Key==ConsoleKey.Enter))** bu yazilisla biz isdifadecinin hasi duymeni sabasini izah ede bilerik.
@@ -351,7 +361,7 @@ int c=(--a + a++); c=9+9=18
 
 ---
 
-0.                                                                                                                                            __Valu ve Reference types)__
+0.                                                                                                                                             __Valu ve Reference types)__
     **Valu ve Reference)** tayip dedikde ne nezerde tutulduguna baxaq. **RAM)** yeni muvveqeti yaddas iki hisseye ayrilir **Stack ve Heap)** ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin **Stack ve Heap)** yaddasda saxlanildigini gosdermisem. **QEYD)** Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  **int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)** -->bunlar her biri **valu tayipdir stack yaddasda saxlanilir)** ve reference tayiplardan suretli isleyir.
 2.  **string,char, massivler mes:int[] ,classlar ve s.)** bunlar ise **Reference tayipdir ve Heap yaddasda saxlanilir)** ve valu tayiplardan asagi suretde isleyir.
