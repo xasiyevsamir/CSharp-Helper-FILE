@@ -106,8 +106,9 @@ Operatorlar bir nece yere ayrilirlar bunlar asagidakilardir.
  </p></summary>
 <p>
  <img src="image\cs5.png" alt="Sekil silinib" title=" Toplama Operatoru."/>
- __Cixma emeliyatini yerine yetirmek ucundur.<b> int number=number1-number2</b>
+ __Toplama emeliyatini yerine yetirmek ucundur.<b> int number=number1+number2</b><br/>
  <img src="image\cs7.png" alt="Sekil silinib" title=" Cixma Operatoru."/>
+ __Cixma emeliyatini yerine yetirmek ucundur.<b> int number=number1-number2</b>
 
  </p></details>
 
