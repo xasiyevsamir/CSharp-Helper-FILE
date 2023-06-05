@@ -78,7 +78,7 @@ QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra is
 </p>
 1. Vareybillar bizim kod yazarken adlandirdigimiz hissedir ,yeni aldigimiz melumati, deyeri neyin daxilinde saxliyiriqsa bunlara vareybillar deyilir.Mes : int a =10; string b="cofe", double c=12.3;
 burada a,b, ve c vareybil adlanir.Vareybillari biz teyin edirik. Burada 10, 12.3, "cofe" ise data adlanir yeni melumat.Burada int, string ve double ise bizim datatype adlanir.Yeni datatype datanin hansi tipdan oldugunu bildirir, fincanda cofe dedikde burda cofe data b vareybil string ise datatype-dir.Yeni fincanin hansi materialdan oldugunu bildirir yeni saxsi ve ya suse.
-<b>DateType-larin Novleri .</b>DateType 2 novu var <b>(Value ve Refarence)</b><br/>(Value) <br/>Reqem tipli datalari saxlamaq ucundur Mes:<b>int,double,float,byte</b><br/> <details><summary><b><u>(Refarence)</u></b></summary><br/>Metin tipli datalari saxlamaq ucundur Mes:<b>string, char, class,Method,Massiv ve s.</details><br/>
+<b>DateType-larin Novleri .</b>DateType 2 novu var <b>(Value ve Refarence)</b><br/><details><summary><b><u>Value</u></b></summary><br/>Reqem tipli datalari saxlamaq ucundur Mes:<b>int,double,float,byte</b></details><br/><br/><details><summary><b><u>(Refarence)</u></b></summary><br/>Metin tipli datalari saxlamaq ucundur Mes:<b>string, char, class,Method,Massiv ve s.</details><br/>
 <p>
  <img src="image\cs1.png" width="250" height="200" alt="sekil silinib" title="html codu"/>
 
@@ -133,7 +133,7 @@ int c=(--a + a++); c=9+9=18
 
 2.  **(Console.WriteLine();)** ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.
 3.  Netice----> samir
-4.                                     --->> xasiyev  olacaqdir.
+4.                                      --->> xasiyev  olacaqdir.
 5.  **(Console.Redkey();)** yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
 
 - **var key=Console.ReadKey(), (key.Key==ConsoleKey.Enter))** bu yazilisla biz isdifadecinin hasi duymeni sabasini izah ede bilerik.
@@ -319,7 +319,7 @@ int c=(--a + a++); c=9+9=18
 
 ---
 
-0.                                                                                      __Valu ve Reference types)__
+0.                                                                                       __Valu ve Reference types)__
     **Valu ve Reference)** tayip dedikde ne nezerde tutulduguna baxaq. **RAM)** yeni muvveqeti yaddas iki hisseye ayrilir **Stack ve Heap)** ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin **Stack ve Heap)** yaddasda saxlanildigini gosdermisem. **QEYD)** Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  **int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)** -->bunlar her biri **valu tayipdir stack yaddasda saxlanilir)** ve reference tayiplardan suretli isleyir.
 2.  **string,char, massivler mes:int[] ,classlar ve s.)** bunlar ise **Reference tayipdir ve Heap yaddasda saxlanilir)** ve valu tayiplardan asagi suretde isleyir.
