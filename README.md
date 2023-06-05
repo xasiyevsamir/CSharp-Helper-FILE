@@ -73,7 +73,7 @@ QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra is
 
 ---
 
-<details><summary><b>Movzu:1.Movzu:Vareybillar ve Tiplerin bir-birine cevrilmesi.</b></summary>
+<details><summary><b>1.Movzu:Vareybillar ve Tiplerin bir-birine cevrilmesi.</b></summary>
 1. Vareybillar bizim kod yazarken adlandirdigimiz hissedir ,yeni aldigimiz melumati, deyeri neyin daxilinde saxliyiriqsa bunlara vareybillar deyilir.Mes : int a =10; string b="cofe", double c=12.3;
 burada a,b, ve c vareybil adlanir.Vareybillari biz teyin edirik. Burada 10, 12.3, "cofe" ise data adlanir yeni melumat.Burada int, string ve double ise bizim datatype adlanir.Yeni datatype datanin hansi tipdan oldugunu bildirir, fincanda cofe dedikde burda cofe data b vareybil string ise datatype-dir.Yeni fincanin hansi materialdan oldugunu bildirir yeni saxsi ve ya suse.
 <b>DateType-larin Novleri .</b>DateType 2 novu var <b>(Value ve Refarence)</b><br/><details><summary><b>Value</b></summary>Reqem tipli datalari saxlamaq ucundur Mes:<b>int,double,float,byte</b><br/><b>Reqem Tiplerin Cevrilmesi.</b> Bunun 2 izahi var.<br/> <b>1.Implicit ot auto conversion.</b><br/><i>Sekilde gorduyumuz kimi az tutumlu datetype cox tutumlu datetype uzerine atriq yeni onsuzda short ve int byte uzerine gotre bilir ve buna gorede bu cevirmeye avtomatic implicit deyilir.Yeni avtomatiq olaraq cevrir problemsiz.</i>
@@ -84,21 +84,22 @@ burada a,b, ve c vareybil adlanir.Vareybillari biz teyin edirik. Burada 10, 12.3
  </p><br/>
  <b>2.Explicit conversion.</b><br/>
  <i>Sekilden gorduyumuz kimi int tipinden olan bir datani ondan kicik tipe int-e cevirmek isdemisik ve biz cevirerken (short) yazmaqla demisik ki problem yoxdu int tipinde olan datani short tipi qebul ede bilecek ve qebul ede bilmese mesuliyyeti uzerime gotrurem .Eger short gotre bilmerse hemin tipi dovur edir ve ozu gotre bileceyi datada dayanir.Eger biz problem oldugu halda bize melum olmagini isdesek <b>checked</b>-ile biz bu erroru gore bilerik.</i>
+ <p>
  <img src="image\cs2.png" width="300" height="200" alt="Sekil silinib" title="Explicit conversion."/>
  <img src="image\cs3.png" width="300" height="200" alt="Sekil silinib" title="Checked erroru."/>
-
+</p>
  </details>
-
 <details><summary><b><u>Refarence</u></b></summary><br/>Metin tipli datalari saxlamaq ucundur Mes:<b>string, char, class,Method,Massiv ve s.</b><br/>
 <b><i>1.Convert.ToInt32</i></b>----> <i>Butun tiplerden cevirme apara bilir Parse dan ferqli olaraq.</i><br/>
 <b><i>2.Tipin adi.Parse</i></b> ----> </i>Yalniz reqem tipli stringleri cevire bilir. mes: "123". Yeni string olmayan neyise cevire bilmir</i>.<br/>
 <b><i>3.Tipin adi.TryParse(date, out Tipin adi a)</b></i>---> <i>bu cevirme digerlerinden ferqlenir yeni geriye bool (ture,false) qaytarir yeni cevrile bilir ya cevrile bilmir .</i></details></details>
 _________________________________________________________________________________________________________
 
-                                                             (OPERATORLAR.)
-
+<details><summary><b>2.Movzu: Operatorlar.</b></summary>
 Operatorlar bir nece yere ayrilirlar bunlar asagidakilardir.
-
+<p>
+ <img src="image\cs4.png" width="650" height="400" alt="Sekil silinib" title="Operatorlar."/>
+ </p><br/>
 1.  Sade operatorlar (+, -, _, /, %)
     **(+)** --> toplama emeliyatini yerine yetirmek ucundur.
     **(-)** --> cixma emeliyatini yerine yetirmek ucundur.
@@ -113,10 +114,10 @@ Operatorlar bir nece yere ayrilirlar bunlar asagidakilardir.
     **(<=,>=)** --> kicik beraberdir boyuk beraberdir operatorudur.
 
 3.  Serti operatorlar (&&, ||, !)
-    **(&&)** --> (ve) operatorudur burda sertin herbiri dogru olmalidir.
-    **(||)** --> (ve ya) operatorudur burada sertlerden hec olmasa biri dogru olmalidir.
-    **(!)** --> (deyilse) operatorudur.Yeni ture-nu false-a cevirir yada false-u ture-ya cevrir.
-
+**(&&)** --> (ve) operatorudur burda sertin herbiri dogru olmalidir.
+**(||)** --> (ve ya) operatorudur burada sertlerden hec olmasa biri dogru olmalidir.
+**(!)** --> (deyilse) operatorudur.Yeni ture-nu false-a cevirir yada false-u ture-ya cevrir.
+</details>
                                    Bezi qaydalar.
 
 4.  int a=10;  
@@ -144,7 +145,7 @@ int c=(--a + a++); c=9+9=18
 
 2.  **(Console.WriteLine();)** ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.
 3.  Netice----> samir
-4.                                                                     --->> xasiyev  olacaqdir.
+4.                                                                       --->> xasiyev  olacaqdir.
 5.  **(Console.Redkey();)** yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
 
 - **var key=Console.ReadKey(), (key.Key==ConsoleKey.Enter))** bu yazilisla biz isdifadecinin hasi duymeni sabasini izah ede bilerik.
@@ -248,15 +249,12 @@ int c=(--a + a++); c=9+9=18
                                                     ACAR SOZLER.
 
 1.  **(checked)** ---> asmalarin qarsisini alir ,yeni mes : int maksiumum kecdikde xeberdarliq edir.
-2.  **(Convert.)**----> Butun tiplerden cevirme apara bilir Parse dan ferqli olaraq.
-3.  **(tipinadi.Parse)** ----> Yalniz reqem tipli stringleri cevire bilir. mes: "123". Yeni string olmayan neyise cevire bilmirş
-4.  **(tipinadi.TryParse(date, out tipinadi a))**---> bu cevirme digerlerinden ferqlenir yeni geriye bool **(ture,false)** qaytarir yeni cevrile bilir ya cevrile bilmir .
-5.  **(break)** ---> Acar sozu qirmaq demekdir ve sert daxilinde emeliyati dayandirar ve koddan cixar.
-6.  **(countine)**---> Acar sozdur davam et demekdir yeni break kimi emeliyati saxlamaz yalniz gormezden gelib davam eder.
-7.  **(return)**---> geri donus geri qaytar demekdir ve gelen datani cagrilan metoda gonderer.
-8.  **(out)** bu geri donus demekdir ve out a colde qiymet versekde olar vermesekde ama iceride mutleq qiymet vermeliyik.mes: TryParsda out var, orda oldugu kimi out-a qiymet vermirik sadece **int b;)** ve ya **(out int b)** kimi yaziriq , ama qiymet versek de olar.
-9.  **(ref)** bu da geri donus demekdir lakin out dan ferqli olaraq ref-e colde mutleq qiymet verilmelidir.Iceride ise versekde olar vermesekde.Umumiyetle metotlarda geri donus **return)** ile olur .Bize methodun bir nece geri donusunu isdiyirikse onda **ref ve ya out)** dan isdifade edirik .**return)** yalniz bir deyer geri donus ede bilir.
-10. **(in)** bu da geri donusdur ferqi ise colde daxil edilen nedirse iceridede o olaraq qalir hec vaxd deyismir sehven deyisdirmek yeni bolmek azaltmaq fln etsek de deyismir nece methoda daxil olubsa ele de cixir.
+2.  **(break)** ---> Acar sozu qirmaq demekdir ve sert daxilinde emeliyati dayandirar ve koddan cixar.
+3.  **(countine)**---> Acar sozdur davam et demekdir yeni break kimi emeliyati saxlamaz yalniz gormezden gelib davam eder.
+4.  **(return)**---> geri donus geri qaytar demekdir ve gelen datani cagrilan metoda gonderer.
+5.  **(out)** bu geri donus demekdir ve out a colde qiymet versekde olar vermesekde ama iceride mutleq qiymet vermeliyik.mes: TryParsda out var, orda oldugu kimi out-a qiymet vermirik sadece **int b;)** ve ya **(out int b)** kimi yaziriq , ama qiymet versek de olar.
+6.  **(ref)** bu da geri donus demekdir lakin out dan ferqli olaraq ref-e colde mutleq qiymet verilmelidir.Iceride ise versekde olar vermesekde.Umumiyetle metotlarda geri donus **return)** ile olur .Bize methodun bir nece geri donusunu isdiyirikse onda **ref ve ya out)** dan isdifade edirik .**return)** yalniz bir deyer geri donus ede bilir.
+7.  **(in)** bu da geri donusdur ferqi ise colde daxil edilen nedirse iceridede o olaraq qalir hec vaxd deyismir sehven deyisdirmek yeni bolmek azaltmaq fln etsek de deyismir nece methoda daxil olubsa ele de cixir.
 
 ---
 
@@ -330,7 +328,7 @@ int c=(--a + a++); c=9+9=18
 
 ---
 
-0.                                                                                                                      __Valu ve Reference types)__
+0.                                                                                                                        __Valu ve Reference types)__
     **Valu ve Reference)** tayip dedikde ne nezerde tutulduguna baxaq. **RAM)** yeni muvveqeti yaddas iki hisseye ayrilir **Stack ve Heap)** ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin **Stack ve Heap)** yaddasda saxlanildigini gosdermisem. **QEYD)** Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  **int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)** -->bunlar her biri **valu tayipdir stack yaddasda saxlanilir)** ve reference tayiplardan suretli isleyir.
 2.  **string,char, massivler mes:int[] ,classlar ve s.)** bunlar ise **Reference tayipdir ve Heap yaddasda saxlanilir)** ve valu tayiplardan asagi suretde isleyir.
