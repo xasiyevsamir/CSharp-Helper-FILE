@@ -165,9 +165,9 @@ Operatorlar bir nece yere ayrilirlar bunlar asagidakilardir.
  <img src="image\cs30.png" width="30px" height="30px" alt="Sekil silinib" title="Data Cix menimsetme Operatoru."/>
  __ Bu operatoru qisa yazilisda isdifade edirik .Sekilde baxa bilersiz.<br/>
  <img src="image\cs32.png" width="300"  alt="Sekil silinib" title="Qisa yazilis izah."/>
- <img src="image\cs30.png" width="30px" height="30px" alt="Sekil silinib" title="Data Topla menimsetme Operatoru."/>
+ <img src="image\cs33.png" width="30px" height="30px" alt="Sekil silinib" title="Data Topla menimsetme Operatoru."/>
  __ Bu operatoru qisa yazilisda isdifade edirik .Sekilde baxa bilersiz.<br/>
- <img src="image\cs33.png" width="300"  alt="Sekil silinib" title="Qisa yazilis izah."/>
+ <img src="image\cs31.png" width="300"  alt="Sekil silinib" title="Qisa yazilis izah."/>
  
  
  
@@ -206,7 +206,7 @@ int c=(--a + a++); c=9+9=18
 
 2.  **(Console.WriteLine();)** ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.
 3.  Netice----> samir
-4.                                                                                                            --->> xasiyev  olacaqdir.
+4.                                                                                                             --->> xasiyev  olacaqdir.
 5.  **(Console.Redkey();)** yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
 
 - **var key=Console.ReadKey(), (key.Key==ConsoleKey.Enter))** bu yazilisla biz isdifadecinin hasi duymeni sabasini izah ede bilerik.
@@ -389,7 +389,7 @@ int c=(--a + a++); c=9+9=18
 
 ---
 
-0.                                                                                                                                                             __Valu ve Reference types)__
+0.                                                                                                                                                              __Valu ve Reference types)__
     **Valu ve Reference)** tayip dedikde ne nezerde tutulduguna baxaq. **RAM)** yeni muvveqeti yaddas iki hisseye ayrilir **Stack ve Heap)** ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin **Stack ve Heap)** yaddasda saxlanildigini gosdermisem. **QEYD)** Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  **int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)** -->bunlar her biri **valu tayipdir stack yaddasda saxlanilir)** ve reference tayiplardan suretli isleyir.
 2.  **string,char, massivler mes:int[] ,classlar ve s.)** bunlar ise **Reference tayipdir ve Heap yaddasda saxlanilir)** ve valu tayiplardan asagi suretde isleyir.
