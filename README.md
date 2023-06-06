@@ -16,47 +16,48 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
 3.  cu project yaratmaq ucun--> dotnet new console --framework net6.0 --use-program-main emrinden istifade edirik .Burada isdesek net6.0 fersiyani istesek deyise bilerik.
 4.  cu ise solutions ve projecti elaqelendiririk-->> dotnet sln (solution adi yeni:code) add project\csproj sonlugu ile biten fayil ve enter.
 
-    12.<b>Axdaris yerine dotnet new sln --name MySolution</b>-yazdiqda asagidaki sekili tapmaq lazimdir.
-    <i>Sayita daxil olduqdan sonra bu (dotnet new sln --name MySolution) yazilisi tapib isdifade ede bilerik. </i><br/>
-    <p>
-    <img src="image\cs35.png" alt="Sekil silinib" title="Yeni solutions yaratmaq."/>
-    </p><br/>
-    13.<b>
-    <p> Axdaris yerine dotnet create new console app project yazzsaq yeni project yaratmaq ucun asagidaki sekil gelecekdir.
-    <img src="image\cs36.png" alt="Sekil silinib" title="Yeni project yaratmaq."/>
-    </p><br/>
-    14.<i> Yaratdigimiz solutions ve projecs elaqelendirmek ucun google axdarisa (dotnet add project solutions create) sayita daxil olduqdan sonra ise qarsimiza cixan (dotnet sln solution.sln add --solution-folder foo1\foo2\foo3 bar.csproj) yazilisdan istifade ederek elaqeni yaradiriq.</i><br/>
-    <p>
-    <img src="image\cs37.png" alt="Sekil silinib" title="Yeni solutions yaratmaq."/>
-    </p><br/>
+        12.<b>Axdaris yerine dotnet new sln --name MySolution</b>-yazdiqda asagidaki sekili tapmaq lazimdir.
+        <i>Sayita daxil olduqdan sonra bu (dotnet new sln --name MySolution) yazilisi tapib isdifade ede bilerik. </i><br/>
+        <p>
+        <img src="image\cs35.png" alt="Sekil silinib" title="Yeni solutions yaratmaq."/>
+        </p><br/>
+        13.<b>
+        <p> Axdaris yerine dotnet create new console app project yazzsaq yeni project yaratmaq ucun asagidaki sekil gelecekdir.
+        <img src="image\cs36.png" alt="Sekil silinib" title="Yeni project yaratmaq."/>
+        </p><br/>
+        14.<i> Yaratdigimiz solutions ve projecs elaqelendirmek ucun google axdarisa (dotnet add project solutions create) sayita daxil olduqdan sonra ise qarsimiza cixan (dotnet sln solution.sln add --solution-folder foo1\foo2\foo3 bar.csproj) yazilisdan istifade ederek elaqeni yaradiriq.</i><br/>
+        <p>
+        <img src="image\cs37.png" alt="Sekil silinib" title="Yeni solutions yaratmaq."/>
+        </p><br/>
 
-<details><summary><b>1.Movzu:GITHUB ---->> Yaratmaq.</b></summary><br/><br/>
-QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra ise bir nece emirden isdifade ederek yeni repositories yarada bilerik .
-…or create a new repository on the command line
+    </details>
+    <details><summary><b>1.Movzu:GITHUB ---->> Yaratmaq.</b></summary><br/><br/>
+    QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra ise bir nece emirden isdifade ederek yeni repositories yarada bilerik .
+    …or create a new repository on the command line
 
-1.  git clone (linkimizi buraya yerlesdiririk).<br/>
-2.  echo "dirnaq arasina ne isdesez yaza bilersiz">> README.md -------->>(readme fayili yaratmaq ucundur.)<br/>
-3.  git init ---------->>>(git pafqasi yaratmaq ucundur )<br/>
-4.  git add README.md ------->>(readmi fayilini testiq etmek ucun)<br/>
-5.  git commit -m "first commit" -----(deyisikliye ad vermek ucun)<br/>
-6.  git branch -M main<br/>
-7.  git remote add origin https://github.com/xasiyevsamir/taskkkk.git<br/>
-8.  git push -u origin main<br/>
+5.  git clone (linkimizi buraya yerlesdiririk).<br/>
+6.  echo "dirnaq arasina ne isdesez yaza bilersiz">> README.md -------->>(readme fayili yaratmaq ucundur.)<br/>
+7.  git init ---------->>>(git pafqasi yaratmaq ucundur )<br/>
+8.  git add README.md ------->>(readmi fayilini testiq etmek ucun)<br/>
+9.  git commit -m "first commit" -----(deyisikliye ad vermek ucun)<br/>
+10. git branch -M main<br/>
+11. git remote add origin https://github.com/xasiyevsamir/taskkkk.git<br/>
+12. git push -u origin main<br/>
     Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
     </details>
 
                                                               (RIYAZI CODLAR.)
 
-9.  **(Math.Pow(10,2))** ---> burada 10 kvadratini yazmisiq yeni (10\*10) .Bunu isdediyimiz kimi yaza bilerik yeni kub ve s. Meselen: Math.Pow(10,3) , (10,4).
-10. **(Math.Log10)**---> ededin nece reqemli oldugunu tapir amma neticenin usdune mutleq 1 gelirik.
-11. **(Math.sqrt)**----> koku tapmaq ucun istifada edilir.
-12. **(Math.Round)**---> riyazi yuvarlasdirmaq ucun istifade edilir.
-13. **(Math.Floor)**---> asagi yuvarlasdirmaq,yeni tam hisseye kimi atir.
-14. **(Math.Ceiling)**---> yuxari yuvarlasdirmaq.
-15. **(Math.PI)**---> pi deyeridir .hesabliyada isdifade ede bilerik.
-16. **(Math.Abs)**--->Modulu tapmaq ucundur.
-17. **(Math.Max)**--> ededin maksimumun tapir.
-18. **(Math.Min)**--> ededin minumumun tapir.
+13. **(Math.Pow(10,2))** ---> burada 10 kvadratini yazmisiq yeni (10\*10) .Bunu isdediyimiz kimi yaza bilerik yeni kub ve s. Meselen: Math.Pow(10,3) , (10,4).
+14. **(Math.Log10)**---> ededin nece reqemli oldugunu tapir amma neticenin usdune mutleq 1 gelirik.
+15. **(Math.sqrt)**----> koku tapmaq ucun istifada edilir.
+16. **(Math.Round)**---> riyazi yuvarlasdirmaq ucun istifade edilir.
+17. **(Math.Floor)**---> asagi yuvarlasdirmaq,yeni tam hisseye kimi atir.
+18. **(Math.Ceiling)**---> yuxari yuvarlasdirmaq.
+19. **(Math.PI)**---> pi deyeridir .hesabliyada isdifade ede bilerik.
+20. **(Math.Abs)**--->Modulu tapmaq ucundur.
+21. **(Math.Max)**--> ededin maksimumun tapir.
+22. **(Math.Min)**--> ededin minumumun tapir.
 
 ---
 
@@ -198,7 +199,7 @@ int c=(--a + a++); c=9+9=18
 
 2.  **(Console.WriteLine();)** ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.
 3.  Netice----> samir
-4.                                                                                                                                 --->> xasiyev  olacaqdir.
+4.                                                                                                                                  --->> xasiyev  olacaqdir.
 5.  **(Console.Redkey();)** yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
 
 - **var key=Console.ReadKey(), (key.Key==ConsoleKey.Enter))** bu yazilisla biz isdifadecinin hasi duymeni sabasini izah ede bilerik.
@@ -381,7 +382,7 @@ int c=(--a + a++); c=9+9=18
 
 ---
 
-0.                                                                                                                                                                                  __Valu ve Reference types)__
+0.                                                                                                                                                                                   __Valu ve Reference types)__
     **Valu ve Reference)** tayip dedikde ne nezerde tutulduguna baxaq. **RAM)** yeni muvveqeti yaddas iki hisseye ayrilir **Stack ve Heap)** ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin **Stack ve Heap)** yaddasda saxlanildigini gosdermisem. **QEYD)** Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  **int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)** -->bunlar her biri **valu tayipdir stack yaddasda saxlanilir)** ve reference tayiplardan suretli isleyir.
 2.  **string,char, massivler mes:int[] ,classlar ve s.)** bunlar ise **Reference tayipdir ve Heap yaddasda saxlanilir)** ve valu tayiplardan asagi suretde isleyir.
