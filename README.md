@@ -153,11 +153,10 @@ Operatorlar bir nece yere ayrilirlar bunlar asagidakilardir.
 <details><summary><p><b>Muxdelif emeliyyat operatorlar--></b>
  <img src="image\cs34.png" width="300"  alt="Sekil silinib" title="Muxdelif emeliyyat operatorlar"/>
  </p></summary>
-<details><summary><p><b>Sizeof--></b>
 <i>DateType nece byte yer tutdugunu bildirir.</i><br/>
  <img src="image\cs39.png" width="300"  alt="Sekil silinib" title="Sizeof operatorlar"/>
  <img src="image\cs40.png" width="300"  alt="Sekil silinib" title="Netice"/>
- </p></summary></details>
+ </p></summary>
 </details></details>
 <details><summary><b>7.Movzu:Console codlari.</b></summary>
 1.<b>Console.Write();</b> ---> bu kod vasitesi ile biz ekranda her hansi bir melumati cap(yazdira) ede bilerik.Yazini cap edir ve nobeti yazini cap etdirende qarsisina alir yeni Console.Write("samir")
@@ -297,7 +296,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 ---
 
-0.                                                                                                                                                                                                                     __Valu ve Reference types)__
+0.                                                                                                                                                                                                                      __Valu ve Reference types)__
     </b>Valu ve Reference)</b> tayip dedikde ne nezerde tutulduguna baxaq. </b>RAM)</b> yeni muvveqeti yaddas iki hisseye ayrilir </b>Stack ve Heap)</b> ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin </b>Stack ve Heap)</b> yaddasda saxlanildigini gosdermisem. </b>QEYD)</b> Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  </b>int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)</b> -->bunlar her biri </b>valu tayipdir stack yaddasda saxlanilir)</b> ve reference tayiplardan suretli isleyir.
 2.  </b>string,char, massivler mes:int[] ,classlar ve s.)</b> bunlar ise </b>Reference tayipdir ve Heap yaddasda saxlanilir)</b> ve valu tayiplardan asagi suretde isleyir.
