@@ -1,4 +1,6 @@
 <details><summary><b>1.Movzu:Cmd ---- emirleri.</b></summary><br/><br/>
+<a herf="learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln">Yeni solutions yaratmaq cmd ile</a>
+<p>
 1.<b>cd bosluq enter</b> oldugun fayila aparir.<br/>
 2.<b>cd bosluq ..</b> bir fayil geri cixir.<br/>
 3.<b>cd bosluq fayilin adi</b> adi qeyd edilen fayila kecit edir.<br/>
@@ -11,8 +13,7 @@
 10.<b>echo "" >>.gitignore</b> -- burada yeni cmd ekraninda .gitignore fayili yarada bilerik bu emirle.<br/>
 11.<b>rundll32.exe user32.dll,LockWorkStation</b> komputeri cmd ile kilidlemek ucun olan emir.<br/>
 <i>Sayita daxil olduqdan sonra bu (dotnet new sln --name MySolution) yazilisi tapib isdifade ede bilerik. </i><br/>
-<a herf="learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln">Yeni solutions yaratmaq cmd ile</a>
-<p>
+
 <img src="image\cs35.png" alt="Sekil silinib" title="Yeni solutions yaratmaq."/>
 </p><br/>
 13. Yeni project yaradanda google axdarisda bunu yazaraq tapa bilerik (dotnet create new console app project) sayita daxil olduqdan sonra bele bir yazilisi goreceyik ve istifade edeceyik (dotnet new console --framework net6.0 --use-program-main)
@@ -213,7 +214,7 @@ int c=(--a + a++); c=9+9=18
 
 2.  **(Console.WriteLine();)** ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.
 3.  Netice----> samir
-4.                                                                                                                         --->> xasiyev  olacaqdir.
+4.                                                                                                                          --->> xasiyev  olacaqdir.
 5.  **(Console.Redkey();)** yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
 
 - **var key=Console.ReadKey(), (key.Key==ConsoleKey.Enter))** bu yazilisla biz isdifadecinin hasi duymeni sabasini izah ede bilerik.
@@ -396,7 +397,7 @@ int c=(--a + a++); c=9+9=18
 
 ---
 
-0.                                                                                                                                                                          __Valu ve Reference types)__
+0.                                                                                                                                                                           __Valu ve Reference types)__
     **Valu ve Reference)** tayip dedikde ne nezerde tutulduguna baxaq. **RAM)** yeni muvveqeti yaddas iki hisseye ayrilir **Stack ve Heap)** ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin **Stack ve Heap)** yaddasda saxlanildigini gosdermisem. **QEYD)** Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  **int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)** -->bunlar her biri **valu tayipdir stack yaddasda saxlanilir)** ve reference tayiplardan suretli isleyir.
 2.  **string,char, massivler mes:int[] ,classlar ve s.)** bunlar ise **Reference tayipdir ve Heap yaddasda saxlanilir)** ve valu tayiplardan asagi suretde isleyir.
