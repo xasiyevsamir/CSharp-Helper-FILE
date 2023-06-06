@@ -1,20 +1,23 @@
-                                                           (Cmd ---- emirleri.)
-
-1. **cd bosluq enter)** oldugun fayila aparir.
-2. **cd bosluq ..)** bir fayil geri cixir.
-3. **cd bosluq fayilin adi)** adi qeyd edilen fayila kecit edir.
-4. **cls)** acilmis butun melumatlari temizleyir.
-5. **dir)** fayilin icine daxil olur.
-6. **mkdir)** yeni fayil yaradir.
-7. **prompt $$)** yeni setri dollar isaresi ile basladir.
-8. **dotnet run)** emri ise kodu ise salir.
-9. **code .)** visual studio coda kecid emridir.
-10. **echo "" >>.gitignore)** -- burada yeni cmd ekraninda .gitignore fayili yarada bilerik bu emirle.
-11. **rundll32.exe user32.dll,LockWorkStation)** komputeri cmd ile kilidlemek ucun olan emir.
-12. Yeni solutions yaradanda google axdarisda bunu yazaraq tapa bilerik (dotnet new create solution) sayita daxil olduqdan sonra qarsimiza bele bir yazilis cixacaq ve istifade edeceyik (dotnet new sln --name MySolution).
+<details><summary><b>Cmd ---- emirleri.</b></summary><br/><br/>
+1.<b>cd bosluq enter</b> oldugun fayila aparir.
+2.<b>cd bosluq ..</b> bir fayil geri cixir.
+3.<b>cd bosluq fayilin adi</b> adi qeyd edilen fayila kecit edir.
+4.<b>cls</b>acilmis butun melumatlari temizleyir.
+5.<b>dir</b> fayilin icine daxil olur.
+6.<b>mkdir</b> yeni fayil yaradir.
+7.<b>prompt $$</b> yeni setri dollar isaresi ile basladir.
+8.<b>dotnet run</b> emri ise kodu ise salir.
+9.<b>code .</b> visual studio coda kecid emridir.
+10.<b>echo "" >>.gitignore</b> -- burada yeni cmd ekraninda .gitignore fayili yarada bilerik bu emirle.
+11.<b>rundll32.exe user32.dll,LockWorkStation</b> komputeri cmd ile kilidlemek ucun olan emir.
+<a herf="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln">12.Yeni solutions yaratmaq cmd ile.</a>
+<i>Sayita daxil olduqdan sonra bu (dotnet new sln --name MySolution) yazilisi tapib isdifade ede bilerik. </i>
+<p>
+<img src="image\cs35.png" alt="Sekil silinib" title="Yeni solutions yaratmaq."/>
+</p>
 13. Yeni project yaradanda google axdarisda bunu yazaraq tapa bilerik (dotnet create new console app project) sayita daxil olduqdan sonra bele bir yazilisi goreceyik ve istifade edeceyik (dotnet new console --framework net6.0 --use-program-main)
 14. Yaratdigimiz solutions ve projecs elaqelendirmek ucun google axdarisa (dotnet add project solutions create) sayita daxil olduqdan sonra ise qarsimiza cixan (dotnet sln solution.sln add --solution-folder foo1\foo2\foo3 bar.csproj) yazilisdan istifade ederek elaqeni yaradiriq.
-
+</details>
 ---
 
                                                           (Bezi axdarislar.)
@@ -89,7 +92,7 @@ burada a,b, ve c vareybil adlanir.Vareybillari biz teyin edirik. Burada 10, 12.3
  <img src="image\cs3.png" width="300" height="200" alt="Sekil silinib" title="Checked erroru."/>
 </p>
  </details>
-<details><summary><b><u>Refarence</u></b></summary><br/>Metin tipli datalari saxlamaq ucundur Mes:<b>string, char, class,Method,Massiv ve s.</b><br/>
+<details><summary><b>Refarence</b></summary><br/>Metin tipli datalari saxlamaq ucundur Mes:<b>string, char, class,Method,Massiv ve s.</b><br/>
 <b><i>1.Convert.ToInt32</i></b>----> <i>Butun tiplerden cevirme apara bilir Parse dan ferqli olaraq.</i><br/>
 <b><i>2.Tipin adi.Parse</i></b> ----> </i>Yalniz reqem tipli stringleri cevire bilir. mes: "123". Yeni string olmayan neyise cevire bilmir</i>.<br/>
 <b><i>3.Tipin adi.TryParse(date, out Tipin adi a)</b></i>---> <i>bu cevirme digerlerinden ferqlenir yeni geriye bool (ture,false) qaytarir yeni cevrile bilir ya cevrile bilmir .</i></details></details>
@@ -211,7 +214,7 @@ int c=(--a + a++); c=9+9=18
 
 2.  **(Console.WriteLine();)** ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.
 3.  Netice----> samir
-4.                                                                                                                --->> xasiyev  olacaqdir.
+4.                                                                                                                  --->> xasiyev  olacaqdir.
 5.  **(Console.Redkey();)** yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
 
 - **var key=Console.ReadKey(), (key.Key==ConsoleKey.Enter))** bu yazilisla biz isdifadecinin hasi duymeni sabasini izah ede bilerik.
@@ -394,7 +397,7 @@ int c=(--a + a++); c=9+9=18
 
 ---
 
-0.                                                                                                                                                                 __Valu ve Reference types)__
+0.                                                                                                                                                                   __Valu ve Reference types)__
     **Valu ve Reference)** tayip dedikde ne nezerde tutulduguna baxaq. **RAM)** yeni muvveqeti yaddas iki hisseye ayrilir **Stack ve Heap)** ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin **Stack ve Heap)** yaddasda saxlanildigini gosdermisem. **QEYD)** Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  **int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)** -->bunlar her biri **valu tayipdir stack yaddasda saxlanilir)** ve reference tayiplardan suretli isleyir.
 2.  **string,char, massivler mes:int[] ,classlar ve s.)** bunlar ise **Reference tayipdir ve Heap yaddasda saxlanilir)** ve valu tayiplardan asagi suretde isleyir.
