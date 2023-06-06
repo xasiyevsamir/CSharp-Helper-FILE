@@ -1,4 +1,4 @@
-<details><summary><b>1.Movzu:Bezi axdarislar..</b></summary><br/><br/>
+<details><summary><b>1.Movzu:Bezi axdarislar..</b></summary><br/>
 <a href="https://stackoverflow.com/questions/449887/sending-e-mail-using-c-sharp">1.C# E-mail gondermek yolu !</a><br>
 <a href="https://survey.stackoverflow.co/2022/#technology">2.Burada proqram dillerinin ilden ile inkisafina baxa bilerik !</a><br>
 <a href="https://app.diagrams.net/#G1mSYKv9CSSXe6tr4bshxjfb5QuU_hI0kP">3.Alqoritim qurmaq ucun isdifade edilen sexemleri bize verir !</a><br>
@@ -6,7 +6,7 @@
 <a href="http://www.java2s.com/Tutorial/CSharp/CatalogCSharp.htm">5.C# ders sayiti !</a><br>
 <a href="http://extraconversion.com/base-number">6.Say sisteminin cevrilisi!</a></details>
 
-<details><summary><b>2.Movzu:Cmd ---- emirleri.</b></summary><br/><br/>
+<details><summary><b>2.Movzu:Cmd ---- emirleri.</b></summary><br/>
 1.<b>cd bosluq enter</b> oldugun fayila aparir.<br/> 2.<b>cd bosluq ..</b> bir fayil geri cixir.<br/> 3.<b>cd bosluq fayilin adi</b> adi qeyd edilen fayila kecit edir.<br/> 4.<b>cls</b>acilmis butun melumatlari temizleyir.<br/> 5.<b>dir</b> fayilin icine daxil olur.<br/> 6.<b>mkdir</b> yeni fayil yaradir.<br/> 7.<b>prompt $$</b> yeni setri dollar isaresi ile basladir.<br/> 8.<b>dotnet run</b> emri ise kodu ise salir.<br/> 9.<b>code .</b> visual studio coda kecid emridir.<br/> 10.<b>echo "" >>.gitignore</b> -- burada yeni cmd ekraninda .gitignore fayili yarada bilerik bu emirle.<br/> 11.<b>rundll32.exe user32.dll,LockWorkStation</b> komputeri cmd ile kilidlemek ucun olan emir.<br/>
 <b><i>(Solutions and project)</i></b><br/>
 QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada bilerik.Bunun ucun bir nece etablari kecmeliyik.Evvelce yeni fayil yaratmaliyiq. Fayili ise mkdir emri ile yarada bilerik bunu yuxarida qeyd etmisem . Yeni Solutions ve project yaradaq..
@@ -30,7 +30,7 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
 </p><br/>
 </details>
 
-<details><summary><b>3.Movzu:GITHUB ---->> Yaratmaq.</b></summary><br/><br/>
+<details><summary><b>3.Movzu:GITHUB ---->> Yaratmaq.</b></summary><br/>
     QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra ise bir nece emirden isdifade ederek yeni repositories yarada bilerik .
     …or create a new repository on the command line
 
@@ -46,16 +46,8 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 </details>
 <details><summary><b>4.Movzu:Math sinifi.</b></summary><br/><br/>
 
-13. **(Math.Pow(10,2))** ---> burada 10 kvadratini yazmisiq yeni (10\*10) .Bunu isdediyimiz kimi yaza bilerik yeni kub ve s. Meselen: Math.Pow(10,3) , (10,4).
-14. **(Math.Log10)**---> ededin nece reqemli oldugunu tapir amma neticenin usdune mutleq 1 gelirik.
-15. **(Math.sqrt)**----> koku tapmaq ucun istifada edilir.
-16. **(Math.Round)**---> riyazi yuvarlasdirmaq ucun istifade edilir.
-17. **(Math.Floor)**---> asagi yuvarlasdirmaq,yeni tam hisseye kimi atir.
-18. **(Math.Ceiling)**---> yuxari yuvarlasdirmaq.
-19. **(Math.PI)**---> pi deyeridir .hesabliyada isdifade ede bilerik.
-20. **(Math.Abs)**--->Modulu tapmaq ucundur.
-21. **(Math.Max)**--> ededin maksimumun tapir.
-22. **(Math.Min)**--> ededin minumumun tapir.
+13.<b>(Math.Pow(10,2))</b> ---> burada 10 kvadratini yazmisiq yeni (10\*10) .Bunu isdediyimiz kimi yaza bilerik yeni kub ve s. Meselen: Math.Pow(10,3) , (10,4).<br/> 14.<b>(Math.Log10)</b>---> ededin nece reqemli oldugunu tapir amma neticenin usdune mutleq 1 gelirik.<br/> 15.<b>(Math.sqrt)</b>----> koku tapmaq ucun istifada edilir.<br/> 16.<b>(Math.Round)</b>---> riyazi yuvarlasdirmaq ucun istifade edilir.<br/> 17.<b>(Math.Floor)</b>---> asagi yuvarlasdirmaq,yeni tam hisseye kimi atir.<br/> 18.<b>(Math.Ceiling)</b>---> yuxari yuvarlasdirmaq.<br/> 19.<b>(Math.PI)</b>---> pi deyeridir .hesabliyada isdifade ede bilerik.<br/> 20.<b>(Math.Abs)</b>--->Modulu tapmaq ucundur.<br/> 21.<b>(Math.Max)</b>--> ededin maksimumun tapir.<br/> 22.<b>(Math.Min)</b>--> ededin minumumun tapir.<br/>
+
 </details>
 <details><summary><b>5.Movzu:Vareybillar ve Tiplerin bir-birine cevrilmesi.</b></summary>
 23. Vareybillar bizim kod yazarken adlandirdigimiz hissedir ,yeni aldigimiz melumati, deyeri neyin daxilinde saxliyiriqsa bunlara vareybillar deyilir.Mes : int a =10; string b="cofe", double c=12.3;
@@ -336,7 +328,7 @@ Console.Write("xasiyev") netice---> samirxasiyev olacaqdir. oldugu setirde qalir
 
 ---
 
-0.                                                                                                                                                                                                  __Valu ve Reference types)__
+0.                                                                                                                                                                                                   __Valu ve Reference types)__
     **Valu ve Reference)** tayip dedikde ne nezerde tutulduguna baxaq. **RAM)** yeni muvveqeti yaddas iki hisseye ayrilir **Stack ve Heap)** ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin **Stack ve Heap)** yaddasda saxlanildigini gosdermisem. **QEYD)** Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  **int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)** -->bunlar her biri **valu tayipdir stack yaddasda saxlanilir)** ve reference tayiplardan suretli isleyir.
 2.  **string,char, massivler mes:int[] ,classlar ve s.)** bunlar ise **Reference tayipdir ve Heap yaddasda saxlanilir)** ve valu tayiplardan asagi suretde isleyir.
