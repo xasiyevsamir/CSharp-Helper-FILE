@@ -30,7 +30,7 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
 </p><br/>
 </details>
 
-<details><summary><b>1.Movzu:GITHUB ---->> Yaratmaq.</b></summary><br/><br/>
+<details><summary><b>3.Movzu:GITHUB ---->> Yaratmaq.</b></summary><br/><br/>
     QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra ise bir nece emirden isdifade ederek yeni repositories yarada bilerik .
     …or create a new repository on the command line
 
@@ -42,10 +42,9 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
 10. git branch -M main<br/>
 11. git remote add origin https://github.com/xasiyevsamir/taskkkk.git<br/>
 12. git push -u origin main<br/>
-    Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
-    </details>
-
-                                                              (RIYAZI CODLAR.)
+Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
+</details>
+<details><summary><b>4.Movzu:Math sinifi.</b></summary><br/><br/>
 
 13. **(Math.Pow(10,2))** ---> burada 10 kvadratini yazmisiq yeni (10\*10) .Bunu isdediyimiz kimi yaza bilerik yeni kub ve s. Meselen: Math.Pow(10,3) , (10,4).
 14. **(Math.Log10)**---> ededin nece reqemli oldugunu tapir amma neticenin usdune mutleq 1 gelirik.
@@ -57,6 +56,7 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
 20. **(Math.Abs)**--->Modulu tapmaq ucundur.
 21. **(Math.Max)**--> ededin maksimumun tapir.
 22. **(Math.Min)**--> ededin minumumun tapir.
+</details>
 
 ---
 
@@ -198,7 +198,7 @@ int c=(--a + a++); c=9+9=18
 
 2.  **(Console.WriteLine();)** ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.
 3.  Netice----> samir
-4.                                                                                                                                       --->> xasiyev  olacaqdir.
+4.                                                                                                                                        --->> xasiyev  olacaqdir.
 5.  **(Console.Redkey();)** yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
 
 - **var key=Console.ReadKey(), (key.Key==ConsoleKey.Enter))** bu yazilisla biz isdifadecinin hasi duymeni sabasini izah ede bilerik.
@@ -381,7 +381,7 @@ int c=(--a + a++); c=9+9=18
 
 ---
 
-0.                                                                                                                                                                                        __Valu ve Reference types)__
+0.                                                                                                                                                                                         __Valu ve Reference types)__
     **Valu ve Reference)** tayip dedikde ne nezerde tutulduguna baxaq. **RAM)** yeni muvveqeti yaddas iki hisseye ayrilir **Stack ve Heap)** ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin **Stack ve Heap)** yaddasda saxlanildigini gosdermisem. **QEYD)** Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  **int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)** -->bunlar her biri **valu tayipdir stack yaddasda saxlanilir)** ve reference tayiplardan suretli isleyir.
 2.  **string,char, massivler mes:int[] ,classlar ve s.)** bunlar ise **Reference tayipdir ve Heap yaddasda saxlanilir)** ve valu tayiplardan asagi suretde isleyir.
