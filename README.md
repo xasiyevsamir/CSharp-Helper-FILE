@@ -159,6 +159,8 @@ Operatorlar bir nece yere ayrilirlar bunlar asagidakilardir.
  <i><b>typeof(int)-</b>Datanin tayipini yoxlamaq ucundur.</i><br/>
  <img src="image\cs41.png" width="300"  alt="Sekil silinib" title="typeof operatorlar"/>
  <img src="image\cs42.png" width="300"  alt="Sekil silinib" title="Netice"/>
+ <i><b>?-null operatoru</b>Reqem tipli datalar hec vaxd null ola bilmez ama biz mecbur ede bilerik ki o null olsun ve olanda serte girsin.</i><br/>
+ <img src="image\cs43.png" width="300"  alt="Sekil silinib" title="?-null operatorlar"/>
  </p></summary>
 </details></details>
 <details><summary><b>7.Movzu:Console codlari.</b></summary>
@@ -299,7 +301,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 ---
 
-0.                                                                                                                                                                                                                          __Valu ve Reference types)__
+0.                                                                                                                                                                                                                           __Valu ve Reference types)__
     </b>Valu ve Reference)</b> tayip dedikde ne nezerde tutulduguna baxaq. </b>RAM)</b> yeni muvveqeti yaddas iki hisseye ayrilir </b>Stack ve Heap)</b> ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin </b>Stack ve Heap)</b> yaddasda saxlanildigini gosdermisem. </b>QEYD)</b> Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  </b>int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)</b> -->bunlar her biri </b>valu tayipdir stack yaddasda saxlanilir)</b> ve reference tayiplardan suretli isleyir.
 2.  </b>string,char, massivler mes:int[] ,classlar ve s.)</b> bunlar ise </b>Reference tayipdir ve Heap yaddasda saxlanilir)</b> ve valu tayiplardan asagi suretde isleyir.
