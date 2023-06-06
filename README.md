@@ -57,11 +57,8 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 21. **(Math.Max)**--> ededin maksimumun tapir.
 22. **(Math.Min)**--> ededin minumumun tapir.
 </details>
-
----
-
-<details><summary><b>1.Movzu:Vareybillar ve Tiplerin bir-birine cevrilmesi.</b></summary>
-1. Vareybillar bizim kod yazarken adlandirdigimiz hissedir ,yeni aldigimiz melumati, deyeri neyin daxilinde saxliyiriqsa bunlara vareybillar deyilir.Mes : int a =10; string b="cofe", double c=12.3;
+<details><summary><b>5.Movzu:Vareybillar ve Tiplerin bir-birine cevrilmesi.</b></summary>
+23. Vareybillar bizim kod yazarken adlandirdigimiz hissedir ,yeni aldigimiz melumati, deyeri neyin daxilinde saxliyiriqsa bunlara vareybillar deyilir.Mes : int a =10; string b="cofe", double c=12.3;
 burada a,b, ve c vareybil adlanir.Vareybillari biz teyin edirik. Burada 10, 12.3, "cofe" ise data adlanir yeni melumat.Burada int, string ve double ise bizim datatype adlanir.Yeni datatype datanin hansi tipdan oldugunu bildirir, fincanda cofe dedikde burda cofe data b vareybil string ise datatype-dir.Yeni fincanin hansi materialdan oldugunu bildirir yeni saxsi ve ya suse.
 <b>DateType-larin Novleri .</b>DateType 2 novu var <b>(Value ve Refarence)</b><br/><details><summary><b>Value</b></summary>Reqem tipli datalari saxlamaq ucundur Mes:<b>int,double,float,byte</b><br/><b>Reqem Tiplerin Cevrilmesi.</b> Bunun 2 izahi var.<br/> <b>1.Implicit ot auto conversion.</b><br/><i>Sekilde gorduyumuz kimi az tutumlu datetype cox tutumlu datetype uzerine atriq yeni onsuzda short ve int byte uzerine gotre bilir ve buna gorede bu cevirmeye avtomatic implicit deyilir.Yeni avtomatiq olaraq cevrir problemsiz.</i>
 <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types">1.Reqem tiplere bax.</a><br/>
@@ -80,9 +77,7 @@ burada a,b, ve c vareybil adlanir.Vareybillari biz teyin edirik. Burada 10, 12.3
 <b><i>1.Convert.ToInt32</i></b>----> <i>Butun tiplerden cevirme apara bilir Parse dan ferqli olaraq.</i><br/>
 <b><i>2.Tipin adi.Parse</i></b> ----> </i>Yalniz reqem tipli stringleri cevire bilir. mes: "123". Yeni string olmayan neyise cevire bilmir</i>.<br/>
 <b><i>3.Tipin adi.TryParse(date, out Tipin adi a)</b></i>---> <i>bu cevirme digerlerinden ferqlenir yeni geriye bool (ture,false) qaytarir yeni cevrile bilir ya cevrile bilmir .</i></details></details>
-_________________________________________________________________________________________________________
-
-<details><summary><b>2.Movzu: Operatorlar.</b></summary>
+<details><summary><b>6.Movzu: Operatorlar.</b></summary>
 Operatorlar bir nece yere ayrilirlar bunlar asagidakilardir.
 <p>
  <img src="image\cs4.png" width="650" height="400" alt="Sekil silinib" title="Operatorlar."/>
@@ -198,7 +193,7 @@ int c=(--a + a++); c=9+9=18
 
 2.  **(Console.WriteLine();)** ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.
 3.  Netice----> samir
-4.                                                                                                                                        --->> xasiyev  olacaqdir.
+4.                                                                                                                                          --->> xasiyev  olacaqdir.
 5.  **(Console.Redkey();)** yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
 
 - **var key=Console.ReadKey(), (key.Key==ConsoleKey.Enter))** bu yazilisla biz isdifadecinin hasi duymeni sabasini izah ede bilerik.
@@ -381,7 +376,7 @@ int c=(--a + a++); c=9+9=18
 
 ---
 
-0.                                                                                                                                                                                         __Valu ve Reference types)__
+0.                                                                                                                                                                                           __Valu ve Reference types)__
     **Valu ve Reference)** tayip dedikde ne nezerde tutulduguna baxaq. **RAM)** yeni muvveqeti yaddas iki hisseye ayrilir **Stack ve Heap)** ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin **Stack ve Heap)** yaddasda saxlanildigini gosdermisem. **QEYD)** Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  **int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)** -->bunlar her biri **valu tayipdir stack yaddasda saxlanilir)** ve reference tayiplardan suretli isleyir.
 2.  **string,char, massivler mes:int[] ,classlar ve s.)** bunlar ise **Reference tayipdir ve Heap yaddasda saxlanilir)** ve valu tayiplardan asagi suretde isleyir.
