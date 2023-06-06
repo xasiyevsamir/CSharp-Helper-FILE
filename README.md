@@ -336,7 +336,7 @@ Console.Write("xasiyev") netice---> samirxasiyev olacaqdir. oldugu setirde qalir
 
 ---
 
-0.                                                                                                                                                                                                 __Valu ve Reference types)__
+0.                                                                                                                                                                                                  __Valu ve Reference types)__
     **Valu ve Reference)** tayip dedikde ne nezerde tutulduguna baxaq. **RAM)** yeni muvveqeti yaddas iki hisseye ayrilir **Stack ve Heap)** ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin **Stack ve Heap)** yaddasda saxlanildigini gosdermisem. **QEYD)** Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  **int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)** -->bunlar her biri **valu tayipdir stack yaddasda saxlanilir)** ve reference tayiplardan suretli isleyir.
 2.  **string,char, massivler mes:int[] ,classlar ve s.)** bunlar ise **Reference tayipdir ve Heap yaddasda saxlanilir)** ve valu tayiplardan asagi suretde isleyir.
