@@ -6,7 +6,7 @@
 <a href="http://www.java2s.com/Tutorial/CSharp/CatalogCSharp.htm">5.C# ders sayiti !</a><br>
 <a href="http://extraconversion.com/base-number">6.Say sisteminin cevrilisi!</a></details><br>
 
-<details><summary><b>1.Movzu:Cmd ---- emirleri.</b></summary><br/><br/>
+<details><summary><b>2.Movzu:Cmd ---- emirleri.</b></summary><br/><br/>
 1.<b>cd bosluq enter</b> oldugun fayila aparir.<br/> 2.<b>cd bosluq ..</b> bir fayil geri cixir.<br/> 3.<b>cd bosluq fayilin adi</b> adi qeyd edilen fayila kecit edir.<br/> 4.<b>cls</b>acilmis butun melumatlari temizleyir.<br/> 5.<b>dir</b> fayilin icine daxil olur.<br/> 6.<b>mkdir</b> yeni fayil yaradir.<br/> 7.<b>prompt $$</b> yeni setri dollar isaresi ile basladir.<br/> 8.<b>dotnet run</b> emri ise kodu ise salir.<br/> 9.<b>code .</b> visual studio coda kecid emridir.<br/> 10.<b>echo "" >>.gitignore</b> -- burada yeni cmd ekraninda .gitignore fayili yarada bilerik bu emirle.<br/> 11.<b>rundll32.exe user32.dll,LockWorkStation</b> komputeri cmd ile kilidlemek ucun olan emir.<br/>
 <b><i>(Solutions and project)</i></b><br/>
 QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada bilerik.Bunun ucun bir nece etablari kecmeliyik.Evvelce yeni fayil yaratmaliyiq. Fayili ise mkdir emri ile yarada bilerik bunu yuxarida qeyd etmisem . Yeni Solutions ve project yaradaq..
@@ -29,41 +29,34 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
     <p>
     <img src="image\cs37.png" alt="Sekil silinib" title="Yeni solutions yaratmaq."/>
     </p><br/>
-    </details>
 
----
-
-                                                           ( GITHUB ---->> Yaratmaq.))
-
+<details><summary><b>1.Movzu:GITHUB ---->> Yaratmaq.</b></summary><br/><br/>
 QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra ise bir nece emirden isdifade ederek yeni repositories yarada bilerik .
-
 …or create a new repository on the command line
 
-1.  git clone (linkimizi buraya yerlesdiririk).
-2.  echo "dirnaq arasina ne isdesez yaza bilersiz">> README.md -------->>(readme fayili yaratmaq ucundur.)
-3.  git init ---------->>>(git pafqasi yaratmaq ucundur )
-4.  git add README.md ------->>(readmi fayilini testiq etmek ucun)
-5.  git commit -m "first commit" -----(deyisikliye ad vermek ucun)
-6.  git branch -M main
-7.  git remote add origin https://github.com/xasiyevsamir/taskkkk.git
-8.  git push -u origin main
+1.  git clone (linkimizi buraya yerlesdiririk).<br/>
+2.  echo "dirnaq arasina ne isdesez yaza bilersiz">> README.md -------->>(readme fayili yaratmaq ucundur.)<br/>
+3.  git init ---------->>>(git pafqasi yaratmaq ucundur )<br/>
+4.  git add README.md ------->>(readmi fayilini testiq etmek ucun)<br/>
+5.  git commit -m "first commit" -----(deyisikliye ad vermek ucun)<br/>
+6.  git branch -M main<br/>
+7.  git remote add origin https://github.com/xasiyevsamir/taskkkk.git<br/>
+8.  git push -u origin main<br/>
+    Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
+    </details>
 
-        Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
+                                                              (RIYAZI CODLAR.)
 
----
-
-                                                          (RIYAZI CODLAR.)
-
-1. **(Math.Pow(10,2))** ---> burada 10 kvadratini yazmisiq yeni (10\*10) .Bunu isdediyimiz kimi yaza bilerik yeni kub ve s. Meselen: Math.Pow(10,3) , (10,4).
-2. **(Math.Log10)**---> ededin nece reqemli oldugunu tapir amma neticenin usdune mutleq 1 gelirik.
-3. **(Math.sqrt)**----> koku tapmaq ucun istifada edilir.
-4. **(Math.Round)**---> riyazi yuvarlasdirmaq ucun istifade edilir.
-5. **(Math.Floor)**---> asagi yuvarlasdirmaq,yeni tam hisseye kimi atir.
-6. **(Math.Ceiling)**---> yuxari yuvarlasdirmaq.
-7. **(Math.PI)**---> pi deyeridir .hesabliyada isdifade ede bilerik.
-8. **(Math.Abs)**--->Modulu tapmaq ucundur.
-9. **(Math.Max)**--> ededin maksimumun tapir.
-10. **(Math.Min)**--> ededin minumumun tapir.
+9.  **(Math.Pow(10,2))** ---> burada 10 kvadratini yazmisiq yeni (10\*10) .Bunu isdediyimiz kimi yaza bilerik yeni kub ve s. Meselen: Math.Pow(10,3) , (10,4).
+10. **(Math.Log10)**---> ededin nece reqemli oldugunu tapir amma neticenin usdune mutleq 1 gelirik.
+11. **(Math.sqrt)**----> koku tapmaq ucun istifada edilir.
+12. **(Math.Round)**---> riyazi yuvarlasdirmaq ucun istifade edilir.
+13. **(Math.Floor)**---> asagi yuvarlasdirmaq,yeni tam hisseye kimi atir.
+14. **(Math.Ceiling)**---> yuxari yuvarlasdirmaq.
+15. **(Math.PI)**---> pi deyeridir .hesabliyada isdifade ede bilerik.
+16. **(Math.Abs)**--->Modulu tapmaq ucundur.
+17. **(Math.Max)**--> ededin maksimumun tapir.
+18. **(Math.Min)**--> ededin minumumun tapir.
 
 ---
 
@@ -205,7 +198,7 @@ int c=(--a + a++); c=9+9=18
 
 2.  **(Console.WriteLine();)** ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.
 3.  Netice----> samir
-4.                                                                                                                                --->> xasiyev  olacaqdir.
+4.                                                                                                                                 --->> xasiyev  olacaqdir.
 5.  **(Console.Redkey();)** yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.
 
 - **var key=Console.ReadKey(), (key.Key==ConsoleKey.Enter))** bu yazilisla biz isdifadecinin hasi duymeni sabasini izah ede bilerik.
@@ -388,7 +381,7 @@ int c=(--a + a++); c=9+9=18
 
 ---
 
-0.                                                                                                                                                                                 __Valu ve Reference types)__
+0.                                                                                                                                                                                  __Valu ve Reference types)__
     **Valu ve Reference)** tayip dedikde ne nezerde tutulduguna baxaq. **RAM)** yeni muvveqeti yaddas iki hisseye ayrilir **Stack ve Heap)** ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin **Stack ve Heap)** yaddasda saxlanildigini gosdermisem. **QEYD)** Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  **int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)** -->bunlar her biri **valu tayipdir stack yaddasda saxlanilir)** ve reference tayiplardan suretli isleyir.
 2.  **string,char, massivler mes:int[] ,classlar ve s.)** bunlar ise **Reference tayipdir ve Heap yaddasda saxlanilir)** ve valu tayiplardan asagi suretde isleyir.
