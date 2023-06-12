@@ -78,6 +78,8 @@ burada a,b, ve c vareybil adlanir.Vareybillari biz teyin edirik. Burada 10, 12.3
 <b><i>3.Tipin adi.TryParse(date, out Tipin adi a)</b></i>---> <i>bu cevirme digerlerinden ferqlenir yeni geriye bool (ture,false) qaytarir yeni cevrile bilir ya cevrile bilmir .</i></details>
 <b>________________________________________________________________________________________________________________</b>
 </details>
+<b>________________________________________________________________________________________________________________</b>
+
 <details><summary><b>6.Movzu: Operatorlar.</b></summary>
 Operatorlar bir nece yere ayrilirlar bunlar asagidakilardir.
 <p>
@@ -312,7 +314,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 ---
 
-0.                                                                                                                                                                                                                                        __Valu ve Reference types)__
+0.                                                                                                                                                                                                                                         __Valu ve Reference types)__
     </b>Valu ve Reference)</b> tayip dedikde ne nezerde tutulduguna baxaq. </b>RAM)</b> yeni muvveqeti yaddas iki hisseye ayrilir </b>Stack ve Heap)</b> ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin </b>Stack ve Heap)</b> yaddasda saxlanildigini gosdermisem. </b>QEYD)</b> Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  </b>int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)</b> -->bunlar her biri </b>valu tayipdir stack yaddasda saxlanilir)</b> ve reference tayiplardan suretli isleyir.
 2.  </b>string,char, massivler mes:int[] ,classlar ve s.)</b> bunlar ise </b>Reference tayipdir ve Heap yaddasda saxlanilir)</b> ve valu tayiplardan asagi suretde isleyir.
