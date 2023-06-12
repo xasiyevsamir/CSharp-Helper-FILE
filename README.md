@@ -7,6 +7,7 @@ oyun kursu-->https://taskilled.com/course/13
 <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/">4.C# da acar sozlere baxmaq !</a><br>
 <a href="http://www.java2s.com/Tutorial/CSharp/CatalogCSharp.htm">5.C# ders sayiti !</a><br>
 <a href="http://extraconversion.com/base-number">6.Say sisteminin cevrilisi!</a></details>
+<b>________________________________________________________________________________________________________________</b>
 
 <details><summary><b>2.Movzu:Cmd ---- emirleri.</b></summary><br/>
 1.<b>cd bosluq enter</b> oldugun fayila aparir.<br/> 2.<b>cd bosluq ..</b> bir fayil geri cixir.<br/> 3.<b>cd bosluq fayilin adi</b> adi qeyd edilen fayila kecit edir.<br/> 4.<b>cls</b>acilmis butun melumatlari temizleyir.<br/> 5.<b>dir</b> fayilin icine daxil olur.<br/> 6.<b>mkdir</b> yeni fayil yaradir.<br/> 7.<b>prompt $$</b> yeni setri dollar isaresi ile basladir.<br/> 8.<b>dotnet run</b> emri ise kodu ise salir.<br/> 9.<b>code .</b> visual studio coda kecid emridir.<br/> 10.<b>echo "" >>.gitignore</b> -- burada yeni cmd ekraninda .gitignore fayili yarada bilerik bu emirle.<br/> 11.<b>rundll32.exe user32.dll,LockWorkStation</b> komputeri cmd ile kilidlemek ucun olan emir.<br/>
@@ -31,6 +32,7 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
 <img src="image\cs37.png" alt="Sekil silinib" title="Yeni solutions yaratmaq."/>
 </p><br/>
 </details>
+<b>________________________________________________________________________________________________________________</b>
 
 <details><summary><b>3.Movzu:GITHUB ---->> Yaratmaq.</b></summary><br/>
     QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra ise bir nece emirden isdifade ederek yeni repositories yarada bilerik .
@@ -51,6 +53,8 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 13.<b>(Math.Pow(10,2))</b> ---> burada 10 kvadratini yazmisiq yeni (10\*10) .Bunu isdediyimiz kimi yaza bilerik yeni kub ve s. Meselen: Math.Pow(10,3) , (10,4).<br/> 14.<b>(Math.Log10)</b>---> ededin nece reqemli oldugunu tapir amma neticenin usdune mutleq 1 gelirik.<br/> 15.<b>(Math.sqrt)</b>----> koku tapmaq ucun istifada edilir.<br/> 16.<b>(Math.Round)</b>---> riyazi yuvarlasdirmaq ucun istifade edilir.<br/> 17.<b>(Math.Floor)</b>---> asagi yuvarlasdirmaq,yeni tam hisseye kimi atir.<br/> 18.<b>(Math.Ceiling)</b>---> yuxari yuvarlasdirmaq.<br/> 19.<b>(Math.PI)</b>---> pi deyeridir .hesabliyada isdifade ede bilerik.<br/> 20.<b>(Math.Abs)</b>--->Modulu tapmaq ucundur.<br/> 21.<b>(Math.Max)</b>--> ededin maksimumun tapir.<br/> 22.<b>(Math.Min)</b>--> ededin minumumun tapir.<br/>
 
 </details>
+<b>________________________________________________________________________________________________________________</b>
+
 <details><summary><b>5.Movzu:Vareybillar ve Tiplerin bir-birine cevrilmesi.</b></summary>
 23. Vareybillar bizim kod yazarken adlandirdigimiz hissedir ,yeni aldigimiz melumati, deyeri neyin daxilinde saxliyiriqsa bunlara vareybillar deyilir.Mes : int a =10; string b="cofe", double c=12.3;
 burada a,b, ve c vareybil adlanir.Vareybillari biz teyin edirik. Burada 10, 12.3, "cofe" ise data adlanir yeni melumat.Burada int, string ve double ise bizim datatype adlanir.Yeni datatype datanin hansi tipdan oldugunu bildirir, fincanda cofe dedikde burda cofe data b vareybil string ise datatype-dir.Yeni fincanin hansi materialdan oldugunu bildirir yeni saxsi ve ya suse.
@@ -76,7 +80,6 @@ burada a,b, ve c vareybil adlanir.Vareybillari biz teyin edirik. Burada 10, 12.3
 <b><i>1.Convert.ToInt32</i></b>----> <i>Butun tiplerden cevirme apara bilir Parse dan ferqli olaraq.</i><br/>
 <b><i>2.Tipin adi.Parse</i></b> ----> </i>Yalniz reqem tipli stringleri cevire bilir. mes: "123". Yeni string olmayan neyise cevire bilmir</i>.<br/>
 <b><i>3.Tipin adi.TryParse(date, out Tipin adi a)</b></i>---> <i>bu cevirme digerlerinden ferqlenir yeni geriye bool (ture,false) qaytarir yeni cevrile bilir ya cevrile bilmir .</i></details>
-<b>________________________________________________________________________________________________________________</b>
 </details>
 <b>________________________________________________________________________________________________________________</b>
 
@@ -172,10 +175,14 @@ Operatorlar bir nece yere ayrilirlar bunlar asagidakilardir.
  <img src="image\cs43.png" width="300"  alt="Sekil silinib" title="?-null operatorlar"/>
  </p></summary>
 </details></details>
+<b>________________________________________________________________________________________________________________</b>
+
 <details><summary><b>7.Movzu:Console codlari.</b></summary>
 1.<b>Console.Write();</b> ---> bu kod vasitesi ile biz ekranda her hansi bir melumati cap(yazdira) ede bilerik.Yazini cap edir ve nobeti yazini cap etdirende qarsisina alir yeni Console.Write("samir")
 Console.Write("xasiyev") netice---> samirxasiyev olacaqdir. oldugu setirde qalir.<br/> 2.<b>Console.WriteLine();</b> ---> bu yuxaridaki emirle eynidir lakin bu emirde eyni setirde deyil novbeti setire kecid olunur.<b>Netice----> samir </b> --->> xasiyev olacaqdir.<br/> 5.<b>Console.Redkey();</b> yazilmis her hansi melumati oxumaq ucun ekranda gozluyer bir melumat daxil etdikde ise baglanar.<br/> 6.<b>var key=Console.ReadKey(), (key.Key==ConsoleKey.Enter)</b>bu yazilisla biz isdifadecinin hasi duymeni sabasini izah ede bilerik.<br/> 7.<b>Console.ReadLine();</b> istifadeciden melumat almaq ucun ekranda gozluyer melumati daxil edib enteri basdiqada melumati bize getrir.<br/> 8.<b>Console.CursorTop()</b> bu method ise kursorun hal hazirki durdugu yeri gosderir.<br/> 9.<b>Console.SetCursorPosition(0,Console.CursorTop)</b> bu method ile cursoru harda durmagindan asli olmayaraq hemin setrin ilk baslangicina getrir.burada sifir o demekdirki hemin setr olsun Console.CursorTop ise hemin setirde kursorun hal hazirki durdugu yer.<br/> 10.<b>Console.WindowWidth</b> bu ise console ekrani boyunca demekdir.<br/>
 </details>
+<b>________________________________________________________________________________________________________________</b>
+
 <details><summary><b>8.Movzu:Datatayiplar</b></summary>
 Datatayiplar 4 yere ayrilir .Metin, say, mentiqi, zaman,<br/>
 <b>(metin tipli deyiskenler)</b><br/>
@@ -187,10 +194,14 @@ Datatayiplar 4 yere ayrilir .Metin, say, mentiqi, zaman,<br/>
 inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin eslinde xaricden nese gelerse saxlanilmasi uc isdifade oluna biler. Cunki biz xaricden hansi tipin geleceyini bilmirik .<br/> 6.<b>(var)</b>---> Var sagina baxaraq datanin hansi tipden oldugunu anliyir. var tip deyil .<br/> 7.<b>(dynamic)</b> tipdir ve onun icindeki datalara baxa ve uzerinde emeliyat apara bilerik.sadece sehv nese daxil etdikde error bizden gizledir.<br/> 8.<b>(as)</b> bu kivord obyekte geden tipin hansi tip oldugunu bilmek ucun ve as kivordu geriye null qaytarir. Null ola bileceyini demek isdiyirikse ? isaresinden istifade edirik mes: byte? a=b as byte?.<br/> 9.<b>(is)</b> bu kivord de eyni ile as benzeyir yeni opject den gelen bayitdirmi int c =10; object v=c; (v is byte) ve ya (v is int)<br/>
 
 </details>
+<b>________________________________________________________________________________________________________________</b>
+
 <details><summary><b>Const--Deyismez.</b></summary>
  <img src="image\cs45.png" width="300"  alt="Sekil silinib" title="Const-Sabit."/>
 <p></p>
 </details>
+<b>________________________________________________________________________________________________________________</b>
+
 0 </b>(DIL MEDENIYETI)</b>
 
 1.  </b>(Console.OutputEncoding = Encoding.Unicode;)</b> biz elimizde olan datani cole yeni fronta gondererken bu codu yazmaliyiq ki bezi herifleri tanimir ve onlarida tanisin.
@@ -314,7 +325,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 ---
 
-0.                                                                                                                                                                                                                                         __Valu ve Reference types)__
+0.                                                                                                                                                                                                                                          __Valu ve Reference types)__
     </b>Valu ve Reference)</b> tayip dedikde ne nezerde tutulduguna baxaq. </b>RAM)</b> yeni muvveqeti yaddas iki hisseye ayrilir </b>Stack ve Heap)</b> ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin </b>Stack ve Heap)</b> yaddasda saxlanildigini gosdermisem. </b>QEYD)</b> Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  </b>int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)</b> -->bunlar her biri </b>valu tayipdir stack yaddasda saxlanilir)</b> ve reference tayiplardan suretli isleyir.
 2.  </b>string,char, massivler mes:int[] ,classlar ve s.)</b> bunlar ise </b>Reference tayipdir ve Heap yaddasda saxlanilir)</b> ve valu tayiplardan asagi suretde isleyir.
