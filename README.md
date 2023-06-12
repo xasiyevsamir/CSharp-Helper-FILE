@@ -75,13 +75,15 @@ burada a,b, ve c vareybil adlanir.Vareybillari biz teyin edirik. Burada 10, 12.3
 <details><summary><b>Refarence</b></summary><br/>Metin tipli datalari saxlamaq ucundur Mes:<b>string, char, class,Method,Massiv ve s.</b><br/>
 <b><i>1.Convert.ToInt32</i></b>----> <i>Butun tiplerden cevirme apara bilir Parse dan ferqli olaraq.</i><br/>
 <b><i>2.Tipin adi.Parse</i></b> ----> </i>Yalniz reqem tipli stringleri cevire bilir. mes: "123". Yeni string olmayan neyise cevire bilmir</i>.<br/>
-<b><i>3.Tipin adi.TryParse(date, out Tipin adi a)</b></i>---> <i>bu cevirme digerlerinden ferqlenir yeni geriye bool (ture,false) qaytarir yeni cevrile bilir ya cevrile bilmir .</i></details></details>
+<b><i>3.Tipin adi.TryParse(date, out Tipin adi a)</b></i>---> <i>bu cevirme digerlerinden ferqlenir yeni geriye bool (ture,false) qaytarir yeni cevrile bilir ya cevrile bilmir .</i></details>
+<b>________________________________________________________________________________________________________________</b>
+</details>
 <details><summary><b>6.Movzu: Operatorlar.</b></summary>
 Operatorlar bir nece yere ayrilirlar bunlar asagidakilardir.
 <p>
  <img src="image\cs4.png" width="650" height="400" alt="Sekil silinib" title="Operatorlar."/>
  </p><br/>
----------------------------------------------------------------------------------------------------------
+
  <details><summary><p><b>Sade operatorlar--></b>
  <img src="image\cs6.png" width="300"  alt="Sekil silinib" title=" Sade Operatorlar."/>
  </p></summary>
@@ -182,6 +184,10 @@ Datatayiplar 4 yere ayrilir .Metin, say, mentiqi, zaman,<br/>
 5.<b>(object)</b> bu tip uzerine butun tipleri ala bilir yeni inti, double, string ve s.Lakin uzerine aldigi tipi o tip kimi de cixarmalidir. int a=10; object b=a;(qutulama boxing) int c=(int)b;(qutudan cixartma unboxing). bunlari intin dauble kecidi ve double
 inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin eslinde xaricden nese gelerse saxlanilmasi uc isdifade oluna biler. Cunki biz xaricden hansi tipin geleceyini bilmirik .<br/> 6.<b>(var)</b>---> Var sagina baxaraq datanin hansi tipden oldugunu anliyir. var tip deyil .<br/> 7.<b>(dynamic)</b> tipdir ve onun icindeki datalara baxa ve uzerinde emeliyat apara bilerik.sadece sehv nese daxil etdikde error bizden gizledir.<br/> 8.<b>(as)</b> bu kivord obyekte geden tipin hansi tip oldugunu bilmek ucun ve as kivordu geriye null qaytarir. Null ola bileceyini demek isdiyirikse ? isaresinden istifade edirik mes: byte? a=b as byte?.<br/> 9.<b>(is)</b> bu kivord de eyni ile as benzeyir yeni opject den gelen bayitdirmi int c =10; object v=c; (v is byte) ve ya (v is int)<br/>
 
+</details>
+<details><summary><p><b>Const--Deyismez.</b>
+ <img src="image\cs45.png" width="300"  alt="Sekil silinib" title="Const-Sabit."/>
+<p></p>
 </details>
 0 </b>(DIL MEDENIYETI)</b>
 
@@ -306,7 +312,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 ---
 
-0.                                                                                                                                                                                                                                   __Valu ve Reference types)__
+0.                                                                                                                                                                                                                                       __Valu ve Reference types)__
     </b>Valu ve Reference)</b> tayip dedikde ne nezerde tutulduguna baxaq. </b>RAM)</b> yeni muvveqeti yaddas iki hisseye ayrilir </b>Stack ve Heap)</b> ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin </b>Stack ve Heap)</b> yaddasda saxlanildigini gosdermisem. </b>QEYD)</b> Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  </b>int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)</b> -->bunlar her biri </b>valu tayipdir stack yaddasda saxlanilir)</b> ve reference tayiplardan suretli isleyir.
 2.  </b>string,char, massivler mes:int[] ,classlar ve s.)</b> bunlar ise </b>Reference tayipdir ve Heap yaddasda saxlanilir)</b> ve valu tayiplardan asagi suretde isleyir.
