@@ -234,9 +234,10 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>for loop</b>.Asagidaki sekilde sertin yerine yeni for ne qeder dovur etmelidir yerine <b>true</b> yazdiqda sonsuz dovre dusecek.
 </i><br/>
 <p><img src="image\cs52.png"    alt="Sekil silinib" title="for loop"/></p>
-<i><b>break-(qirmaq) ve contiune-(davam etmek)</b>.Acar sozlerdir ve dovur olduqda dovru isdediyimiz zaman qira ve ya davam etdire bilerik.</i>
+<i><b>break-(qirmaq) ve contiune-(davam etmek)</b>.Acar sozlerdir ve dovur olduqda dovru isdediyimiz zaman qira ve ya davam etdire bilerik.Bu acar sozleri butun loop-larda isdifade ede bilerik.</i>
 <p><img src="image\cs53.png"    alt="Sekil silinib" title="Acar sozler."/></p>
-
+<i><b>while loop</b>. While dovru true,false qebul edir yeni ture oldugu muddetce dovur davam edecekdir.Ne zaman dovur false olarsa o zaman dovur bitecekdir.</i><br/>
+<p><img src="image\cs54.png"    alt="Sekil silinib" title="While loop."/></p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
 
@@ -361,7 +362,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 ---
 
-0.                                                                                                                                                                                                                                                           __Valu ve Reference types)__
+0.                                                                                                                                                                                                                                                            __Valu ve Reference types)__
     </b>Valu ve Reference)</b> tayip dedikde ne nezerde tutulduguna baxaq. </b>RAM)</b> yeni muvveqeti yaddas iki hisseye ayrilir </b>Stack ve Heap)</b> ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin </b>Stack ve Heap)</b> yaddasda saxlanildigini gosdermisem. </b>QEYD)</b> Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  </b>int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)</b> -->bunlar her biri </b>valu tayipdir stack yaddasda saxlanilir)</b> ve reference tayiplardan suretli isleyir.
 2.  </b>string,char, massivler mes:int[] ,classlar ve s.)</b> bunlar ise </b>Reference tayipdir ve Heap yaddasda saxlanilir)</b> ve valu tayiplardan asagi suretde isleyir.
