@@ -240,7 +240,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <p><img src="image\cs54.png"    alt="Sekil silinib" title="While loop."/></p>
 <i><b>do While loop</b>. Bu loop da While loop ile eynidir yalniz bir ferqi odur ki en azi emeliyyata bir defe girir sonra serti yoxlayir yeni sert sonda yoxlanilir true ise dovur davam edir false olduqda ise dovur bitir.</i><br/>
 <p><img src="image\cs55.png"    alt="Sekil silinib" title="do While loop."/></p>
-<i><b>foreach loop</b>. Bu dovur indeksli olan datalarda isdifade edile biler meselen massivler ve s.
+<i><b>foreach loop</b>. Bu dovur indeksli olan datalarda isdifade edile biler meselen massivler ve s.</i><br/>
 <p><img src="image\cs56.png"    alt="Sekil silinib" title="foreach loop."/></p>
 <i><b>goto l1</b>.Bu dovur ise yuxaridakilardan ferqli olaraq biz sert dogru olduqda yeniden kodu oxmagini yeni yeniden baslamasini isdiye bilerik.Asagidaki sekilde daha yaxsi izah edilib. Diger dovur ise method-un icinde ozunu cagirmaqdi asagidaki sekilde her iki mmisal gosterilib.</i><br/>
 <p><img src="image\cs57.png"    alt="Sekil silinib" title="goto l1."/></p>
@@ -253,8 +253,6 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 </details>
 <b>________________________________________________________________________________________________________________</b>
-
-1. <b>(methodlar)</b>----> methodlar kod yazarken bize cox komeklik edir yeni bir method yazib bir hissesi eyni olan tapsiriqda yeniden cagirib isdifade ede bilerik.biz yeni metodlar yarada bilerik.Methodlar geriye deyer qaytaran ve geriye deyer qaytarmiyan olur.Geriye deyer qaytaran Methodlarda </b>return)</b> acar sozunden isdifade olunur.Methodlari Class-larin daxilinde yaradilir ve isdediyimiz qeder method yarada bilerik .Methodlar eyni adli olduqda gonderilen </b>datatype-lari)</b> ferqli olmalidir.Mes: Topla methodu </b>int number)</b> qebul edirse novbeti Topla methodu </b>int number,int a)</b> qebul etmelidir ve s.Deqiq desek method adlari eyni olduqda onlarin data qebul etmelerinin sayi ferqli ve ya daxil olan datanin tipleri ferqli ya da ki daxil olunan datalarin sayi eyni olsa yerleri ferqli olmalidir.
 
 <details><summary><b>11.DIL MEDENIYETI.</b></summary>
 1.  <b>(Console.OutputEncoding = Encoding.Unicode;)</b> biz elimizde olan datani cole yeni fronta gondererken bu codu yazmaliyiq ki bezi herifleri tanimir ve onlarida tanisin.<br/>
@@ -377,7 +375,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 ---
 
-0.                                                                                                                                                                                                                                                                   __Valu ve Reference types)__
+0.                                                                                                                                                                                                                                                                    __Valu ve Reference types)__
     </b>Valu ve Reference)</b> tayip dedikde ne nezerde tutulduguna baxaq. </b>RAM)</b> yeni muvveqeti yaddas iki hisseye ayrilir </b>Stack ve Heap)</b> ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin </b>Stack ve Heap)</b> yaddasda saxlanildigini gosdermisem. </b>QEYD)</b> Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  </b>int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)</b> -->bunlar her biri </b>valu tayipdir stack yaddasda saxlanilir)</b> ve reference tayiplardan suretli isleyir.
 2.  </b>string,char, massivler mes:int[] ,classlar ve s.)</b> bunlar ise </b>Reference tayipdir ve Heap yaddasda saxlanilir)</b> ve valu tayiplardan asagi suretde isleyir.
