@@ -187,7 +187,7 @@ Console.Write("xasiyev") netice---> samirxasiyev olacaqdir. oldugu setirde qalir
 
 <details><summary><b>8.Movzu:Datetype</b></summary>
 <b>Datetype 4 yere ayrilir .<i>(Metin, reqem, mentiqi, zaman......).....</i><a href="https://www.w3schools.com/cs/cs_data_types.php">Datetype baxin --></a><br/></b>
-<details><summary><b>Metin tipli Datetipe.</b><br/><br/><br/></summary>
+<details><summary><b>Metin tipli Datetipe.</b></summary><br/><br/><br/>
 1.<b>string</b> --> Her hansi bir metin tipli melumatlari saxlamaq ucun istifade edilir.Mes: string[] name ="samir", "samir 123","1234", stringin uzunlugu <b>name.Lenght</b> tapilir bu zaman bosluqlarda sayilir,mes: "samir 123" de uzunluq 9 dur.<br/>
 </details>
 
