@@ -185,8 +185,8 @@ Console.Write("xasiyev") netice---> samirxasiyev olacaqdir. oldugu setirde qalir
 </details>
 <b>________________________________________________________________________________________________________________</b>
 
-<details><summary><b>8.Movzu:Datetipe</b></summary>
-<b>Datetype 4 yere ayrilir .Metin, say, mentiqi, zaman.<a href="https://www.w3schools.com/cs/cs_data_types.php">Datetype baxin --></a><br/></b>
+<details><summary><b>8.Movzu:Datetype</b></summary>
+<b>Datetype 4 yere ayrilir .<i>Metin, say, mentiqi, zaman.</i><a href="https://www.w3schools.com/cs/cs_data_types.php">Datetype baxin --></a><br/></b>
 
 
 <b>Metin tipli Datetipe.</b><br/>
