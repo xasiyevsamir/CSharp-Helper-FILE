@@ -291,13 +291,20 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <a href="https://github.com/xasiyevsamir/MsSql/blob/master/docs/datatypes.md">1.Bu linkden daha yaxsi anlasiliqli olacaqdir!</a><br>
 
 <p><img src="./sql-image/server_2.png"    alt="Sekil silinib" title="Mssql ve C# data type."/></p>
-<p><img src="./sql-image/sql1.png"    alt="Sekil silinib" title="sekil silinib."/></p>
-<p><img src="./sql-image/sql2.png"    alt="Sekil silinib" title="sekil silinib."/></p><br/>
-<p><img src="./sql-image/sql3.png"    alt="Sekil silinib" title="sekil silinib."/></p><br/>
-<p><img src="./sql-image/sql4.png"    alt="Sekil silinib" title="sekil silinib."/></p><br/>
+<p><img src="./sql-image/sql1.png"    alt="Sekil silinib" /></p>
+<p><img src="./sql-image/sql2.png"    alt="Sekil silinib" /></p><br/>
+<p><img src="./sql-image/sql3.png"    alt="Sekil silinib" /></p><br/>
+<p><img src="./sql-image/sql4.png"    alt="Sekil silinib" /></p><br/>
 <i>Sql comandalar asagidakilari misal gosdermek olar.</i><br/>
-<p><img src="./sql-image/sql5.webp"    alt="Sekil silinib" title="sekil silinib."/></p><br/>
-<p><img src="./sql-image/sql6.png"    alt="Sekil silinib" title="sekil silinib."/></p><br/>
+<i>1.DDL – Data Definition Language --Məlumat Tərifi Dili</i><br/>
+<i>2.DQL – Data Query Language---Data Sorğu Dili</i><br/>
+<i>3.DML – Data Manipulation Language---Məlumatların Manipulyasiya Dili</i><br/>
+<i>4.DCL – Data Control Language---Məlumata Nəzarət Dili</i><br/>
+<i>5.TCL – Transaction Control Language---Tranzaksiyaya Nəzarət Dili</i><br/>
+
+
+<p><img src="./sql-image/sql5.webp"    alt="Sekil silinib" title="sql comandalar."/></p><br/>
+<p><img src="./sql-image/sql6.png"    alt="Sekil silinib" title="sql comandalar."/></p><br/>
 
 </details>
 <b>________________________________________________________________________________________________________________</b>
