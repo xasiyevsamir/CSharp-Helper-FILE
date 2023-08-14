@@ -291,6 +291,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <a href="https://github.com/xasiyevsamir/MsSql/blob/master/docs/datatypes.md">1.Bu linkden daha yaxsi anlasiliqli olacaqdir!</a><br>
 
 <p><img src="./sql-image/server_2.png"    alt="Sekil silinib" title="Mssql ve C# data type."/></p>
+<p><img src="./sql-image/sql1.png"    alt="Sekil silinib" title="sekil silinib."/></p>
 
 </details>
 <b>________________________________________________________________________________________________________________</b>
