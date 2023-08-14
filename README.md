@@ -293,6 +293,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <p><img src="./sql-image/server_2.png"    alt="Sekil silinib" title="Mssql ve C# data type."/></p>
 <p><img src="./sql-image/sql1.png"    alt="Sekil silinib" title="sekil silinib."/></p>
 <p><img src="./sql-image/sql2.png"    alt="Sekil silinib" title="sekil silinib."/></p><br/>
+<p><img src="./sql-image/sql3.png"    alt="Sekil silinib" title="sekil silinib."/></p><br/>
+
 
 
 </details>
