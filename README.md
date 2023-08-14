@@ -294,7 +294,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <p><img src="./sql-image/sql1.png"    alt="Sekil silinib" title="sekil silinib."/></p>
 <p><img src="./sql-image/sql2.png"    alt="Sekil silinib" title="sekil silinib."/></p><br/>
 <p><img src="./sql-image/sql3.png"    alt="Sekil silinib" title="sekil silinib."/></p><br/>
-<p><img src="./sql-image/sql3.png"    alt="Sekil silinib" title="sekil silinib."/></p><br/>
+<p><img src="./sql-image/sql4.png"    alt="Sekil silinib" title="sekil silinib."/></p><br/>
 
 
 
