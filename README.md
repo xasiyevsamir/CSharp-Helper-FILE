@@ -283,9 +283,19 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 <details><summary><b>15.Random</b></summary>
 <i><b>Random classi texmini reqemler goturmek ucun isdifade edilir.Onun bir nece methodu vardir ve onlar asagidakilardir.</b></i><br/>
+<i>1->rnd.Next()</i><br/>
+<i>2->rnd.Next(<b>int.maxvalue</b>)</i><br/>
+<i>1->rnd.Next()</i><br/>
+<i>1->rnd.Next()</i><br/>
+<i>1->rnd.Next()</i><br/>
+<p>
 <b>rnd.Next() </b>--<i>Bu method ile biz 0-dan integer-in maximumu qeder yeni (int.maxvalue) qeder texmini bir reqem verir.</i><br/>
-<p><img src="./image/cs64.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
- <img src="./image/cs65.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/>
+<img src="./image/cs64.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
+ <img src="./image/cs65.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/>
+<b>rnd.Next(15) </b>--<i>Bu method ile biz 0-dan 15-ə qeder texmini bir reqem verir.Burada 0 daxildir 15 ise yox.</i><br/>
+<img src="./image/cs66.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
+ <img src="./image/cs67.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/>
+
 </p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
