@@ -285,17 +285,19 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>Random classi texmini reqemler goturmek ucun isdifade edilir.Onun bir nece methodu vardir ve onlar asagidakilardir.</b></i><br/>
 <i>1->rnd.Next()</i><br/>
 <i>2->rnd.Next(<b>int.maxvalue</b>)</i><br/>
-<i>1->rnd.Next()</i><br/>
+<i>3->rnd.Next(<b>int.minumum, int.maxvalue</b>)</i><br/>
 <i>1->rnd.Next()</i><br/>
 <i>1->rnd.Next()</i><br/>
 <p>
-<b>rnd.Next() </b>--<i>Bu method ile biz 0-dan integer-in maximumu qeder yeni (int.maxvalue) qeder texmini bir reqem verir.</i><br/>
+<b>1->rnd.Next() </b>--<i>Bu method ile biz 0-dan integer-in maximumu qeder yeni (int.maxvalue) qeder texmini bir reqem verir.</i><br/>
 <img src="./image/cs64.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
  <img src="./image/cs65.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
-<b>rnd.Next(15) </b>--<i>Bu method ile biz 0-dan 15-ə qeder texmini bir reqem verir.Burada 0 daxildir 15 ise yox.</i><br/>
+<b>2->rnd.Next(15) </b>--<i>Bu method ile biz 0-dan 15-ə qeder texmini bir reqem verir.Burada 0 daxildir 15 ise yox.</i><br/>
 <img src="./image/cs66.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
- <img src="./image/cs67.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/>
-
+ <img src="./image/cs67.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
+<b>3->rnd.Next(5,21) </b>--<i>Bu method ile biz 5-dan 21-ə qeder texmini bir reqem verir.Burada 5 daxildir 21 ise yox.Yeni biz elde etdiyimiz texmini reqemlerin hansi araliqda olmasini ozumuz teyin ede bilerik.</i><br/>
+<img src="./image/cs68.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
+ <img src="./image/cs69.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/>
 </p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
