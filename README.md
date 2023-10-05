@@ -290,7 +290,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i>5->rnd.NextInt64()</i><br/>
 <i>6->rnd.NextInt64(<b>long maxvalue</b>)</i><br/>
 <i>7->rnd.NextInt64(<b>long minvalue, long maxvalue</b>)</i><br/>
-<i>8->rnd.NextBytes(<b>massiv</b>);</i><br/>
+<i>8->rnd.NextBytes(<b>massiv</b>);</i><br/><br/><br/>
 <p>
 <b>1->rnd.Next() </b>--<i>Bu method ile biz 0-dan integer-in maximumu qeder yeni (int.maxvalue) qeder texmini bir reqem verir.</i><br/>
 <img src="./image/cs64.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
@@ -311,7 +311,6 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="./image/cs74.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
  <img src="./image/cs75.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
 </p>
-rnd.NextBytes(data);
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>16.Enum</b></summary>
