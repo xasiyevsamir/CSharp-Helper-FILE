@@ -283,7 +283,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 <details><summary><b>15.Random</b></summary>
 <i><b>Random classi texmini reqemler goturmek ucun isdifade edilir.Onun bir nece methodu vardir ve onlar asagidakilardir.</b></i><br/>
-<b>rnd.Next() </b>--Bu method ile biz 0-dan integer-in maximumu qeder yeni (int.maxvalue) qeder texmini bir reqem verir.<br/>
+<b>rnd.Next() </b>--<i>Bu method ile biz 0-dan integer-in maximumu qeder yeni (int.maxvalue) qeder texmini bir reqem verir.</i><br/>
 <p><img src="./image/cs64.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
  <img src="./image/cs65.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/>
 </p>
