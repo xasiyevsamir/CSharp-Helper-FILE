@@ -286,7 +286,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i>1->rnd.Next()</i><br/>
 <i>2->rnd.Next(<b>int.maxvalue</b>)</i><br/>
 <i>3->rnd.Next(<b>int.minvalue, int.maxvalue</b>)</i><br/>
-<i>1->rnd.Next()</i><br/>
+<i>4->rnd.NextDouble()</i><br/>
 <i>1->rnd.Next()</i><br/>
 <p>
 <b>1->rnd.Next() </b>--<i>Bu method ile biz 0-dan integer-in maximumu qeder yeni (int.maxvalue) qeder texmini bir reqem verir.</i><br/>
@@ -297,7 +297,10 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
  <img src="./image/cs67.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
 <b>3->rnd.Next(5,21) </b>--<i>Bu method ile biz 5-dan 21-ə qeder texmini bir reqem verir.Burada 5 daxildir 21 ise yox.Yeni biz elde etdiyimiz texmini reqemlerin hansi araliqda olmasini ozumuz teyin ede bilerik.</i><br/>
 <img src="./image/cs68.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
- <img src="./image/cs69.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/>
+ <img src="./image/cs69.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
+ <b>4->rnd.NextDouble() </b>--<i>Bu method ile biz 0-dan 1-ə qeder texmini bir reqem verir.Burada 1 daxil deyil.</i><br/>
+<img src="./image/cs70.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
+ <img src="./image/cs71.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
 </p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
