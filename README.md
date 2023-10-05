@@ -288,8 +288,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i>3->rnd.Next(<b>int.minvalue, int.maxvalue</b>)</i><br/>
 <i>4->rnd.NextDouble()</i><br/>
 <i>5->rnd.NextInt64()</i><br/>
-<i>6->rnd.NextInt64(<b>long maxvalue)</b></i><br/>
-<i>7->rnd.NextInt64()</i><b>long minvalue, long maxvalue</b><br/>
+<i>6->rnd.NextInt64(<b>long maxvalue</b>)</i><br/>
+<i>7->rnd.NextInt64(<b>long minvalue, long maxvalue</b>)</i><br/>
 
 <p>
 <b>1->rnd.Next() </b>--<i>Bu method ile biz 0-dan integer-in maximumu qeder yeni (int.maxvalue) qeder texmini bir reqem verir.</i><br/>
