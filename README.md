@@ -287,7 +287,10 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i>2->rnd.Next(<b>int.maxvalue</b>)</i><br/>
 <i>3->rnd.Next(<b>int.minvalue, int.maxvalue</b>)</i><br/>
 <i>4->rnd.NextDouble()</i><br/>
-<i>1->rnd.Next()</i><br/>
+<i>5->rnd.NextInt64()</i><br/>
+<i>6->rnd.NextInt64(<b>long maxvalue)<b></i><br/>
+<i>7->rnd.NextInt64()</i><b>long minvalue, long maxvalue</b><br/>
+
 <p>
 <b>1->rnd.Next() </b>--<i>Bu method ile biz 0-dan integer-in maximumu qeder yeni (int.maxvalue) qeder texmini bir reqem verir.</i><br/>
 <img src="./image/cs64.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
@@ -301,6 +304,9 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
  <b>4->rnd.NextDouble() </b>--<i>Bu method ile biz 0-dan 1-ə qeder texmini bir reqem verir.Burada 1 daxil deyil.</i><br/>
 <img src="./image/cs70.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
  <img src="./image/cs71.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
+ <b>5->,6->,7-> rnd.NextInt64() </b>--<i>Bu method ile biz 0-dan long.maxvalu qeder texmini bir reqem verir.Boyuk reqemler saxlamaq ucundur.Integer kimi 3 overloads var yeni elave yuklenmesi.</i><br/>
+<img src="./image/cs72.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
+ <img src="./image/cs73.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
 </p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
