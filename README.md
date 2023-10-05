@@ -233,7 +233,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>11.Loops-Dovurler.</b></summary>
+<details><summary><b>12.Loops-Dovurler.</b></summary>
 <i>Dovurlerin bir nece novleri var bunlara misal olaraq asagidakilari gosdere bilerik.
 </i>
 <ul type="square">
@@ -259,7 +259,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>12.Methodlar.</b></summary>
+<details><summary><b>13.Methodlar.</b></summary>
 <i><b>(Methodlar)</b>----> methodlar kod yazarken bize cox komeklik edir yeni bir method yazib bir hissesi eyni olan tapsiriqda yeniden cagirib isdifade ede bilerik.Biz yeni metodlar yarada bilerik.Methodlar geriye deyer qaytaran ve geriye deyer qaytarmiyan olur.Geriye deyer qaytaran methodlarda <b>return)</b> acar sozunden isdifade olunur.Methodlari Class-larin daxilinde yaradilir ve isdediyimiz qeder method yarada bilerik .Methodlar eyni adli olduqda gonderilen <b>datatype-lari)</b> ferqli olmalidir.Mes: Topla methodu <b>int number)</b> qebul edirse novbeti Topla methodu <b>int number,int a)</b> qebul etmelidir ve s.Deqiq desek method adlari eyni olduqda onlarin data qebul etmelerinin sayi ferqli ve ya daxil olan datanin tipleri ferqli ya da ki daxil olunan datalarin sayi eyni olsa yerleri ferqli olmalidir.Geri deyer qaytarmayan methodlari ise <b>void</b>--> adlanir yeni hecne deyer qaytarmir.</i><br/>
 <i><b>1.Geri deyer qaytarmayan method yeni return olmayan method.</b></i><br/>
 <p><img src="image\cs59.png"    alt="Sekil silinib" title="return olmayan method."/></p>
@@ -270,7 +270,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 </details>
 <b>________________________________________________________________________________________________________________</b>
 
-<details><summary><b>11.DIL MEDENIYETI.</b></summary>
+<details><summary><b>14.DIL MEDENIYETI.</b></summary>
 1.  <b>(Console.OutputEncoding = Encoding.Unicode;)</b> biz elimizde olan datani cole yeni fronta gondererken bu codu yazmaliyiq ki bezi herifleri tanimir ve onlarida tanisin.<br/>
 2.  <b>(Console.InputEncoding = Encoding.Unicode;)</b> biz colde olan datani yeni frontda olan datani iceri back e gonderirikse bu codu yazmaliyiq ki duzgun olaraq daxil etsin.<br/>
 3.  <b>(CultureInfo ce = new CultureInfo("az-Latn-AZ"); Thread.CurrentThread.CurrentCulture = ce;)</b> bunu yazdiqda ise proqram sirf azerbaycan dilinde isleyecek <b>Culture-(medeniyet), Thread-(Movzu), Current-(Cari, indiki), --menasina gelir)</b>.<br/>
@@ -280,13 +280,24 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 - <b>stopwatch.Stop())</b> bu method ise is bitenden sonra isdifade edilir ki it bitene qeder olcsun.
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>Class</b></summary>
+<details><summary><b>15.Enum</b></summary>
+1. </b>(enum)</b> enum ne demekdir ?.Enum ile limitli sayda olan secimleri yarada bilerik yeni hefdenin gunleri ilin aylarini ve ya sistemde menyulari ve s. yaratmaq olar.<br/>Enum susmaya gore </br><s>(intden)</s></b> toreyib ve biz diger tiplerden yeni tam olan tiplerden torede bilerik mes: byte ,sbyte,short ve s.<br/> Her hansi tipden toretmek isdedikde </b>public enum (Menu:byte)</b> qeyd etmek lazimdir . Enumlar da 1 ve bir nece secim bir secimden aslidirsa ele qurmaq olar ki hemin secimler isdediyimiz secimden asili olsun .<br/>Enum ozune mexsus xususiyyeti var bu xususuyyet 2-lik say sisteminde kodlardan aslidir.<br/> Enum-larda </b>( | )</b> toplama yeni iklikde olan kodlarin toplami </b>(&)</b> vurma emeliyyatidir buna genis sekilde misal cekek mes: tutaq ki bizde enum </b>(user=1, moderator=2, admin=user|moderator)</b> burada topluyanda indeksler toplanir ve eslinde user=1 de 1-in iklikde kodu </b>(0001)</b> ve moderator=2 2-nin ikilikde kodu </b>(0010)</b> toplanir ve neticede 3-un ikilikde olan </b>(0011)</b> alinir yeni admin 3 cu indeksdir ve admin diger iki user ve moderatorun isini gore biler.<br/>Bele hallardan isdifade etmek lazim olduqda indeksleri 2 usdu kimi gotururuk.Yeni 2 sifir, 2 usdu bir bele bele davam edir . Qeyd: enumun ozunun methodlari vardir ve onlar asagidakilardir.<br/>
+- </b>( Enum.GetValues(typeof(enum adi yeni tipi)))</b> bu method ile enum daki butun secimleri cap ede bilerik.Lakin mutleq enumun tipini gosdermeliyik .Cunki menyu enami ola biler ilin aylari enami ola biler ve s.<br/>
+- </b>(Enum.TryParse(typeof(Menu), Console.ReadLine(), true, out object result))</b> bu method ise enum tryparse methodudur yeni verilmis enumda bizim daxil etdiyimiz numune varmi diye yoxluyur varsa ture yoxdursa false qaytarir.Burada biz ilk olaraq tryparse icinde enum tipini yazdiq sonra datani daxil etdik ve herifin boyuk olub olmamasini yoxladiq </b>ture</b> olduqda boyuk kicik herif ferq etmir isleyir </b>false</b> olduqda ise enum necedirse elede yazilmalidir ve sonda ise eger varsa daxil etdiyimiz data onu object uzerine alir.<br/>
+- </b>(Enum.IsDefined(typeof(Menu), result))</b> bu method ile ise gelen datanin yeni resultun hemin enum daxilinde olub olmadigini yoxluya bilerik.<br/>
+- </b>(Enum.GetName(typeof(Menu), 2))</b> bu method ile ise enum 2 ci indeksindeki hansi secim oldugunu tapa bilerik. Burda 2 yerine Menu.ad yazsaq gedib hemin datani getrir.<br/>
+- </b>(Enum.GetUnderlyingType(typeof(Menu))</b> bu method ile ise biz enum hansi tipden torediyini oyrene bilerik.
+</details>
+
+<b>________________________________________________________________________________________________________________</b>
+
+<details><summary><b>16.Class</b></summary>
 <p><img src="./image/cs63.png"    alt="Sekil silinib" title="Conustructors."/>
 </p>
 </details>
-<details><summary><b>14.SQL</b></summary>
+<details><summary><b>17.SQL</b></summary>
 <i>Dockerde containers yaradilmasi asagidaki codlar vasidesi ile olur.</i><br/>
-<b>1.docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=!Salam2000@" -e "MSSQL_PID=Developer" -p     1434:1433 -v MSSQL_Task_1:/var/opt/mssql --name MSSQL_Task_1 --restart always mcr.microsoft.com/mssql/server:2019-latest.</b><br/>
+<b>1.docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=!Salam2000@" -e "MSSQL_PID=Developer" -p 1434:1433 -v MSSQL_Task_1:/var/opt/mssql --name MSSQL_Task_1 --restart always mcr.microsoft.com/mssql/server:2019-latest.</b><br/>
 <a href="https://www.youtube.com/watch?v=HPouaPz2vcc">1.Docker kursu butun videolara bax!</a><br>
 <i><b>Sql server numune ve codlari.</b></i><br/>
 <p><img src="./sql-image/Client-server-model.svg.png"    alt="Sekil silinib" title="server qurulus ."/></p>
@@ -313,7 +324,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 </details>
 <b>________________________________________________________________________________________________________________</b>
 
-<details><summary><b>14.Hazir deyil.</b></summary>
+<details><summary><b>18.Hazir deyil.</b></summary>
 </b>(Say tipli datatayplar)</b>
 
 1.  </b>(byte)</b> ---> tutumu {0,255} dir mes: byte say1=10;
@@ -417,16 +428,4 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
     </b>Valu ve Reference)</b> tayip dedikde ne nezerde tutulduguna baxaq. </b>RAM)</b> yeni muvveqeti yaddas iki hisseye ayrilir </b>Stack ve Heap)</b> ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin </b>Stack ve Heap)</b> yaddasda saxlanildigini gosdermisem. </b>QEYD)</b> Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  </b>int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)</b> -->bunlar her biri </b>valu tayipdir stack yaddasda saxlanilir)</b> ve reference tayiplardan suretli isleyir.
 2.  </b>string,char, massivler mes:int[] ,classlar ve s.)</b> bunlar ise </b>Reference tayipdir ve Heap yaddasda saxlanilir)</b> ve valu tayiplardan asagi suretde isleyir.
-
----
-
-0 </b>OOP Obyekt yonumlu proqramlasdirma)</b>
-
-1. </b>enum)</b> enum ne demekdir ?.Enum ile limitli sayda olan secimleri yarada bilerik yeni hefdenin gunleri ilin aylarini ve ya sistemde menyulari ve s. yaratmaq olar.Enum susmaya gore </b>intden)</b> toreyib ve biz diger tiplerden yeni tam olan tiplerden torede bilerik mes: byte ,sbyte,short ve s. Her hansi tipden toretmek isdedikde </b>public enum Menu:byte)</b> qeyd etmek lazimdir . Enumlar da 1 ve bir nece secim bir secimden aslidirsa ele qurmaq olar ki hemin secimler isdediyimiz secimden asili olsun .Enum ozune mexsus xususiyyeti var bu xususuyyet 2-lik say sisteminde kodlardan aslidir. Enum-larda </b>( | )</b> toplama yeni iklikde olan kodlarin toplami </b>(&)</b> vurma emeliyyatidir buna genis sekilde misal cekek mes: tutaq ki bizde enum </b>(user=1, moderator=2, admin=user|moderator)</b> burada topluyanda indeksler toplanir ve eslinde user=1 de 1-in iklikde kodu </b>0001)</b> ve moderator=2 2-nin ikilikde kodu </b>0010)</b> toplanir. ve neticede 3-un ikilikde olan </b>0011)</b> alinir yeni admin 3 cu indeksdir ve admin diger iki user ve moderatorun isini gore biler. Bele hallardan isdifade etmek lazim olduqda indeksleri 2 usdu kimi gotururuk.Yeni 2 sifir, 2 usdu bir bele bele davam edir . Qeyd: enumun ozunun methodlari vardir ve onlar asagidakilardir.
-
-- </b>( Enum.GetValues(typeof(enum adi yeni tipi)))</b> bu method ile enum daki butun secimleri cap ede bilerik.Lakin mutleq enumun tipini gosdermeliyik .Cunki menyu enami ola biler ilin aylari enami ola biler ve s.
-- </b>(Enum.TryParse(typeof(Menu), Console.ReadLine(), true, out object result))</b> bu method ise enum tryparse methodudur yeni verilmis enumda bizim daxil etdiyimiz numune varmi diye yoxluyur varsa ture yoxdursa false qaytarir. burada biz ilk olaraq tryparse icinde enum tipini yazdiq sonra datani daxil etdik ve herifin boyuk olub olmamasini yoxladiq </b>ture</b> olduqda boyuk kicik herif ferq etmir isleyir </b>false</b> olduqda ise enum necedirse elede yazilmalidir ve sonda ise eger varsa daxil etdiyimiz data onu object uzerine alir.
-- </b>(Enum.IsDefined(typeof(Menu), result))</b> bu method ile ise gelen datanin yeni resultun hemin enum daxilinde olub olmadigini yoxluya bilerik.
-- </b>(Enum.GetName(typeof(Menu), 2))</b> bu method ile ise enum 2 ci indeksindeki hansi secim oldugunu tapa bilerik. Burda 2 yerine Menu.ad yazsaq gedib hemin datani getrir.
-- </b>(Enum.GetUnderlyingType(typeof(Menu))</b> bu method ile ise biz enum hansi tipden torediyini oyrene bilerik.
 - </details>
