@@ -290,7 +290,9 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i>5->rnd.NextInt64()</i><br/>
 <i>6->rnd.NextInt64(<b>long maxvalue</b>)</i><br/>
 <i>7->rnd.NextInt64(<b>long minvalue, long maxvalue</b>)</i><br/>
-<i>8->rnd.NextBytes(<b>massiv</b>);</i><br/><br/><br/>
+<i>8->rnd.NextBytes(<b>massiv</b>);</i><br/>
+<i>9->rnd.NextSingle()</i><br/>
+
 <p>
 <b>1->rnd.Next() </b>--<i>Bu method ile biz 0-dan integer-in maximumu qeder yeni (int.maxvalue) qeder texmini bir reqem verir.</i><br/>
 <img src="./image/cs64.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
@@ -310,6 +312,11 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
  <b>8-> rnd.NextBytes(data) </b>--<i>Bu method ile biz byte massivini texmini 0 ile 256 arasinda reqemler ile doldura bilerik.Yalniz byte massivi ucun kecerlidir.</i><br/>
 <img src="./image/cs74.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
  <img src="./image/cs75.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
+ <b>9-> rnd.NextSingle() </b>--<i>Bu method ile bize float deyerini geri qaytarir.</i><br/>
+<img src="./image/cs76.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
+ <img src="./image/cs77.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
+
+
 </p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
