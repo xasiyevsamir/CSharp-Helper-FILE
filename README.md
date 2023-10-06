@@ -315,8 +315,6 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
  <b>9-> rnd.NextSingle() </b>--<i>Bu method ile bize float deyerini geri qaytarir.</i><br/>
 <img src="./image/cs76.png" width="400px" height="300px"    alt="Sekil silinib" title="Random method."/>
  <img src="./image/cs77.png" width="400px" height="300px"   alt="Sekil silinib" title="Random method."/><br/><br/><br/>
-
-
 </p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
