@@ -280,7 +280,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 - <b>stopwatch.Stop())</b> bu method ise is bitenden sonra isdifade edilir ki it bitene qeder olcsun.
 </details>
 <b>________________________________________________________________________________________________________________</b>
-
+<!-- RANDOM -->
 <details><summary><b>15.Random</b></summary>
 <i><b>Random classi texmini reqemler goturmek ucun isdifade edilir.Onun bir nece methodu vardir ve onlar asagidakilardir.</b></i><br/>
 <i>1->rnd.Next()</i><br/>
@@ -291,8 +291,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i>6->rnd.NextInt64(<b>long maxvalue</b>)</i><br/>
 <i>7->rnd.NextInt64(<b>long minvalue, long maxvalue</b>)</i><br/>
 <i>8->rnd.NextBytes(<b>massiv</b>);</i><br/>
-<i>9->rnd.NextSingle()</i><br/>
-
+<i>9->rnd.NextSingle()</i><br/><br/><br/>
 <p>
 <b>1->rnd.Next() </b>--<i>Bu method ile biz 0-dan integer-in maximumu qeder yeni (int.maxvalue) qeder texmini bir reqem verir.</i><br/>
 <img src="./image/cs64.png" width="400px" height="300px"    alt="Sekil silinib" title="Random method."/>
