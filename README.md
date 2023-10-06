@@ -295,26 +295,26 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 <p>
 <b>1->rnd.Next() </b>--<i>Bu method ile biz 0-dan integer-in maximumu qeder yeni (int.maxvalue) qeder texmini bir reqem verir.</i><br/>
-<img src="./image/cs64.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
- <img src="./image/cs65.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
+<img src="./image/cs64.png" width="400px" height="300px"    alt="Sekil silinib" title="Random method."/>
+ <img src="./image/cs65.png" width="400px" height="300px"   alt="Sekil silinib" title="Random method."/><br/><br/><br/>
 <b>2->rnd.Next(15) </b>--<i>Bu method ile biz 0-dan 15-ə qeder texmini bir reqem verir.Burada 0 daxildir 15 ise yox.</i><br/>
-<img src="./image/cs66.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
- <img src="./image/cs67.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
+<img src="./image/cs66.png" width="400px" height="300px"    alt="Sekil silinib" title="Random method."/>
+ <img src="./image/cs67.png" width="400px" height="300px"   alt="Sekil silinib" title="Random method."/><br/><br/><br/>
 <b>3->rnd.Next(5,21) </b>--<i>Bu method ile biz 5-dan 21-ə qeder texmini bir reqem verir.Burada 5 daxildir 21 ise yox.Yeni biz elde etdiyimiz texmini reqemlerin hansi araliqda olmasini ozumuz teyin ede bilerik.</i><br/>
-<img src="./image/cs68.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
- <img src="./image/cs69.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
+<img src="./image/cs68.png" width="400px" height="300px"    alt="Sekil silinib" title="Random method."/>
+ <img src="./image/cs69.png" width="400px" height="300px"   alt="Sekil silinib" title="Random method."/><br/><br/><br/>
  <b>4->rnd.NextDouble() </b>--<i>Bu method ile biz 0-dan 1-ə qeder texmini bir reqem verir.Burada 1 daxil deyil.</i><br/>
-<img src="./image/cs70.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
- <img src="./image/cs71.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
+<img src="./image/cs70.png" width="400px" height="300px"    alt="Sekil silinib" title="Random method."/>
+ <img src="./image/cs71.png" width="400px" height="300px"   alt="Sekil silinib" title="Random method."/><br/><br/><br/>
  <b>5->,6->,7-> rnd.NextInt64() </b>--<i>Bu method ile biz 0-dan long.maxvalu qeder texmini bir reqem verir.Boyuk reqemler saxlamaq ucundur.Integer kimi 3 overloads var yeni elave yuklenmesi.</i><br/>
-<img src="./image/cs72.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
- <img src="./image/cs73.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
+<img src="./image/cs72.png" width="400px" height="300px"    alt="Sekil silinib" title="Random method."/>
+ <img src="./image/cs73.png" width="400px" height="300px"   alt="Sekil silinib" title="Random method."/><br/><br/><br/>
  <b>8-> rnd.NextBytes(data) </b>--<i>Bu method ile biz byte massivini texmini 0 ile 256 arasinda reqemler ile doldura bilerik.Yalniz byte massivi ucun kecerlidir.</i><br/>
-<img src="./image/cs74.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
- <img src="./image/cs75.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
+<img src="./image/cs74.png" width="400px" height="300px"    alt="Sekil silinib" title="Random method."/>
+ <img src="./image/cs75.png" width="400px" height="300px"   alt="Sekil silinib" title="Random method."/><br/><br/><br/>
  <b>9-> rnd.NextSingle() </b>--<i>Bu method ile bize float deyerini geri qaytarir.</i><br/>
-<img src="./image/cs76.png" width="400px" height="300px"    alt="Sekil silinib" title="Random."/>
- <img src="./image/cs77.png" width="400px" height="300px"   alt="Sekil silinib" title="Random."/><br/><br/><br/>
+<img src="./image/cs76.png" width="400px" height="300px"    alt="Sekil silinib" title="Random method."/>
+ <img src="./image/cs77.png" width="400px" height="300px"   alt="Sekil silinib" title="Random method."/><br/><br/><br/>
 
 
 </p>
@@ -412,9 +412,9 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 2. </b>Random random = new Random())</b> (Random-tesadufu demekdir) Random bir klasdir ve bu klass bize tesadufu reqemler vere bilir ve methodu var onlar asagidakilardir.
 
-- </b>int data=random.Next(1,10))</b> bu method bize texmini reqem verir.Maksium int qeder ola bilir ve her zaman biz araliq verende yeni burda 1 ile 10 arasinda tesadufu reqemler ver dedikde 1 daxil 10 ise daxil olmur 1 ile 9 daxil reqemler verir.Geriye int qaytarir.
-- </b>double data=random.NextDouble())</b> bu method ile ise tesadufu 0 ve 1 arasinda reqemler verir yeni kesir ededler.Geriye double qaytarir.
-- </b>byte data=random.NextBytes())</b> bu method bayit tutumu qeder tesadufu ededler verir.
+- </b>int data=Random method.Next(1,10))</b> bu method bize texmini reqem verir.Maksium int qeder ola bilir ve her zaman biz araliq verende yeni burda 1 ile 10 arasinda tesadufu reqemler ver dedikde 1 daxil 10 ise daxil olmur 1 ile 9 daxil reqemler verir.Geriye int qaytarir.
+- </b>double data=Random method.NextDouble())</b> bu method ile ise tesadufu 0 ve 1 arasinda reqemler verir yeni kesir ededler.Geriye double qaytarir.
+- </b>byte data=Random method.NextBytes())</b> bu method bayit tutumu qeder tesadufu ededler verir.
 
 ---
 
