@@ -294,7 +294,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i>9->rnd.NextSingle()</i><br/><br/><br/>
 <p>
 <b>1->rnd.Next() </b>--<i>Bu method ile biz 0-dan integer-in maximumu qeder yeni (int.maxvalue) qeder texmini bir reqem verir.</i><br/>
-<img src="./image/cs64.png" width="400px" height="300px"    alt="Sekil silinib" title="Random method."/>
+<img src="./image/cs64.png" width="400px" height="300px"    alt="Sekil silinib" title="Random metho."/>
  <img src="./image/cs65.png" width="400px" height="300px"   alt="Sekil silinib" title="Random method."/><br/><br/><br/>
 <b>2->rnd.Next(15) </b>--<i>Bu method ile biz 0-dan 15-ə qeder texmini bir reqem verir.Burada 0 daxildir 15 ise yox.</i><br/>
 <img src="./image/cs66.png" width="400px" height="300px"    alt="Sekil silinib" title="Random method."/>
