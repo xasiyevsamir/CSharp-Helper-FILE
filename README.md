@@ -46,7 +46,7 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
 10. git branch -M main<br/>
 11. git remote add origin https://github.com/xasiyevRandom method./taskkkk.git<br/>
 12. git push -u origin main<br/>
-13. Eger Github-a ilk defe qosuluruqsa onda asgidaki emirleri etmeliyik ardicilliqla.
+13. Eger Github-a ilk defe qosuluruqsa onda asgidaki emirleri etmeliyik ardicilliqla.<br/>
     <b>a.git</b> config --global user.name "xasiyevsamir"<br/>
     <b>b.git</b> config --global user.email "qeydiyyatdan kecdiyimiz email."<br/>
     <b>c.git</b> config --global user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
