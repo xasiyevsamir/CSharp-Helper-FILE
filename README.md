@@ -47,12 +47,12 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
 11. git remote add origin https://github.com/xasiyevRandom method./taskkkk.git<br/>
 12. git push -u origin main<br/>
 13. Eger Github-a ilk defe qosuluruqsa onda asgidaki emirleri etmeliyik ardicilliqla.
-    a.git config --global user.name "xasiyevsamir"<br/>
-    b.git config --global user.email "qeydiyyatdan kecdiyimiz email."<br/>
-    c.git config --global user.password "qeydiyyatdan kecdikde yaratdigimiz password."
-    d.git config  user.name "xasiyevsamir"<br/>
-    e.git config  user.email "qeydiyyatdan kecdiyimiz email."<br/>
-    f.git config  user.password "qeydiyyatdan kecdikde yaratdigimiz password."
+    <b>a.git</b> config --global user.name "xasiyevsamir"<br/>
+    <b>b.git</b> config --global user.email "qeydiyyatdan kecdiyimiz email."<br/>
+    <b>c.git</b> config --global user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
+    <b>d.git</b> config  user.name "xasiyevsamir"<br/>
+    <b>e.git</b> config  user.email "qeydiyyatdan kecdiyimiz email."<br/>
+    <b>f.git</b> config  user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
 Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 </details>
 <b>________________________________________________________________________________________________________________</b>
