@@ -46,6 +46,13 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
 10. git branch -M main<br/>
 11. git remote add origin https://github.com/xasiyevRandom method./taskkkk.git<br/>
 12. git push -u origin main<br/>
+13. Eger Github-a ilk defe qosuluruqsa onda asgidaki emirleri etmeliyik ardicilliqla.
+    a.git config --global user.name "xasiyevsamir"<br/>
+    b.git config --global user.email "qeydiyyatdan kecdiyimiz email."<br/>
+    c.git config --global user.password "qeydiyyatdan kecdikde yaratdigimiz password."
+    d.git config  user.name "xasiyevsamir"<br/>
+    e.git config  user.email "qeydiyyatdan kecdiyimiz email."<br/>
+    f.git config  user.password "qeydiyyatdan kecdikde yaratdigimiz password."
 Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 </details>
 <b>________________________________________________________________________________________________________________</b>
@@ -294,7 +301,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i>9->rnd.NextSingle()</i><br/><br/><br/>
 <p>
 <b>1->rnd.Next() </b>--<i>Bu method ile biz 0-dan integer-in maximumu qeder yeni (int.maxvalue) qeder texmini bir reqem verir.</i><br/>
-<img src="./image/cs64.png" width="400px" height="300px"    alt="Sekil silinib" title="Random method."/>
+<img src="./image/cs64.png" width="400px" height="300px"    alt="Sekil silinib" title="Random metho."/>
  <img src="./image/cs65.png" width="400px" height="300px"   alt="Sekil silinib" title="Random method."/><br/><br/><br/>
 <b>2->rnd.Next(15) </b>--<i>Bu method ile biz 0-dan 15-ə qeder texmini bir reqem verir.Burada 0 daxildir 15 ise yox.</i><br/>
 <img src="./image/cs66.png" width="400px" height="300px"    alt="Sekil silinib" title="Random method."/>
