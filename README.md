@@ -336,8 +336,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="./image/cs82.png"    alt="Sekil silinib" title="Enum Method"/><br/><br/><br/>
  <b>Enum.TryParse(typeof(Menu), Console.ReadLine(), true, out object result)</b> bu method ise enum tryparse methodudur yeni verilmis enumda bizim daxil etdiyimiz numune varmi diye yoxluyur varsa ture yoxdursa false qaytarir.Burada biz ilk olaraq tryparse icinde enum tipini yazdiq sonra datani daxil etdik ve herifin boyuk olub olmamasini yoxladiq <b>ture</b> olduqda boyuk kicik herif ferq etmir isleyir <b>false</b> olduqda ise enum necedirse elede yazilmalidir ve sonda ise eger varsa daxil etdiyimiz data onu object uzerine alir.<br/>
 <img src="./image/cs83.png"    alt="Sekil silinib" title="Enum Method"/><br/><br/><br/>
-
  <b>Enum.IsDefined(typeof(Menu), result)</b> bu method ile ise gelen datanin yeni resultun hemin enum daxilinde olub olmadigini yoxluya bilerik.<br/>
+<img src="./image/cs84.png"    alt="Sekil silinib" title="Enum Method"/><br/><br/><br/>
  <b>Enum.GetName(typeof(Menu), 2)</b> bu method ile ise enum 2 ci indeksindeki hansi secim oldugunu tapa bilerik. Burda 2 yerine Menu.ad yazsaq gedib hemin datani getrir.<br/>
 <b>Enum.GetUnderlyingType(typeof(Menu)</b> bu method ile ise biz enum hansi tipden torediyini oyrene bilerik.
 </p>
