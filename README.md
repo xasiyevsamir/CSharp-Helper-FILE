@@ -329,14 +329,17 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <p>
 <img src="./image/cs80.png"    alt="Sekil silinib" title="Enum"/><br/><br/><br/>
 <img src="./image/cs78.png"    alt="Sekil silinib" title="Enum"/><br/><br/><br/>
-<img src="./image/cs79.png"    alt="Sekil silinib" title="Enum"/><br/>
-</p>
+<img src="./image/cs79.png"    alt="Sekil silinib" title="Enum"/><br/><br/><br/>
 <b>Qeyd: enumun ozunun methodlari vardir ve onlar asagidakilardir.</b><br/>
  <b>Enum.GetValues(typeof(enum adi yeni tipi))</b> bu method ile enum daki butun secimleri cap ede bilerik.Lakin mutleq enumun tipini gosdermeliyik .Cunki menyu enami ola biler ilin aylari enami ola biler ve s.<br/>
+<img src="./image/cs81.png"    alt="Sekil silinib" title="Enum"/><br/>
+<img src="./image/cs82.png"    alt="Sekil silinib" title="Enum"/><br/><br/><br/>
  <b>Enum.TryParse(typeof(Menu), Console.ReadLine(), true, out object result)</b> bu method ise enum tryparse methodudur yeni verilmis enumda bizim daxil etdiyimiz numune varmi diye yoxluyur varsa ture yoxdursa false qaytarir.Burada biz ilk olaraq tryparse icinde enum tipini yazdiq sonra datani daxil etdik ve herifin boyuk olub olmamasini yoxladiq <b>ture</b> olduqda boyuk kicik herif ferq etmir isleyir <b>false</b> olduqda ise enum necedirse elede yazilmalidir ve sonda ise eger varsa daxil etdiyimiz data onu object uzerine alir.<br/>
  <b>Enum.IsDefined(typeof(Menu), result)</b> bu method ile ise gelen datanin yeni resultun hemin enum daxilinde olub olmadigini yoxluya bilerik.<br/>
  <b>Enum.GetName(typeof(Menu), 2)</b> bu method ile ise enum 2 ci indeksindeki hansi secim oldugunu tapa bilerik. Burda 2 yerine Menu.ad yazsaq gedib hemin datani getrir.<br/>
 <b>Enum.GetUnderlyingType(typeof(Menu)</b> bu method ile ise biz enum hansi tipden torediyini oyrene bilerik.
+</p>
+
 </details>
 
 <b>\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\_\_\_\_\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***</b>
