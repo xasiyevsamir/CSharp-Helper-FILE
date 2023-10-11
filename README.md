@@ -331,8 +331,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="./image/cs78.png"    alt="Sekil silinib" title="Enum"/><br/><br/><br/>
 <img src="./image/cs79.png"    alt="Sekil silinib" title="Enum"/><br/><br/><br/>
 <b>Qeyd: enumun ozunun methodlari vardir ve onlar asagidakilardir.</b><br/>
-<img src="./image/cs87.png"    alt="Sekil silinib" title="Enum Method"/><br/>
- <b>Enum.GetValues(typeof(enum adi yeni tipi))</b> bu method ile enum daki butun secimleri cap ede bilerik.Lakin mutleq enumun tipini gosdermeliyik .Cunki menyu enami ola biler ilin aylari enami ola biler ve s.<br/>
+<img src="./image/cs87.png"    alt="Sekil silinib" title="Enum"/><br/>
+ <b>Enum.GetValues(typeof(enum adi yeni tipi))</b> bu method ile enum daki butun secimleri cap ede bilerik.Lakin mutleq enumun tipini gosdermeliyik .Cunki int,byte,long,ulong,short ve s.TIplerden ola biler. <br/>
 <img src="./image/cs81.png"    alt="Sekil silinib" title="Enum Method"/><br/>
 <img src="./image/cs82.png"    alt="Sekil silinib" title="Enum Method"/><br/><br/><br/>
  <b>Enum.TryParse(typeof(MonthName), Console.ReadLine(), true, out object result)</b> bu method ise enum tryparse methodudur yeni verilmis enumda bizim daxil etdiyimiz numune varmi diye yoxluyur varsa ture yoxdursa false qaytarir.Burada biz ilk olaraq tryparse icinde enum tipini yazdiq sonra datani daxil etdik ve herifin boyuk olub olmamasini yoxladiq <b>ture</b> olduqda boyuk kicik herif ferq etmir isleyir <b>false</b> olduqda ise enum necedirse elede yazilmalidir ve sonda ise eger varsa daxil etdiyimiz data onu object uzerine alir.<br/>
@@ -342,7 +342,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
  <b>Enum.GetName(typeof(MonthName), 1)</b> bu method ile ise enum 1 ci indeksindeki hansi secim oldugunu tapa bilerik. Burda 1 yerine MonthName.Yanvar yazsaq gedib hemin datani getrir.<br/>
 <img src="./image/cs85.png"    alt="Sekil silinib" title="Enum Method"/><br/>
 <img src="./image/cs86.png"    alt="Sekil silinib" title="Enum Method"/><br/><br/><br/>
-<b>Enum.GetUnderlyingType(typeof(MonthName)</b> bu method ile ise biz enum hansi tipden torediyini oyrene bilerik.
+<b>Enum.GetUnderlyingType(typeof(MonthName)</b> bu method ile ise biz enum hansi tipden torediyini oyrene bilerik.<br/>
+<img src="./image/cs89.png"    alt="Sekil silinib" title="Enum Method"/><br/><br/><br/>
 </p>
 
 </details>
