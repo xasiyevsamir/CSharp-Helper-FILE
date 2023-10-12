@@ -355,7 +355,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="./image/cs63.png"    alt="Sekil silinib" title="Conustructors."/><br/><br/>
 <i>Static conustructor method qaydasi.</i><br/>
 <img src="./image/cs89.png"    alt="Sekil silinib" title="this kivordu."/><br/><br/>
-<i><b>this</b>.kiyvordunun izahi ve bir birini cagiran conustructor method.</i><br/>
+<i><b>this</b>. kiyvordunun izahi ve bir birini cagiran conustructor method.</i><br/>
 <img src="./image/cs90.png"    alt="Sekil silinib" title="this kivordu."/><br/><br/>
 </p>
 </details>
