@@ -358,7 +358,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>this</b>. kiyvordunun izahi ve bir birini cagiran conustructor method.</i><br/>
 <img src="./image/cs90.png"    alt="Sekil silinib" title="this kivordu."/><br/><br/><br/>
 <i><b>OOP -in esaslari.</b></i><br/>
-<i><b>Inheritance--Mirass vermek nesillendirmek.</b>.</i><br/>
+<i><b>Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
 <img src="./image/cs91.png"    alt="Sekil silinib" title="this kivordu."/><br/>
 <img src="./image/cs92.png"    alt="Sekil silinib" title="this kivordu."/><br/><br/>
 <i>Class bezi qaydalari.</i><br/>
