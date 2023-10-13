@@ -359,8 +359,13 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="./image/cs90.png"    alt="Sekil silinib" title="this kivordu."/><br/><br/><br/>
 <i><b>OOP -in esaslari.</b></i><br/>
 <i><b>Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
-<img src="./image/cs91.png"    alt="Sekil silinib" title="this kivordu."/><br/>
-<img src="./image/cs92.png"    alt="Sekil silinib" title="this kivordu."/><br/><br/>
+<i><b>Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
+<img src="./image/cs91.png"    alt="Sekil silinib" title="inheritance."/><br/>
+<img src="./image/cs92.png"    alt="Sekil silinib" title="inheritance."/><br/><br/>
+<i><b>Conustructor methodun ana classin conustructor methodunu cagirmasi.</b></i><br/>
+<img src="./image/cs93.png"    alt="Sekil silinib" title="inheritance."/>
+<img src="./image/cs94.png"    alt="Sekil silinib" title="inheritance."/><br/><br/>
+
 <i>Class bezi qaydalari.</i><br/>
 <i>Class bezi qaydalari.</i><br/>
 <i>Class bezi qaydalari.</i><br/>
