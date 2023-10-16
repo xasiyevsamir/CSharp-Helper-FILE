@@ -38,15 +38,15 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
     QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra ise bir nece emirden isdifade ederek yeni repositories yarada bilerik .
     …or create a new repository on the command line
 
-5.  git clone (linkimizi buraya yerlesdiririk).<br/>
-6.  echo "dirnaq arasina ne isdesez yaza bilersiz">> README.md -------->>(readme fayili yaratmaq ucundur.)<br/>
-7.  git init ---------->>>(git pafqasi yaratmaq ucundur )<br/>
-8.  git add README.md ------->>(readmi fayilini testiq etmek ucun)<br/>
-9.  git commit -m "first commit" -----(deyisikliye ad vermek ucun)<br/>
-10. git branch -M main<br/>
-11. git remote add origin https://github.com/xasiyevRandom method./taskkkk.git<br/>
-12. git push -u origin main<br/>
-13. Eger Github-a ilk defe qosuluruqsa onda asgidaki emirleri etmeliyik ardicilliqla.<br/>
+1.  git clone (linkimizi buraya yerlesdiririk).<br/>
+2.  echo "dirnaq arasina ne isdesez yaza bilersiz">> README.md -------->>(readme fayili yaratmaq ucundur.)<br/>
+3.  git init ---------->>>(git pafqasi yaratmaq ucundur )<br/>
+3.  git add README.md ------->>(readmi fayilini testiq etmek ucun)<br/>
+4.  git commit -m "first commit" -----(deyisikliye ad vermek ucun)<br/>
+6. git branch -M main<br/>
+6. git remote add origin https://github.com/xasiyevRandom method./taskkkk.git<br/>
+7. git push -u origin main<br/>
+8. Eger Github-a ilk defe qosuluruqsa onda asgidaki emirleri etmeliyik ardicilliqla.<br/>
 <b>a.git</b> config --global user.name "xasiyevsamir"<br/>
 <b>b.git</b> config --global user.email "qeydiyyatdan kecdiyimiz email."<br/>
 <b>c.git</b> config --global user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
@@ -59,7 +59,16 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 
 <details><summary><b>4.Movzu:Math sinifi.</b></summary><br/><br/>
 
-13.<b>(Math.Pow(10,2))</b> ---> burada 10 kvadratini yazmisiq yeni (10\*10) .Bunu isdediyimiz kimi yaza bilerik yeni kub ve s. Meselen: Math.Pow(10,3) , (10,4).<br/> 14.<b>(Math.Log10)</b>---> ededin nece reqemli oldugunu tapir amma neticenin usdune mutleq 1 gelirik.<br/> 15.<b>(Math.sqrt)</b>----> koku tapmaq ucun istifada edilir.<br/> 16.<b>(Math.Round)</b>---> riyazi yuvarlasdirmaq ucun istifade edilir.<br/> 17.<b>(Math.Floor)</b>---> asagi yuvarlasdirmaq,yeni tam hisseye kimi atir.<br/> 18.<b>(Math.Ceiling)</b>---> yuxari yuvarlasdirmaq.<br/> 19.<b>(Math.PI)</b>---> pi deyeridir .hesabliyada isdifade ede bilerik.<br/> 20.<b>(Math.Abs)</b>--->Modulu tapmaq ucundur.<br/> 21.<b>(Math.Max)</b>--> ededin maksimumun tapir.<br/> 22.<b>(Math.Min)</b>--> ededin minumumun tapir.<br/>
+1.<b>(Math.Pow(10,2))</b> ---> burada 10 kvadratini yazmisiq yeni (10\*10) .Bunu isdediyimiz kimi yaza bilerik yeni kub ve s. Meselen: Math.Pow(10,3) , (10,4).<br/>
+2.<b>(Math.Log10)</b>---> ededin nece reqemli oldugunu tapir amma neticenin usdune mutleq 1 gelirik.<br/> 
+3.<b>(Math.sqrt)</b>----> koku tapmaq ucun istifada edilir.<br/>
+4.<b>(Math.Round)</b>---> riyazi yuvarlasdirmaq ucun istifade edilir.<br/> 
+5.<b>(Math.Floor)</b>---> asagi yuvarlasdirmaq,yeni tam hisseye kimi atir.<br/> 
+6.<b>(Math.Ceiling)</b>---> yuxari yuvarlasdirmaq.<br/> 
+7.<b>(Math.PI)</b>---> pi deyeridir .hesabliyada isdifade ede bilerik.<br/> 
+8.<b>(Math.Abs)</b>--->Modulu tapmaq ucundur.<br/> 
+9.<b>(Math.Max)</b>--> ededin maksimumun tapir.<br/> 
+10.<b>(Math.Min)</b>--> ededin minumumun tapir.<br/>
 
 </details>
 <b>________________________________________________________________________________________________________________</b>
