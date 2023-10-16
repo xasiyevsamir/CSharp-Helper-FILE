@@ -377,9 +377,9 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="./image/cs92.png"    alt="Sekil silinib" title="inheritance."/><br/><br/>
 <i><b>Conustructor methodun ana classin conustructor methodunu cagirmasi.</b></i><br/>
 <img src="./image/cs93.png"    alt="Sekil silinib" title="inheritance."/>
-<img src="./image/cs94.png"    alt="Sekil silinib" title="inheritance."/><br/><br/>
+<img src="./image/cs94.png"    alt="Sekil silinib" title="inheritance."/><br/><br/><br/>
 <i><b>2.Encapsulation</b>--Gizletmek ,Gizlin etmek ,Kapsullamaq.</i><br/>
-<img src="./image/cs95.jpeg"    alt="Sekil silinib" title="inheritance."/><br/><br/>
+<img src="./image/css95.jpeg"    alt="Sekil silinib" title="inheritance."/><br/><br/>
 <i><b>3.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
 <i><b>4.Inheritance</b>--Mirass vermek nesillendirmek.</i>
 
