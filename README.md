@@ -367,6 +367,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>this</b>. kiyvordunun izahi ve bir birini cagiran conustructor method.</i><br/>
 <img src="./image/cs90.png"    alt="Sekil silinib" title="this kivordu."/><br/><br/><br/>
 <i><b>OOP -in esaslari.</b></i><br/>
+<img src="./image/oop.png"    alt="Sekil silinib" title="Conustructors."/><br/><br/>
 <i><b>1.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
 <i><b>2.Encapsulation</b>--Gizletmek ,Gizlin etmek ,Kapsullamaq.</i><br/>
 <i><b>3.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
@@ -377,9 +378,18 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="./image/cs92.png"    alt="Sekil silinib" title="inheritance."/><br/><br/>
 <i><b>Conustructor methodun ana classin conustructor methodunu cagirmasi.</b></i><br/>
 <img src="./image/cs93.png"    alt="Sekil silinib" title="inheritance."/>
-<img src="./image/cs94.png"    alt="Sekil silinib" title="inheritance."/><br/><br/><br/>
+<img src="./image/cs94.png"    alt="Sekil silinib" title="inheritance."/><br/><br/><br/><br/>
 <i><b>2.Encapsulation</b>--Gizletmek ,Gizlin etmek ,Kapsullamaq.</i><br/>
-<img src="image\cs95.png"   alt="Sekil silinib" title="inheritance."/><br/><br/>
+<img src="image\cs95.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/>
+
+
+
+
+
+
+
+
+
 <i><b>3.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
 <i><b>4.Inheritance</b>--Mirass vermek nesillendirmek.</i>
 
