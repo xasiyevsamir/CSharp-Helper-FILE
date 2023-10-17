@@ -383,6 +383,9 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs97.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/><br/>
 <i><b>2.Encapsulation</b>--Gizletmek ,Gizlin etmek ,Kapsullamaq.C#-da İnkapsulyasiya Prinsipi Kapsula çox bənzəyir. Bir kapsul öz dərmanını içinə bağladığı kimi, C#-da eyni şəkildə, Enkapsulyasiya Prinsipi Vəziyyəti (Dəyişənləri) və Davranışı (Metodları) sinif, enum, interfeys və s. adlı vahid vahidə bağlayır. Beləliklə, siz İnkapsulyasiya haqqında düşünə bilərsiniz. əlaqəli vəziyyətləri və davranışları vahid vahiddə birləşdirən örtük və ya təbəqə kimi.</i><br/>
 <img src="image\cs96.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/>
+<i><b>Propertiler--get,set methodu</b>.</i><br/>
+<img src="image\cs98.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/>
+
 
 
 
