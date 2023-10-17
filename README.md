@@ -386,7 +386,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>Propertiler--get,set methodu</b>.Qeyd: Asagidaki sekildeki propertinin filden hec bir ferqi yoxdur cunki ne getinde nede setinde hecbir emelliyat aparilmayib sadece property yaradilib.</i><br/>
 <img src="image\cs98.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/>
 <i><b>get ve set methodunun xususiyyetleri.</b>.</i><br/>
-<img src="image\cs99.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/>
+<img src="image\cs99.png"   alt="Sekil silinib" title="Encapsulation."/><br/>
+<img src="image\cs100.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/>
 
 
 
