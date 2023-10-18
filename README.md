@@ -357,37 +357,46 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 </p>
 </details>
 <b>__________________________________________________________________________________________________________________</b>
-<!-- CLASS -->
-<details><summary><b>17.Class</b></summary>
-<p>
-<i>Class bezi qaydalari.</i><br/>
-<img src="./image/cs63.png"    alt="Sekil silinib" title="Conustructors."/><br/><br/>
-<i>Static conustructor method qaydasi.</i><br/>
-<img src="./image/cs89.png"    alt="Sekil silinib" title="this kivordu."/><br/><br/>
-<i><b>this</b>. kiyvordunun izahi ve bir birini cagiran conustructor method.</i><br/>
-<img src="./image/cs90.png"    alt="Sekil silinib" title="this kivordu."/><br/><br/><br/>
-<img src="./image/oop.png"    alt="Sekil silinib" title="Conustructors."/><br/><br/>
+<!-- OOPdu  -->
+<details><summary><b>17.OOP</b></summary>
 <i><b>OOP -in esaslari.</b></i><br/>
 <i><b>1.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
 <i><b>2.Encapsulation</b>--Gizletmek ,Gizlin etmek ,Kapsullamaq.</i><br/>
 <i><b>3.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
 <i><b>4.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/><br/><br/>
-
+<p><img src="./image/oop.png"    alt="Sekil silinib" title="Conustructors."/><br/><br/></p>
+<details><summary><b>1.Object</b></summary>
+<!-- object haqqinda yaz -->
+</details>
+<details><summary><b>2.Class</b></summary>
+<i>Class bezi qaydalari.</i><br/><p>
+<img src="./image/cs63.png"    alt="Sekil silinib" title="Conustructors."/><br/><br/>
+<i>Static conustructor method qaydasi.</i><br/>
+<img src="./image/cs89.png"    alt="Sekil silinib" title="this kivordu."/><br/><br/>
+<i><b>this</b>. kiyvordunun izahi ve bir birini cagiran conustructor method.</i><br/>
+<img src="./image/cs90.png"    alt="Sekil silinib" title="this kivordu."/><br/><br/><br/></p>
+</details>
+<details><summary><b>3.Inheritance</b></summary>
+<p>
 <i><b>1.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
-<img src="./image/cs91.png"    alt="Sekil silinib" title="inheritance."/><br/>
+<p><img src="./image/cs91.png"    alt="Sekil silinib" title="inheritance."/><br/>
 <img src="./image/cs92.png"    alt="Sekil silinib" title="inheritance."/><br/><br/>
 <i><b>Conustructor methodun ana classin conustructor methodunu cagirmasi.</b></i><br/>
 <img src="./image/cs93.png"    alt="Sekil silinib" title="inheritance."/>
-<img src="./image/cs94.png"    alt="Sekil silinib" title="inheritance."/><br/><br/><br/><br/>
-<i><b>Method ve fields</b>.</i><br/>
-<img src="image\cs97.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/><br/>
-<i><b>2.Encapsulation</b>--Gizletmek ,Gizlin etmek ,Kapsullamaq.C#-da İnkapsulyasiya Prinsipi Kapsula çox bənzəyir. Bir kapsul öz dərmanını içinə bağladığı kimi, C#-da eyni şəkildə, Enkapsulyasiya Prinsipi Vəziyyəti (Dəyişənləri) və Davranışı (Metodları) sinif, enum, interfeys və s. adlı vahid vahidə bağlayır. Beləliklə, siz İnkapsulyasiya haqqında düşünə bilərsiniz. əlaqəli vəziyyətləri və davranışları vahid vahiddə birləşdirən örtük və ya təbəqə kimi.</i><br/>
+<img src="./image/cs94.png"    alt="Sekil silinib" title="inheritance."/><br/></p>
+</details>
+<details><summary><b>4.Encapsulation</b></summary>
+<i><b>Encapsulation</b>--Gizletmek ,Gizlin etmek ,Kapsullamaq.C#-da İnkapsulyasiya Prinsipi Kapsula çox bənzəyir. Bir kapsul öz dərmanını içinə bağladığı kimi, C#-da eyni şəkildə, Enkapsulyasiya Prinsipi Vəziyyəti (Dəyişənləri) və Davranışı (Metodları) sinif, enum, interfeys və s. adlı vahid vahidə bağlayır. Beləliklə, siz İnkapsulyasiya haqqında düşünə bilərsiniz. əlaqəli vəziyyətləri və davranışları vahid vahiddə birləşdirən örtük və ya təbəqə kimi.</i><br/>
 <img src="image\cs96.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/>
+<i><b>Method ve fields</b>.</i><br/>
+<img src="image\cs97.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/>
 <i><b>Propertiler--get,set methodu</b>.Qeyd: Asagidaki sekildeki propertinin filden hec bir ferqi yoxdur cunki ne getinde nede setinde hecbir emelliyat aparilmayib sadece property yaradilib.</i><br/>
 <img src="image\cs98.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/>
 <i><b>get ve set methodunun xususiyyetleri.</b>.</i><br/>
 <img src="image\cs99.png"   alt="Sekil silinib" title="Encapsulation."/><br/>
-<img src="image\cs100.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/>
+<img src="image\cs100.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/></p>
+</details>
+</details>
 
 
 
