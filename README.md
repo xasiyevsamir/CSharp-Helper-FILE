@@ -385,7 +385,11 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="./image/cs92.png"    alt="Sekil silinib" title="inheritance."/><br/><br/>
 <i><b>Conustructor methodun ana classin conustructor methodunu cagirmasi.</b></i><br/>
 <img src="./image/cs93.png"    alt="Sekil silinib" title="inheritance."/>
-<img src="./image/cs94.png"    alt="Sekil silinib" title="inheritance."/><br/></p>
+<img src="./image/cs94.png"    alt="Sekil silinib" title="inheritance."/>
+<img src="./image/cs101.png"    alt="Sekil silinib" title="inheritance."/>
+<br/>
+
+</p>
 </details>
 <details><summary><b>4.Encapsulation</b></summary>
 <i><b>Encapsulation</b>--Gizletmek ,Gizlin etmek ,Kapsullamaq.C#-da İnkapsulyasiya Prinsipi Kapsula çox bənzəyir. Bir kapsul öz dərmanını içinə bağladığı kimi, C#-da eyni şəkildə, Enkapsulyasiya Prinsipi Vəziyyəti (Dəyişənləri) və Davranışı (Metodları) sinif, enum, interfeys və s. adlı vahid vahidə bağlayır. Beləliklə, siz İnkapsulyasiya haqqında düşünə bilərsiniz. əlaqəli vəziyyətləri və davranışları vahid vahiddə birləşdirən örtük və ya təbəqə kimi.</i><br/>
@@ -410,7 +414,6 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 <b>Mssql ve C# data type qarsiliqlari asagidaki sekilde gosderilib.</b><br/>
 <a href="https://github.com/xasiyevRandom method./MsSql/blob/master/docs/datatypes.md">1.Bu linkden daha yaxsi anlasiliqli olacaqdir!</a><br>
-
 <p><img src="./sql-image/server_2.png"    alt="Sekil silinib" title="Mssql ve C# data type."/></p>
 <p><img src="./sql-image/sql1.png"    alt="Sekil silinib" /></p>
 <p><img src="./sql-image/sql2.png"    alt="Sekil silinib" /></p><br/>
