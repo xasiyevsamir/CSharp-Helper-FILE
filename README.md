@@ -360,8 +360,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <!-- OOPdu  -->
 <details><summary><b>17.OOP</b></summary>
 <i><b>OOP -in esaslari.</b></i><br/>
-<i><b>1.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
-<i><b>2.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
+<i><b>1.Object</b>--Mirass vermek nesillendirmek.</i><br/>
+<i><b>2.Class</b>--Mirass vermek nesillendirmek.</i><br/>
 <i><b>3.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
 <i><b>4.Encapsulation</b>--Gizletmek ,Gizlin etmek ,Kapsullamaq.</i><br/>
 <i><b>5.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
@@ -398,7 +398,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs99.png"   alt="Sekil silinib" title="Encapsulation."/><br/>
 <img src="image\cs100.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/></p>
 </details>
-</p>
+
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>18.SQL</b></summary>
