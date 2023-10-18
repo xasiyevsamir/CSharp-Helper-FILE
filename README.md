@@ -386,7 +386,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>Conustructor methodun ana classin conustructor methodunu cagirmasi.</b></i><br/>
 <img src="./image/cs93.png"    alt="Sekil silinib" title="inheritance."/>
 <img src="./image/cs94.png"    alt="Sekil silinib" title="inheritance."/>
-<img src="\image\cs101.png"    alt="Sekil silinib" title="inheritance."/>
+<img src="\image\cs103.png"    alt="Sekil silinib" title="inheritance."/>
 <br/>
 
 </p>
