@@ -364,14 +364,17 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>2.Class</b>--Mirass vermek nesillendirmek.</i><br/>
 <i><b>3.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
 <i><b>4.Encapsulation</b>--Gizletmek ,Gizlin etmek ,Kapsullamaq.</i><br/>
-<i><b>5.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
+<i><b>5.Polymorpishm</b>--Mirass vermek nesillendirmek.</i><br/>
 <i><b>6.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
 <p><img src="./image/oop.png"    alt="Sekil silinib" title="Conustructors."/><br/></p>
 <details><summary><b>1.Object</b></summary>
 <!-- object haqqinda yaz -->
 </details>
 <details><summary><b>2.Class</b></summary>
-<i>Class bezi qaydalari.</i><br/><p>
+<i>Class bezi qaydalari.</i><br/>
+<i><b>Classlari 3 cur obyektini ala bilerik.</b></i><br/>
+<p>
+<img src="./image/cs104.png"    alt="Sekil silinib" title="Conustructors."/><br/><br/>
 <img src="./image/cs63.png"    alt="Sekil silinib" title="Conustructors."/><br/><br/>
 <i>Static conustructor method qaydasi.</i><br/>
 <img src="./image/cs89.png"    alt="Sekil silinib" title="this kivordu."/><br/><br/>
@@ -388,9 +391,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="./image/cs94.png"    alt="Sekil silinib" title="inheritance."/>
 <i><b>sealed keywordu</b></i>
 <img src="\image\cs103.png"    alt="Sekil silinib" title="inheritance."/>
-<br/>
-
-</p>
+<br/></p>
 </details>
 <details><summary><b>4.Encapsulation</b></summary>
 <i><b>Encapsulation</b>--Gizletmek ,Gizlin etmek ,Kapsullamaq.C#-da İnkapsulyasiya Prinsipi Kapsula çox bənzəyir. Bir kapsul öz dərmanını içinə bağladığı kimi, C#-da eyni şəkildə, Enkapsulyasiya Prinsipi Vəziyyəti (Dəyişənləri) və Davranışı (Metodları) sinif, enum, interfeys və s. adlı vahid vahidə bağlayır. Beləliklə, siz İnkapsulyasiya haqqında düşünə bilərsiniz. əlaqəli vəziyyətləri və davranışları vahid vahiddə birləşdirən örtük və ya təbəqə kimi.</i><br/>
@@ -403,7 +404,9 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs99.png"   alt="Sekil silinib" title="Encapsulation."/><br/>
 <img src="image\cs100.png"   alt="Sekil silinib" title="Encapsulation."/><br/></p>
 </details>
+<details><summary><b>5.Polymorpishm</b></summary>
 
+</details>
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>18.SQL</b></summary>
