@@ -361,9 +361,11 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <details><summary><b>17.OOP</b></summary>
 <i><b>OOP -in esaslari.</b></i><br/>
 <i><b>1.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
-<i><b>2.Encapsulation</b>--Gizletmek ,Gizlin etmek ,Kapsullamaq.</i><br/>
+<i><b>2.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
 <i><b>3.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
-<i><b>4.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/><br/><br/>
+<i><b>4.Encapsulation</b>--Gizletmek ,Gizlin etmek ,Kapsullamaq.</i><br/>
+<i><b>5.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
+<i><b>6.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/><br/><br/>
 <p><img src="./image/oop.png"    alt="Sekil silinib" title="Conustructors."/><br/><br/></p>
 <details><summary><b>1.Object</b></summary>
 <!-- object haqqinda yaz -->
@@ -396,23 +398,6 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs99.png"   alt="Sekil silinib" title="Encapsulation."/><br/>
 <img src="image\cs100.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/></p>
 </details>
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<i><b>3.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
-<i><b>4.Inheritance</b>--Mirass vermek nesillendirmek.</i>
-
 </p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
