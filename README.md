@@ -405,11 +405,12 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs100.png"   alt="Sekil silinib" title="Encapsulation."/><br/></p>
 </details>
 <details><summary><b>5.Polymorpishm</b></summary>
-<i><b>Polymorpishm </b> dedikde overload ve overridde nezerde tutulur.Polymorpishm-in 2 novu vardir static ve dynarmic .Static polymorpishm herkes ucun eyni demekdir yeni eyni adli methodumuz var ve overload olunub tayipina gore elave yuklenib ve her kes onu eyni cur isledir .Asagidaki sekilde topla methodu developer terefinden yazilib ve yalni iki versiyasi var buna gorede ona static polymorpishm deyilir. Overload static polymorpishm-e ayitdir.<br/>Dynarmic polymorpishm ise bir methodun icerisini diger yerlerde  isdediyimiz sekilde deyisib islede bilmeyimizdir ve mhemin methodun qarsisina <b>virtual</b> sozu yazilmalidir ve diger yerde methodu cagirdigimiz yerde ise hemin methodun qarsina <b>overridde</b> yazilmalidir.</i>
+<i><b>Polymorpishm </b> dedikde overload ve overridde nezerde tutulur.Polymorpishm-in 2 novu vardir static ve dynamic .<br/><b>Static</b> polymorpishm herkes ucun eyni demekdir yeni eyni adli methodumuz var ve overload olunub tayipina gore elave yuklenib ve her kes onu eyni cur isledir .Asagidaki sekilde topla methodu developer terefinden yazilib ve yalni iki versiyasi var buna gorede ona static polymorpishm deyilir. Overload static polymorpishm-e ayitdir.<br/>
+</i>
 <p>
 <img src="image\cs106.png"   alt="Sekil silinib" title="Encapsulation."/><br/>
-<img src="image\cs105.png"   alt="Sekil silinib" title="Encapsulation."/><br/>
-
+<img src="image\cs105.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/>
+<i><b>Dynamic</b> polymorpishm ise bir methodun icerisini diger yerlerde  isdediyimiz sekilde deyisib islede bilmeyimizdir ve mhemin methodun qarsisina <b>virtual</b> sozu yazilmalidir ve diger yerde methodu cagirdigimiz yerde ise hemin methodun qarsina <b>overridde</b> yazilmalidir.</i>
 </p>
 </details>
 </details>
