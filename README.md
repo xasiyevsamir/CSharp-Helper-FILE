@@ -389,7 +389,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>Conustructor methodun ana classin conustructor methodunu cagirmasi.</b></i><br/>
 <img src="./image/cs93.png"    alt="Sekil silinib" title="inheritance."/>
 <img src="./image/cs94.png"    alt="Sekil silinib" title="inheritance."/>
-<i><b>sealed keywordu</b></i>
+<i><b>sealed (Möhürləmək) keywordu</b></i>
 <img src="\image\cs103.png"    alt="Sekil silinib" title="inheritance."/>
 <br/></p>
 </details>
@@ -405,12 +405,21 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs100.png"   alt="Sekil silinib" title="Encapsulation."/><br/></p>
 </details>
 <details><summary><b>5.Polymorpishm</b></summary>
-<i><b>Polymorpishm </b> dedikde overload ve overridde nezerde tutulur.Polymorpishm-in 2 novu vardir static ve dynamic .<br/><b>Static</b> polymorpishm herkes ucun eyni demekdir yeni eyni adli methodumuz var ve overload olunub tayipina gore elave yuklenib ve her kes onu eyni cur isledir .Asagidaki sekilde topla methodu developer terefinden yazilib ve yalni iki versiyasi var buna gorede ona static polymorpishm deyilir. Overload static polymorpishm-e ayitdir.<br/>
+<i><b>Polymorpishm (Çoxşəkillilik)</b> dedikde overload ve overridde nezerde tutulur.Polymorpishm-in 2 novu vardir static ve dynamic .<br/><b>Static</b> polymorpishm herkes ucun eyni demekdir yeni eyni adli methodumuz var ve overload olunub tayipina gore elave yuklenib ve her kes onu eyni cur isledir .Asagidaki sekilde topla methodu developer terefinden yazilib ve yalni iki versiyasi var buna gorede ona static polymorpishm deyilir. Overload static polymorpishm-e ayitdir.<br/>
 </i>
 <p>
-<img src="image\cs106.png"   alt="Sekil silinib" title="Encapsulation."/><br/>
-<img src="image\cs105.png"   alt="Sekil silinib" title="Encapsulation."/><br/><br/>
-<i><b>Dynamic</b> polymorpishm ise bir methodun icerisini diger yerlerde  isdediyimiz sekilde deyisib islede bilmeyimizdir ve mhemin methodun qarsisina <b>virtual</b> sozu yazilmalidir ve diger yerde methodu cagirdigimiz yerde ise hemin methodun qarsina <b>overridde</b> yazilmalidir.</i>
+<img src="image\cs106.png"   alt="Sekil silinib" title="Polymorpishm."/><br/>
+<img src="image\cs105.png"   alt="Sekil silinib" title="Polymorpishm."/><br/><br/>
+<i><b>Dynamic</b> polymorpishm ise bir methodun icerisini diger yerlerde  isdediyimiz sekilde deyisib islede bilmeyimizdir ve hemin methodun qarsisina <b>virtual</b> sozu yazilmalidir ve diger yerde methodu cagirdigimiz yerde ise hemin methodun qarsina <b>overridde</b> yazilmalidir.
+<p>
+<img src="image\cs107.png"   alt="Sekil silinib" title="Polymorpishm."/><br/><br/>
+<img src="image\cs108.png"   alt="Sekil silinib" title="Polymorpishm."/><br/><br/>
+
+
+</p>
+
+
+</i>
 </p>
 </details>
 </details>
