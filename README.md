@@ -414,19 +414,12 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs108.png" width="400px" height="300px"  alt="Sekil silinib" title="Polymorpishm-HibridCar:Car."/>
 <img src="image\cs107.png"  width="400px" height="300px" alt="Sekil silinib" title="Polymorpishm-Car."/><br/>
 </p>
-
+</details>
 <details><summary><b>6.Abstract</b></summary>
 
 
 
-
-
-</details>
-
-
-
-
-
+cw  
 
 </details>
 </details>
