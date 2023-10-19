@@ -418,15 +418,11 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <details><summary><b>6.Abstract</b></summary>
 <i><b>Abstract</b>--Classlar oz daxilinde hem abstract olan hemde abstract olmayan qaydalar yeni (Methodlar ve ya digerlerini ) saxilya biler .Eger clasin daxilinde bir method <b>Abstract-dirsa </b>class ozude abstract olmalidir mutleq. sozu yazilmalidir ve diger yerde methodu cagirdigimiz yerde ise hemin methodun qarsina <b>overridde</b> yazilmalidir.Abstract classlarin inisdansini alamaq olmur.
 <p><img src="image\cs109.png"   alt="Sekil silinib" title="Abstract."/><br/></p>
-
+</details>
 <details><summary><b>7.Interface</b></summary>
 <p><img src="image\cs111.png"   alt="Sekil silinib" title="Abstract."/><br/></p>
 <p><img src="image\cs112.png"   alt="Sekil silinib" title="Abstract."/><br/></p>
 </details>
-</details>
-
-
-
 
 </details>
 <b>________________________________________________________________________________________________________________</b>
