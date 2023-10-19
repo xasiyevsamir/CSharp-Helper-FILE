@@ -422,10 +422,20 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 
 
+
 </details>
+
+
+
+
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>18.SQL</b></summary>
+<details><summary><b>18.Static anlayisi.</b></summary>
+<i><b>Static and No static</b>.</i><br/>
+<img src="image\cs110.png"   alt="Sekil silinib" title="Static."/><br/><br/>
+</details>
+<b>________________________________________________________________________________________________________________</b>
+<details><summary><b>19.SQL</b></summary>
 <i>Dockerde containers yaradilmasi asagidaki codlar vasidesi ile olur.</i><br/>
 <b>1.docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=!Salam2000@" -e "MSSQL_PID=Developer" -p 1434:1433 -v MSSQL_Task_1:/var/opt/mssql --name MSSQL_Task_1 --restart always mcr.microsoft.com/mssql/server:2019-latest.</b><br/>
 <a href="https://www.youtube.com/watch?v=HPouaPz2vcc">1.Docker kursu butun videolara bax!</a><br>
@@ -453,7 +463,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 </details>
 <b>________________________________________________________________________________________________________________</b>
 
-<details><summary><b>19.Hazir deyil.</b></summary>
+<details><summary><b>20.Hazir deyil.</b></summary>
 </b>(Say tipli datatayplar)</b>
 
 1.  </b>(byte)</b> ---> tutumu {0,255} dir mes: byte say1=10;
