@@ -365,7 +365,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>3.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
 <i><b>4.Encapsulation</b>--Gizletmek ,Gizlin etmek ,Kapsullamaq.</i><br/>
 <i><b>5.Polymorpishm</b>--Mirass vermek nesillendirmek.</i><br/>
-<i><b>6.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/>
+<i><b>6.Inheritance</b>--Mirass vermek nesillendirmek.</i><br/><br/>
 <p><img src="./image/oop.png"    alt="Sekil silinib" title="Conustructors."/><br/></p>
 <details><summary><b>1.Object</b></summary>
 <!-- object haqqinda yaz -->
