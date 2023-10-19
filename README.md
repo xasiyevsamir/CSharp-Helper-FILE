@@ -410,17 +410,24 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <p>
 <img src="image\cs106.png"   alt="Sekil silinib" title="Polymorpishm."/><br/>
 <img src="image\cs105.png"   alt="Sekil silinib" title="Polymorpishm."/><br/><br/>
-<i><b>Dynamic</b> polymorpishm ise bir methodun icerisini diger yerlerde  isdediyimiz sekilde deyisib islede bilmeyimizdir ve hemin methodun qarsisina <b>virtual</b> sozu yazilmalidir ve diger yerde methodu cagirdigimiz yerde ise hemin methodun qarsina <b>overridde</b> yazilmalidir.
-<p>
+<i><b>Dynamic</b> polymorpishm ise bir methodun icerisini diger yerlerde  isdediyimiz sekilde deyisib islede bilmeyimizdir ve hemin methodun qarsisina <b>virtual</b> sozu yazilmalidir ve diger yerde methodu cagirdigimiz yerde ise hemin methodun qarsina <b>overridde</b> yazilmalidir.</i><br/>
 <img src="image\cs108.png" width="400px" height="300px"  alt="Sekil silinib" title="Polymorpishm-HibridCar:Car."/>
 <img src="image\cs107.png"  width="400px" height="300px" alt="Sekil silinib" title="Polymorpishm-Car."/><br/>
-
-
 </p>
 
+<details><summary><b>6.Abstract</b></summary>
 
-</i>
-</p>
+
+
+
+
+</details>
+
+
+
+
+
+
 </details>
 </details>
 <b>________________________________________________________________________________________________________________</b>
