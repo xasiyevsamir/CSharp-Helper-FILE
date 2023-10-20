@@ -375,11 +375,14 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>Classlari 3 cur obyektini ala bilerik.</b></i><br/>
 <p>
 <img src="./image/cs104.png"    alt="Sekil silinib" title="Conustructors."/><br/><br/>
+<i><b>Classlarin objectini doldurulmasi.</b></i><br/>
+<img src="./image/cs113.png"    alt="Sekil silinib" title="Conustructors."/><br/><br/>
 <img src="./image/cs63.png"    alt="Sekil silinib" title="Conustructors."/><br/><br/>
 <i>Static conustructor method qaydasi.</i><br/>
 <img src="./image/cs89.png"    alt="Sekil silinib" title="this kivordu."/><br/><br/>
 <i><b>this</b>. kiyvordunun izahi ve bir birini cagiran conustructor method.</i><br/>
-<img src="./image/cs90.png"    alt="Sekil silinib" title="this kivordu."/><br/></p>
+<img src="./image/cs90.png"    alt="Sekil silinib" title="this kivordu."/><br/>
+</p>
 </details>
 <details><summary><b>3.Inheritance</b></summary>
 <p>
