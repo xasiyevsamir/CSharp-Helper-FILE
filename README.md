@@ -441,6 +441,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs115.png"   alt="Sekil silinib" title="Generic."/><br/>
 <img src="image\cs116.png"   alt="Sekil silinib" title="Generic."/><br/>
 <img src="image\cs117.png"   alt="Sekil silinib" title="Generic."/><br/>
+<img src="image\cs118.png"   alt="Sekil silinib" title="Generic."/><br/>
+<img src="image\cs119.png"   alt="Sekil silinib" title="Generic."/><br/>
 
 <p>
 
