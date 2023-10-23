@@ -423,12 +423,11 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <p><img src="image\cs109.png"   alt="Sekil silinib" title="Abstract."/><br/></p></i>
 </details>
 <details><summary><b>7.Interface</b></summary>
-<p><img src="image\cs111.png"   alt="Sekil silinib" title="Abstract."/><br/>
-<img src="image\cs112.png"   alt="Sekil silinib" title="Abstract."/><br/>
-<img src="image\cs114.png"   alt="Sekil silinib" title="Abstract."/><br/>
+<p><img src="image\cs111.png"   alt="Sekil silinib" title="Interface."/><br/>
+<img src="image\cs112.png"   alt="Sekil silinib" title="Interface."/><br/>
+<img src="image\cs114.png"   alt="Sekil silinib" title="Interface."/><br/>
 </p>
 </details>
-
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>18.Static anlayisi.</b></summary>
@@ -436,7 +435,27 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs110.png"   alt="Sekil silinib" title="Static."/><br/><br/>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>19.SQL</b></summary>
+<details><summary><b>19.Generic.</b></summary>
+
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<b>________________________________________________________________________________________________________________</b>
+<details><summary><b>25.SQL</b></summary>
 <i>Dockerde containers yaradilmasi asagidaki codlar vasidesi ile olur.</i><br/>
 <b>1.docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=!Salam2000@" -e "MSSQL_PID=Developer" -p 1434:1433 -v MSSQL_Task_1:/var/opt/mssql --name MSSQL_Task_1 --restart always mcr.microsoft.com/mssql/server:2019-latest.</b><br/>
 <a href="https://www.youtube.com/watch?v=HPouaPz2vcc">1.Docker kursu butun videolara bax!</a><br>
