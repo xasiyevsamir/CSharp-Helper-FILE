@@ -436,13 +436,25 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>19.Generic.</b></summary>
-<b>Generic</b><i>--anlayisi bir methoda bir classa bir nece tip gondererek ondan isdifade etmekdir.</i><br/>
+<b>Generic</b><i>--anlayisi bir methoda bir classa bir nece tip gondererek ondan isdifade etmekdir.Asagidaki sekillerde Generic kimi gelen tiplere ser vere bilerik ki hansi tipler gelsin ve s.</i><br/>
+<i><b>1-ci yol</b>.</i><br/>
 <p><img src="image\cs1115.png"   alt="Sekil silinib" title="Generic."/><br/>
+<i><b>2-ci yol</b>.</i><br/>
 <img src="image\cs115.png"   alt="Sekil silinib" title="Generic."/><br/>
+<i><b>3-cu yol</b>.</i><br/>
 <img src="image\cs116.png"   alt="Sekil silinib" title="Generic."/><br/>
+<i><b>4-cu yol</b>.</i><br/>
 <img src="image\cs117.png"   alt="Sekil silinib" title="Generic."/><br/>
+<i><b>5-ci yol</b>.</i><br/>
 <img src="image\cs118.png"   alt="Sekil silinib" title="Generic."/><br/>
+<i><b>6-ci yol</b>.</i><br/>
 <img src="image\cs119.png"   alt="Sekil silinib" title="Generic."/><br/>
+<i><b>7-ci yol</b>.</i><br/>
+<img src="image\cs120.png"   alt="Sekil silinib" title="Generic."/><br/>
+<i><b>8-ci yol</b>.</i><br/>
+<img src="image\cs121.png"   alt="Sekil silinib" title="Generic."/><br/>
+<i><b>9-cu yol</b>.</i><br/>
+<img src="image\cs122.png"   alt="Sekil silinib" title="Generic."/><br/>
 
 <p>
 
