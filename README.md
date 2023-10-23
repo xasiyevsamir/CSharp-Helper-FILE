@@ -455,7 +455,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs121.png"   alt="Sekil silinib" title="Generic."/><br/>
 <i><b>9-cu yol</b>.</i><br/>
 <img src="image\cs122.png"   alt="Sekil silinib" title="Generic."/><br/>
-
+<i><b>10-cu yol</b>.</i><br/>
+<img src="image\cs123.png"   alt="Sekil silinib" title="Generic."/><br/>
 <p>
 
 
