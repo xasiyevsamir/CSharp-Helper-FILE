@@ -436,8 +436,10 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>19.Generic.</b></summary>
-
-
+<b>Generic</b><i>--anlayisi bir methoda bir classa bir nece tip gondererek ondan isdifade etmekdir.</i><br/>
+<p><img src="image\cs110.png"   alt="Sekil silinib" title="Static."/><br/>
+<img src="image\cs110.png"   alt="Sekil silinib" title="Static."/><br/><br/>
+</p>
 
 </details>
 
