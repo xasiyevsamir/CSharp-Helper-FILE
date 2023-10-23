@@ -300,7 +300,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <details><summary><b>15.Random</b></summary>
 <i><b>Random classi texmini reqemler goturmek ucun isdifade edilir.Onun bir nece methodu vardir ve onlar asagidakilardir.</b></i><br/>
 <i>1->rnd.Next()</i><br/>
-<i>2->rnd.Next(<b>int.maxvalue</b>))</i><br/>
+<i>2->rnd.Next(<b>int.maxvalue</b>)</i><br/>
 <i>3->rnd.Next(<b>int.minvalue, int.maxvalue</b>)</i><br/>
 <i>4->rnd.NextDouble()</i><br/>
 <i>5->rnd.NextInt64()</i><br/>
@@ -423,8 +423,10 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <p><img src="image\cs109.png"   alt="Sekil silinib" title="Abstract."/><br/></p></i>
 </details>
 <details><summary><b>7.Interface</b></summary>
-<p><img src="image\cs111.png"   alt="Sekil silinib" title="Abstract."/><br/></p>
-<p><img src="image\cs112.png"   alt="Sekil silinib" title="Abstract."/><br/></p>
+<p><img src="image\cs111.png"   alt="Sekil silinib" title="Abstract."/><br/>
+<img src="image\cs112.png"   alt="Sekil silinib" title="Abstract."/><br/>
+<img src="image\cs114.png"   alt="Sekil silinib" title="Abstract."/><br/>
+</p>
 </details>
 
 </details>
