@@ -487,6 +487,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 <b>Mssql ve C# data type qarsiliqlari asagidaki sekilde gosderilib.</b><br/>
 <a href="https://github.com/xasiyevRandom method./MsSql/blob/master/docs/datatypes.md">1.Bu linkden daha yaxsi anlasiliqli olacaqdir!</a><br>
+<p><img src="./sql-image/sql8.png"    alt="Sekil silinib" /></p>
 <p><img src="./sql-image/server_2.png"    alt="Sekil silinib" title="Mssql ve C# data type."/></p>
 <p><img src="./sql-image/sql1.png"    alt="Sekil silinib" /></p>
 <p><img src="./sql-image/sql2.png"    alt="Sekil silinib" /></p><br/>
