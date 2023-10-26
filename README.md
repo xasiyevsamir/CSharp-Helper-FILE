@@ -500,7 +500,9 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>26.MVC </b></summary>
 
-<i><b>MVC</b>-de 3 papqamiz var onlar <br/><b>1.Controllers</b><br/><b>2.Views</b><br/><b>3.Model</b><br/>Bu papqalar secilmis yeni xususi papqalardir ve heresinin oz isi var .<br/>1. <b>Controllers</b> papqasi adindan gorunduyu kimi kotrol idare edici demekdir ve icerisinde <b>Index()</b> adinda <b>action</b> yeni əkşın adinda method var ve ounun da icersinde <b>Views()</b> methodu var.<br/>2.<b>Views</b> papqasi ise gorunusu ifade etmek yeni html codlarimizi ozunde saxliyan papqadir.Icerisinde 4 nov Layoutlar var.Onlar asagidakilardir. 
+<i><b>MVC</b>-de 3 papqamiz var onlar <br/><b>1.Controllers</b><br/><b>2.Views</b><br/><b>3.Model</b><br/>Bu papqalar secilmis yeni xususi papqalardir ve heresinin oz isi var .<br/>1. <b>Controllers</b> papqasi adindan gorunduyu kimi kotrol idare edici demekdir ve icerisinde <b>Index()</b> adinda <b>action</b> yeni əkşın adinda method var ve ounun da icersinde <b>Views()</b> methodu var.<br/>2.<b>Views</b> papqasi ise gorunusu ifade etmek yeni html codlarimizi ozunde saxliyan papqadir.Icerisinde 4 nov Layoutlar var.Onlar asagidakilardir. <br/>
+<img src="image\cs124.png"   alt="Sekil silinib" title="Generic."/><br/>
+
 </i><br/>
 
 
@@ -513,6 +515,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 
 </details>
+<b>________________________________________________________________________________________________________________</b>
 
 <details><summary><b>20.Hazir deyil.</b></summary>
 </b>(Say tipli datatayplar)</b>
