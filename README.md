@@ -510,7 +510,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 4.<b>Razor Views Start</b>--Bu ise butun imports edilmis layoutlar start edende Views startdan etsimeyine imkan yaradir.<br/>
 </i><br/>
 
-<b>Controllerde Views-a 4 yol ile melumat oture bilerik onlar asagidakilardir.</b><br/>1.<b>ViewBag</b><i>--ViewBag-de tipini cevirmeye ehdiyac yoxdur lakin diger actina kecid etdikde melumatlari saxlamir.</i><br/>2.<b>ViewData</b><i>--ViewData-da tipini cevirmeye ehdiyac var lakin diger actina kecid etdikde melumatlari saxlamir.</i><br/>3.<b>TempData</b><i>---TempData-da  diger actina kecid etdikde melumatlari saxlamir.</i><br/>
+<b>Controllerde Views-a 4 yol ile melumat oture bilerik onlar asagidakilardir.</b><br/>1.<b>ViewBag</b><i>--ViewBag-de tipini cevirmeye ehdiyac yoxdur lakin diger actiona kecid etdikde melumatlari saxlamir.</i><br/>2.<b>ViewData</b><i>--ViewData-da tipini cevirmeye ehdiyac var lakin diger actiona kecid etdikde melumatlari saxlamir.</i><br/>3.<b>TempData</b><i>---TempData-da  diger actiona kecid etdikde melumatlari saxlamir.</i><br/>
 
 
 
