@@ -503,6 +503,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>MVC</b>-de 3 papqamiz var onlar <br/><b>1.Controllers</b><br/><b>2.Views</b><br/><b>3.Model</b><br/>Bu papqalar secilmis yeni xususi papqalardir ve heresinin oz isi var .<br/>1. <b>Controllers</b> papqasi adindan gorunduyu kimi kotrol idare edici demekdir ve icerisinde <b>Index()</b> adinda <b>action</b> yeni əkşın adinda method var ve ounun da icersinde <b>Views()</b> methodu var.<br/>2.<b>Views</b> papqasi ise gorunusu ifade etmek yeni html codlarimizi ozunde saxliyan papqadir.Icerisinde 4 nov Views var.Onlar asagidakilardir. <br/>
 1.<b>Razor Views -Empty</b><br/>2.<b>Razor Layout</b><br/>3.<b>Razor Views Start</b><br/>4.<b>Razor Views Imports</b><br/>
 <img src="image\cs124.png"   alt="Sekil silinib" title="Generic."/><br/>
+1.<b>Layout </b> Deikde bizim tekirar olan html codlarimizi oraya yerlesdiriik yeni bir sehvede header ve footer eynidirse onu layout atiriq ve Renderbody() methodu ile ferqli olan hisseni heresini oz sehvesinden goturur.<br/>
 
 </i><br/>
 
