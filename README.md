@@ -453,8 +453,6 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 </p>
 
 </details>
-
-
 <b>________________________________________________________________________________________________________________</b>
 
 <details><summary><b>25.SQL</b></summary>
