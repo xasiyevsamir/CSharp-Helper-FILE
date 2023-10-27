@@ -487,6 +487,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <p><img src="./sql-image/sql11.png"    alt="Sekil silinib" title="sql comandalar."/></p><br/>
 <p><img src="./sql-image/sql12.png"    alt="Sekil silinib" title="sql comandalar."/></p><br/>
 <p><img src="./sql-image/sql13.png"    alt="Sekil silinib" title="sql comandalar."/></p><br/>
+<p><img src="./sql-image/sql14.png"    alt="Sekil silinib" title="sql comandalar."/></p><br/>
 
 </details>
 <b>________________________________________________________________________________________________________________</b>
