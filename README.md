@@ -454,7 +454,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 </details>
 
-<b>******************************************************\_\_\_\_******************************************************</b>
+
+<b>________________________________________________________________________________________________________________</b>
 
 <details><summary><b>25.SQL</b></summary>
 <i>Dockerde containers yaradilmasi asagidaki codlar vasidesi ile olur.</i><br/>
