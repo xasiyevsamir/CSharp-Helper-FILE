@@ -458,7 +458,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 <details><summary><b>25.SQL</b></summary>
 <i>Dockerde containers yaradilmasi asagidaki codlar vasidesi ile olur.</i><br/>
-<b>1.docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=!Salam2000@" -e "MSSQL_PID=Developer" -p 1434:1433 -v MSSQL_Task_1:/var/opt/mssql --name MSSQL_Task_1 --restart always mcr.microsoft.com/mssql/server:2019-latest.</b><br/>
+<b>1. docker run --name Bigon-Task-2 --restart always -v mssql1:/var/opt/mssql1 -p 1434:1433 -e "MSSQL_PID=Developer" -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=!!Samir@2"  mcr.microsoft.com/mssql/server:2022-latest.</b><br/>
+<p><img src="./sql-image/sql15.png"    alt="Sekil silinib" /></p><br/>
 <a href="https://www.youtube.com/watch?v=HPouaPz2vcc">1.Docker kursu butun videolara bax!</a><br>
 <i><b>Sql server numune ve codlari.</b></i><br/>
 <p><img src="./sql-image/Client-server-model.svg.png"    alt="Sekil silinib" title="server qurulus ."/></p>
