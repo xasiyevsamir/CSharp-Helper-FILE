@@ -41,12 +41,12 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
 1.  git clone (linkimizi buraya yerlesdiririk).<br/>
 2.  echo "dirnaq arasina ne isdesez yaza bilersiz">> README.md -------->>(readme fayili yaratmaq ucundur.)<br/>
 3.  git init ---------->>>(git pafqasi yaratmaq ucundur )<br/>
-3.  git add README.md ------->>(readmi fayilini testiq etmek ucun)<br/>
-4.  git commit -m "first commit" -----(deyisikliye ad vermek ucun)<br/>
-6. git branch -M main<br/>
-6. git remote add origin https://github.com/xasiyevRandom method./taskkkk.git<br/>
-7. git push -u origin main<br/>
-8. Eger Github-a ilk defe qosuluruqsa onda asgidaki emirleri etmeliyik ardicilliqla.<br/>
+4.  git add README.md ------->>(readmi fayilini testiq etmek ucun)<br/>
+5.  git commit -m "first commit" -----(deyisikliye ad vermek ucun)<br/>
+6.  git branch -M main<br/>
+7.  git remote add origin https://github.com/xasiyevRandom method./taskkkk.git<br/>
+8.  git push -u origin main<br/>
+9.  Eger Github-a ilk defe qosuluruqsa onda asgidaki emirleri etmeliyik ardicilliqla.<br/>
 <b>a.git</b> config --global user.name "xasiyevsamir"<br/>
 <b>b.git</b> config --global user.email "qeydiyyatdan kecdiyimiz email."<br/>
 <b>c.git</b> config --global user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
@@ -59,16 +59,7 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 
 <details><summary><b>4.Movzu:Math sinifi.</b></summary><br/><br/>
 
-1.<b>(Math.Pow(10,2))</b> ---> burada 10 kvadratini yazmisiq yeni (10\*10) .Bunu isdediyimiz kimi yaza bilerik yeni kub ve s. Meselen: Math.Pow(10,3) , (10,4).<br/>
-2.<b>(Math.Log10)</b>---> ededin nece reqemli oldugunu tapir amma neticenin usdune mutleq 1 gelirik.<br/> 
-3.<b>(Math.sqrt)</b>----> koku tapmaq ucun istifada edilir.<br/>
-4.<b>(Math.Round)</b>---> riyazi yuvarlasdirmaq ucun istifade edilir.<br/> 
-5.<b>(Math.Floor)</b>---> asagi yuvarlasdirmaq,yeni tam hisseye kimi atir.<br/> 
-6.<b>(Math.Ceiling)</b>---> yuxari yuvarlasdirmaq.<br/> 
-7.<b>(Math.PI)</b>---> pi deyeridir .hesabliyada isdifade ede bilerik.<br/> 
-8.<b>(Math.Abs)</b>--->Modulu tapmaq ucundur.<br/> 
-9.<b>(Math.Max)</b>--> ededin maksimumun tapir.<br/> 
-10.<b>(Math.Min)</b>--> ededin minumumun tapir.<br/>
+1.<b>(Math.Pow(10,2))</b> ---> burada 10 kvadratini yazmisiq yeni (10\*10) .Bunu isdediyimiz kimi yaza bilerik yeni kub ve s. Meselen: Math.Pow(10,3) , (10,4).<br/> 2.<b>(Math.Log10)</b>---> ededin nece reqemli oldugunu tapir amma neticenin usdune mutleq 1 gelirik.<br/> 3.<b>(Math.sqrt)</b>----> koku tapmaq ucun istifada edilir.<br/> 4.<b>(Math.Round)</b>---> riyazi yuvarlasdirmaq ucun istifade edilir.<br/> 5.<b>(Math.Floor)</b>---> asagi yuvarlasdirmaq,yeni tam hisseye kimi atir.<br/> 6.<b>(Math.Ceiling)</b>---> yuxari yuvarlasdirmaq.<br/> 7.<b>(Math.PI)</b>---> pi deyeridir .hesabliyada isdifade ede bilerik.<br/> 8.<b>(Math.Abs)</b>--->Modulu tapmaq ucundur.<br/> 9.<b>(Math.Max)</b>--> ededin maksimumun tapir.<br/> 10.<b>(Math.Min)</b>--> ededin minumumun tapir.<br/>
 
 </details>
 <b>________________________________________________________________________________________________________________</b>
@@ -459,17 +450,12 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs123.png"   alt="Sekil silinib" title="Generic."/><br/>
 <p>
 
-
 </p>
 
 </details>
 
+<b>******************************************************\_\_\_\_******************************************************</b>
 
-
-
-
-
-<b>________________________________________________________________________________________________________________</b>
 <details><summary><b>25.SQL</b></summary>
 <i>Dockerde containers yaradilmasi asagidaki codlar vasidesi ile olur.</i><br/>
 <b>1.docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=!Salam2000@" -e "MSSQL_PID=Developer" -p 1434:1433 -v MSSQL_Task_1:/var/opt/mssql --name MSSQL_Task_1 --restart always mcr.microsoft.com/mssql/server:2019-latest.</b><br/>
@@ -479,6 +465,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 <b>Mssql ve C# data type qarsiliqlari asagidaki sekilde gosderilib.</b><br/>
 <a href="https://github.com/xasiyevRandom method./MsSql/blob/master/docs/datatypes.md">1.Bu linkden daha yaxsi anlasiliqli olacaqdir!</a><br>
+
 <p><img src="./sql-image/sql8.png"    alt="Sekil silinib" /></p>
 <p><img src="./sql-image/server_2.png"    alt="Sekil silinib" title="Mssql ve C# data type."/></p>
 <p><img src="./sql-image/sql1.png"    alt="Sekil silinib" /></p>
@@ -495,6 +482,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <p><img src="./sql-image/sql5.webp"    alt="Sekil silinib" title="sql comandalar."/></p><br/>
 <p><img src="./sql-image/sql6.png"    alt="Sekil silinib" title="sql comandalar."/></p><br/>
 <p><img src="./sql-image/sql7.png"    alt="Sekil silinib" title="sql comandalar."/></p><br/>.
+<p><img src="./sql-image/sql9.png"    alt="Sekil silinib" title="sql comandalar."/></p><br/>.
 
 </details>
 <b>________________________________________________________________________________________________________________</b>
@@ -510,14 +498,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 4.<b>Razor Views Start</b>--Bu ise butun imports edilmis layoutlar start edende Views startdan etsimeyine imkan yaradir.<br/>
 </i><br/>
 
-<b>Controllerde Views-a 4 yol ile melumat oture bilerik onlar asagidakilardir.</b><br/>1.<b>ViewBag</b><i>--ViewBag-de tipini cevirmeye ehdiyac yoxdur lakin diger actiona kecid etdikde melumatlari saxlamir.</i><br/>2.<b>ViewData</b><i>--ViewData-da tipini cevirmeye ehdiyac var lakin diger actiona kecid etdikde melumatlari saxlamir.</i><br/>3.<b>TempData</b><i>---TempData-da  diger actiona kecid etdikde melumatlari saxlamir.</i><br/>
-
-
-
-
-
-
-
+<b>Controllerde Views-a 4 yol ile melumat oture bilerik onlar asagidakilardir.</b><br/>1.<b>ViewBag</b><i>--ViewBag-de tipini cevirmeye ehdiyac yoxdur lakin diger actiona kecid etdikde melumatlari saxlamir.</i><br/>2.<b>ViewData</b><i>--ViewData-da tipini cevirmeye ehdiyac var lakin diger actiona kecid etdikde melumatlari saxlamir.</i><br/>3.<b>TempData</b><i>---TempData-da diger actiona kecid etdikde melumatlari saxlamir.</i><br/>
 
 </details>
 <b>________________________________________________________________________________________________________________</b>
@@ -622,7 +603,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 ---
 
-0.                                                                                                                                                                                                                                                                                             __Valu ve Reference types)__
+0.                                                                                                                                                                                                                                                                                              __Valu ve Reference types)__
     </b>Valu ve Reference)</b> tayip dedikde ne nezerde tutulduguna baxaq. </b>RAM)</b> yeni muvveqeti yaddas iki hisseye ayrilir </b>Stack ve Heap)</b> ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin </b>Stack ve Heap)</b> yaddasda saxlanildigini gosdermisem. </b>QEYD)</b> Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  </b>int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)</b> -->bunlar her biri </b>valu tayipdir stack yaddasda saxlanilir)</b> ve reference tayiplardan suretli isleyir.
 2.  </b>string,char, massivler mes:int[] ,classlar ve s.)</b> bunlar ise </b>Reference tayipdir ve Heap yaddasda saxlanilir)</b> ve valu tayiplardan asagi suretde isleyir.
