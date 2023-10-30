@@ -492,7 +492,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <p><img src="./sql-image/sql16.png"    alt="Sekil silinib" title="sql comandalar."/></p><br/>
 <b>Datalarinin select edilmesi</b><br/>
 <p><img src="./sql-image/sql18.png"    alt="Sekil silinib" title="sql comandalar."/></p><br/>
-
+<p><img src="./sql-image/sql19.png"    alt="Sekil silinib" title="sql comandalar."/></p><br/>
+<p><img src="./sql-image/sql20.png"    alt="Sekil silinib" title="sql comandalar."/></p><br/>
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>26.MVC </b></summary>
