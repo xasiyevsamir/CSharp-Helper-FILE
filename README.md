@@ -510,6 +510,11 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 <b>Controllerde Views-a 4 yol ile melumat oture bilerik onlar asagidakilardir.</b><br/>1.<b>ViewBag</b><i>--ViewBag-de tipini cevirmeye ehdiyac yoxdur lakin diger actiona kecid etdikde melumatlari saxlamir.</i><br/>2.<b>ViewData</b><i>--ViewData-da tipini cevirmeye ehdiyac var lakin diger actiona kecid etdikde melumatlari saxlamir.</i><br/>3.<b>TempData</b><i>---TempData-da diger actiona kecid etdikde melumatlari saxlamir.</i><br/>
 
+<i><b>ORM</b>-Dedikde bir nov database ile islemek yeni database sorgular gondermek ucun bir texnologiyadir.</i>
+<img src="image\cs126.png"   alt="Sekil silinib" title="MVC."/><br/>
+<img src="image\cs127.png"   alt="Sekil silinib" title="MVC."/><br/>
+
+
 </details>
 <b>________________________________________________________________________________________________________________</b>
 
