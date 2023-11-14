@@ -344,6 +344,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="./image/cs85.png"    alt="Sekil silinib" title="Enum Method"/><br/>
 <img src="./image/cs86.png"    alt="Sekil silinib" title="Enum Method"/><br/><br/><br/>
 <b>Enum.GetUnderlyingType(typeof(MonthName)</b> bu method ile ise biz enum hansi tipden torediyini oyrene bilerik.<br/>
+<img src="./image/cs128.png"    alt="Sekil silinib" title="Enum Method"/><br/>
 <img src="./image/cs88.png"    alt="Sekil silinib" title="Enum Method"/><br/><br/><br/>
 </p>
 </details>
