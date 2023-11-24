@@ -349,7 +349,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 </p>
 </details>
 <b>__________________________________________________________________________________________________________________</b>
-<!-- OOPdu  -->
+<!-- OOP  -->
 <details><summary><b>17.OOP</b></summary>
 <i><b>OOP -in esaslari.</b></i><br/>
 <i><b>1.Object</b>--Mirass vermek nesillendirmek.</i><br/>
@@ -427,7 +427,13 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs110.png"   alt="Sekil silinib" title="Static."/><br/><br/>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>19.Generic.</b></summary>
+<details><summary><b>19.FileStream.</b></summary>
+<i><b>FileStream</b>.  Dedikde biz  lazimi datalari fayillarda saxliya bilerik.Bunlar asagidaki sekillerdeki kimi yerine yetirilmelidir.</i><br/>
+
+
+</details>
+<b>________________________________________________________________________________________________________________</b>
+<details><summary><b>20.Generic.</b></summary>
 <b>Generic</b><i>--anlayisi bir methoda bir classa bir nece tip gondererek ondan isdifade etmekdir.Asagidaki sekillerde Generic kimi gelen tiplere ser vere bilerik ki hansi tipler gelsin ve s.</i><br/>
 <i><b>1-ci yol</b>.</i><br/>
 <p><img src="image\cs1115.png"   alt="Sekil silinib" title="Generic."/><br/>
