@@ -431,7 +431,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>FileStream</b>.  Dedikde biz  lazimi datalari fayillarda saxliya bilerik.Bunlar asagidaki sekillerdeki kimi yerine yetirilmelidir.</i><br/>
 <p>
 <img src="image\cs129.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
-<img src="image\cs130.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
+<img src="image\CS130.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
 </p>
 
 </details>
