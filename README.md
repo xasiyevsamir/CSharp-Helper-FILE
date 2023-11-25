@@ -433,7 +433,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs129.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
 <img src="image\CS130.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
 <i><b>FileMode.OpenOrCreate<br/>FileAccess.Read</b></i><br/>
-<img src="image\CS131.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
+<img src="image\cs131.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
 </p>
 
 </details>
