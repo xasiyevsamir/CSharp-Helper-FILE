@@ -436,7 +436,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs131.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
 </p>
 <i>Fayillar 2 yere bolunur.</i><br/>
-<i><b>1.Text File</b><br/><b>1.Data File</b><br/><b>1.Text Fayillar</b></br> adi fayillardir ve onlarla islemek asagidaki sekillerde izah edilib.</i>
+<i><b>1.Text File</b><br/><b>1.Data File</b><br/><b>1.Text Fayillar</b> adi fayillardir ve onlarla islemek asagidaki sekillerde izah edilib.</i>
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>20.Generic.</b></summary>
