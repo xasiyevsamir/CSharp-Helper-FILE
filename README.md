@@ -435,8 +435,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>FileMode.OpenOrCreate<br/>FileAccess.Read</b></i><br/>
 <img src="image\cs131.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
 </p>
-<i>Fayillar 2 yere bolunur.</i>
-<i><b>1.Text File<br/>1.Data File</br><b>1.Text Fayillar adi fayillardir ve onlarla islemek asagidaki sekillerde izah edilib.</b></i>
+<i>Fayillar 2 yere bolunur.</i><br/>
+<i><b>1.Text File<br/>1.Data File</br><b>1.Text Fayillar</b> adi fayillardir ve onlarla islemek asagidaki sekillerde izah edilib.</i>
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>20.Generic.</b></summary>
