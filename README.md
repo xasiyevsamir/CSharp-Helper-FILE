@@ -427,7 +427,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs110.png"   alt="Sekil silinib" title="Static."/><br/><br/>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>19.FileStream.</b></summary>
+<details><summary><b>19.Fayillarla islemek.</b></summary>
 <i><b>FileStream</b>.  Dedikde biz  lazimi datalari fayillarda saxliya bilerik.Bunlar asagidaki sekillerdeki kimi yerine yetirilmelidir.</i><br/>
 <p>
 <img src="image\cs129.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
@@ -435,7 +435,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>FileMode.OpenOrCreate<br/>FileAccess.Read</b></i><br/>
 <img src="image\cs131.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
 </p>
-
+<i>Fayillar 2 yere bolunur.</i>
+<i><b>1.Text File<br/>1.Data File</br><b>1.Text Fayillar adi fayillardir ve onlarla islemek asagidaki sekillerde izah edilib.</b></i>
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>20.Generic.</b></summary>
