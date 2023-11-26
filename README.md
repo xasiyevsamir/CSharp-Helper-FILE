@@ -436,7 +436,11 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs131.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
 </p>
 <i>Fayillar 2 yere bolunur.</i><br/>
-<i><b>1.Text File</b><br/><b>1.Data File</b><br/><b>1.Text Fayillar</b> adi fayillardir ve onlarla islemek asagidaki sekillerde izah edilib.</i>
+<i><b>1.Text File</b><br/><b>1.Data File</b><br/><b>____Text Fayillar</b> adi fayillardir ve onlarla islemek asagidaki sekillerde izah edilib.
+<img src="image\cs132.png"   alt="Sekil silinib" title="Text File."/><br/><br/>
+ File.WriteAllText() ad sahəsinə aid olan C#-da bir üsuldur System.IO. Bu üsul fayla mətn yazmaq üçün istifadə olunur, əgər fayl artıq varsa, onun üzərinə yazılır. Əgər fayl mövcud deyilsə, o yaradılacaq. Metod iki parametr götürür: fayla gedən yol və yazılacaq mətn.Bu misalda, sətri müəyyən edilmiş fayla WriteAllText()yazmaq üçün metoddan istifadə olunur . Əgər fayl artıq mövcuddursa, onun məzmunu yeni mətnlə əvəz olunacaq. Əgər fayl mövcud deyilsə, göstərilən məzmunla yeni fayl yaradılacaq.Proqramın göstərilən fayla yazmaq icazəsi olmadığı və ya fayl yolu etibarsız olduğu kimi baş verə biləcək istisnaları idarə etmək vacibdir. Bu vəziyyətləri idarə etmək üçün try-catch blokundan istifadə etmək istəyə bilərsiniz.
+</i>
+ 
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>20.Generic.</b></summary>
