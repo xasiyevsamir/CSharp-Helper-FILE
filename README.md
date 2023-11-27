@@ -443,7 +443,9 @@ Aşagidaki method ise var olan ve ya olmuyan fayilin icerisini silmeden elave ed
 <img src="image\cs133.png"   alt="Sekil silinib" title="File.AppendAllText()"/><br/><br/>
 Asagidaki method ise var olan fayilin icerisindeki metinleri oxumaq ucurndur.Geri string qaytarir.
 <img src="image\cs134.png"   alt="Sekil silinib" title="File.ReadAllText()"/><br/><br/>
-
+Asagidaki yazilisdan isdifade ederek yeni <b> StreamWriter </b> clasindan isdifade ederek biz onun icerisinde <b>Write() ve WriteLine() </b>
+methodu ile asanliqla fayila melumatlari yaza bilerik .
+<img src="image\cs135.png"   alt="Sekil silinib" title="sw.WriteLine()"/><br/><br/>
 </i>
  
 </details>
