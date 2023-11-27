@@ -441,7 +441,8 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs132.png"   alt="Sekil silinib" title="File.WriteAllText()"/><br/><br/>
 Aşagidaki method ise var olan ve ya olmuyan fayilin icerisini silmeden elave edilmis metini fayila yazdirirşYeni yuxaridaki method fayila her defe metin yazdirdiqda icerisini sifirlayir ve yeni metini eleave edirdi amma bu method var olan metnin arasina yazmaga baslayir.
 <img src="image\cs133.png"   alt="Sekil silinib" title="File.AppendAllText()"/><br/><br/>
-
+Asagidaki method ise var olan fayilin icerisindeki metinleri oxumaq ucurndur.Geri string qaytarir.
+<img src="image\cs134.png"   alt="Sekil silinib" title="File.ReadAllText()"/><br/><br/>
 
 </i>
  
