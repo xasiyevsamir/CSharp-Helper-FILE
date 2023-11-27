@@ -447,7 +447,8 @@ Asagidaki yazilisdan isdifade ederek yeni <b> StreamWriter </b> clasindan isdifa
 methodu ile asanliqla fayila melumatlari yaza bilerik .
 <img src="image\cs135.png"   alt="Sekil silinib" title="sw.WriteLine()"/><br/><br/>
 </i>
- 
+ Asagidaki yazilisdan isdifade ederek biz fayildaki melumatlari oxuya bilerik burada <b>EndOfStream</b> ifadesi melumatin sonunu bildirir yeni sonu deyilse davam edilsin.
+<img src="image\cs136.png"   alt="Sekil silinib" title="sr.ReadLine()"/><br/><br/>
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>20.Generic.</b></summary>
