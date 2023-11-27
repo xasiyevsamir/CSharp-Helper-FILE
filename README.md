@@ -449,6 +449,12 @@ methodu ile asanliqla fayila melumatlari yaza bilerik .
 </i>
  Asagidaki yazilisdan isdifade ederek biz fayildaki melumatlari oxuya bilerik burada <b>EndOfStream</b> ifadesi melumatin sonunu bildirir yeni sonu deyilse davam edilsin.
 <img src="image\cs136.png"   alt="Sekil silinib" title="sr.ReadLine()"/><br/><br/>
+Asagidaki methodla bir eyni anda coxlu datani yazdira bilerik meselen numunedede massivi fayila elave etmisik.
+<img src="image\cs137.png"   alt="Sekil silinib" title="File.WriteAllLines()"/><br/><br/>
+Asagidaki method ile ise var olan file sile bilerik.
+<img src="image\cs138.png"   alt="Sekil silinib" title="File.Delete()"/><br/><br/>
+Fayilda bezi emeliyyatlara baxa bilerik meselen asagidaki emeliyyatlara.
+<img src="image\cs139.png"   alt="Sekil silinib" title="File"/><br/><br/>
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>20.Generic.</b></summary>
