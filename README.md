@@ -439,6 +439,10 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>1.Text File</b><br/><b>1.Data File</b><br/><b>____Text Fayillar</b> adi fayillardir ve onlarla islemek asagidaki sekillerde izah edilib.
 <b>File.WriteAllText()</b> ad sahəsinə aid olan C#-da bir üsuldur System.IO. Bu üsul fayla mətn yazmaq üçün istifadə olunur, əgər fayl artıq varsa, onun üzərinə yazılır. Əgər fayl mövcud deyilsə, o yaradılacaq. Metod iki parametr götürür: fayla gedən yol və yazılacaq mətn.Bu misalda, sətri müəyyən edilmiş fayla yazmaq üçün WriteAllText() metoddan istifadə olunur . Əgər fayl artıq mövcuddursa, onun məzmunu yeni mətnlə əvəz olunacaq. Əgər fayl mövcud deyilsə, göstərilən məzmunla yeni fayl yaradılacaq.Proqramın göstərilən fayla yazmaq icazəsi olmadığı və ya fayl yolu etibarsız olduğu kimi baş verə biləcək istisnaları idarə etmək vacibdir. Bu vəziyyətləri idarə etmək üçün try-catch blokundan istifadə etmək istəyə bilərsiniz.
 <img src="image\cs132.png"   alt="Sekil silinib" title="File.WriteAllText()"/><br/><br/>
+Aşagidaki method ise var olan ve ya olmuyan fayilin icerisini silmeden elave edilmis metini fayila yazdirirşYeni yuxaridaki method fayila her defe metin yazdirdiqda icerisini sifirlayir ve yeni metini eleave edirdi amma bu method var olan metnin arasina yazmaga baslayir.
+<img src="image\cs133.png"   alt="Sekil silinib" title="File.AppendAllText()"/><br/><br/>
+
+
 </i>
  
 </details>
