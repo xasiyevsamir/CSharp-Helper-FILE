@@ -455,6 +455,12 @@ Asagidaki method ile ise var olan file sile bilerik.
 <img src="image\cs138.png"   alt="Sekil silinib" title="File.Delete()"/><br/><br/>
 Fayilda bezi emeliyyatlara baxa bilerik meselen asagidaki emeliyyatlara.
 <img src="image\cs139.png"   alt="Sekil silinib" title="File"/><br/><br/>
+Asagidaki emirler ilede fayillarla islemek olur.
+<img src="image\cs140.png"   alt="Sekil silinib" title="File"/><br/><br/>
+Yuxaridaki fayillarla emeliyatlari asagidaki kimide aparmaq olur .
+<img src="image\cs141.png"   alt="Sekil silinib" title="File"/><br/><br/>
+Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
+<img src="image\cs142.png"   alt="Sekil silinib" title="File"/><br/><br/>
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>20.Generic.</b></summary>
