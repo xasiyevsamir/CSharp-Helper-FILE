@@ -465,9 +465,11 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 </details>
 <details><summary><b>Papqalar(Folder).</b></summary>
 <i><b>Directory</b> classi papqalar(Folderler) ile iselemeyimize imkan verir ve onun bezi methodlari asagidakilardir.</i><br/>
-<i>Asagidaki method bizim proqramimiz hal hazirda hansi papqada isleyirse o papqani bize verir.</i><br/>
+<i>Asagidaki method bizim proqramimiz hal-hazirda hansi papqada isleyirse o papqani bize verir.</i><br/>
 <p>
 <img src="image\cs143.png"   alt="Sekil silinib" title="File"/><br/><br/>
+<i>Asagidaki method ile biz yeni Folder yarada bilerik ve o papqanin daxiline kece bilerik.</i><br/>
+<img src="image\cs144.png"   alt="Sekil silinib" title="File"/><br/><br/>
 </p>
 
 
