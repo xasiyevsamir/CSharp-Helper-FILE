@@ -471,6 +471,7 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <i>Asagidaki method ile biz yeni Folder yarada bilerik ve o papqanin daxiline kece bilerik.</i><br/>
 <img src="image\cs144.png"   alt="Sekil silinib" title="File"/><br/><br/>
 <img src="image\cs145.png"   alt="Sekil silinib" title="File"/><br/><br/>
+<img src="image\cs146.png"   alt="Sekil silinib" title="File"/><br/><br/>
 </p>
 
 
