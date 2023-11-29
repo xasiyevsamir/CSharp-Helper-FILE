@@ -464,9 +464,11 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <img src="image\cs142.png"   alt="Sekil silinib" title="File"/><br/><br/>
 </details>
 <details><summary><b>Papqalar(Folder).</b></summary>
-
-
-Salam
+<i><b>Directory</b> classi papqalar(Folderler) ile iselemeyimize imkan verir ve onun bezi methodlari asagidakilardir.</i><br/>
+<i>Asagidaki method bizim proqramimiz hal hazirda hansi papqada isleyirse o papqani bize verir.</i><br/>
+<p>
+<img src="image\cs143.png"   alt="Sekil silinib" title="File"/><br/><br/>
+</p>
 
 
 
