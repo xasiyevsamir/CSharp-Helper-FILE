@@ -477,13 +477,6 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 </details>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>20.TryCatch.</b></summary>
-<i>Try Catch bloklari cox vacib bloklardir ve onlardan isdifade etmek kodlarimizin deqiq ve temiz olmagini temin edir.</i><br/>
-<p>
-<img src="image\cs148.png"   alt="Sekil silinib" title="File"/><br/><br/>
-</p>
-</details>
-<b>________________________________________________________________________________________________________________</b>
 <details><summary><b>20.Generic.</b></summary>
 <b>Generic</b><i>--anlayisi bir methoda bir classa bir nece tip gondererek ondan isdifade etmekdir.Asagidaki sekillerde Generic kimi gelen tiplere ser vere bilerik ki hansi tipler gelsin ve s.</i><br/>
 <i><b>1-ci yol</b>.</i><br/>
@@ -507,9 +500,21 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <i><b>10-cu yol</b>.</i><br/>
 <img src="image\cs123.png"   alt="Sekil silinib" title="Generic."/><br/>
 <p>
-
 </p>
-
+</details>
+<b>________________________________________________________________________________________________________________</b>
+<details><summary><b>21.TryCatch.</b></summary>
+<i>Try Catch bloklari cox vacib bloklardir ve onlardan isdifade etmek kodlarimizin deqiq ve temiz olmagini temin edir.</i><br/>
+<p>
+<img src="image\cs148.png"   alt="Sekil silinib" title="File"/><br/><br/>
+</p>
+</details>
+<b>________________________________________________________________________________________________________________</b>
+<details><summary><b>22.Regex.</b></summary>
+<i>Try Catch bloklari cox vacib bloklardir ve onlardan isdifade etmek kodlarimizin deqiq ve temiz olmagini temin edir.</i><br/>
+<p>
+<a href="https://github.com/kamranAeff/RegexIntro/blob/master/README.md">Regex patterinlere bax!</a>
+</p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
 
