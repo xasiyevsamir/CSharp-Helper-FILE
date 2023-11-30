@@ -480,7 +480,7 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <details><summary><b>20.TryCatch.</b></summary>
 <i>Try Catch bloklari cox vacib bloklardir ve onlardan isdifade etmek kodlarimizin deqiq ve temiz olmagini temin edir.</i><br/>
 <p>
-<img src="image\cs147.png"   alt="Sekil silinib" title="File"/><br/><br/>
+<img src="image\cs148.png"   alt="Sekil silinib" title="File"/><br/><br/>
 </p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
