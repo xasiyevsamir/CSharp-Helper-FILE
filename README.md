@@ -511,7 +511,7 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>22.Regex.</b></summary>
-<i>Try Catch bloklari cox vacib bloklardir ve onlardan isdifade etmek kodlarimizin deqiq ve temiz olmagini temin edir.</i><br/>
+<i>Regex bize gelen datanin duzgunluyunu yxlamaq ucun isdifade edilir.Formatlama adlandirmaq olar.</i><br/>
 <p>
 <a href="https://github.com/kamranAeff/RegexIntro/blob/master/README.md">Regex patterinlere bax!</a>
 </p>
