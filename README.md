@@ -514,7 +514,8 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <i>Regex bize gelen datanin duzgunluyunu yxlamaq ucun isdifade edilir.Formatlama adlandirmaq olar.</i><br/>
 <p>
 <a href="https://github.com/kamranAeff/RegexIntro/blob/master/README.md">Regex patterinlere bax!</a><br/>
-<a href="https://regexr.com">Regex patterin yaratmaq sayiti!</a>
+<a href="https://regexr.com">Regex patterin yaratmaq sayiti!</a><br/>
+<img src="image\cs149.png"   alt="Sekil silinib" title="Regex"/><br/><br/>
 </p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
