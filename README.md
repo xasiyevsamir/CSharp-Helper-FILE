@@ -513,7 +513,7 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <details><summary><b>22.Regex.</b></summary>
 <i>Regex bize gelen datanin duzgunluyunu yxlamaq ucun isdifade edilir.Formatlama adlandirmaq olar.</i><br/>
 <p>
-<a href="https://github.com/kamranAeff/RegexIntro/blob/master/README.md">Regex patterinlere bax!</a>
+<a href="https://github.com/kamranAeff/RegexIntro/blob/master/README.md">Regex patterinlere bax!</a><br/>
 <a href="https://regexr.com">Regex patterin yaratmaq sayiti!</a>
 </p>
 </details>
