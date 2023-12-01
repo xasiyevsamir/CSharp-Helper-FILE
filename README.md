@@ -427,13 +427,13 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <i><b>1.Public</b>--->Bir project daxilinde classa,methoda,filde,property-e ve s. <b>public</b> deyirikse sadalanan class ve digerleri diger projectlerde de gorunecekdir.</i><br/>
 <img src="image\cs152.png"   alt="Sekil silinib" title="Public."/><br/>
 <i><b>2.Private</b>--->Bir class daxilinde methoda,filde,property-e ve s. <b>private</b> deyirikse sadalanan method ve digerleri diger neyiki projectlerde hemde diger classlarda da gorunmuyecekdir.</i><br/>
-<img src="image\cs151.png"   alt="Sekil silinib" title="Private."/><br/>
+<img src="image\cs151.png"   alt="Sekil silinib" title="Private."/><br/><br/>
 <i><b>3.Internal</b>--->Bir project daxilinde classa,methoda,filde,property-e ve s.<b>Internal</b> deyirikse sadalanan class ve digerleri hemin project daxilinde her yerde gorunecekdir yeni diger projectlerde gorunmeyecekdir.</i><br/>
-<img src="image\cs150.png"   alt="Sekil silinib" title="Internal."/><br/>
+<img src="image\cs150.png"   alt="Sekil silinib" title="Internal."/><br/><br/>
 <i><b>4.Protected</b>--->Bir project daxilinde methoda,filde,property-e ve s.<b>protected</b> deyirikse sadalanan methoda ve digerleri isder hemin project olsun isdersede diger projectler olsun mutleq protected yazilan method ve digerleri olan clasdan toredilmelidir ekis halda protected olan filde ve s. gorunmeyecekdir.</i><br/>
-<img src="image\cs153.png"   alt="Sekil silinib" title="protected."/><br/>
+<img src="image\cs153.png"   alt="Sekil silinib" title="protected."/><br/><br/>
 <i><b>5.Protectedprivate</b>--->Bir project daxilinde methoda,filde,property-e ve s.<b>protectedprivate</b> deyirikse sadalanan methoda ve digerleri eyni project daxilinde toredilerse o zaman hemin properti isleyecek.Protected -den tek ferqi odur ki Protected ferqli projectlerin de daxilinde toredilen clasda taninacaq ancaq  Protectedprivate ise yalni eyni project toredilen class daxilinde taninacaqdir.</i><br/>
-<img src="image\cs154.png"   alt="Sekil silinib" title="protected."/><br/>
+<img src="image\cs154.png"   alt="Sekil silinib" title="protected."/><br/><br/>
 <i><b>4.Protectedinternal</b>--->Bir project daxilinde methoda,filde,property-e ve s.<b>protectedinternal</b> deyirikse sadalanan methoda ve digerleri eyni project daxilinde toretmeye ehdiyac yoxdur taninacaq yaliniz eyni project daxilinde ayitdir eger ferqli project daxilindedirse o zaman mutleq toredilmelidir eks halda taninmayacaq.</i><br/>
 <img src="image\cs155.png"   alt="Sekil silinib" title="protected."/><br/>
 </p>
