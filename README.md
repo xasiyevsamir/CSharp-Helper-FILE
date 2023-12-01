@@ -422,7 +422,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 </p>
 </details>
 <details><summary><b>8.Access Modifiers</b></summary>
-<i><b>QEYD:</b> Classlar yalniz <b>Public</b>,<b>Internal</b> ola biler.</i>
+<i><b>QEYD:</b> Classlar yalniz <b>Public</b>,<b>Internal</b> ola biler.</i><br/>
 <p>
 <i><b>1.Public</b>--->Bir project daxilinde classa,methoda,filde,property-e ve s. <b>public</b> deyirikse sadalanan class ve digerleri diger projectlerde de gorunecekdir.</i><br/>
 <img src="image\cs152.png"   alt="Sekil silinib" title="Public."/><br/>
