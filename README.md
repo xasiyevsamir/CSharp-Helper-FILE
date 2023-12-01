@@ -421,6 +421,16 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs114.png"   alt="Sekil silinib" title="Interface."/><br/>
 </p>
 </details>
+<details><summary><b>8.Access Modifiers</b></summary>
+<p>
+<i><b>1.Public</b>--->Bir project daxilinde classa,methoda,filde,property-e ve s. <b>public</b> deyirikse sadalanan class ve digerleri diger projectlerde de gorunecekdir.</i><br/>
+<img src="image\cs152.png"   alt="Sekil silinib" title="Public."/><br/>
+<i><b>2.Private</b>--->Bir class daxilinde methoda,filde,property-e ve s. <b>private</b> deyirikse sadalanan method ve digerleri diger neyiki projectlerde hemde diger classlarda da gorunmuyecekdir.</i><br/>
+<img src="image\cs151.png"   alt="Sekil silinib" title="Private."/><br/>
+<i><b>3.Internal</b>--->Bir project daxilinde classa,methoda,filde,property-e ve s.<b>public</b> deyirikse sadalanan class ve digerleri hemin project daxilinde her yerde gorunecekdir yeni diger projectlerde gorunmeyecekdir.</i><br/>
+<img src="image\cs150.png"   alt="Sekil silinib" title="Internal."/><br/>
+</p>
+</details>
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>18.Static anlayisi.</b></summary>
