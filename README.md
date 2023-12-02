@@ -556,6 +556,9 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <img src="image\cs160.png"   alt="Sekil silinib" title="Data-Structures"/><br/>
 <img src="image\cs162.png" width="320px" height="270px"   alt="Sekil silinib" title="Data-Structures"/>
 <img src="image\cs161.png" width="320px" height="270px"   alt="Sekil silinib"  title="Data-Structures"/><br/><br/>
+<i><b>list.InsertRange(2,{14,26,37})</b> methodu ile biz ArrayList-de var olan ya olmuyan idekse massiv elave etmek ucundur yeni burada 2 indexi {14,26,37} ise datani teyin edir .Eger 2 ci indexde data varsa oraya 14-u elave edecek sonra 26 ve sora 37 en sondada 2-ci indexdeki datani üç index asagi atacaqdir,yeni isdenilen <b>object</b> tipinden bir massiv ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
+<img src="image\cs164.png"   alt="Sekil silinib" title="Data-Structures"/><br/>
+<img src="image\cs163.png"    alt="Sekil silinib"  title="Data-Structures"/><br/><br/>
 
 </details>
 
