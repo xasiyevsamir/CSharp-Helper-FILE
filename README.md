@@ -552,6 +552,10 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <i><b>list.AddRange(cox sayda elave et)</b> methodu ile biz ArrayList-e massiv atmaq ucundur,yeni isdenilen <b>object</b> tipinden bir massiv ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
 <img src="image\cs159.png"   alt="Sekil silinib" title="Data-Structures"/><br/>
 <img src="image\cs158.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.Insert(3,2)</b> methodu ile biz ArrayList-de var olan ya olmuyan idekse melumat elave etmek ucundur yeni burada 3 indexi 2 ise datani teyin edir .Eger 3 cu indexde data varsa oraya 2-ni elave edecek 3-cu indexdeki datani bir asagi atacaqdir,yeni isdenilen <b>object</b> tipinden bir data ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
+<img src="image\cs160.png"   alt="Sekil silinib" title="Data-Structures"/><br/>
+<img src="image\cs162.png" width="270px" height="270px"   alt="Sekil silinib" title="Data-Structures"/>
+<img src="image\cs162.png" width="270px" height="270px"   alt="Sekil silinib"  title="Data-Structures"/><br/><br/>
 
 </details>
 
