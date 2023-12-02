@@ -536,6 +536,30 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 </p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
+<details><summary><b>23.Data-Structures.</b></summary>
+<i><b>Data-Structures</b> arxasinda massivler dayanir yeni  biz bir data elave edende ogedir oz icerisinde bir massiv yaradir ve o datani hemin massive elave edir.Misall olaraq : ArrayList</i><br/>
+<img src="image\cs156.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>Data-Structures</b> 2 yere bolunur.</i><br/>
+<details><summary><b>1.Non-generic Collections</b></summary>
+
+
+
+
+
+</details>
+
+<details><summary><b>2.Generic Collections</b></summary>
+
+</details>
+
+
+
+
+
+
+
+</details>
+<b>________________________________________________________________________________________________________________</b>
 
 <details><summary><b>25.SQL</b></summary>
 <i>Dockerde containers yaradilmasi asagidaki codlar vasidesi ile olur.</i><br/>
