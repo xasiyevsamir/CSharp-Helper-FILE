@@ -537,12 +537,19 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>23.Data-Structures.</b></summary>
-<i><b>Data-Structures</b> arxasinda massivler dayanir yeni  biz bir data elave edende ogedir oz icerisinde bir massiv yaradir ve o datani hemin massive elave edir.Misall olaraq : ArrayList</i><br/>
+<i><b>Data-Structures</b> arxasinda massivler dayanir yeni  biz bir data elave edende o gedir oz icerisinde bir massiv yaradir ve o datani hemin massive elave edir.Misall olaraq : ArrayList</i><br/>
 <img src="image\cs156.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
 <i><b>Data-Structures</b> 2 yere bolunur.</i><br/>
 <details><summary><b>1.Non-generic Collections</b></summary>
 
 
+<details><summary><b>1. ArrayList</b></summary>
+<i>ArrayList massivlerden ferqi odur ki biz evelceden massivdeki kimi nece data ucun nezerde tutuldugunu bildirmirik cunki ArrayList-de <b>_defaultCapacity=4</b> -dur.Bu o demekdir ki biz ozumuz indiye kimi yaratdigimiz Data-Structures-da ,_defaultCapacity=0 yaradirdiq.Misall olaraq bele yazirdiq T[] data=new T[0].ArrayList-in asagidaki metodlarina baxaq.</i><br/>
+
+
+
+
+</details>
 
 
 
