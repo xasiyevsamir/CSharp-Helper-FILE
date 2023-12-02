@@ -544,10 +544,11 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 
 
 <details><summary><b>1. ArrayList</b></summary>
-<i>ArrayList massivlerden ferqi odur ki biz evelceden massivdeki kimi nece data ucun nezerde tutuldugunu bildirmirik cunki ArrayList-de <b>_defaultCapacity=4</b> -dur.Bu o demekdir ki biz ozumuz indiye kimi yaratdigimiz Data-Structures-da ,_defaultCapacity=0 yaradirdiq.Misall olaraq bele yazirdiq T[] data=new T[0].ArrayList-in asagidaki metodlarina baxaq.</i><br/>
+<i>ArrayList massivlerden ferqi odur ki biz evelceden massivdeki kimi nece data ucun nezerde tutuldugunu bildirmirik cunki ArrayList-de <b>_defaultCapacity=4</b> -dur.Bu o demekdir ki biz ozumuz indiye kimi yaratdigimiz Data-Structures-da ,_defaultCapacity=0 yaradirdiq.Misall olaraq bele yazirdiq T[] data=new T[0].<br/>ArrayList-in asagidaki metodlarina baxaq.</i><br/><br/>
 
-
-
+<b>ArrayList list = new ArrayList();</b><br/>
+<i><b>list.Add(tek data elave et)</b> metodu ArrayList-in terkibine tek tek datalar atmaq ucundur,yeni isdenilen <b>object</b> tipinden bir deyer</i><br/>
+<img src="image\cs157.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
 
 </details>
 
