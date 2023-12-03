@@ -586,10 +586,31 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <i><b>list.IndexOf(1) ve list.LastIndexOf(1) </b>methodlari.</i><br/>
 <img src="image\cs177.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
 </details>
+<details><summary><b>2. SortedList</b></summary>
+</details>
+
+
 
 
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <details><summary><b>2.Generic Collections</b></summary>
 
