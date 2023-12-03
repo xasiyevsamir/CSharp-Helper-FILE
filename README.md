@@ -587,6 +587,15 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <img src="image\cs177.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
 </details>
 <details><summary><b>2. SortedList</b></summary>
+<b>SortedList list = new SortedList();</b><br/>
+
+
+
+
+
+
+
+
 </details>
 
 
@@ -773,24 +782,9 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 
 - </b>(Q1.Enqueue("Random method."))</b> bu method Queue ye data elave etmek ucundur ve burda string olan Random method. sozunu dataya elave etdi.
 - </b>(Q1.Dequeue())</b> bu method ile ilk daxil edilen datani goturmek olar lakin hemin datani Queue koleksionundan silecek. \</b>\*(Q1.Peek())</b> bu method ise Stack den sonuncu datani goturer bir object e atar mes: </b>(object s=A1.Peek())</b> kimi.ve goturduyu datani Stack den silmir.Bu method Queue koleksionunda da kecerlidi.
-
----
-
-                                                              methodlar ve Classlar
-
-1. </b>(methodlar)</b>----> methodlar kod yazarken bize cox komeklik edir yeni bir method yazib bir hissesi eyni olan tapsiriqda yeniden cagirib isdifade ede bilerik.biz yeni metodlar yarada bilerik.Methodlar geriye deyer qaytaran ve geriye deyer qaytarmiyan olur.Geriye deyer qaytaran Methodlarda </b>return)</b> acar sozunden isdifade olunur.Methodlari Class-larin daxilinde yaradilir ve isdediyimiz qeder method yarada bilerik .Methodlar eyni adli olduqda gonderilen </b>datatype-lari)</b> ferqli olmalidir.Mes: Topla methodu </b>int number)</b> qebul edirse novbeti Topla methodu </b>int number,int a)</b> qebul etmelidir ve s.Deqiq desek method adlari eyni olduqda onlarin data qebul etmelerinin sayi ferqli ve ya daxil olan datanin tipleri ferqli ya da ki daxil olunan datalarin sayi eyni olsa yerleri ferqli olmalidir.
-
-2. </b>(Public)</b>---> Public dedikde her kese gorunen olunacaq. Yeni biz basqa bir class da methoda public desek onda hemin method her yerde basqa class-lar da gorunen yeni cagira bilerik.
-3. </b>(Private)</b>---> Private dedikde ise biz yalniz hemin klasin icindeki metodu cagira bilirik.Eger Public yazmamisiqsa bu avtomatik Private sayilir.
-4. </b>(Protected)</b>--->
-5. </b>(Internal)</b>--->
-6. </b>(Internal Protected)</b>---->.
-
----
-
-0.                                                                                                                                                                                                                                                                                              __Valu ve Reference types)__
+                                                                                                                                            __Valu ve Reference types)__
     </b>Valu ve Reference)</b> tayip dedikde ne nezerde tutulduguna baxaq. </b>RAM)</b> yeni muvveqeti yaddas iki hisseye ayrilir </b>Stack ve Heap)</b> ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin </b>Stack ve Heap)</b> yaddasda saxlanildigini gosdermisem. </b>QEYD)</b> Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  </b>int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)</b> -->bunlar her biri </b>valu tayipdir stack yaddasda saxlanilir)</b> ve reference tayiplardan suretli isleyir.
 2.  </b>string,char, massivler mes:int[] ,classlar ve s.)</b> bunlar ise </b>Reference tayipdir ve Heap yaddasda saxlanilir)</b> ve valu tayiplardan asagi suretde isleyir.
 
-- </details>
+ </details>
