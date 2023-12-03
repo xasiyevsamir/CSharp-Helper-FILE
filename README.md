@@ -577,10 +577,14 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <img src="image\cs172.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
 <i><b>list.Contains(datanin uzu yazilir)</b>bu method ile ArrayList-in icerisndeki bu data varmi diye yoxluya bilerik.</i><br/>
 <img src="image\cs173.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
-
-
-
-
+<i><b>list.Sort()</b>bu method ile ArrayList-in icerisndeki datalari kicikden boyuye duzecekdir.</i><br/>
+<img src="image\cs174.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.Reverse(menasi tersine cevir)</b>bu method ise sonuncu indeksde olan datani ilk indeksin uzerine getrir.Yeni sonuncu datadan baslayaraq ilk dataya kimi butun datalari sifirinci indeksden baslayaraq yazdirir.</i><br/>
+<img src="image\cs175.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.ToArray()</b>bu method ise bize object massivine ArreyList-i atmaga komek edir.</i><br/>
+<img src="image\cs176.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.IndexOf(1) ve list.LastIndexOf(1) </b>methodlari.</i><br/>
+<img src="image\cs177.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
 </details>
 
 
