@@ -547,6 +547,10 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <i>ArrayList massivlerden ferqi odur ki biz evelceden massivdeki kimi nece data ucun nezerde tutuldugunu bildirmirik cunki ArrayList-de <b>_defaultCapacity=4</b> -dur.Bu o demekdir ki biz ozumuz indiye kimi yaratdigimiz Data-Structures-da ,_defaultCapacity=0 yaradirdiq.Misall olaraq bele yazirdiq T[] data=new T[0].<br/>ArrayList-in asagidaki metodlarina baxaq.</i><br/><br/>
 
 <b>ArrayList list = new ArrayList();</b><br/>
+<i><b>list.Count</b> bu property ile biz ArrayList-in icinde nece element oldugunu tapa bilerik.</i><br/>
+<img src="image\cs169.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.Capacity</b> bu propert ise ArrayList-in icinde nece data ucun yer ayrildigini tapa bilerik.</i><br/>
+<img src="image\cs168.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
 <i><b>list.Add(tek data elave et)</b> metodu ArrayList-in terkibine tek tek datalar atmaq ucundur,yeni isdenilen <b>object</b> tipinden bir deyer ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
 <img src="image\cs157.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
 <i><b>list.AddRange(cox sayda elave et)</b> methodu ile biz ArrayList-e massiv atmaq ucundur,yeni isdenilen <b>object</b> tipinden bir massiv ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
@@ -565,10 +569,14 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <img src="image\cs166.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
 <i><b>list.RemoveRange(2,3)(2-bu indexden basla ve 3-dene element sil)</b> bu method ise ArrayList-in icindeki bir nece indeks silmek ucundur, isdenilen indexden basliya bilerik ve nece element lazimdirsa sile bilerik,yeni isdenilen <b>object</b> tipinden bir massiv ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
 <img src="image\cs167.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
-<i><b>list.Count</b> bu property ile biz ArrayList-in icinde nece element oldugunu tapa bilerik.</i><br/>
-<img src="image\cs169.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
-<i><b>list.Capacity</b> bu propert ise ArrayList-in icinde nece data ucun yer ayrildigini tapa bilerik.</i><br/>
-<img src="image\cs168.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+
+<i><b>list.RemoveRange(2,3)(2-bu indexden basla ve 3-dene element sil)</b> bu method ise ArrayList-in icindeki bir nece indeks silmek ucundur, isdenilen indexden basliya bilerik ve nece element lazimdirsa sile bilerik,yeni isdenilen <b>object</b> tipinden bir massiv ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
+<img src="image\cs167.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+
+
+
+
+
 
 </details>
 
