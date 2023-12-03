@@ -569,11 +569,14 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <img src="image\cs166.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
 <i><b>list.RemoveRange(2,3)(2-bu indexden basla ve 3-dene element sil)</b> bu method ise ArrayList-in icindeki bir nece indeks silmek ucundur, isdenilen indexden basliya bilerik ve nece element lazimdirsa sile bilerik,yeni isdenilen <b>object</b> tipinden bir massiv ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
 <img src="image\cs167.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
-
-<i><b>list.RemoveRange(2,3)(2-bu indexden basla ve 3-dene element sil)</b> bu method ise ArrayList-in icindeki bir nece indeks silmek ucundur, isdenilen indexden basliya bilerik ve nece element lazimdirsa sile bilerik,yeni isdenilen <b>object</b> tipinden bir massiv ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
-<img src="image\cs167.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
-
-
+<i><b>list.Clear()</b>bu methoddan isdifade etsek ArrayList-in butun elementleri silecek lakin <b>Capacity</b> silinmiyecek ,yeni element ucun ayrilan yer silinmir lakin Count=0 icerisi bos qalir,yeni isdenilen <b>object</b> tipinden bir massiv ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
+<img src="image\cs170.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.TrimToSize()</b>bu method ise yuxarida dediyimiz element silinsede onun ucun ayrilan yeri silinmir, lakin bu method ile sabit olaraq 4 Capacity yeri saxlayir ve qalanini silir.,yeni isdenilen <b>object</b> tipinden bir massiv ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
+<img src="image\cs171.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.CopyTo()</b>bu method ile ArrayList-in icerisndeki datalari copyalayib massive ata bilerik.</i><br/>
+<img src="image\cs172.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.Contains(datanin uzu yazilir)</b>bu method ile ArrayList-in icerisndeki bu data varmi diye yoxluya bilerik.</i><br/>
+<img src="image\cs173.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
 
 
 
