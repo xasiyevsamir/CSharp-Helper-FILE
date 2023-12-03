@@ -559,6 +559,16 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <i><b>list.InsertRange(2,{14,26,37})</b> methodu ile biz ArrayList-de var olan ya olmuyan idekse massiv elave etmek ucundur yeni burada 2 indexi {14,26,37} ise datani teyin edir .Eger 2 ci indexde data varsa oraya 14-u elave edecek sonra 26 ve sora 37 en sondada 2-ci indexdeki datani üç index asagi atacaqdir,yeni isdenilen <b>object</b> tipinden bir massiv ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
 <img src="image\cs164.png"   alt="Sekil silinib" title="Data-Structures"/><br/>
 <img src="image\cs163.png"    alt="Sekil silinib"  title="Data-Structures"/><br/><br/>
+<i><b>list.Remove(silmek isdediyimiz data)</b> bu method ile ArrayList-in icindeki isdenilen datani sile bilerik lakin datanin indeksini yox ozunu yazmaq lazimdi,Meselen: list.Remove("Salam") ,yeni isdenilen <b>object</b> tipinden bir massiv ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
+<img src="image\cs165.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.RemoveAt(silmek isdediyimiz index)</b> bu method ise ArrayList-in icindeki tek tek indeks silmek ucundur, isdenilen indexs sile bilerik lakin datanin indeksini yazmaq lazimdi,Meselen: list.RemoveAt(2) ,yeni isdenilen <b>object</b> tipinden bir massiv ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
+<img src="image\cs166.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.RemoveRange(2,3)(2-bu indexden basla ve 3-dene element sil)</b> bu method ise ArrayList-in icindeki bir nece indeks silmek ucundur, isdenilen indexden basliya bilerik ve nece element lazimdirsa sile bilerik,yeni isdenilen <b>object</b> tipinden bir massiv ata bilerik lakin datani goturmek isdesek boxing etmek lazimdir object tipinden oldugu ucun.</i><br/>
+<img src="image\cs167.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.Count</b> bu property ile biz ArrayList-in icinde nece element oldugunu tapa bilerik.</i><br/>
+<img src="image\cs169.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.Capacity</b> bu propert ise ArrayList-in icinde nece data ucun yer ayrildigini tapa bilerik.</i><br/>
+<img src="image\cs168.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
 
 </details>
 
