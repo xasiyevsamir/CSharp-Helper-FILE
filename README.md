@@ -628,28 +628,9 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <b> BitArray list = new BitArray(data);</b><br/>
 <img src="image\cs186.png"   alt="Sekil silinib" title="Data-Structures"/><br/>
 </details>
-
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary><b>2.Generic Collections</b></summary>
-
+<img src="image\cs187.png"   alt="Sekil silinib" title="Data-Structures"/><br/>
 </details>
 
 
