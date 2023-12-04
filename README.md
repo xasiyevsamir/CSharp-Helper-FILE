@@ -706,33 +706,7 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <b>________________________________________________________________________________________________________________</b>
 
 <details><summary><b>20.Hazir deyil.</b></summary>
-</b>(Say tipli datatayplar)</b>
 
-1.  </b>(byte)</b> ---> tutumu {0,255} dir mes: byte say1=10;
-2.  </b>(sbyte)</b>--> 255 iki hisseye ayrilir ve (-128-->127 kimi).
-3.  </b>(int)</b> ----> tutumu {biraz coxdur} mes: int say2=1234345;
-4.  </b>(uint)</b>--> minusdari pilusdarinin uzerine gelir ve buda tutumunu artirir.
-5.  </b>(double)</b> --->tutumu {coxdur} mes: double say3=1234565432; bunda elave kesir ededleride ozunde saxliya bilir.
-6.  </b>(float)</b> ----> tutumu {coxdur} mes: float say4=123432F; kesir ededleri saxliya bilir sonuna mutleq F herifi qoymaliyiq.
-7.  </b>(decimal)</b> ---->tutumu {coxdur} mes: decimal say4=1233212321 M; kesir ededleri saxliya bilir sonuna mutleq M herifi qoymaliyiq.
-8.  </b>(long)</b> --->tutumu {coxdur} mes: long say5=23234543232;
-9.  </b>(ulong)</b>--> minusdari pilusdarinin uzerine gelir ve buda tutumunu artirir.
-10. </b>(short)</b> ---> tutumu {32767}
-11. </b>(ushort)</b>---> minusdari pilusdarinin uzerine gelir ve buda tutumunu artirir.
-
-</b>(sizeof())</b> ile tipin nece bayit yer tutduguna baxa bilerik.meselen sizeof(int)
-
-## 1 </b>(dec>lon>doub>int>short>byte)</b>
-
-</b>(mentiqi deyisken)</b>
-
-1.  </b>(bool)</b> mentiqi deyiskendir yoxlanis edir dogru olub olmadigini yoxluyur ve geriye </b>(true)</b> </b>(false)</b> qaytarir.
-
----
-
-</b>(zaman tipli deyisken)</b> 2. </b>(DateTime)</b> --> tarix ve zamani ozunde saxiliyir DataTIme vaxd=(</b>DataTime.Now.Year)</b> !!
-
----
 
                                                     ACAR SOZLER.
 
@@ -744,53 +718,6 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 6.  </b>(ref)</b> bu da geri donus demekdir lakin out dan ferqli olaraq ref-e colde mutleq qiymet verilmelidir.Iceride ise versekde olar vermesekde.Umumiyetle methodlarda geri donus </b>return)</b> ile olur .Bize methodun bir nece geri donusunu isdiyirikse onda </b>ref ve ya out)</b> dan isdifade edirik .</b>return)</b> yalniz bir deyer geri donus ede bilir.
 7.  </b>(in)</b> bu da geri donusdur ferqi ise colde daxil edilen nedirse iceridede o olaraq qalir hec vaxd deyismir sehven deyisdirmek yeni bolmek azaltmaq fln etsek de deyismir nece methoda daxil olubsa ele de cixir.
 
----
-
-                                                  Masivler ve Kolleksionlar.
-
----
-
-2. </b>Random random = new Random())</b> (Random-tesadufu demekdir) Random bir klasdir ve bu klass bize tesadufu reqemler vere bilir ve methodu var onlar asagidakilardir.
-
-- </b>int data=Random method.Next(1,10))</b> bu method bize texmini reqem verir.Maksium int qeder ola bilir ve her zaman biz araliq verende yeni burda 1 ile 10 arasinda tesadufu reqemler ver dedikde 1 daxil 10 ise daxil olmur 1 ile 9 daxil reqemler verir.Geriye int qaytarir.
-- </b>double data=Random method.NextDouble())</b> bu method ile ise tesadufu 0 ve 1 arasinda reqemler verir yeni kesir ededler.Geriye double qaytarir.
-- </b>byte data=Random method.NextBytes())</b> bu method bayit tutumu qeder tesadufu ededler verir.
-
----
-
-3. </b>(ArrayList A1=new ArrayList())</b> kolleksionu ,Kolleksionlarin vasivlerden ferqi odur ki masivlerde nece data saxlanmasini biz secirik ve deyise bilmerik eyni massivde yeni 3 secmisik yuxarida onu deyise bilmirik, lakin kolleksionlarda ise ozu her data qebul etdikde ise bir elave yer ayrir ve novbeti datani gozleyir.ArrayLisdin metodlarina baxaq.
-
-- </b>(Add())</b>(tek data elave et) metodu ArrayLisdin terkibine tek tek deyerler atmaq ucundur,yeni A1.Add("Random method."), A1.Add(121),
-- </b>(AddRange)</b>( cox sayda elave et) metodu bir nece deyeri eyni anda ArrayList e atmaq ucundur.
-- </b>(Remove())</b>-->(menasi sil)--> bu method ile ArrayList icindeki isdenilen datani sile bilerik lakin datanin indeksini yox ozunu yazmaq lazimdi.Mes: A1.Remove("Random method.") bu zaman gedib axdaracaq ve Random method. sozunu silecek.
-- </b>(RemoveRange)</b>(menasi-> silinme araligi) bu ise indeksle isleyir filan indeksden basla 2 element sil. Mes: A1.RemoveRange(3,2) ucuncu indeksden basla 2 elementi silin.
-- </b>(RemoveAt)</b>--> bu method ise tek tek indeks silmek ucundur .Mes: A1.RemoveAt(2) yeni ikinci indeksi get sil.
-- </b>(Reverse)</b> (menasi tersine cevir) bu method ise sonuncu indeksde olan datani ilk indeksin uzerine getrir.Yeni sonuncu datadan baslayaraq ilk dataya kimi butun datalari sifirinci indeksden baslayaraq yazdirir.
-- </b>(Sort())</b>(menasi A-Z e duzmek,siralamaqdir)-> A-Z e siraliyir metinleri ve reqemleri ise kicikden boyuye.
-- </b>(Contains)</b>(menasi ehdiva edr umid edr ve yoxlayir) bu method ise daxil edilen datanin icerisinde bize lazim olan data varmi diye yoxlayir ve geriye bool qaytarir.
-- </b>(IndexOf)</b>(indeks menasina gelir)--> bu method ise massiv ve ya kolleksionun daxilinde her hansi data var sa onun indeksini geri int olaraq donur.mes: </b>(int indeks= A1.IndexOf("Random method.");)</b> sozu varsa gedib onun indeksini tapib getrir.
-- </b>(Clear)</b>(menasi butovlukde silmekdir)--> bu methoddan isdifade etsek butun elementleri silecek lakin capassite silinmiyecek ,yeni element ucun ayrilan yer silinmir lakin icerisi bos qalir.
-- </b>(TrimToSize)</b> bu method ise yuxarida dediyimiz element silinsede onun ucun ayrilan yeri silinmir, lakin bu method ile sabit olaraq 4 elemet yeri saxlayir ve qalanini silir.
-- </b>(ToArray)</b> bu metod koleksionlari opject masivvine atmaq ucundur.
-- </b>(Resize(ref massiv,massiv.Lenght+1))</b> bu method ile massivin nece elementli oldugunu bilmirikse ardicil olaraq massivin uzunlugunu deyisdire bilerik, yeni bu method bize hemin massivi vermesede yenisini yaradir kohneni onun uzerine atir ve geri donur.Burad ref geri donusunden isdifade edilir ,yeni gedr massivin yenisini yaradir kohne massivi onun uzerine atir ve bize geri donderir.
-
-4. </b>(Hashtable A1=new Hashtable())</b> bu kolleksion diger koleksionlardan ferqlenir .Ferqi odur ki bu iki object deyer teleb edir yeni biri key,digeri ise vouli deyer ,birinci acar soz daxil edilir digeri ise sabit bir deyer ,burada eyni acar soz ola bilmez,amma eyni valu deyer ola biler.Yuxarida qeyd olunan ArrayListin metodlari bu kolleksionlarda da isdifade edilir.
-
-5. </b>(SortedList A1=new SortedList())</b> bu kolleksion da </b>(Hashtable)</b> kimi eynidir,iki object deyer isder ve isdediyi object den biri key(acar) soz olur lakin bir iki ferqi var ve o ferqe baxaq.Burada daxil olan acar sozler eyni tipden int,bayt,string ve s.olmalidir ve tekirarsiz olmalidir.Diger ferqide ondan ibaretdir ki acar sozleri stringdirse A-Z e duzer,reqemdirse kicikden boyuye duzer.
-
----
-
-6. </b>(Stack A1=new Stack())</b> bu kolleksion bir object deyeri qebul edir.Bu koleksiona data eklemek ve bezi emeliyatlari asagidaki methodlarla edilir.
-
-- </b>(A1.Push("SALAM"))</b> bu method ile Stack koleksionuna data atmaq(gondermek olar) mes: A1.Push("salam").
-- </b>(A1.Pop())</b> bu method ile sonuncu daxil olan bir datani bir object e atar mes: </b>(object s=A1.Pop())</b> kimi.ve goturduyu Datani Stack den silir.
-- </b>(A1.Peek())</b> bu method ise Stack den sonuncu datani goturer bir object e atar mes: </b>(object s=A1.Peek())</b> kimi.ve goturduyu datani Stack den silmir.
-
-7. </b>(Queue Q1=new Queue())</b> bu koleksion da stack ile eynidir lakin stack de son giren ilk cixdigi halda Queue de ise ilk giren ilk cixir.Burada bir nece method var baxaq.
-
-- </b>(Q1.Enqueue("Random method."))</b> bu method Queue ye data elave etmek ucundur ve burda string olan Random method. sozunu dataya elave etdi.
-- </b>(Q1.Dequeue())</b> bu method ile ilk daxil edilen datani goturmek olar lakin hemin datani Queue koleksionundan silecek. \</b>\*(Q1.Peek())</b> bu method ise Stack den sonuncu datani goturer bir object e atar mes: </b>(object s=A1.Peek())</b> kimi.ve goturduyu datani Stack den silmir.Bu method Queue koleksionunda da kecerlidi.
-                                                                                                                                            __Valu ve Reference types)__
     </b>Valu ve Reference)</b> tayip dedikde ne nezerde tutulduguna baxaq. </b>RAM)</b> yeni muvveqeti yaddas iki hisseye ayrilir </b>Stack ve Heap)</b> ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin </b>Stack ve Heap)</b> yaddasda saxlanildigini gosdermisem. </b>QEYD)</b> Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
 1.  </b>int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)</b> -->bunlar her biri </b>valu tayipdir stack yaddasda saxlanilir)</b> ve reference tayiplardan suretli isleyir.
 2.  </b>string,char, massivler mes:int[] ,classlar ve s.)</b> bunlar ise </b>Reference tayipdir ve Heap yaddasda saxlanilir)</b> ve valu tayiplardan asagi suretde isleyir.
