@@ -588,7 +588,7 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 </details>
 <details><summary><b>2. SortedList</b></summary>
 <b>SortedList list = new SortedList();</b><br/>
-<i>SortedList-in ArrayList-den ferqi odur ki ArrayList-de index var SortedLisde ise <b>Keys ve Values</b> var.Burada daxil olan acar sozler eyni tipden ya int,ya bayt,ya da string ve s.olmalidir ve tekirarsiz olmalidir.Diger ferqide ondan ibaretdir ki acar sozleri stringdirse A-Z e duzer,reqemdirse kicikden boyuye duzer. SortedList-de <b>_defaultCapacity=16</b> -dir.<br/>ArrayList-in asagidaki metodlarina baxaq.</i><br/><br/>
+<i>SortedList-in ArrayList-den ferqi odur ki ArrayList-de index var SortedLisde ise <b>Keys ve Values</b> var.Burada daxil olan acar sozler eyni tipden ya int,ya bayt,ya da string ve s.olmalidir ve tekirarsiz olmalidir.Diger ferqide ondan ibaretdir ki acar sozleri stringdirse A-Z e duzer,reqemdirse kicikden boyuye duzer. SortedList-de <b>_defaultCapacity=16</b> -dir.<br/>SortedList-in asagidaki metodlarina baxaq.</i><br/><br/>
 <i><b>list.Count</b> bu property ile biz SortedList-in icinde nece element oldugunu tapa bilerik.</i><br/>
 <i><b>list.Capacity</b> bu propert ise SortedList-in icinde nece data ucun yer ayrildigini tapa bilerik.</i><br/>
 <img src="image\cs178.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
@@ -599,9 +599,31 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <img src="image\cs180.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/><br/><br/>
 <b>Diger methodlar ArrayList-deki kimi eynidir sadece deyer qebul etmeleri ferqli ola biler. </b>
 </details>
-
-
-
+<details><summary><b>3. Hashtable</b></summary>
+<b>Hashtable list = new Hashtable();</b><br/>
+<i>Hashtable -da SortedList ile eynidir lakin bir nece ferqi var:Meselen--Siralama mentiqi yoxdur<b> Keys </b>ferqli tiplerden ola biler eyni ile values de ferqli tiplerden ola biler.Hashtable-da _defaultCapacity mentiqi yoxdur.<b>Keys ve Values</b> var.Keys tekirarsiz olmalidir. <br/>Hashtable-in asagidaki metodlarina baxaq.</i><br/><br/>
+<i><b>list.Keys</b> bu property ile biz SortedList-in icinde olan Keys-lere baxa bilerik.</i><br/>
+<i><b>list.Values</b> bu property ile biz SortedList-in icinde olan Values-lere baxa bilerik.</i><br/>
+<img src="image\cs181.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<b>Diger methodlar SortedList-deki kimi eynidir sadece deyer qebul etmeleri ferqli ola biler. </b>
+</details>
+<details><summary><b>4. Stack</b></summary>
+<b>Stack list = new Stack();</b><br/>
+<i>Stack bir object deyer atmaq olar arxasinda massiv dayanir _defaultCapacity mentiqi yoxdur.<b>index ve Values</b> mentiqi var.. <br/>Stack-in asagidaki metodlarina baxaq.Axrinci daxil edilen data her zaman 1-ci cixir.</i><br/><br/>
+<i><b>list.Push("Salam")</b> bu method ile Stack koleksionuna data atmaq(gondermek olar) mes: list.Push("salam").</i><br/>
+<i><b>list.Pop()</b> bu method ile sonuncu daxil olan bir datani bir object e atar mes: (object data=list.Pop()) kimi.ve goturduyu Datani Stack den silir.</i><br/>
+<img src="image\cs182.png"   alt="Sekil silinib" title="Data-Structures"/><br/>
+<img src="image\cs183.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.Peek()</b> bu method ile sonuncu daxil olan bir datani bir object e atar mes: (object data=list.Pop()) kimi.ve goturduyu Datani Stack den silmir.</i><br/>
+<img src="image\cs184.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+</details>
+<details><summary><b>5. Queue</b></summary>
+<b>Queue list = new Queue();</b><br/>
+<i>Queue bir object deyer atmaq olar arxasinda massiv dayanir _defaultCapacity mentiqi yoxdur.<b>index ve Values</b> mentiqi var.. <br/>Stack-in asagidaki metodlarina baxaq.Birinci daxil edilen data her zaman 1-ci cixir.</i><br/><br/>
+<i><b>list.Enqueue(1)</b> bu method ile Queue koleksionuna data atmaq(gondermek olar) mes: list.Enqueue(1).</i><br/>
+<i><b>list.Dequeue()</b> bu method ile ilk daxil olan bir datani bir object e atar mes: (object data=list.Pop()) kimi.ve goturduyu Datani Queue den silir.</i><br/>
+<img src="image\cs185.png"   alt="Sekil silinib" title="Data-Structures"/><br/>
+</details>
 
 
 </details>
