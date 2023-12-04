@@ -624,7 +624,10 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <i><b>list.Dequeue()</b> bu method ile ilk daxil olan bir datani bir object e atar mes: (object data=list.Pop()) kimi.ve goturduyu Datani Queue den silir.</i><br/>
 <img src="image\cs185.png"   alt="Sekil silinib" title="Data-Structures"/><br/>
 </details>
-
+<details><summary><b>6. BitArray</b></summary>
+<b> BitArray list = new BitArray(data);</b><br/>
+<img src="image\cs186.png"   alt="Sekil silinib" title="Data-Structures"/><br/>
+</details>
 
 </details>
 
