@@ -588,14 +588,16 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 </details>
 <details><summary><b>2. SortedList</b></summary>
 <b>SortedList list = new SortedList();</b><br/>
-
-
-
-
-
-
-
-
+<i>SortedList-in ArrayList-den ferqi odur ki ArrayList-de index var SortedLisde ise <b>Keys ve Values</b> var.Burada daxil olan acar sozler eyni tipden ya int,ya bayt,ya da string ve s.olmalidir ve tekirarsiz olmalidir.Diger ferqide ondan ibaretdir ki acar sozleri stringdirse A-Z e duzer,reqemdirse kicikden boyuye duzer. SortedList-de <b>_defaultCapacity=16</b> -dir.<br/>ArrayList-in asagidaki metodlarina baxaq.</i><br/><br/>
+<i><b>list.Count</b> bu property ile biz SortedList-in icinde nece element oldugunu tapa bilerik.</i><br/>
+<i><b>list.Capacity</b> bu propert ise SortedList-in icinde nece data ucun yer ayrildigini tapa bilerik.</i><br/>
+<img src="image\cs178.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.Keys</b> bu property ile biz SortedList-in icinde olan Keys-lere baxa bilerik.</i><br/>
+<i><b>list.Values</b> bu property ile biz SortedList-in icinde olan Values-lere baxa bilerik.</i><br/>
+<img src="image\cs179.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+<i><b>list.Add("a", 2);</b> bu property ile biz SortedList-in icinde olan Values-lere baxa bilerik.</i><br/>
+<img src="image\cs180.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/><br/><br/>
+<b>Diger methodlar ArrayList-deki kimi eynidir sadece deyer qebul etmeleri ferqli ola biler. </b>
 </details>
 
 
