@@ -642,7 +642,7 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 </details>
 <b>________________________________________________________________________________________________________________</b>
 
-<details><summary><b>25.SQL</b></summary>
+<details><summary><b>24.SQL</b></summary>
 <i>Dockerde containers yaradilmasi asagidaki codlar vasidesi ile olur.</i><br/>
 <b>1. docker run --name Bigon-Task-2 --restart always -v mssql1:/var/opt/mssql1 -p 1434:1433 -e "MSSQL_PID=Developer" -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=!!Samir@2"  mcr.microsoft.com/mssql/server:2022-latest.</b><br/>
 <p><img src="./sql-image/sql15.png"    alt="Sekil silinib" /></p><br/>
@@ -683,7 +683,7 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <p><img src="./sql-image/sql20.png"    alt="Sekil silinib" title="sql comandalar."/></p><br/>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>26.MVC </b></summary>
+<details><summary><b>25.MVC </b></summary>
 <img src="image\model-view-controller-mvc-explained.jpg"   alt="Sekil silinib" title="MVC."/><br/>
 <i>Controllerden hem Views hemde Views dan Controllere melumat oture bilirik.</i><br/>
 <i><b>MVC</b>-de 3 papqamiz var onlar <br/><b>1.Controllers</b><br/><b>2.Views</b><br/><b>3.Model</b><br/>Bu papqalar secilmis yeni xususi papqalardir ve heresinin oz isi var .<br/>1. <b>Controllers</b> papqasi adindan gorunduyu kimi kotrol idare edici demekdir ve icerisinde <b>Index()</b> adinda <b>action</b> yeni əkşın adinda method var ve ounun da icersinde <b>Views()</b> methodu var.<br/>2.<b>Views</b> papqasi ise gorunusu ifade etmek yeni html codlarimizi ozunde saxliyan papqadir.Icerisinde 4 nov Views var.Onlar asagidakilardir. <br/>
