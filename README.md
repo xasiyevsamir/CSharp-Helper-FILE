@@ -65,9 +65,9 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 <b>________________________________________________________________________________________________________________</b>
 
 <details><summary><b>5.Movzu:Vareybillar ve Tiplerin bir-birine cevrilmesi.</b></summary>
-23. Vareybillar bizim kod yazarken adlandirdigimiz hissedir ,yeni aldigimiz melumati, deyeri neyin daxilinde saxliyiriqsa bunlara vareybillar deyilir.Mes : int a =10; string b="cofe", double c=12.3;
+23. Vareybillar bizim kod yazarken adlandirdigimiz hissedir ,yeni aldigimiz melumati, deyeri neyin daxilinde saxliyiriqsa bunlara vareybillar deyilir.Mes : int a =10; char='A'; string b="cofe", double c=12.3;
 burada a,b, ve c vareybil adlanir.Vareybillari biz teyin edirik. Burada 10, 12.3, "cofe" ise data adlanir yeni melumat.Burada int, string ve double ise bizim datatype adlanir.Yeni datatype datanin hansi tipdan oldugunu bildirir, fincanda cofe dedikde burda cofe data b vareybil string ise datatype-dir.Yeni fincanin hansi materialdan oldugunu bildirir yeni saxsi ve ya suse.
-<b>DateType-larin Novleri .</b>DateType 2 novu var <b>(Value ve Refarence)</b><br/><details><summary><b>Value</b></summary>Reqem tipli datalari saxlamaq ucundur Mes:<b>int,double,float,byte</b><br/><b>Reqem Tiplerin Cevrilmesi.</b> Bunun 2 izahi var.<br/> <b>1.Implicit ot auto conversion.</b><br/><i>Sekilde gorduyumuz kimi az tutumlu datetype cox tutumlu datetype uzerine atriq yeni onsuzda short ve int byte uzerine gotre bilir ve buna gorede bu cevirmeye avtomatic implicit deyilir.Yeni avtomatiq olaraq cevrir problemsiz.</i>
+<b>DataType-larin Novleri .</b>DataType 2 novu var <b>(Value ve Refarence)</b><br/><details><summary><b>Value</b></summary>Reqem tipli datalari saxlamaq ucundur Mes:<b>int,double,char,float,byte</b><br/><b>Reqem Tiplerin Cevrilmesi.</b> Bunun 2 izahi var.<br/> <b>1.Implicit ot auto conversion.</b><br/><i>Sekilde gorduyumuz kimi az tutumlu datatype cox tutumlu datatype uzerine atriq yeni onsuzda short ve int byte uzerine gotre bilir ve buna gorede bu cevirmeye avtomatic implicit deyilir.Yeni avtomatiq olaraq cevrir problemsiz.</i>
 <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types">1.Reqem tiplere bax.</a><br/>
 <a href="http://www.unitconversion.org/numbers/base-10-to-base-2-conversion.html">2.Say sistemlerine cevirmeler.</a><br/>
 <p>
@@ -79,13 +79,13 @@ burada a,b, ve c vareybil adlanir.Vareybillari biz teyin edirik. Burada 10, 12.3
  <img src="image\cs2.png" width="300" height="200" alt="Sekil silinib" title="Explicit conversion."/>
  <img src="image\cs3.png" width="300" height="200" alt="Sekil silinib" title="Checked erroru."/>
 </p>
-<i><b>dec>lon>doub>int>short>byte</b>.Reqem tipli datatiplerin tutumuna gore muqayisesi.</i>
+<i><b>dec>long>doub>int>short>byte</b>.Reqem tipli datatiplerin tutumuna gore muqayisesi.</i>
 <p>
 <i>Reqem tipleri asagidakilardir.</i>
  <img src="image\cs44.png"  alt="Sekil silinib" title="Reqem tipleri"/>
 </p>
  </details>
-<details><summary><b>Refarence</b></summary><br/>Metin tipli datalari saxlamaq ucundur Mes:<b>string, char, class,Method,Massiv ve s.</b><br/>
+<details><summary><b>Refarence</b></summary><br/>Metin tipli datalari saxlamaq ucundur Mes:<b>string, class,Method,Massiv ve s.</b><br/>
 <b><i>1.Convert.ToInt32</i></b>----> <i>Butun tiplerden cevirme apara bilir Parse dan ferqli olaraq.</i><br/>
 <b><i>2.Tipin adi.Parse</i></b> ----> </i>Yalniz reqem tipli stringleri cevire bilir. mes: "123". Yeni string olmayan neyise cevire bilmir</i>.<br/>
 <b><i>3.Tipin adi.TryParse(date, out Tipin adi a)</b></i>---> <i>bu cevirme digerlerinden ferqlenir yeni geriye bool (ture,false) qaytarir yeni cevrile bilir ya cevrile bilmir .</i></details>
@@ -211,9 +211,18 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>9.Const--Deyismez.</b></summary>
 <p><img src="image\cs45.png" width="300"  alt="Sekil silinib" title="Const-Sabit."/></p>
+</details><b>________________________________________________________________________________________________________________</b>
+<details>
+<summary><b>10.Bəzi açar sozlər.</b></summary>
+<p>
+<img src="image\cs189.png"  alt="Sekil silinib" title="Acar sozler."/><br/><br/>
+<img src="image\cs188.png"  alt="Sekil silinib" title="Acar sozler."/><br/><br/>
+
+
+</p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>10.Massivler.</b></summary>
+<details><summary><b>11.Massivler.</b></summary>
  <i>
  <b>(int[] number=new int[3])</b> --> burada biz int vassivi yaratdiq .Massivler muxdelif tiplerden ola biler.Burada int[3] 3 reqemi masivvin nece elementli olmasini yeni nece int tipinden data saxlamasini gosderir.Burada 3 indeksli yeni 3 data saxlanilir.Lakin komputer sayarken 0 dan saymaga baslayir.Yeni (0,1,2) burda saysaq 3 data saxlamaq olar yeni 0 ci indeksde bir data ve digerlerinde eynisi.Massivlerin mehtodlari var ve biz bu methodlari istifade etmek ucun <b>Array.</b> klasindan isdifade edirik .Yeni massiv ucun hansi methodu cagirsaq Array. deyirik.BU methodlar asagidakilardir.
  </i>
@@ -232,7 +241,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <b>8.Array.Copy(array,Newarray , 2, 5))</b> bu method ile bir massivdeki datani diger massive kopyaliya bilerik ve bunun ucun hansi massivden gotureceyikse onu qeyd edirik yeni massiv hansi olacaqsa onu qeyd edirik ve necenci indeksden baslasin kopyalamaga onu ve sonda nece element kopyalanacaq onu qeyd edirik.<br/>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>11. If ,else if , else, switch.</b></summary>
+<details><summary><b>12. If ,else if , else, switch.</b></summary>
 <i>Serti skopkalar--Bir nece sertin eyni anda yoxlanmasini isdeyirikse bir nece <b>if</b> yazmaliyiq ki butun sertlere daxil olsun eks halda ise bir <b>if</b> ve bir nece <b> else if</b> yazmaliyiq bu halda yalniz dogru serte daxil olacaq yeni butun sertleri bir bir yoxlamiyacaq . <b>else</b> ise ifin eksini bildirir. If olmadan else if ve ya else yazmaq olmaz.<b>if</b> -den sonra bir nece if ve ya else if yaza bilerik.</i><br/>
 <p><img src="image\cs49.png"   alt="Sekil silinib" title="If ,else if , else,."/></p>
 <i>switch skopqasi</i>
@@ -241,7 +250,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>12.Loops-Dovurler.</b></summary>
+<details><summary><b>13.Loops-Dovurler.</b></summary>
 <i>Dovurlerin bir nece novleri var bunlara misal olaraq asagidakilari gosdere bilerik.
 </i>
 <ul type="square">
@@ -267,7 +276,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>13.Methodlar.</b></summary>
+<details><summary><b>14.Methodlar.</b></summary>
 <i><b>(Methodlar)</b>----> methodlar kod yazarken bize cox komeklik edir yeni bir method yazib bir hissesi eyni olan tapsiriqda yeniden cagirib isdifade ede bilerik.Biz yeni metodlar yarada bilerik.Methodlar geriye deyer qaytaran ve geriye deyer qaytarmiyan olur.Geriye deyer qaytaran methodlarda <b>return)</b> acar sozunden isdifade olunur.Methodlari Class-larin daxilinde yaradilir ve isdediyimiz qeder method yarada bilerik .Methodlar eyni adli olduqda gonderilen <b>datatype-lari)</b> ferqli olmalidir.Mes: Topla methodu <b>int number)</b> qebul edirse novbeti Topla methodu <b>int number,int a)</b> qebul etmelidir ve s.Deqiq desek method adlari eyni olduqda onlarin data qebul etmelerinin sayi ferqli ve ya daxil olan datanin tipleri ferqli ya da ki daxil olunan datalarin sayi eyni olsa yerleri ferqli olmalidir.Geri deyer qaytarmayan methodlari ise <b>void</b>--> adlanir yeni hecne deyer qaytarmir.</i><br/>
 <i><b>1.Geri deyer qaytarmayan method yeni return olmayan method.</b></i><br/>
 <p><img src="image\cs59.png"    alt="Sekil silinib" title="return olmayan method."/></p>
@@ -278,7 +287,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 </details>
 <b>________________________________________________________________________________________________________________</b>
 
-<details><summary><b>14.DIL MEDENIYETI.</b></summary>
+<details><summary><b>15.DIL MEDENIYETI.</b></summary>
 1.  <b>(Console.OutputEncoding = Encoding.Unicode;)</b> biz elimizde olan datani cole yeni fronta gondererken bu codu yazmaliyiq ki bezi herifleri tanimir ve onlarida tanisin.<br/>
 2.  <b>(Console.InputEncoding = Encoding.Unicode;)</b> biz colde olan datani yeni frontda olan datani iceri back e gonderirikse bu codu yazmaliyiq ki duzgun olaraq daxil etsin.<br/>
 3.  <b>(CultureInfo ce = new CultureInfo("az-Latn-AZ"); Thread.CurrentThread.CurrentCulture = ce;)</b> bunu yazdiqda ise proqram sirf azerbaycan dilinde isleyecek <b>Culture-(medeniyet), Thread-(Movzu), Current-(Cari, indiki), --menasina gelir)</b>.<br/>
@@ -289,7 +298,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <!-- RANDOM -->
-<details><summary><b>15.Random</b></summary>
+<details><summary><b>16.Random</b></summary>
 <i><b>Random classi texmini reqemler goturmek ucun isdifade edilir.Onun bir nece methodu vardir ve onlar asagidakilardir.</b></i><br/>
 <i>1->rnd.Next()</i><br/>
 <i>2->rnd.Next(<b>int.maxvalue</b>)</i><br/>
@@ -326,7 +335,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 </details>
 <b>________________________________________________________________________________________________________________</b>
 <!-- ENUM -->
-<details><summary><b>16.Enum</b></summary>
+<details><summary><b>17.Enum</b></summary>
 1. <b>(enum)</b> enum ne demekdir ?.Enum ile limitli sayda olan secimleri yarada bilerik yeni hefdenin gunleri ilin aylarini ve ya sistemde menyulari ve s. yaratmaq olar.<br/>Enum susmaya gore <b>(intden)</b> toreyib ve biz diger tiplerden yeni tam olan tiplerden torede bilerik mes: byte ,sbyte,short ve s.<br/> Her hansi tipden toretmek isdedikde <b>public enum (MonthName:byte)</b> qeyd etmek lazimdir . Enumlar da 1 ve bir nece secim bir secimden aslidirsa ele qurmaq olar ki hemin secimler isdediyimiz secimden asili olsun .<br/>Enum ozune mexsus xususiyyeti var bu xususuyyet 2-lik say sisteminde kodlardan aslidir.<br/> Enum-larda <b>( | )</b> toplama yeni iklikde olan kodlarin toplami <b>(&)</b> vurma emeliyyatidir buna genis sekilde misal cekek mes: tutaq ki bizde enum <b>(user=1, moderator=2, admin=user|moderator)</b> burada topluyanda indeksler toplanir ve eslinde user=1 de 1-in iklikde kodu <b>(0001)</b> ve moderator=2 2-nin ikilikde kodu <b>(0010)</b> toplanir ve neticede 3-un ikilikde olan <b>(0011)</b> alinir yeni admin 3 cu indeksdir ve admin diger iki user ve moderatorun isini gore biler.<br/>Bele hallardan isdifade etmek lazim olduqda indeksleri 2 usdu kimi gotururuk.Yeni 2 sifir, 2 usdu bir bele bele davam edir . <br/>
 <p>
 <img src="./image/cs80.png"    alt="Sekil silinib" title="Enum"/><br/><br/><br/>
@@ -351,7 +360,7 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 </details>
 <b>__________________________________________________________________________________________________________________</b>
 <!-- OOP  -->
-<details><summary><b>17.OOP</b></summary>
+<details><summary><b>18.OOP</b></summary>
 <i><b>OOP -in esaslari.</b></i><br/>
 <i><b>1.Object</b>--Mirass vermek nesillendirmek.</i><br/>
 <i><b>2.Class</b>--Mirass vermek nesillendirmek.</i><br/>
@@ -440,12 +449,12 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 </details>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>18.Static anlayisi.</b></summary>
+<details><summary><b>19.Static anlayisi.</b></summary>
 <i><b>Static and No static</b>.</i><br/>
 <img src="image\cs110.png"   alt="Sekil silinib" title="Static."/><br/><br/>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>19.Fayillarla islemek.</b></summary>
+<details><summary><b>20.Fayillarla islemek.</b></summary>
 <i><b>FileStream</b>.  Dedikde biz  lazimi datalari fayillarda saxliya bilerik.Bunlar asagidaki sekillerdeki kimi yerine yetirilmelidir.</i><br/>
 <p>
 <img src="image\cs129.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
@@ -494,7 +503,7 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 </details>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>20.Generic.</b></summary>
+<details><summary><b>21.Generic.</b></summary>
 <b>Generic</b><i>--anlayisi bir methoda bir classa bir nece tip gondererek ondan isdifade etmekdir.Asagidaki sekillerde Generic kimi gelen tiplere ser vere bilerik ki hansi tipler gelsin ve s.</i><br/>
 <i><b>1-ci yol</b>.</i><br/>
 <p><img src="image\cs1115.png"   alt="Sekil silinib" title="Generic."/><br/>
@@ -520,14 +529,14 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 </p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>21.TryCatch.</b></summary>
+<details><summary><b>22.TryCatch.</b></summary>
 <i>Try Catch bloklari cox vacib bloklardir ve onlardan isdifade etmek kodlarimizin deqiq ve temiz olmagini temin edir.</i><br/>
 <p>
 <img src="image\cs148.png"   alt="Sekil silinib" title="File"/><br/><br/>
 </p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>22.Regex.</b></summary>
+<details><summary><b>23.Regex.</b></summary>
 <i>Regex bize gelen datanin duzgunluyunu yxlamaq ucun isdifade edilir.Formatlama adlandirmaq olar.</i><br/>
 <p>
 <a href="https://github.com/kamranAeff/RegexIntro/blob/master/README.md">Regex patterinlere bax!</a><br/>
@@ -536,7 +545,7 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 </p>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>23.Data-Structures.</b></summary>
+<details><summary><b>24.Data-Structures.</b></summary>
 <i><b>Data-Structures</b> arxasinda massivler dayanir yeni  biz bir data elave edende o gedir oz icerisinde bir massiv yaradir ve o datani hemin massive elave edir.Misall olaraq : ArrayList</i><br/>
 <img src="image\cs156.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
 <i><b>Data-Structures</b> 2 yere bolunur.</i><br/>
@@ -642,7 +651,7 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 </details>
 <b>________________________________________________________________________________________________________________</b>
 
-<details><summary><b>24.SQL</b></summary>
+<details><summary><b>25.SQL</b></summary>
 <i>Dockerde containers yaradilmasi asagidaki codlar vasidesi ile olur.</i><br/>
 <b>1. docker run --name Bigon-Task-2 --restart always -v mssql1:/var/opt/mssql1 -p 1434:1433 -e "MSSQL_PID=Developer" -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=!!Samir@2"  mcr.microsoft.com/mssql/server:2022-latest.</b><br/>
 <p><img src="./sql-image/sql15.png"    alt="Sekil silinib" /></p><br/>
@@ -683,7 +692,7 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <p><img src="./sql-image/sql20.png"    alt="Sekil silinib" title="sql comandalar."/></p><br/>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>25.MVC </b></summary>
+<details><summary><b>26.MVC </b></summary>
 <img src="image\model-view-controller-mvc-explained.jpg"   alt="Sekil silinib" title="MVC."/><br/>
 <i>Controllerden hem Views hemde Views dan Controllere melumat oture bilirik.</i><br/>
 <i><b>MVC</b>-de 3 papqamiz var onlar <br/><b>1.Controllers</b><br/><b>2.Views</b><br/><b>3.Model</b><br/>Bu papqalar secilmis yeni xususi papqalardir ve heresinin oz isi var .<br/>1. <b>Controllers</b> papqasi adindan gorunduyu kimi kotrol idare edici demekdir ve icerisinde <b>Index()</b> adinda <b>action</b> yeni əkşın adinda method var ve ounun da icersinde <b>Views()</b> methodu var.<br/>2.<b>Views</b> papqasi ise gorunusu ifade etmek yeni html codlarimizi ozunde saxliyan papqadir.Icerisinde 4 nov Views var.Onlar asagidakilardir. <br/>
@@ -705,7 +714,7 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 </details>
 <b>________________________________________________________________________________________________________________</b>
 
-<details><summary><b>20.Hazir deyil.</b></summary>
+<details><summary><b>27.Hazir deyil.</b></summary>
 
 
                                                     ACAR SOZLER.
