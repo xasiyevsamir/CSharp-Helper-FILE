@@ -211,9 +211,9 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <b>________________________________________________________________________________________________________________</b>
 <details><summary><b>9.Const--Deyismez.</b></summary>
 <b>Const</b>--<i>Staticdir ve deyisdirile bilmez ilk olaraq hansi deyeri aldisa o deyeride saxlayacaqdir.</i><br/>
-<p><img src="image\cs45.png" width="300"  alt="Sekil silinib" title="Const-Sabit."/></p><br/><br/>
+<p><img src="image\cs45.png"  alt="Sekil silinib" title="Const-Sabit."/></p><br/><br/>
 <b>readonly</b>--<i>Static deyil ve ilk yaradilan anda deyer ala biler ve ya conustructor methodun terkibinde deyer ala biler basqa hec yerde deyer ala bilmez.</i><br/>
-<p><img src="image\cs190.png" width="300"  alt="Sekil silinib" title="Const-Sabit."/></p>
+<p><img src="image\cs190.png"   alt="Sekil silinib" title="readonly"/></p>
 </details><b>________________________________________________________________________________________________________________</b>
 <details>
 <summary><b>10.Bəzi açar sozlər.</b></summary>
