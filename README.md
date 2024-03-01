@@ -654,6 +654,7 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 
 
 <b>________________________________________________________________________________________________________________</b>
+<b>________________________________________________________________________________________________________________</b>
 
 <details><summary><b>25.SQL</b></summary>
 <i>Dockerde containers yaradilmasi asagidaki codlar vasidesi ile olur.</i><br/>
