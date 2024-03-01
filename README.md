@@ -1,4 +1,4 @@
-# <span style="color:blue; font-size:10em;"> ***PROGRAMMİNG BOOK*** </span>
+#  ***PROGRAMMİNG BOOK*** 
 
 
 ```diff
