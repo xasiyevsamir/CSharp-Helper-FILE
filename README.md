@@ -3,8 +3,8 @@
 > Proqramlaşdırma, müxtəlif tapşırıqları yerinə yetirmək üçün kompüterə əmr vermək və ya hər hansısa bir işi görmək üçün yaradılan alqoritmanın bir proqramlaşdırma dilində yazılaraq komputer tərəfindən emal edilməsidir.Bu əmrlər komputerə nəyin necə işləyəcəyini və ya nəyi necə işlədəcəyini bildirir. Programlaşdırma dilləri bir növ insan ilə komputer arasındakı dialoq vasitəsidir. Biz komputerə onun anladığı dildən əmrlər veririk, komputer də bizim əmrlərimizi nöqtə vergülünə qədər icra edir. Başqa təsvir, proqramlaşdırma bir problem həll etmə sənətidir.
 __________________________________________________________________________________
 <b>Proqramlaşdırma dilləri.</b><br/>
-<img src="image\1_L5QyrMNalM3yhtgdgBcvkQ.png"   alt="Sekil silinib" title="Proqramlaşdırma dilləri."/><br/>
-
+<img src="image\1_L5QyrMNalM3yhtgdgBcvkQ.png" alt="Sekil silinib" title="Proqramlaşdırma dilləri."/><br/>
+__________________________________________________________________________________
 <!-- # H1 -->
 # H1
 <!-- ## H2 -->
