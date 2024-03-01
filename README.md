@@ -22,7 +22,7 @@ _İtaliq yazmaq üçün !_ <br/>
 
 > Mətin yazmaq üçündür !
 
-[Google]: https:/www.google.com
+[Linke kecid  etmek ucun](https://www.google.com)
 
 
 
