@@ -22,7 +22,7 @@ Bir bölgə başlatmaq üçün, `#` işarəsi ilə başlayan sətiri yazın. Ba�
 
 ```markdown
 ## Bölgə Adı
-## İstifadə
+
 
 Proyekti istifadə etmək üçün, aşağıdakı addımları izləyin:
 
@@ -31,7 +31,7 @@ Proyekti istifadə etmək üçün, aşağıdakı addımları izləyin:
 3. Proyektin kök qovluğuna daxil olun.
 4. `npm install` (npm istifadə edirsinizsə) və ya `yarn install` (Yarn istifadə edirsinizsə) yazın.
 5. `npm start` (npm istifadə edirsinizsə) və ya `yarn start` (Yarn istifadə edirsinizsə) yazın.
-
+##
 </details>
 
 
