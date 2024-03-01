@@ -18,9 +18,9 @@
 __Qalın yazmaq üçün !__ <br/>
 *İtaliq yazmaq üçün !* <br/>
 _İtaliq yazmaq üçün !_ <br/>
+~~Üzərindən xətt çəkmək üçündür !~~ <br/>
 
-
-
+> Salam lorem10 İngilis dilindən tərcümə edilib-Visual Studio Code, adətən VS Kodu olaraq da adlandırılır, Microsoft tərəfindən Windows, Linux və macOS üçün hazırlanmış mənbə kodu redaktorudur. Xüsusiyyətlərə sazlama dəstəyi, sintaksis işıqlandırma, ağıllı kodu tamamlama, parçalar, kod refaktorinqi və daxil edilmiş
 
 
 
