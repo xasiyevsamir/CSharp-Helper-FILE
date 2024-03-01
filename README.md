@@ -2,11 +2,9 @@
 
 
 ```diff
-- ***PROGRAMMİNG BOOK***
+- PROGRAMMİNG BOOK
 + text in green
 ! text in orange
-# text in gray
-@@ PROGRAMMİNG BOOK@@
 ```
 <!-- # H1 -->
 # H1
