@@ -7,7 +7,7 @@
 ##### H5
 ###### H6
 
-** Qalın yazmaq üçün ! **
+**Qalın yazmaq üçün !**
 
 
 
