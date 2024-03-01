@@ -56,11 +56,11 @@ _İtaliq yazmaq üçün !_ <br/>
             Console.WriteLine("Hello, World!");
             Console.ReadLine();
 ```
-
+________________________________________________________________________________________
 </details>
-___________________________________________________________________________________
+
 <br/><br/>
-##  C-Sharp
+# H1
 
 <details><summary><b>1.C-Sharp</b></summary><br/>
 <details><summary><b>1.Movzu:Bezi axdarislar..</b></summary><br/>
