@@ -7,6 +7,16 @@
 <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/">4.C# da acar sozlere baxmaq !</a><br>
 <a href="http://www.java2s.com/Tutorial/CSharp/CatalogCSharp.htm">5.C# ders sayiti !</a><br>
 <a href="http://extraconversion.com/base-number">6.Say sisteminin cevrilisi!</a></details>
+
+# Salam
+/*
+
+ Console.WriteLine("Hello, World!");
+
+ Console.ReadLine();
+
+
+ */
 <b>________________________________________________________________________________________________________________</b>
 
 <details><summary><b>2.Movzu:Cmd ---- emirleri.</b></summary><br/>
