@@ -6,6 +6,7 @@ ________________________________________________________________________________
 <img src="image\1_L5QyrMNalM3yhtgdgBcvkQ.png" alt="Sekil silinib" title="Proqramlaşdırma dilləri."/><br/>
 __________________________________________________________________________________
 
+# <details><summary><b>1.Markdown Code</b></summary><br/>
 - [X] Code
 - [ ] Review
 - [ ] Commit
@@ -55,8 +56,7 @@ _İtaliq yazmaq üçün !_ <br/>
             Console.ReadLine();
 ```
 
-
-
+</details>
 
 
 <details><summary><b>1.C-Sharp</b></summary><br/>
