@@ -1,5 +1,5 @@
-<b>C-Sharp</b>
 
+<details><summary><b>1.C-Sharp</b></summary><br/>
 <details><summary><b>1.Movzu:Bezi axdarislar..</b></summary><br/>
 <a href="https://stackoverflow.com/questions/449887/sending-e-mail-using-c-sharp">1.C# E-mail gondermek yolu !</a><br>
 <a href="https://survey.stackoverflow.co/2022/#technology">2.Burada proqram dillerinin ilden ile inkisafina baxa bilerik !</a><br>
@@ -644,14 +644,15 @@ Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
 <details><summary><b>2.Generic Collections</b></summary>
 <img src="image\cs187.png"   alt="Sekil silinib" title="Data-Structures"/><br/>
 </details>
-
-
+</details>
 
 
 
 
 
 </details>
+
+
 <b>________________________________________________________________________________________________________________</b>
 
 <details><summary><b>25.SQL</b></summary>
