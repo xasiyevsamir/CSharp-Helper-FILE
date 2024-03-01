@@ -1,4 +1,13 @@
 # <span style="color:blue"> ***PROGRAMMİNG BOOK*** </span>
+
+
+```diff
+- ***PROGRAMMİNG BOOK***
++ text in green
+! text in orange
+# text in gray
+@@ ***PROGRAMMİNG BOOK***@@
+```
 <!-- # H1 -->
 # H1
 <!-- ## H2 -->
