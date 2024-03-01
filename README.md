@@ -38,7 +38,7 @@ _İtaliq yazmaq üçün !_ <br/>
 * B
 * C
 
-```Code 
+```CSharp 
             Console.WriteLine("Hello, World!");
             Console.ReadLine();
 ```
