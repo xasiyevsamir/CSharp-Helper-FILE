@@ -2,7 +2,8 @@
 
 
 ```diff
-- PROGRAMMİNG BOOK
+- Console.WriteLine("Hello, World!");
+- Console.ReadLine();
 + text in green
 ! text in orange
 ```
