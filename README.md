@@ -1,4 +1,27 @@
 
+
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+** Qalın yazmaq üçün ! **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <details><summary><b>1.C-Sharp</b></summary><br/>
 <details><summary><b>1.Movzu:Bezi axdarislar..</b></summary><br/>
 <a href="https://stackoverflow.com/questions/449887/sending-e-mail-using-c-sharp">1.C# E-mail gondermek yolu !</a><br>
@@ -8,30 +31,7 @@
 <a href="http://www.java2s.com/Tutorial/CSharp/CatalogCSharp.htm">5.C# ders sayiti !</a><br>
 <a href="http://extraconversion.com/base-number">6.Say sisteminin cevrilisi!</a>
 
-# Salam
- Console.WriteLine("Hello, World!");
- Console.ReadLine();
 
- ## Bölgə Yaratmaq
-
-Bu README faylını daha düzgün təşkil etmək üçün, kod və mətn hissələrini bölgələrə ayırmaq mümkündür.
-
-### Bölgə Adı
-
-Bir bölgə başlatmaq üçün, `#` işarəsi ilə başlayan sətiri yazın. Başlıq sətirlərində fərqli həcm dərəcələri üçün `#` işarələrini istifadə edə bilərsiniz.
-
-```markdown
-## Bölgə Adı
-
-
-Proyekti istifadə etmək üçün, aşağıdakı addımları izləyin:
-
-1. Proyekti yükləyin.
-2. Terminal və ya komand sətri açın.
-3. Proyektin kök qovluğuna daxil olun.
-4. `npm install` (npm istifadə edirsinizsə) və ya `yarn install` (Yarn istifadə edirsinizsə) yazın.
-5. `npm start` (npm istifadə edirsinizsə) və ya `yarn start` (Yarn istifadə edirsinizsə) yazın.
-##
 </details>
 
 
