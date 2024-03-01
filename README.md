@@ -25,8 +25,23 @@ _İtaliq yazmaq üçün !_ <br/>
 [Linke kecid  etmek ucun](https://www.google.com)
 
 
+1. A
+    1. F
+    2. F
+2. B
+3. D
 
 
+* A
+     * AA
+     * BB
+* B
+* C
+
+```Code 
+            Console.WriteLine("Hello, World!");
+            Console.ReadLine();
+```
 
 
 
