@@ -1,10 +1,7 @@
 #  ***PROGRAMMİNG BOOK*** 
 
 > Proqramlaşdırma, müxtəlif tapşırıqları yerinə yetirmək üçün kompüterə əmr vermək və ya hər hansısa bir işi görmək üçün yaradılan alqoritmanın bir proqramlaşdırma dilində yazılaraq komputer tərəfindən emal edilməsidir.Bu əmrlər komputerə nəyin necə işləyəcəyini və ya nəyi necə işlədəcəyini bildirir. Programlaşdırma dilləri bir növ insan ilə komputer arasındakı dialoq vasitəsidir. Biz komputerə onun anladığı dildən əmrlər veririk, komputer də bizim əmrlərimizi nöqtə vergülünə qədər icra edir. Başqa təsvir, proqramlaşdırma bir problem həll etmə sənətidir.
-<span style="background-color:red;">Highlighted Text</span>
-<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0;">
-<a href="/donate">DONATE</a>
-</div>
+
 
 <!-- # H1 -->
 # H1
