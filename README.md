@@ -11,6 +11,18 @@
 # Salam
  Console.WriteLine("Hello, World!");
  Console.ReadLine();
+
+ ## Bölgə Yaratmaq
+
+Bu README faylını daha düzgün təşkil etmək üçün, kod və mətn hissələrini bölgələrə ayırmaq mümkündür.
+
+### Bölgə Adı
+
+Bir bölgə başlatmaq üçün, `#` işarəsi ilə başlayan sətiri yazın. Başlıq sətirlərində fərqli həcm dərəcələri üçün `#` işarələrini istifadə edə bilərsiniz.
+
+```markdown
+## Bölgə Adı
+
 </details>
 
 
