@@ -24,7 +24,7 @@ ________________________________________________________________________________
 <b>Çekboks əlavə etmək !</b><br/>
 
 - [X] dolu çekboks  kodu | - [X] Var  
-- [ ] boş  çekboks  kodu | - [] Yoxdur 
+- [ ] boş  çekboks  kodu | - [ ] Yoxdur 
 
 
 
