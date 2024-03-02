@@ -8,17 +8,17 @@ ________________________________________________________________________________
 <br/><br/>
  # Markdown Kodları
  <details><summary> <b> 1.Markdown Kodu </b></summary><br/>
-<img src="./image/cs191.png" width="200" height="200" alt="Sekil silinib" title="Text yazilisi."/><br/>
+
 
  
->* H1 yazmaq üçün kod  (# CSharp) 
->* H2 yazmaq üçün kod  (## CSharp)
->* H3 yazmaq üçün kod  (### CSharp)
->* H4 yazmaq üçün kod  (#### CSharp)
->* H5 yazmaq üçün kod  (##### CSharp)
->* H6 yazmaq üçün kod  (###### CSharp)
+* H1 yazmaq üçün kod  (# CSharp) 
+* H2 yazmaq üçün kod  (## CSharp)
+* H3 yazmaq üçün kod  (### CSharp)
+* H4 yazmaq üçün kod  (#### CSharp)
+* H5 yazmaq üçün kod  (##### CSharp)
+* H6 yazmaq üçün kod  (###### CSharp)
 
-
+<img src="./image/cs191.png" width="600" height="400" alt="Sekil silinib" title="Text yazilisi."/><br/>
 # CSharp
 <!-- ## H2 -->
 ## CSharp
