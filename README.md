@@ -8,7 +8,7 @@ ________________________________________________________________________________
 <br/><br/>
  # Markdown Kodları
  <details><summary> <b> 1.Markdown Kodu </b></summary><br/>
-<img src="./image/cs191.png" alt="Sekil silinib" title="Text yazilisi."/><br/>
+<img src="./image/cs191.png" width="200" height="200" alt="Sekil silinib" title="Text yazilisi."/><br/>
 
 > 
 * H1 yazmaq üçün kod  (# CSharp) 
