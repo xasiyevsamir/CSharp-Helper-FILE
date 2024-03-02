@@ -41,17 +41,24 @@ ________________________________________________________________________________
 [Linkə keçid etmək üçün klikləyin !](https://www.google.com) kodu [Nəsə yaz](Link yerlesdir)
 
 
+
+<b>Order ve Unorder yaratmaq !</b><br/>
+
 1. A
-    1. F
-    2. F
+    1. AA
+    2. AB
 2. B
+    1. BB
+    2. BA
 3. D
 
 
 * A
      * AA
-     * BB
+     * AB
 * B
+    * BB
+    * BA
 * C
 
 ```CSharp 
