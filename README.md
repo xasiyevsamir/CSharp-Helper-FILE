@@ -35,9 +35,9 @@ ________________________________________________________________________________
 >* _İtaliq yazmaq üçün_ kod <b>(_ Bir alt xətt arasida mətin italiq olur _)</b>      <br/>
 >* ~~Üzərindən xətt çəkmək~~ kod <b>(~~ Tilda arasinda mətin uzərindən xətt çəkilir ~~)</b> 
 >* Mətin yazdırmaq üçün isə ( > ) bu simvoldan isdifade edilir.
-<br/>
+<br/><br/><br/>
 
-
+<b>Link yerləsdirmək !</b><br/>
 [Linke kecid  etmek ucun](https://www.google.com)
 
 
