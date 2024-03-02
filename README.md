@@ -23,8 +23,8 @@ ________________________________________________________________________________
 <br/>
 <b>Çekboks əlavə etmək !</b><br/>
 
-- [X] dolu çekboks  kodu | - [X] Var  
-- [ ] boş  çekboks  kodu | - [ ] Yoxdur 
+- [X] dolu çekboks  kodu | <b> - [X] Var</b>  
+- [ ] boş  çekboks  kodu | <b>- [ ] Yoxdur </b>
 
 
 
