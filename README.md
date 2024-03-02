@@ -19,10 +19,12 @@ ________________________________________________________________________________
 <br/>
 <img src="./image/cs191.png" width="800" height="400" alt="Sekil silinib" title="Text yazilisi."/><br/>
 
+<br/>
+<br/>
+<b>Çekboks əlavə etmək !</b><br/>
 
-
->- [X] dolu çekboks
->- [ ] boş çekboks
+>- [X] dolu çekboks  kodu  - [X] Var  
+>- [ ] boş  çekboks  kodu  - [] Yoxdur 
 
 
 
