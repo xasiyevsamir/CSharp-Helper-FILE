@@ -11,12 +11,12 @@ ________________________________________________________________________________
 
 
  
-* H1 yazmaq üçün kod  (# CSharp) 
-* H2 yazmaq üçün kod  (## CSharp)
-* H3 yazmaq üçün kod  (### CSharp)
-* H4 yazmaq üçün kod  (#### CSharp)
-* H5 yazmaq üçün kod  (##### CSharp)
-* H6 yazmaq üçün kod  (###### CSharp)
+>* H1 yazmaq üçün kod  (# CSharp) 
+>* H2 yazmaq üçün kod  (## CSharp)
+>* H3 yazmaq üçün kod  (### CSharp)
+>* H4 yazmaq üçün kod  (#### CSharp)
+>* H5 yazmaq üçün kod  (##### CSharp)
+>* H6 yazmaq üçün kod  (###### CSharp)
 
 <img src="./image/cs191.png" width="800" height="400" alt="Sekil silinib" title="Text yazilisi."/><br/>
 # CSharp
