@@ -8,6 +8,7 @@ ________________________________________________________________________________
 <br/><br/>
  # Markdown Kodları
  <details><summary> <b> 1.Markdown Kodu </b></summary><br/>
+<b>Mətin üzərində dəyişiklər !</b><br/>
 
 * H1 yazmaq üçün kod  (# CSharp) 
 * H2 yazmaq üçün kod  (## CSharp)
