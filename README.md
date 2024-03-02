@@ -8,9 +8,6 @@ ________________________________________________________________________________
 <br/><br/>
  # Markdown Kodları
  <details><summary> <b> 1.Markdown Kodu </b></summary><br/>
-- [X] Code
-- [ ] Review
-- [ ] Commit
 <img src="./image/cs191.png" alt="Sekil silinib" title="Text yazilisi."/><br/>
 
 > 
@@ -35,7 +32,9 @@ ________________________________________________________________________________
 ###### CSharp
 
 
-
+- [X] Code
+- [ ] Review
+- [ ] Commit
 
 
 
