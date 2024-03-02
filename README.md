@@ -33,9 +33,10 @@ ________________________________________________________________________________
 >* __Qalın yazmaq üçün__ kod <b>(__ Alt xətlər arasında qalın yazır __)</b><br/>
 >* *İtaliq yazmaq üçün* kod <b>(* Bir ulduz arasinda mətin italiq olur *)</b>      <br/>
 >* _İtaliq yazmaq üçün_ kod <b>(_ Bir alt xətt arasida mətin italiq olur _)</b>      <br/>
->* ~~Üzərindən xətt çəkmək~~ kod <b>(~~ Tilda arasinda mətin uzərindən xətt çəkilir ~~)</b> <br/>
+>* ~~Üzərindən xətt çəkmək~~ kod <b>(~~ Tilda arasinda mətin uzərindən xətt çəkilir ~~)</b> 
+>* Mətin yazdırmaq üçün isə ( > ) bu simvoldan isdifade edilir.
+<br/>
 
-> Mətin yazmaq üçündür !
 
 [Linke kecid  etmek ucun](https://www.google.com)
 
