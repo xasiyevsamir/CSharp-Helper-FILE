@@ -6,8 +6,8 @@ ________________________________________________________________________________
 <img src="image\1_L5QyrMNalM3yhtgdgBcvkQ.png" alt="Sekil silinib" title="Proqramlaşdırma dilləri."/><br/>
 __________________________________________________________________________________
 <br/><br/>
- # Markdown Code
- <details><summary><b>1.Markdown Code </b></summary><br/>
+ # Markdown Kodları
+ <details><summary> <b>1.Markdown Kodu </b></summary><br/>
 - [X] Code
 - [ ] Review
 - [ ] Commit
