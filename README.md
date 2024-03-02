@@ -38,7 +38,7 @@ ________________________________________________________________________________
 <br/>
 
 <b>Link yerləsdirmək !</b><br/>
-[Linke kecid  etmek ucun](https://www.google.com)
+[Linkə keçid etmək üçün klikləyin !](https://www.google.com)
 
 
 1. A
