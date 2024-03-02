@@ -23,17 +23,16 @@ ________________________________________________________________________________
 <br/>
 <b>Çekboks əlavə etmək !</b><br/>
 
-- [X] dolu çekboks  kodu | <b> - [X] Var</b>  
-- [ ] boş  çekboks  kodu | <b>- [ ] Yoxdur </b>
+- [X] dolu çekboks  kodu | <b> - [X] Dolu</b>  
+- [ ] boş  çekboks  kodu | <b>- [ ] Boş </b>
 
+<br/>
+<b>Mətini qalın və italiq yazmaq !</b><br/>
 
-
-
-
-**Qalın yazmaq üçün !** <br/>
-__Qalın yazmaq üçün !__ <br/>
-*İtaliq yazmaq üçün !* <br/>
-_İtaliq yazmaq üçün !_ <br/>
+>**Qalın yazmaq üçün** kod <b>(** Ulduzlar arasında qalın yazır **)</b> <br/>
+>__Qalın yazmaq üçün__ kod <b>(__ Alt xətlər arasında qalın yazır __)</b>   <br/>
+*İtaliq yazmaq üçün !*       <br/>
+_İtaliq yazmaq üçün !_       <br/>
 ~~Üzərindən xətt çəkmək üçündür !~~ <br/>
 
 > Mətin yazmaq üçündür !
