@@ -73,7 +73,7 @@ ________________________________________________________________________________
 </details>
 
 <br/><br/>
-# H1
+# Bəzi Axtarışlar
 
 <details><summary><b>1.C-Sharp</b></summary><br/>
 <details><summary><b>1.Movzu:Bezi axdarislar..</b></summary><br/>
