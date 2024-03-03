@@ -105,8 +105,28 @@ ________________________________________________________________________________
 _________________________________________________________________________________
 </details>
 
+# Github Repository Yaratmaq
+<details><summary><b>3.Movzu:GITHUB ---->> Yaratmaq.</b></summary><br/>
+    QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra ise bir nece emirden isdifade ederek yeni repositories yarada bilerik .
+    …or create a new repository on the command line
 
-
+1.  git clone (linkimizi buraya yerlesdiririk).<br/>
+2.  echo "dirnaq arasina ne isdesez yaza bilersiz">> README.md -------->>(readme fayıli yaratmaq ucundur.)<br/>
+3.  git init ---------->>>(git pafqasi yaratmaq ucundur )<br/>
+4.  git add README.md ------->>(readmi fayılini testiq etmek ucun)<br/>
+5.  git commit -m "first commit" -----(deyisikliye ad vermek ucun)<br/>
+6.  git branch -M main<br/>
+7.  git remote add origin https://github.com/xasiyevRandom method./taskkkk.git<br/>
+8.  git push -u origin main<br/>
+9.  Eger Github-a ilk defe qosuluruqsa onda asgidaki emirleri etmeliyik ardicilliqla.<br/>
+<b>a.git</b> config --global user.name "xasiyevsamir"<br/>
+<b>b.git</b> config --global user.email "qeydiyyatdan kecdiyimiz email."<br/>
+<b>c.git</b> config --global user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
+<b>d.git</b> config user.name "xasiyevsamir"<br/>
+<b>e.git</b> config user.email "qeydiyyatdan kecdiyimiz email."<br/>
+<b>f.git</b> config user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
+Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
+</details>
 
 
 
@@ -139,27 +159,7 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
 </details>
 <b>________________________________________________________________________________________________________________</b>
 
-<details><summary><b>3.Movzu:GITHUB ---->> Yaratmaq.</b></summary><br/>
-    QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra ise bir nece emirden isdifade ederek yeni repositories yarada bilerik .
-    …or create a new repository on the command line
 
-1.  git clone (linkimizi buraya yerlesdiririk).<br/>
-2.  echo "dirnaq arasina ne isdesez yaza bilersiz">> README.md -------->>(readme fayıli yaratmaq ucundur.)<br/>
-3.  git init ---------->>>(git pafqasi yaratmaq ucundur )<br/>
-4.  git add README.md ------->>(readmi fayılini testiq etmek ucun)<br/>
-5.  git commit -m "first commit" -----(deyisikliye ad vermek ucun)<br/>
-6.  git branch -M main<br/>
-7.  git remote add origin https://github.com/xasiyevRandom method./taskkkk.git<br/>
-8.  git push -u origin main<br/>
-9.  Eger Github-a ilk defe qosuluruqsa onda asgidaki emirleri etmeliyik ardicilliqla.<br/>
-<b>a.git</b> config --global user.name "xasiyevsamir"<br/>
-<b>b.git</b> config --global user.email "qeydiyyatdan kecdiyimiz email."<br/>
-<b>c.git</b> config --global user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
-<b>d.git</b> config user.name "xasiyevsamir"<br/>
-<b>e.git</b> config user.email "qeydiyyatdan kecdiyimiz email."<br/>
-<b>f.git</b> config user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
-Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
-</details>
 <b>________________________________________________________________________________________________________________</b>
 
 <details><summary><b>4.Movzu:Math sinifi.</b></summary><br/><br/>
