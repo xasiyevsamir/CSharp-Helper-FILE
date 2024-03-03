@@ -109,10 +109,10 @@ ________________________________________________________________________________
 # Github Repository Yaratmaq
 <details><summary><b>1.Github Repository Yaratmaq.</b></summary><br/>
 
->QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra ise bir nece emirden isdifade ederek yeni repositories yarada bilerik .
-    …or create a new repository on the command line
+> <b>QEYD:</b> Github repository yaratmaq üçün profilə daxil olub qeydiyyatdan keçirik, daha sonra ise bir neçə əmirdən isdifadə edərək yeni repository yarada bilerik . New repository düyməsindən isdifadə etdərək repo açmaq olar və aşağıdakı əmirlər ilə reponu Github ilə əlaqələndirə bilərik.
 
 ```Github
+…or create a new repository on the command line
 echo "# Test-edrem" >> README.md
 git init
 git add README.md
