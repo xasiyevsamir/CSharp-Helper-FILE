@@ -106,6 +106,16 @@ ________________________________________________________________________________
 </details>
 
 
+
+
+
+
+
+
+
+
+
+
 <b><i>(Solutions and project)</i></b><br/>
 QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada bilerik.Bunun ucun bir nece etablari kecmeliyik.Evvelce yeni fayıl yaratmaliyiq. fayıli ise mkdir emri ile yarada bilerik bunu yuxarida qeyd etmisem . Yeni Solutions ve project yaradaq..
 
