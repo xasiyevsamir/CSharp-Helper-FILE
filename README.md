@@ -104,6 +104,7 @@ ________________________________________________________________________________
 10. <b>rundll32.exe user32.dll,LockWorkStation</b> komputeri cmd ile kilidləmək üçün olan əmirdir.<br/>
 _________________________________________________________________________________
 </details>
+<br/><br/>
 
 # Github Repository Yaratmaq
 <details><summary><b>3.Movzu:GITHUB ---->> Yaratmaq.</b></summary><br/>
