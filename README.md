@@ -43,6 +43,7 @@ ________________________________________________________________________________
 
 
 <b>Order ve Unorder yaratmaq !</b><br/>
+<i>Bunları yaratmaq üçün aşağıdakı kimi yazılır kodu. </i>
 
 1. A
     1. AA
