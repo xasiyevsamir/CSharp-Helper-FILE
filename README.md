@@ -92,26 +92,27 @@ ________________________________________________________________________________
 # Cmd Əmirləri
 <details><summary><b>1.Cmd  Əmirləri.</b></summary><br/>
 
-1.<b>cd bosluq enter</b> oldugun fayila aparir.<br/> 
-2.<b>cd bosluq ..</b> bir fayil geri cixir.<br/>
-3.<b>cd bosluq fayilin adi</b> adi qeyd edilen fayila kecit edir.<br/> 
-4.<b>cls</b>acilmis butun melumatlari temizleyir.<br/> 
-5.<b>dir</b> fayilin icine daxil olur.<br/> 
-6.<b>mkdir</b> yeni fayil yaradir.<br/> 
-7.<b>prompt $$</b> yeni setri doll ise salir.<br/> 
-9.<b>code .</b> visual studio coda kecid emridir.<br/> 
-10.<b>echo "" >>.gitignore</b> -- burada yeni cmd ekraninda .gitignore fayili yarada bilerik bu emirle.<br/> 
-11.<b>rundll32.exe user32.dll,LockWorkStation</b> komputeri cmd ile kilidlemek ucun olan emir.<br/>
-
+1. <b>cd bosluq enter</b> olduğun fayıla aparır.<br/> 
+2. <b>cd bosluq ..</b> bir fayıl geri çıxır.<br/>
+3. <b>cd bosluq fayılın adı</b> adı qeyd edilən fayıla kecit edir.<br/> 
+4. <b>cls</b> açılmış bütün məlumatları təmizləyir.<br/> 
+5. <b>dir</b> fayılın içinə daxil olur.<br/> 
+6. <b>mkdir</b> əmri ilə yeni fayıl yaradır.<br/> 
+7. <b>prompt $$ </b> yeni sətri dollar ilə başlayır.<br/> 
+8. <b>code .</b> visual studio coda keçid əmridir.<br/> 
+9. <b>echo "" >>.gitignore</b> -- burada yeni cmd ekranında .gitignore fayılı yarada bilərik bu əmirlə.<br/>
+10. <b>rundll32.exe user32.dll,LockWorkStation</b> komputeri cmd ile kilidləmək üçün olan əmirdir.<br/>
+_________________________________________________________________________________
+</details>
 
 
 <b><i>(Solutions and project)</i></b><br/>
-QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada bilerik.Bunun ucun bir nece etablari kecmeliyik.Evvelce yeni fayil yaratmaliyiq. Fayili ise mkdir emri ile yarada bilerik bunu yuxarida qeyd etmisem . Yeni Solutions ve project yaradaq..
+QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada bilerik.Bunun ucun bir nece etablari kecmeliyik.Evvelce yeni fayıl yaratmaliyiq. fayıli ise mkdir emri ile yarada bilerik bunu yuxarida qeyd etmisem . Yeni Solutions ve project yaradaq..
 
-1.  ci mkdir emri ile fayil yaradiriq.
+
 2.  ci dotnet new sln --name (solutions adi meselen: code)
 3.  cu project yaratmaq ucun--> dotnet new console --framework net6.0 --use-program-main emrinden istifade edirik .Burada isdesek net6.0 fersiyani istesek deyise bilerik.
-4.  cu ise solutions ve projecti elaqelendiririk-->> dotnet sln (solution adi yeni:code) add 5.project\csproj sonlugu ile biten fayil ve enter.<br/>
+4.  cu ise solutions ve projecti elaqelendiririk-->> dotnet sln (solution adi yeni:code) add 5.project\csproj sonlugu ile biten fayıl ve enter.<br/>
 
 <a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln"><b>Axdaris yerine dotnet new sln --name MySolution</b>-yazdiqda asagidaki sekili tapmaq lazimdir.</a><br/>
 <i>Sayita daxil olduqdan sonra bu (dotnet new sln --name MySolution) yazilisi tapib isdifade ede bilerik. </i><br/>
@@ -133,9 +134,9 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
     …or create a new repository on the command line
 
 1.  git clone (linkimizi buraya yerlesdiririk).<br/>
-2.  echo "dirnaq arasina ne isdesez yaza bilersiz">> README.md -------->>(readme fayili yaratmaq ucundur.)<br/>
+2.  echo "dirnaq arasina ne isdesez yaza bilersiz">> README.md -------->>(readme fayıli yaratmaq ucundur.)<br/>
 3.  git init ---------->>>(git pafqasi yaratmaq ucundur )<br/>
-4.  git add README.md ------->>(readmi fayilini testiq etmek ucun)<br/>
+4.  git add README.md ------->>(readmi fayılini testiq etmek ucun)<br/>
 5.  git commit -m "first commit" -----(deyisikliye ad vermek ucun)<br/>
 6.  git branch -M main<br/>
 7.  git remote add origin https://github.com/xasiyevRandom method./taskkkk.git<br/>
@@ -551,40 +552,40 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <img src="image\cs110.png"   alt="Sekil silinib" title="Static."/><br/><br/>
 </details>
 <b>________________________________________________________________________________________________________________</b>
-<details><summary><b>20.Fayillarla islemek.</b></summary>
-<i><b>FileStream</b>.  Dedikde biz  lazimi datalari fayillarda saxliya bilerik.Bunlar asagidaki sekillerdeki kimi yerine yetirilmelidir.</i><br/>
+<details><summary><b>20.fayıllarla islemek.</b></summary>
+<i><b>FileStream</b>.  Dedikde biz  lazimi datalari fayıllarda saxliya bilerik.Bunlar asagidaki sekillerdeki kimi yerine yetirilmelidir.</i><br/>
 <p>
 <img src="image\cs129.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
 <img src="image\CS130.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
 <i><b>FileMode.OpenOrCreate<br/>FileAccess.Read</b></i><br/>
 <img src="image\cs131.png"   alt="Sekil silinib" title="FileStream."/><br/><br/>
 </p>
-<details><summary><b>Fayillar.</b></summary>
-<i>Fayillar 2 yere bolunur.</i><br/>
-<i><b>1.Text File</b><br/><b>1.Data File</b><br/><b>____Text Fayillar</b> adi fayillardir ve onlarla islemek asagidaki sekillerde izah edilib.
+<details><summary><b>fayıllar.</b></summary>
+<i>fayıllar 2 yere bolunur.</i><br/>
+<i><b>1.Text File</b><br/><b>1.Data File</b><br/><b>____Text fayıllar</b> adi fayıllardir ve onlarla islemek asagidaki sekillerde izah edilib.
 <b>File.WriteAllText()</b> ad sahəsinə aid olan C#-da bir üsuldur System.IO. Bu üsul fayla mətn yazmaq üçün istifadə olunur, əgər fayl artıq varsa, onun üzərinə yazılır. Əgər fayl mövcud deyilsə, o yaradılacaq. Metod iki parametr götürür: fayla gedən yol və yazılacaq mətn.Bu misalda, sətri müəyyən edilmiş fayla yazmaq üçün WriteAllText() metoddan istifadə olunur . Əgər fayl artıq mövcuddursa, onun məzmunu yeni mətnlə əvəz olunacaq. Əgər fayl mövcud deyilsə, göstərilən məzmunla yeni fayl yaradılacaq.Proqramın göstərilən fayla yazmaq icazəsi olmadığı və ya fayl yolu etibarsız olduğu kimi baş verə biləcək istisnaları idarə etmək vacibdir. Bu vəziyyətləri idarə etmək üçün try-catch blokundan istifadə etmək istəyə bilərsiniz.
 <img src="image\cs132.png"   alt="Sekil silinib" title="File.WriteAllText()"/><br/><br/>
-Aşagidaki method ise var olan ve ya olmuyan fayilin icerisini silmeden elave edilmis metini fayila yazdirirşYeni yuxaridaki method fayila her defe metin yazdirdiqda icerisini sifirlayir ve yeni metini eleave edirdi amma bu method var olan metnin arasina yazmaga baslayir.
+Aşagidaki method ise var olan ve ya olmuyan fayılin icerisini silmeden elave edilmis metini fayıla yazdirirşYeni yuxaridaki method fayıla her defe metin yazdirdiqda icerisini sifirlayir ve yeni metini eleave edirdi amma bu method var olan metnin arasina yazmaga baslayir.
 <img src="image\cs133.png"   alt="Sekil silinib" title="File.AppendAllText()"/><br/><br/>
-Asagidaki method ise var olan fayilin icerisindeki metinleri oxumaq ucurndur.Geri string qaytarir.
+Asagidaki method ise var olan fayılin icerisindeki metinleri oxumaq ucurndur.Geri string qaytarir.
 <img src="image\cs134.png"   alt="Sekil silinib" title="File.ReadAllText()"/><br/><br/>
 Asagidaki yazilisdan isdifade ederek yeni <b> StreamWriter </b> clasindan isdifade ederek biz onun icerisinde <b>Write() ve WriteLine() </b>
-methodu ile asanliqla fayila melumatlari yaza bilerik .
+methodu ile asanliqla fayıla melumatlari yaza bilerik .
 <img src="image\cs135.png"   alt="Sekil silinib" title="sw.WriteLine()"/><br/><br/>
 </i>
- Asagidaki yazilisdan isdifade ederek biz fayildaki melumatlari oxuya bilerik burada <b>EndOfStream</b> ifadesi melumatin sonunu bildirir yeni sonu deyilse davam edilsin.
+ Asagidaki yazilisdan isdifade ederek biz fayıldaki melumatlari oxuya bilerik burada <b>EndOfStream</b> ifadesi melumatin sonunu bildirir yeni sonu deyilse davam edilsin.
 <img src="image\cs136.png"   alt="Sekil silinib" title="sr.ReadLine()"/><br/><br/>
-Asagidaki methodla bir eyni anda coxlu datani yazdira bilerik meselen numunedede massivi fayila elave etmisik.
+Asagidaki methodla bir eyni anda coxlu datani yazdira bilerik meselen numunedede massivi fayıla elave etmisik.
 <img src="image\cs137.png"   alt="Sekil silinib" title="File.WriteAllLines()"/><br/><br/>
 Asagidaki method ile ise var olan file sile bilerik.
 <img src="image\cs138.png"   alt="Sekil silinib" title="File.Delete()"/><br/><br/>
-Fayilda bezi emeliyyatlara baxa bilerik meselen asagidaki emeliyyatlara.
+fayılda bezi emeliyyatlara baxa bilerik meselen asagidaki emeliyyatlara.
 <img src="image\cs139.png"   alt="Sekil silinib" title="File"/><br/><br/>
-Asagidaki emirler ilede fayillarla islemek olur.
+Asagidaki emirler ilede fayıllarla islemek olur.
 <img src="image\cs140.png"   alt="Sekil silinib" title="File"/><br/><br/>
-Yuxaridaki fayillarla emeliyatlari asagidaki kimide aparmaq olur .
+Yuxaridaki fayıllarla emeliyatlari asagidaki kimide aparmaq olur .
 <img src="image\cs141.png"   alt="Sekil silinib" title="File"/><br/><br/>
-Asagidaki kimi fayilin olub olmadigini yoxlaya bilerik.
+Asagidaki kimi fayılin olub olmadigini yoxlaya bilerik.
 <img src="image\cs142.png"   alt="Sekil silinib" title="File"/><br/><br/>
 </details>
 <details><summary><b>Papqalar(Folder).</b></summary>
