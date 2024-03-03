@@ -109,6 +109,17 @@ ________________________________________________________________________________
 # Github Repository Yaratmaq
 <details><summary><b>1.Github Repository Yaratmaq.</b></summary><br/>
 
+```Github
+echo "# Test-edrem" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/xasiyevsamir/Test-edrem.git
+git push -u origin main
+
+```
+
 ```Github 
     QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra ise bir nece emirden isdifade ederek yeni repositories yarada bilerik .
     …or create a new repository on the command line
