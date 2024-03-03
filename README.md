@@ -40,8 +40,6 @@ ________________________________________________________________________________
 <b>Link yerləsdirmək !</b><br/>
 [Linkə keçid etmək üçün klikləyin !](https://www.google.com) kodu [Nəsə yaz](Link yerlesdir)
 
-
-
 <b>Order ve Unorder yaratmaq !</b><br/>
 <i>Bunları yaratmaq üçün aşağıdakı kimi yazılır kodu. </i>
 
@@ -62,10 +60,15 @@ ________________________________________________________________________________
     * BA
 * C
 
+<b>Kodlarımızı səliqəli şəkildə çərçivəyə salamaq üçün aşağıdakı şəkildəki kimi etmək lazımdır. Burada CSharp sözü daxil edilən kodun hansi proqramlaşdırma dilində olduğunu bildirirş</b><br/>
+<img src="./image/cs192.png"  alt="Sekil silinib" title="Text yazilisi."/><br/>
 ```CSharp 
             Console.WriteLine("Hello, World!");
             Console.ReadLine();
 ```
+
+
+
 ________________________________________________________________________________________
 </details>
 
