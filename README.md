@@ -107,7 +107,7 @@ ________________________________________________________________________________
 <br/><br/>
 
 # Github Repository Yaratmaq
-<details><summary><b>3.Movzu:GITHUB ---->> Yaratmaq.</b></summary><br/>
+<details><summary><b>1.Github Repository Yaratmaq.</b></summary><br/>
     QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra ise bir nece emirden isdifade ederek yeni repositories yarada bilerik .
     …or create a new repository on the command line
 
