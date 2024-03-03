@@ -61,7 +61,7 @@ ________________________________________________________________________________
 * C
 
 <b>Kodlarımızı səliqəli şəkildə çərçivəyə salamaq üçün aşağıdakı şəkildəki kimi etmək lazımdır. Burada CSharp sözü daxil edilən kodun hansi proqramlaşdırma dilində olduğunu bildirirş</b><br/>
-<img src="./image/cs192.png"  alt="Sekil silinib" title="Text yazilisi."/><br/>
+<img src="./image/cs192.png"  alt="Sekil silinib" title="Nəticəsi aşağıdakı şəkildə gösdərilib."/><br/>
 ```CSharp 
             Console.WriteLine("Hello, World!");
             Console.ReadLine();
