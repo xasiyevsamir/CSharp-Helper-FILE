@@ -109,7 +109,7 @@ ________________________________________________________________________________
 # Github Repository Yaratmaq
 <details><summary><b>1.Github Repository Yaratmaq.</b></summary><br/>
 
->
+```Github 
     QEYD. Github yaratmaq ucun profile daxil olub qeydiyatdan kecirik, daha sonra ise bir nece emirden isdifade ederek yeni repositories yarada bilerik .
     …or create a new repository on the command line
 
@@ -129,6 +129,7 @@ ________________________________________________________________________________
 <b>e.git</b> config user.email "qeydiyyatdan kecdiyimiz email."<br/>
 <b>f.git</b> config user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
 Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
+```
 </details>
 
 
