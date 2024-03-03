@@ -102,7 +102,7 @@ ________________________________________________________________________________
 8. <b>code .</b> visual studio coda keçid əmridir.<br/> 
 9. <b>echo "" >>.gitignore</b> -- burada yeni cmd ekranında .gitignore fayılı yarada bilərik bu əmirlə.<br/>
 10. <b>:</b> nöqtə ilə disqi dəyisə bilərik məsələn <b>D:</b> keçdi D disqinəş
-10. <b>rundll32.exe user32.dll,LockWorkStation</b> komputeri cmd ile kilidləmək üçün olan əmirdir.<br/>
+11. <b>rundll32.exe user32.dll,LockWorkStation</b> komputeri cmd ile kilidləmək üçün olan əmirdir.<br/>
 _________________________________________________________________________________
 </details>
 <br/><br/>
