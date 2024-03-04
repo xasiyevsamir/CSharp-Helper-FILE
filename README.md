@@ -194,7 +194,7 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
  dotnet sln solution.sln add  meselen.csproj
 ```
 - <b>solution.sln</b> Project əlavə etmək isdədiyin Solution adı.
-- <b>add</b>Solution-a Project əlavə edir.
+- <b>add</b>  Solution-a Project əlavə edir.
 - <b>meselen.csproj</b> Projectdəki .csproj fayılı.
 <br/>
 
