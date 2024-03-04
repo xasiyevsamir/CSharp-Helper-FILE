@@ -197,10 +197,13 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 - <b>solution.sln</b> Project əlavə etmək isdədiyin Solution adı.
 - <b>add</b>  Solution-a Project əlavə edir.
 - <b>meselen.csproj</b> Projectdəki .csproj fayılı.
+
+--- 
+
 <br/>
 <br/>
 
----
+
 
 </details>
 
