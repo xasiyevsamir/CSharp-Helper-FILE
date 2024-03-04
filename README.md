@@ -175,7 +175,6 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
 <img src="image\cs37.png" alt="Sekil silinib" title="Yeni solutions yaratmaq."/>
 </p><br/>
 </details>
-________________________________________________________________________________________________________________
 
 
 <br/><br/>
