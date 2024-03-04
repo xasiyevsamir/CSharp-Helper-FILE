@@ -7,7 +7,7 @@ ________________________________________________________________________________
 __________________________________________________________________________________
 <br/><br/>
  # Markdown Kodları
- <details><summary> <b> 1.Markdown Kodu </b></summary><br/>
+ <details><summary> <b>Markdown Kodu </b></summary><br/>
 <b>Mətin üzərində dəyişiklər !</b><br/>
 
 * H1 yazmaq üçün kod  (# CSharp) 
@@ -74,7 +74,7 @@ ________________________________________________________________________________
 
 <br/><br/>
 # Bəzi Axtarışlar
-<details><summary><b>1.Bəzi Axtarışlar</b></summary><br/>
+<details><summary><b>Bəzi Axtarışlar</b></summary><br/>
 <a href="https://stackoverflow.com/questions/449887/sending-e-mail-using-c-sharp">1.C# E-mail gondermek yolu !</a><br>
 <a href="https://survey.stackoverflow.co/2022/#technology">2.Burada proqram dillerinin ilden ile inkisafina baxa bilerik !</a><br>
 <a href="https://app.diagrams.net/#G1mSYKv9CSSXe6tr4bshxjfb5QuU_hI0kP">3.Alqoritim qurmaq ucun isdifade edilen sexemleri bize verir !</a><br>
@@ -90,7 +90,7 @@ ________________________________________________________________________________
 
 
 # Cmd Əmirləri
-<details><summary><b>1.Cmd  Əmirləri.</b></summary><br/>
+<details><summary><b>Cmd  Əmirləri.</b></summary><br/>
 
 1. <b>cd bosluq enter</b> olduğun fayıla aparır.<br/> 
 2. <b>cd bosluq ..</b> bir fayıl geri çıxır.<br/>
@@ -98,7 +98,7 @@ ________________________________________________________________________________
 4. <b>cls</b> açılmış bütün məlumatları təmizləyir.<br/> 
 5. <b>dir</b> fayılın içinə daxil olur.<br/> 
 6. <b>mkdir</b> əmri ilə yeni fayıl yaradır.<br/> 
-7. <b>prompt $$ </b> yeni sətri dollar ilə başlayır.<br/> 
+7. <b>prompt $$ </b> yeni sətr dollar ilə başlayır.<br/> 
 8. <b>code .</b> visual studio coda keçid əmridir.<br/> 
 9. <b>echo "" >>.gitignore</b> -- burada yeni cmd ekranında .gitignore fayılı yarada bilərik bu əmirlə.<br/>
 10. <b>:</b> nöqtə ilə disqi dəyisə bilərik məsələn <b>D:</b> keçdi D disqinə.
@@ -108,7 +108,7 @@ ________________________________________________________________________________
 <br/><br/>
 
 # Github Repository Yaratmaq
-<details><summary><b>1.Github Repository Yaratmaq.</b></summary><br/>
+<details><summary><b>Github Repository Yaratmaq.</b></summary><br/>
 
 > <b>QEYD:</b> Github repository yaratmaq üçün profilə daxil olub qeydiyyatdan keçirik, daha sonra ise bir neçə əmirdən isdifadə edərək yeni repository yarada bilerik . New repository düyməsindən isdifadə etdərək repo açmaq olar və aşağıdakı əmirlər ilə reponu Github ilə əlaqələndirə bilərik.
 
@@ -148,7 +148,11 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 
 
 
+# C-Sharp
 
+<br/><br/>
+
+<details><summary><b>C-Sharp</b></summary><br/><br/>
 
 
 
@@ -175,10 +179,11 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
 <img src="image\cs37.png" alt="Sekil silinib" title="Yeni solutions yaratmaq."/>
 </p><br/>
 </details>
-<b>________________________________________________________________________________________________________________</b>
+________________________________________________________________________________________________________________
 
+</details>
 
-<b>________________________________________________________________________________________________________________</b>
+________________________________________________________________________________________________________________
 
 <details><summary><b>4.Movzu:Math sinifi.</b></summary><br/><br/>
 
