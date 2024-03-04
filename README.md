@@ -91,7 +91,7 @@
 <a href="http://www.java2s.com/Tutorial/CSharp/CatalogCSharp.htm">5.C# ders sayiti !</a><br>
 <a href="http://extraconversion.com/base-number">6.Say sisteminin cevrilisi!</a><br/>
 <a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln">7.New Solutions Create</a><br/>
-<a href="http://extraconversion.com/base-number">8.Say sisteminin cevrilisi!</a><br/>
+<a href="https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code?pivots=dotnet-8-0">8.New Project Create!</a><br/>
 <a href="http://extraconversion.com/base-number">9.Say sisteminin cevrilisi!</a><br/>
 
 ---
@@ -184,7 +184,7 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
  dotnet new console --framework net8.0 --use-program-main  --name Adlandır
 ```
 - <b>console</b> App olacağını göstərir.
-- Project <b>--framework net8.0</b> versiya olmağını göstərir.
+- Project <b>--framework net8.0</b> versiya olacağını göstərir.
 - <b>--use-program-main</b> Project-də Main() methodu olacağını bildirir.
 - <b>--name</b>  Project-i adlandırmaq üçündür.
 
