@@ -160,6 +160,7 @@
 <b>f.git</b> config user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
 Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 ```
+---
 
 </details>
 
