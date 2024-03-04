@@ -163,7 +163,6 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 ---
 
 </details>
-
 <br/><br/>
 
 # C-Sharp
@@ -200,6 +199,9 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 - <b>meselen.csproj</b> Projectdəki .csproj fayılı.
 <br/>
 <br/>
+
+---
+
 </details>
 
 
@@ -207,7 +209,7 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 
 
 
-
+---
 
 </details>
 <br/><br/>
