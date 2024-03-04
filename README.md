@@ -177,7 +177,7 @@ QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada b
 </details>
 ________________________________________________________________________________________________________________
 
-</details>
+
 
 
 <details><summary><b>4.Movzu:Math sinifi.</b></summary><br/><br/>
