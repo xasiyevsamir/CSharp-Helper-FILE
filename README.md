@@ -89,10 +89,10 @@
 <a href="https://app.diagrams.net/#G1mSYKv9CSSXe6tr4bshxjfb5QuU_hI0kP">3.Alqoritim qurmaq ucun isdifade edilen sexemleri bize verir !</a><br>
 <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/">4.C# da acar sozlere baxmaq !</a><br>
 <a href="http://www.java2s.com/Tutorial/CSharp/CatalogCSharp.htm">5.C# ders sayiti !</a><br>
-<a href="http://extraconversion.com/base-number">6.Say sisteminin cevrilisi!</a>
-<a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln">7.New Solutions Create</a>
-<a href="http://extraconversion.com/base-number">8.Say sisteminin cevrilisi!</a>
-<a href="http://extraconversion.com/base-number">9.Say sisteminin cevrilisi!</a>
+<a href="http://extraconversion.com/base-number">6.Say sisteminin cevrilisi!</a><br/>
+<a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln">7.New Solutions Create</a><br/>
+<a href="http://extraconversion.com/base-number">8.Say sisteminin cevrilisi!</a><br/>
+<a href="http://extraconversion.com/base-number">9.Say sisteminin cevrilisi!</a><br/>
 
 ---
 
