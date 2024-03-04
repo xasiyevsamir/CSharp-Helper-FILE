@@ -197,19 +197,7 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 - <b>add</b>  Solution-a Project əlavə edir.
 - <b>meselen.csproj</b> Projectdəki .csproj fayılı.
 <br/>
-
-<a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln"><b>Axdaris yerine dotnet new sln --name MySolution</b>-yazdiqda asagidaki sekili tapmaq lazimdir.</a><br/>
-<i>Sayita daxil olduqdan sonra bu (dotnet new sln --name MySolution) yazilisi tapib isdifade ede bilerik. </i><br/>
-
-<p>
-<img src="image\cs35.png" alt="Sekil silinib" title="Yeni solutions yaratmaq."/>
-</p><br/>
-<p> Axdaris yerine dotnet create new console app project yazzsaq yeni project yaratmaq ucun asagidaki sekil gelecekdir.
-<img src="image\cs36.png" alt="Sekil silinib" title="Yeni project yaratmaq."/>
-</p><br/> 14.<i> Yaratdigimiz solutions ve projecs elaqelendirmek ucun google axdarisa (dotnet add project solutions create) sayita daxil olduqdan sonra ise qarsimiza cixan (dotnet sln solution.sln add --solution-folder foo1\foo2\foo3 bar.csproj) yazilisdan istifade ederek elaqeni yaradiriq.</i><br/>
-<p>
-<img src="image\cs37.png" alt="Sekil silinib" title="Yeni solutions yaratmaq."/>
-</p><br/>
+<br/>
 </details>
 
 </details>
