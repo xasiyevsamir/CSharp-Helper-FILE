@@ -137,7 +137,7 @@
 5. git branch -M main
 6. git remote add origin https://github.com/xasiyevsamir/Test-edrem.git
 7. git push -u origin main
-
+8. git clone https://github.com/xasiyevsamir/Test-edrem.git
 ```
 
 ```Github
