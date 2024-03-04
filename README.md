@@ -92,7 +92,7 @@
 <a href="http://extraconversion.com/base-number">6.Say sisteminin cevrilisi!</a><br/>
 <a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln">7.New Solutions Create</a><br/>
 <a href="https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code?pivots=dotnet-8-0">8.New Project Create!</a><br/>
-<a href="http://extraconversion.com/base-number">9.Say sisteminin cevrilisi!</a><br/>
+<a href="https://stackoverflow.com/questions/51467914/how-to-add-a-project-csproj-to-solution-sln-under-a-solution-folder-using">9.Add Project to Solution!</a><br/>
 
 ---
 
@@ -188,6 +188,11 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 - <b>--use-program-main</b> Project-də Main() methodu olacağını bildirir.
 - <b>--name</b>  Project-i adlandırmaq üçündür.
 
+<b>3.Add Project to Solutions</b>
+
+```CSharp
+ dotnet sln solution.sln add  `Projectdki csproj fayili` meselen.csproj
+```
 
 3.  cu project yaratmaq ucun--> dotnet new console --framework net6.0 --use-program-main emrinden istifade edirik .Burada isdesek net6.0 fersiyani istesek deyise bilerik.
 4.  cu ise solutions ve projecti elaqelendiririk-->> dotnet sln (solution adi yeni:code) add 5.project\csproj sonlugu ile biten fayıl ve enter.<br/>
