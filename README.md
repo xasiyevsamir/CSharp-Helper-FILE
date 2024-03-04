@@ -168,7 +168,7 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 
 <details><summary><b>C-Sharp</b></summary><br/>
 
-<details><summary><i>C-Sharp Solutions and Project yaratmaq </i></summary><br/>
+<details><summary><i>1.C-Sharp Solutions and Project yaratmaq </i></summary><br/>
 
 > **QEYD:** Cmd və ya Gitbahs ekranından isdifadə edərək C-Sharp Solutions və Project yarada bilərik. Aşağıda Solitions ve Project yaratmağın yollarını izah etmişəm . Qayda olaraq Solutions yaradılır Project yaradılır və daha sonra isə Solution-a Project əlavə edilir. Solutions **həll** deməkdir Project isə **layyihə** deməkdir, yəni hər hansısa bir neçə problemləri  aradan qaldırmaq üçün Solution daxilində bir neçə Project ola bilər.<br/>
 
