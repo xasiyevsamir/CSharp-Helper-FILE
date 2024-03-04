@@ -176,7 +176,7 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 ```CSharp
      dotnet new sln --name SolutionAdı
 ```
-
+<br/>
 <b>2.New Project Create </b>
 
 ```CSharp
@@ -186,7 +186,7 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 - Project <b>--framework net8.0</b> versiya olacağını göstərir.
 - <b>--use-program-main</b> Project-də Main() methodu olacağını bildirir.
 - <b>--name</b>  Project-i adlandırmaq üçündür.
-
+<br/>
 <b>3.Add Project to Solutions</b>
 
 ```CSharp
