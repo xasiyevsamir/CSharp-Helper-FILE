@@ -147,14 +147,10 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 </details>
 
 
-
+<br/><br/>
 # C-Sharp
 
-<br/><br/>
-
 <details><summary><b>C-Sharp</b></summary><br/><br/>
-
-
 
 
 
