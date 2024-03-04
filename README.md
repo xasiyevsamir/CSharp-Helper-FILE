@@ -175,7 +175,7 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 <b>1.Solution Create </b>
 
 ```CSharp
-     dotnet new sln --name MySolution
+     dotnet new sln --name SolitionAdı;
 ```
 
 2.  ci dotnet new sln --name (solutions adi meselen: code)
