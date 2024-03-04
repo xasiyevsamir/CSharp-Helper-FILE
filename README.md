@@ -1,41 +1,49 @@
-#  ***PROGRAMMİNG BOOK*** 
+# **_PROGRAMMİNG BOOK_**
+
 <b> **Proqramlaşdırma haqqında məlumat.** </b><br/>
+
 > Proqramlaşdırma, müxtəlif tapşırıqları yerinə yetirmək üçün kompüterə əmr vermək və ya hər hansısa bir işi görmək üçün yaradılan alqoritmanın bir proqramlaşdırma dilində yazılaraq komputer tərəfindən emal edilməsidir.Bu əmrlər komputerə nəyin necə işləyəcəyini və ya nəyi necə işlədəcəyini bildirir. Programlaşdırma dilləri bir növ insan ilə komputer arasındakı dialoq vasitəsidir. Biz komputerə onun anladığı dildən əmrlər veririk, komputer də bizim əmrlərimizi nöqtə vergülünə qədər icra edir. Başqa təsvir, proqramlaşdırma bir problem həll etmə sənətidir.
-__________________________________________________________________________________
+
+---
+
 <b> **Proqramlaşdırma dilləri.**</b><br/>
 <img src="image\1_L5QyrMNalM3yhtgdgBcvkQ.png" alt="Sekil silinib" title="Proqramlaşdırma dilləri."/><br/>
-__________________________________________________________________________________
+
+---
+
 <br/><br/>
- # Markdown Kodları
+
+# Markdown Kodları
+
  <details><summary> <b>Markdown Kodu </b></summary><br/>
 <b>Mətin üzərində dəyişiklər !</b><br/>
 
-* H1 yazmaq üçün kod  (# CSharp) 
-* H2 yazmaq üçün kod  (## CSharp)
-* H3 yazmaq üçün kod  (### CSharp)
-* H4 yazmaq üçün kod  (#### CSharp)
-* H5 yazmaq üçün kod  (##### CSharp)
-* H6 yazmaq üçün kod  (###### CSharp)
-<br/>
-<img src="./image/cs191.png" width="800" height="400" alt="Sekil silinib" title="Text yazilisi."/><br/>
+- H1 yazmaq üçün kod (# CSharp)
+- H2 yazmaq üçün kod (## CSharp)
+- H3 yazmaq üçün kod (### CSharp)
+- H4 yazmaq üçün kod (#### CSharp)
+- H5 yazmaq üçün kod (##### CSharp)
+- H6 yazmaq üçün kod (###### CSharp)
+  <br/>
+  <img src="./image/cs191.png" width="800" height="400" alt="Sekil silinib" title="Text yazilisi."/><br/>
 
 <br/>
 <br/>
 <b>Çekboks əlavə etmək !</b><br/>
 
-- [X] dolu çekboks  kodu | <b> - [X] Dolu</b>  
-- [ ] boş  çekboks  kodu | <b>- [ ] Boş </b>
+- [x] dolu çekboks kodu | <b> - [X] Dolu</b>
+- [ ] boş çekboks kodu | <b>- [ ] Boş </b>
 
 <br/>
 <b>Mətini qalın və italiq yazmaq !</b><br/>
 
->* **Qalın yazmaq üçün** kod <b>(** Ulduzlar arasında qalın yazır **)</b> <br/>
->* __Qalın yazmaq üçün__ kod <b>(__ Alt xətlər arasında qalın yazır __)</b><br/>
->* *İtaliq yazmaq üçün* kod <b>(* Bir ulduz arasinda mətin italiq olur *)</b>      <br/>
->* _İtaliq yazmaq üçün_ kod <b>(_ Bir alt xətt arasida mətin italiq olur _)</b>      <br/>
->* ~~Üzərindən xətt çəkmək~~ kod <b>(~~ Tilda arasinda mətin uzərindən xətt çəkilir ~~)</b> 
->* Mətin yazdırmaq üçün isə ( > ) bu simvoldan isdifade edilir.
-<br/>
+> - **Qalın yazmaq üçün** kod <b>(** Ulduzlar arasında qalın yazır **)</b> <br/>
+> - **Qalın yazmaq üçün** kod <b>(** Alt xətlər arasında qalın yazır **)</b><br/>
+> - _İtaliq yazmaq üçün_ kod <b>(_ Bir ulduz arasinda mətin italiq olur _)</b> <br/>
+> - _İtaliq yazmaq üçün_ kod <b>(_ Bir alt xətt arasida mətin italiq olur _)</b> <br/>
+> - ~~Üzərindən xətt çəkmək~~ kod <b>(~~ Tilda arasinda mətin uzərindən xətt çəkilir ~~)</b>
+> - Mətin yazdırmaq üçün isə ( > ) bu simvoldan isdifade edilir.
+>   <br/>
 
 <b>Link yerləsdirmək !</b><br/>
 [Linkə keçid etmək üçün klikləyin !](https://www.google.com) kodu [Nəsə yaz](Link yerlesdir)
@@ -44,36 +52,37 @@ ________________________________________________________________________________
 <i>Bunları yaratmaq üçün aşağıdakı kimi yazılır kodu. </i>
 
 1. A
-    1. A
-    2. A
+   1. A
+   2. A
 2. B
-    1. B
-    2. B
+   1. B
+   2. B
 3. D
 
-
-* A
-     * AA
-     * AB
-* B
-    * BB
-    * BA
-* C
+- A
+  - AA
+  - AB
+- B
+  - BB
+  - BA
+- C
 
 <b>Kodlarımızı səliqəli şəkildə çərçivəyə salamaq üçün aşağıdakı şəkildəki kimi etmək lazımdır. Burada CSharp sözü daxil edilən kodun hansi proqramlaşdırma dilində olduğunu bildirirş</b><br/>
 <img src="./image/cs192.png"  alt="Sekil silinib" title="Nəticəsi aşağıdakı şəkildə gösdərilib."/><br/>
-```CSharp 
+
+```CSharp
             Console.WriteLine("Hello, World!");
             Console.ReadLine();
 ```
 
+---
 
-
-________________________________________________________________________________________
 </details>
 
 <br/><br/>
+
 # Bəzi Axtarışlar
+
 <details><summary><b>Bəzi Axtarışlar</b></summary><br/>
 <a href="https://stackoverflow.com/questions/449887/sending-e-mail-using-c-sharp">1.C# E-mail gondermek yolu !</a><br>
 <a href="https://survey.stackoverflow.co/2022/#technology">2.Burada proqram dillerinin ilden ile inkisafina baxa bilerik !</a><br>
@@ -81,33 +90,39 @@ ________________________________________________________________________________
 <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/">4.C# da acar sozlere baxmaq !</a><br>
 <a href="http://www.java2s.com/Tutorial/CSharp/CatalogCSharp.htm">5.C# ders sayiti !</a><br>
 <a href="http://extraconversion.com/base-number">6.Say sisteminin cevrilisi!</a>
-_________________________________________________________________________________
+<a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln">7.New Solutions Create</a>
+<a href="http://extraconversion.com/base-number">8.Say sisteminin cevrilisi!</a>
+<a href="http://extraconversion.com/base-number">9.Say sisteminin cevrilisi!</a>
+
+---
+
 </details>
 
 <br/><br/>
 
-
-
-
 # Cmd Əmirləri
+
 <details><summary><b>Cmd  Əmirləri.</b></summary><br/>
 
-1. <b>cd bosluq enter</b> olduğun fayıla aparır.<br/> 
+1. <b>cd bosluq enter</b> olduğun fayıla aparır.<br/>
 2. <b>cd bosluq ..</b> bir fayıl geri çıxır.<br/>
-3. <b>cd bosluq fayılın adı</b> adı qeyd edilən fayıla kecit edir.<br/> 
-4. <b>cls</b> açılmış bütün məlumatları təmizləyir.<br/> 
-5. <b>dir</b> fayılın içinə daxil olur.<br/> 
-6. <b>mkdir</b> əmri ilə yeni fayıl yaradır.<br/> 
-7. <b>prompt $$ </b> yeni sətr dollar ilə başlayır.<br/> 
-8. <b>code .</b> visual studio coda keçid əmridir.<br/> 
+3. <b>cd bosluq fayılın adı</b> adı qeyd edilən fayıla kecit edir.<br/>
+4. <b>cls</b> açılmış bütün məlumatları təmizləyir.<br/>
+5. <b>dir</b> fayılın içinə daxil olur.<br/>
+6. <b>mkdir</b> əmri ilə yeni fayıl yaradır.<br/>
+7. <b>prompt $$ </b> yeni sətr dollar ilə başlayır.<br/>
+8. <b>code .</b> visual studio coda keçid əmridir.<br/>
 9. <b>echo "" >>.gitignore</b> -- burada yeni cmd ekranında .gitignore fayılı yarada bilərik bu əmirlə.<br/>
 10. <b>:</b> nöqtə ilə disqi dəyisə bilərik məsələn <b>D:</b> keçdi D disqinə.
 11. <b>rundll32.exe user32.dll,LockWorkStation</b> komputeri cmd ile kilidləmək üçün olan əmirdir.<br/>
-_________________________________________________________________________________
+
+---
+
 </details>
 <br/><br/>
 
 # Github Repository Yaratmaq
+
 <details><summary><b>Github Repository Yaratmaq.</b></summary><br/>
 
 > <b>QEYD:</b> Github repository yaratmaq üçün profilə daxil olub qeydiyyatdan keçirik, daha sonra ise bir neçə əmirdən isdifadə edərək yeni repository yarada bilerik . New repository düyməsindən isdifadə etdərək repo açmaq olar və aşağıdakı əmirlər ilə reponu Github ilə əlaqələndirə bilərik.
@@ -124,8 +139,8 @@ ________________________________________________________________________________
 
 ```
 
-```Github 
-    
+```Github
+
 
 1.  git clone (linkimizi buraya yerlesdiririk).<br/>
 2.  echo "dirnaq arasina ne isdesez yaza bilersiz">> README.md -------->>(readme fayıli yaratmaq ucundur.)<br/>
@@ -144,17 +159,18 @@ ________________________________________________________________________________
 <b>f.git</b> config user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
 Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 ```
+
 </details>
 
-
 <br/><br/>
+
 # C-Sharp
 
 <details><summary><b>C-Sharp</b></summary><br/>
 
 <details><summary><i>C-Sharp Solutions and Project yaratmaq </i></summary><br/>
 
->**QEYD:** Cmd və ya Gitbahs ekranından isdifadə edərək C-Sharp Solutions və Project yarada bilərik. Aşağıda Solitions ve Project yaratmağın yollarını izah etmişəm . Qayda olaraq Solutions yaradılır Project yaradılır və daha sonra isə Solution-a Project əlavə edilir.
+> **QEYD:** Cmd və ya Gitbahs ekranından isdifadə edərək C-Sharp Solutions və Project yarada bilərik. Aşağıda Solitions ve Project yaratmağın yollarını izah etmişəm . Qayda olaraq Solutions yaradılır Project yaradılır və daha sonra isə Solution-a Project əlavə edilir.
 
 
 
@@ -176,66 +192,8 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 </p><br/>
 </details>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </details>
 <br/><br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <details><summary><b>4.Movzu:Math sinifi.</b></summary><br/><br/>
 
@@ -400,7 +358,6 @@ inte kecidi ile qarisdirmaq olma . Cox oxsasada coxda ferqlidirler. object tipin
 <p>
 <img src="image\cs189.png"  alt="Sekil silinib" title="Acar sozler."/><br/><br/>
 <img src="image\cs188.png"  alt="Sekil silinib" title="Acar sozler."/><br/><br/>
-
 
 </p>
 </details>
@@ -734,7 +691,6 @@ Asagidaki kimi fayılin olub olmadigini yoxlaya bilerik.
 <i><b>Data-Structures</b> 2 yere bolunur.</i><br/>
 <details><summary><b>1.Non-generic Collections</b></summary>
 
-
 <details><summary><b>1. ArrayList</b></summary>
 <i>ArrayList massivlerden ferqi odur ki biz evelceden massivdeki kimi nece data ucun nezerde tutuldugunu bildirmirik cunki ArrayList-de <b>_defaultCapacity=4</b> -dur.Bu o demekdir ki biz ozumuz indiye kimi yaratdigimiz Data-Structures-da ,_defaultCapacity=0 yaradirdiq.Misall olaraq bele yazirdiq T[] data=new T[0].<br/>ArrayList-in asagidaki metodlarina baxaq.</i><br/><br/>
 
@@ -777,6 +733,7 @@ Asagidaki kimi fayılin olub olmadigini yoxlaya bilerik.
 <img src="image\cs176.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
 <i><b>list.IndexOf(1) ve list.LastIndexOf(1) </b>methodlari.</i><br/>
 <img src="image\cs177.png"   alt="Sekil silinib" title="Data-Structures"/><br/><br/>
+
 </details>
 <details><summary><b>2. SortedList</b></summary>
 <b>SortedList list = new SortedList();</b><br/>
@@ -826,15 +783,9 @@ Asagidaki kimi fayılin olub olmadigini yoxlaya bilerik.
 </details>
 </details>
 
-
-
-
-
 </details>
 
-
-<b>________________________________________________________________________________________________________________</b>
-
+<b>******************************************************\_\_\_\_******************************************************</b>
 
 <details><summary><b>25.SQL</b></summary>
 <i>Dockerde containers yaradilmasi asagidaki codlar vasidesi ile olur.</i><br/>
@@ -895,12 +846,10 @@ Asagidaki kimi fayılin olub olmadigini yoxlaya bilerik.
 <img src="image\cs126.png"   alt="Sekil silinib" title="MVC."/><br/>
 <img src="image\cs127.png"   alt="Sekil silinib" title="MVC."/><br/>
 
-
 </details>
 <b>________________________________________________________________________________________________________________</b>
 
 <details><summary><b>27.Hazir deyil.</b></summary>
-
 
                                                     ACAR SOZLER.
 
@@ -913,7 +862,8 @@ Asagidaki kimi fayılin olub olmadigini yoxlaya bilerik.
 7.  </b>(in)</b> bu da geri donusdur ferqi ise colde daxil edilen nedirse iceridede o olaraq qalir hec vaxd deyismir sehven deyisdirmek yeni bolmek azaltmaq fln etsek de deyismir nece methoda daxil olubsa ele de cixir.
 
     </b>Valu ve Reference)</b> tayip dedikde ne nezerde tutulduguna baxaq. </b>RAM)</b> yeni muvveqeti yaddas iki hisseye ayrilir </b>Stack ve Heap)</b> ve butun emeliyatlar bu ikisinde aparilir ve komputer sondurene qeder davam edir .Asagida hansi tiplerin </b>Stack ve Heap)</b> yaddasda saxlanildigini gosdermisem. </b>QEYD)</b> Valu tayiplar stack yaddasda saxlanilir, reference tayiplar ise Heap yaddasda saxlanilir. Valu tayiplar reference tayibdan her zaman suretli isleyir.
-1.  </b>int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)</b> -->bunlar her biri </b>valu tayipdir stack yaddasda saxlanilir)</b> ve reference tayiplardan suretli isleyir.
-2.  </b>string,char, massivler mes:int[] ,classlar ve s.)</b> bunlar ise </b>Reference tayipdir ve Heap yaddasda saxlanilir)</b> ve valu tayiplardan asagi suretde isleyir.
+
+8.  </b>int, bayt,double ve s daxilinde reqem saxliya bildiklerimiz.)</b> -->bunlar her biri </b>valu tayipdir stack yaddasda saxlanilir)</b> ve reference tayiplardan suretli isleyir.
+9.  </b>string,char, massivler mes:int[] ,classlar ve s.)</b> bunlar ise </b>Reference tayipdir ve Heap yaddasda saxlanilir)</b> ve valu tayiplardan asagi suretde isleyir.
 
  </details>
