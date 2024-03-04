@@ -199,7 +199,6 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 - <b>meselen.csproj</b> Projectdəki .csproj fayılı.
 
 --- 
-
 <br/>
 <br/>
 
