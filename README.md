@@ -93,7 +93,7 @@
 <a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln">7.New Solutions Create</a><br/>
 <a href="https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code?pivots=dotnet-8-0">8.New Project Create!</a><br/>
 <a href="https://stackoverflow.com/questions/51467914/how-to-add-a-project-csproj-to-solution-sln-under-a-solution-folder-using">9.Add Project to Solution!</a><br/>
-
+<a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration">10.Git Global Confing!</a><br/>
 ---
 
 </details>
