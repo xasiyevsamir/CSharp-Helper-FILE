@@ -189,9 +189,13 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 <br/>
 <b>3.Add Project to Solutions</b>
 
+>Solution-a yaradılan Project-i əlavə etməsk o Solution-da Project görünməyəcək hətda Project Solution olan papqada olsa belə. 
 ```CSharp
- dotnet sln solution.sln add  `Projectdəki .csproj fayılı` meselen.csproj
+ dotnet sln solution.sln add  meselen.csproj
 ```
+- <b>solution.sln</b> Project əlavə etmək isdədiyin Solution adı.
+- <b>add</b>Solution-a Project əlavə edir.
+- <b>meselen.csproj</b> Projectdəki .csproj fayılı.
 <br/>
 
 <a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sln"><b>Axdaris yerine dotnet new sln --name MySolution</b>-yazdiqda asagidaki sekili tapmaq lazimdir.</a><br/>
