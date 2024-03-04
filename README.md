@@ -183,7 +183,7 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 ```CSharp
  dotnet new console --framework net8.0 --use-program-main  --name Adlandır
 ```
-- <b>console</b> App olmağını göstərir.
+- <b>console</b> App olacağını göstərir.
 - Project <b>--framework net8.0</b> versiya olmağını göstərir.
 - <b>--use-program-main</b> Project-də Main() methodu olacağını bildirir.
 - <b>--name</b>  Project-i adlandırmaq üçündür.
