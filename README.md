@@ -150,7 +150,7 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 <br/><br/>
 # C-Sharp
 
-<details><summary><b>C-Sharp</b></summary><br/><br/>
+<details><summary><b>C-Sharp</b></summary><br/>
 
 <details><summary><b>C-Sharp Solutions and Project yaratmaq </b></summary><br/><br/>
 <b><i>(Solutions and project)</i></b><br/>
