@@ -187,9 +187,9 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 - <b>--use-program-main</b> Project-də Main() methodu olacağını bildirir.
 - <b>--name</b>  Project-i adlandırmaq üçündür.
 <br/>
-<b>3.Add Project to Solutions</b>
+<b>3.Add Project to Solutions</b><br/>
 
->Solution-a yaradılan Project-i əlavə etməsk o Solution-da Project görünməyəcək hətda Project Solution olan papqada olsa belə. 
+>Solution-a yaradılan Project-i əlavə etməsk o Solution-da Project görünməyəcək hətda Project Solution olan papqada olsa belə. <br/>
 ```CSharp
  dotnet sln solution.sln add  meselen.csproj
 ```
