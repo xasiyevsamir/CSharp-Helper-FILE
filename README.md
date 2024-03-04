@@ -152,8 +152,9 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 
 <details><summary><b>C-Sharp</b></summary><br/>
 
-<details><summary><i>C-Sharp Solutions and Project yaratmaq </i></summary><br/><br/>
-<b><i>(Solutions and project)</i></b><br/>
+<details><summary><i>C-Sharp Solutions and Project yaratmaq </i></summary><br/>
+
+
 QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada bilerik.Bunun ucun bir nece etablari kecmeliyik.Evvelce yeni fayıl yaratmaliyiq. fayıli ise mkdir emri ile yarada bilerik bunu yuxarida qeyd etmisem . Yeni Solutions ve project yaradaq..
 
 
