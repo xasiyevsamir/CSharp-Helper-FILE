@@ -172,13 +172,19 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 
 > **QEYD:** Cmd və ya Gitbahs ekranından isdifadə edərək C-Sharp Solutions və Project yarada bilərik. Aşağıda Solitions ve Project yaratmağın yollarını izah etmişəm . Qayda olaraq Solutions yaradılır Project yaradılır və daha sonra isə Solution-a Project əlavə edilir.
 
-<b>1.Solution Create </b>
+<b>1.New Solution Create </b>
 
 ```CSharp
-     dotnet new sln --name SolitionAdı;
+     dotnet new sln --name SolutionAdı
+```
+<b>2.New Project Create </b>
+
+```CSharp
+
+ dotnet new console --framework net8.0 --use-program-main  --name Adlandır
+
 ```
 
-2.  ci dotnet new sln --name (solutions adi meselen: code)
 3.  cu project yaratmaq ucun--> dotnet new console --framework net6.0 --use-program-main emrinden istifade edirik .Burada isdesek net6.0 fersiyani istesek deyise bilerik.
 4.  cu ise solutions ve projecti elaqelendiririk-->> dotnet sln (solution adi yeni:code) add 5.project\csproj sonlugu ile biten fayıl ve enter.<br/>
 
