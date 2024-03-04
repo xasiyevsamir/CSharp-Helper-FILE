@@ -154,8 +154,8 @@ Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
 
 <details><summary><i>C-Sharp Solutions and Project yaratmaq </i></summary><br/>
 
+>**QEYD:** Cmd və ya Gitbahs ekranından isdifadə edərək C-Sharp Solutions və Project yarada bilərik. Aşağıda Solitions ve Project yaratmağın yollarını izah etmişəm . Qayda olaraq Solutions yaradılır Project yaradılır və daha sonra isə Solution-a Project əlavə edilir.
 
-QEYD. Cmd --qara ekrandan istifade ederek biz yeni solutions ve preject yarada bilerik.Bunun ucun bir nece etablari kecmeliyik.Evvelce yeni fayıl yaratmaliyiq. fayıli ise mkdir emri ile yarada bilerik bunu yuxarida qeyd etmisem . Yeni Solutions ve project yaradaq..
 
 
 2.  ci dotnet new sln --name (solutions adi meselen: code)
