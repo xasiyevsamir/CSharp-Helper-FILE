@@ -217,6 +217,7 @@
 
 </details>
 <br/><br/>
+
 # Nese
 <details><summary><b>4.Movzu:Math sinifi.</b></summary><br/><br/>
 
