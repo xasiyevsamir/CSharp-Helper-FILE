@@ -155,7 +155,7 @@
 
 - <b>git</b> config --global user.name "xasiyevsamir"<br/>
 - <b>git</b> config --global user.email "qeydiyyatdan keçdiyimiz email"<br/>
-- <b>git</b> config --global user.password "qeydiyyatdan keçdikdə yaratdığımız password."<br/>
+- <b>git</b> config --global user.password "qeydiyyatdan keçdikdə yaratdığımız password."<br/><br/>
 **Aşağıdakılar isə daxil etdiyimiz user.name, user.email, user.password həqiqətən duz daxil etdiyimizi yoxluya bilərik.** <br/>
 - <b>git</b> config user.name "xasiyevsamir"<br/>
 - <b>git</b> config user.email "qeydiyyatdan kecdiyimiz email."<br/>
