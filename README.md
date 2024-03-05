@@ -138,6 +138,7 @@
 6. git remote add origin https://github.com/xasiyevsamir/Test-edrem.git
 7. git push -u origin main
 8. git clone https://github.com/xasiyevsamir/Test-edrem.git
+9. git status
 ```
 <b>Yuxarıdakı əmirlərin izahı</b>
 
@@ -150,6 +151,7 @@
 >6.  Hansı repository ilə əlaqə qurmağı bildiririk.<br/>
 >7.  İlk dəfə repository push edəndə repository hansı branchda oldugunu qeyd edrik.<br/>
 >8.  Burada isə yuxarıdakı kodlara ehdiyac yoxdu həm repository ilə əlaqəni qurur həmdə clone edir.<br/>
+>9.  Bununla isə hal-hazırkı vəziyyətin nə olduğuna baxa bilərik.
 
 <b>Qeyd: </b>Əgər Github-a ilk dəfə daxil oluruqsa onda aşğıdakı əmirləri etməliyik ardicilliqla<br/>
 
