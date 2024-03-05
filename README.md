@@ -217,7 +217,7 @@
 
 </details>
 <br/><br/>
-
+# Nese
 <details><summary><b>4.Movzu:Math sinifi.</b></summary><br/><br/>
 
 1.<b>(Math.Pow(10,2))</b> ---> burada 10 kvadratini yazmisiq yeni (10\*10) .Bunu isdediyimiz kimi yaza bilerik yeni kub ve s. Meselen: Math.Pow(10,3) , (10,4).<br/> 2.<b>(Math.Log10)</b>---> ededin nece reqemli oldugunu tapir amma neticenin usdune mutleq 1 gelirik.<br/> 3.<b>(Math.sqrt)</b>----> koku tapmaq ucun istifada edilir.<br/> 4.<b>(Math.Round)</b>---> riyazi yuvarlasdirmaq ucun istifade edilir.<br/> 5.<b>(Math.Floor)</b>---> asagi yuvarlasdirmaq,yeni tam hisseye kimi atir.<br/> 6.<b>(Math.Ceiling)</b>---> yuxari yuvarlasdirmaq.<br/> 7.<b>(Math.PI)</b>---> pi deyeridir .hesabliyada isdifade ede bilerik.<br/> 8.<b>(Math.Abs)</b>--->Modulu tapmaq ucundur.<br/> 9.<b>(Math.Max)</b>--> ededin maksimumun tapir.<br/> 10.<b>(Math.Min)</b>--> ededin minumumun tapir.<br/>
