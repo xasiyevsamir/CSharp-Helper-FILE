@@ -150,14 +150,16 @@
 >6.  Hansı repository ilə əlaqə qurmağı bildiririk.<br/>
 >7.  İlk dəfə repository push edəndə repository hansı branchda oldugunu qeyd edrik.<br/>
 >8.  Burada isə yuxarıdakı kodlara ehdiyac yoxdu həm repository ilə əlaqəni qurur həmdə clone edir.<br/>
-9.  Eger Github-a ilk dəfə qosuluruqsa onda aşğıdakə əmirləri etməliyik ardicilliqla.<br/>
-<b>a.git</b> config --global user.name "xasiyevsamir"<br/>
-<b>b.git</b> config --global user.email "qeydiyyatdan kecdiyimiz email."<br/>
-<b>c.git</b> config --global user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
-<b>d.git</b> config user.name "xasiyevsamir"<br/>
-<b>e.git</b> config user.email "qeydiyyatdan kecdiyimiz email."<br/>
-<b>f.git</b> config user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
-Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
+<b>Qeyd: </b>Əgər Github-a ilk dəfə daxil oluruqsa onda aşğıdakı əmirləri etməliyik ardicilliqla<br/>
+
+- <b>git</b> config --global user.name "xasiyevsamir"<br/>
+- <b>git</b> config --global user.email "qeydiyyatdan keçdiyimiz email"<br/>
+- <b>git</b> config --global user.password "qeydiyyatdan keçdikdə yaratdığımız password."<br/>
+**Aşağıdakılar isə daxil etdiyimiz user.name, user.email, user.password həqiqətən duz daxil etdiyimizi yoxluya bilərik.** <br/>
+- <b>git</b> config user.name "xasiyevsamir"<br/>
+- <b>git</b> config user.email "qeydiyyatdan kecdiyimiz email."<br/>
+- <b>git</b> config user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
+**Əgər Github ilk dəfə daxil oluruqsa bu əmirləri yerinə yetirdikdən sonra yeni repository yarada bilərik !!!**
 
 ---
 
