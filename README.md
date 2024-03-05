@@ -140,7 +140,7 @@
 8. git clone https://github.com/xasiyevsamir/Test-edrem.git
 ```
 <b>Yuxarıdakı əmirlərin izahı</b>
-```Github
+
 
 >1.  README.md Fayılına commit yazdırmaq üçün isdifadə edilir.<br/>
 2.  .git papqasını yaratmaq üçün isdifadə edilir.<br/>
@@ -158,7 +158,7 @@
 <b>e.git</b> config user.email "qeydiyyatdan kecdiyimiz email."<br/>
 <b>f.git</b> config user.password "qeydiyyatdan kecdikde yaratdigimiz password."<br/>
 Bu emirlerden istifade etmekle yeni repositories yarada bilerik!!!
-```
+
 ---
 
 </details>
