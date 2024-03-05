@@ -203,15 +203,14 @@
 - <b>meselen.csproj</b> Projectdəki .csproj fayılı.
 
 --- 
+
 <br/>
 <br/>
-
-
-
 </details>
 
+<details><summary>1.<i>C-Sharp Solutions and Project yaratmaq </i></summary><br/>
 
-
+</details>
 
 
 
