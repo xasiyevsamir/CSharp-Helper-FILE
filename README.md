@@ -105,9 +105,9 @@
 
 <details><summary><b>Cmd  Əmirləri.</b></summary><br/>
 
-1. <b>cd bosluq enter</b> olduğun fayıla aparır.<br/>
-2. <b>cd bosluq ..</b> bir fayıl geri çıxır.<br/>
-3. <b>cd bosluq fayılın adı</b> adı qeyd edilən fayıla kecit edir.<br/>
+1. <b>cd boşluq enter</b> olduğun fayıla aparır.<br/>
+2. <b>cd boşluq ..</b> bir fayıl geri çıxır.<br/>
+3. <b>cd boşluq fayılın adı</b> adı qeyd edilən fayıla kecit edir.<br/>
 4. <b>cls</b> açılmış bütün məlumatları təmizləyir.<br/>
 5. <b>dir</b> fayılın içinə daxil olur.<br/>
 6. <b>mkdir</b> əmri ilə yeni fayıl yaradır.<br/>
