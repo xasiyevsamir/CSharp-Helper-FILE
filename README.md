@@ -150,6 +150,7 @@
 >6.  Hansı repository ilə əlaqə qurmağı bildiririk.<br/>
 >7.  İlk dəfə repository push edəndə repository hansı branchda oldugunu qeyd edrik.<br/>
 >8.  Burada isə yuxarıdakı kodlara ehdiyac yoxdu həm repository ilə əlaqəni qurur həmdə clone edir.<br/>
+
 <b>Qeyd: </b>Əgər Github-a ilk dəfə daxil oluruqsa onda aşğıdakı əmirləri etməliyik ardicilliqla<br/>
 
 - <b>git</b> config --global user.name "xasiyevsamir"<br/>
