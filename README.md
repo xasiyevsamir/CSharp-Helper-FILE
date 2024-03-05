@@ -143,13 +143,13 @@
 
 
 >1.  README.md Fayılına commit yazdırmaq üçün isdifadə edilir.<br/>
-2.  .git papqasını yaratmaq üçün isdifadə edilir.<br/>
-3.  Baş vermiş bütün dəyişiklikləri <b>.git</b> papqasında da dəyişmək üçündür.<br/>
-4.  Etdiyimiz dəyişiklərin səbəbini bildiririk yəni commit edirik.<br/>
-5.  Branch dəyişmək üçün isdifadə edilir.<br/>
-6.  Hansı repository ilə əlaqə qurmağı bildiririk.<br/>
-7.  İlk dəfə repository push edəndə repository hansı branchda oldugunu qeyd edrik.<br/>
-8.  Burada isə yuxarıdakı kodlara ehdiyac yoxdu həm repository ilə əlaqəni qurur həmdə clone edir.<br/>
+>2.  .git papqasını yaratmaq üçün isdifadə edilir.<br/>
+>3.  Baş vermiş bütün dəyişiklikləri <b>.git</b> papqasında da dəyişmək üçündür.<br/>
+>4.  Etdiyimiz dəyişiklərin səbəbini bildiririk yəni commit edirik.<br/>
+>5.  Branch dəyişmək üçün isdifadə edilir.<br/>
+>6.  Hansı repository ilə əlaqə qurmağı bildiririk.<br/>
+>7.  İlk dəfə repository push edəndə repository hansı branchda oldugunu qeyd edrik.<br/>
+>8.  Burada isə yuxarıdakı kodlara ehdiyac yoxdu həm repository ilə əlaqəni qurur həmdə clone edir.<br/>
 9.  Eger Github-a ilk dəfə qosuluruqsa onda aşğıdakə əmirləri etməliyik ardicilliqla.<br/>
 <b>a.git</b> config --global user.name "xasiyevsamir"<br/>
 <b>b.git</b> config --global user.email "qeydiyyatdan kecdiyimiz email."<br/>
