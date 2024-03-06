@@ -207,7 +207,7 @@
 <br/>
 </details>
 
-<details><summary>1.<i>Salam </i></summary><br/>
+<details><summary>1.<i>Compiler </i></summary><br/>
 
 </details>
 
