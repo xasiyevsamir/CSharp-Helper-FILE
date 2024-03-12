@@ -162,6 +162,7 @@
 - <b>git</b> config user.name "xasiyevsamir"<br/>
 - <b>git</b> config user.email "qeydiyyatdan keçdiyimiz email."<br/>
 - <b>git</b> config user.password "qeydiyyatdan keçdikdə yaratdıgımız password."<br/>
+
 **Əgər Github ilk dəfə daxil oluruqsa bu əmirləri yerinə yetirdikdən sonra yeni repository yarada bilərik !!!**
 
 ---
