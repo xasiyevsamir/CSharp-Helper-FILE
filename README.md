@@ -179,14 +179,14 @@
 > **QEYD:** Cmd və ya Gitbahs ekranından isdifadə edərək C-Sharp Solutions və Project yarada bilərik. Aşağıda Solitions ve Project yaratmağın yollarını izah etmişəm . Qayda olaraq Solutions yaradılır Project yaradılır və daha sonra isə Solution-a Project əlavə edilir. Solutions **həll** deməkdir Project isə **layyihə** deməkdir, yəni hər hansısa bir neçə problemləri  aradan qaldırmaq üçün Solution daxilində bir neçə Project ola bilər.<br/>
 
 <b>1.New Solution Create </b>
-<i> Solution içərisində həllər toplusu saxlayan bir layihədir. Bir layihə daxilində bir necə Project ola bilər.<i>
+<i> Solution içərisində həllər toplusu saxlayan bir layihədir. Bir layihə daxilində bir necə Project ola bilər.</i>
 
 ```CSharp
      dotnet new sln --name SolutionAdı
 ```
 <br/>
 <b>2.New Project Create </b>
-<i> Project hər hansi bir çözümdür həldir.<i>
+<i> Project hər hansi bir çözümdür həldir.</i>
 
 ```CSharp
  dotnet new console --framework net8.0 --use-program-main  --name Adlandır
