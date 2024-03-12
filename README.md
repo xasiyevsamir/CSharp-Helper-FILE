@@ -185,8 +185,8 @@
      dotnet new sln --name SolutionAdı
 ```
 <br/>
-<b>2.New Project Create </b>
-<i> Project hər hansi bir çözümdür həldir.</i><br/>
+<b>2.New Project Create </b><br/>
+<i> Project hər hansi bir çözümdür həldir.</i>
 
 ```CSharp
  dotnet new console --framework net8.0 --use-program-main  --name Adlandır
