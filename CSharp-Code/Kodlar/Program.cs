@@ -1,4 +1,4 @@
-﻿namespace CSharp_Code;
+﻿namespace CSharp_Code.Kodlar;
 
 class Program
 {
