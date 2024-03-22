@@ -149,7 +149,7 @@
 >4.  Etdiyimiz dəyişiklərin səbəbini bildiririk yəni commit edirik.<br/>
 >5.  Branch dəyişmək üçün isdifadə edilir.<br/>
 >6.  Hansı repository ilə əlaqə qurmağı bildiririk.<br/>
->7.  İlk dəfə repository push edəndə repository hansı branchda oldugunu qeyd edrik.<br/>
+>7.  İlk dəfə repository push edəndə repository hansı branchda olduğunu qeyd edrik.<br/>
 >8.  Burada isə yuxarıdakı kodlara ehdiyac yoxdu həm repository ilə əlaqəni qurur həmdə clone edir.<br/>
 >9.  Bununla isə hal-hazırkı vəziyyətin nə olduğuna baxa bilərik.
 
