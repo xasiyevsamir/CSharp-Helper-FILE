@@ -172,7 +172,7 @@
 
 # C-Sharp
 
-<details><summary><b>C-Sharp</b></summary><br/>
+<details><summary><b>C-Sharp Programming Language</b></summary><br/>
 
 <details><summary>1.<i>C-Sharp Solutions and Project yaratmaq </i></summary><br/>
 
