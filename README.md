@@ -211,7 +211,7 @@
 <br/>
 </details>
 
-<details><summary>1.<i>Compiler </i></summary><br/>
+<details><summary>1.<i>Yorum Sətri Region </i></summary><br/>
 
 </details>
 
