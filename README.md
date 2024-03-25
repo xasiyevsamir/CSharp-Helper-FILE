@@ -213,7 +213,18 @@
 
 <details><summary>2.<i>Yorum Sətri Region </i></summary><br/>
 
-Salam Doslar
+ // İki xətt ilə yorum sətri yaratmaq olur.Yalnız bir sətri yorum sətri edəcək.
+
+ /*
+  Bu simvollar ilədə bir neçə sətri yorum sətri etmək olur.
+
+ */
+
+
+ #region Kodlarim
+
+ Console.WriteLine("Kodlar");
+ #endregion
 
 ---
 </details>
