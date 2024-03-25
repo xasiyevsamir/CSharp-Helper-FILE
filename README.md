@@ -228,6 +228,8 @@
  #endregion
 
 ```
+<br/>
+<b>Todo </b> --- Yorum sətrinin qarşısında yazdıqda həmin yorum sətrini daha asan tapılması üçün Task pəncərəsinə düşür. <br/>
  <img src="image\cs193.png"  alt="Sekil silinib" title="Todo"/>
 
 ---
