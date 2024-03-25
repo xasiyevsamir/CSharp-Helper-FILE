@@ -213,12 +213,13 @@
 
 <details><summary>2.<i>Yorum Sətri Region </i></summary><br/>
 ```CSharp
-// İki xətt ilə yorum sətri yaratmaq olur.Yalnız bir sətri yorum sətri edəcək.
 
- /*
+ // İki xətt ilə yorum sətri yaratmaq olur.Yalnız bir sətri yorum sətri edəcək.
+
+  /*
   Bu simvollar ilədə bir neçə sətri yorum sətri etmək olur.
 
- */
+  */
 
 
  #region Kodlarim
